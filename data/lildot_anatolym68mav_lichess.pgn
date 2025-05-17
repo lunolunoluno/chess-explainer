@@ -1,0 +1,22 @@
+[Event "Rated bullet game"]
+[Site "https://lichess.org/trax6sXR"]
+[Date "2025.03.26"]
+[White "LilDot"]
+[Black "anatolym68mav"]
+[Result "1-0"]
+[GameId "trax6sXR"]
+[UTCDate "2025.03.26"]
+[UTCTime "22:06:19"]
+[WhiteElo "1250"]
+[BlackElo "1323"]
+[WhiteRatingDiff "+57"]
+[BlackRatingDiff "-6"]
+[Variant "Standard"]
+[TimeControl "120+1"]
+[ECO "C00"]
+[Opening "French Defense: Alapin Gambit"]
+[Termination "Normal"]
+
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O 10. Qe1 Re8 11. Qh4 h6 12. Bxh6 Nd5 13. Bg5 Nf6 14. Ne5 Nxe5 15. dxe5 Qxd3 16. exf6 Qg6 17. fxg7 Kxg7 18. Bf6+ Kg8 19. Qh8# 1-0
+
+
