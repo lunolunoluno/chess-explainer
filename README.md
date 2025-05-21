@@ -19,3 +19,11 @@
   - The moves leading up to the position
   - The best moves recommended by a strong engine ([Stockfish](https://stockfishchess.org/))
   - (Maybe) Moves recommended by a human-like AI ([Maia](https://www.maiachess.com/))
+
+# Sources
+
+## Annotated games
+
+|Source|Description|
+|----------|----------------|
+|[ValdemarOrn's Github](https://github.com/ValdemarOrn/Chess/blob/master/Annotated%20Games/)|A collection of annotated games|
