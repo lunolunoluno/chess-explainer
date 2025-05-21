@@ -22,8 +22,9 @@
 
 # Sources
 
+- [Lichess.org source code to evaluate chess moves](https://github.com/lichess-org/lila/blob/cf9e10df24b767b3bc5ee3d88c45437ac722025d/modules/analyse/src/main/Advice.scala)
+- [Stockfish Download](https://stockfishchess.org/download/)
+
 ## Annotated games
 
-|Source|Description|
-|----------|----------------|
-|[ValdemarOrn's Github](https://github.com/ValdemarOrn/Chess/blob/master/Annotated%20Games/)|A collection of annotated games|
+- [ValdemarOrn's Github](https://github.com/ValdemarOrn/Chess/blob/master/Annotated%20Games/)
