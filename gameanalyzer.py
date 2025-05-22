@@ -4,6 +4,9 @@ import chess.pgn
 
 from chess.engine import PovScore, Cp, Mate
 from enum import Enum
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class WinningChanceJudgements(Enum):
     INACCURACY = 0.1
@@ -13,7 +16,8 @@ class WinningChanceJudgements(Enum):
 # Sources used to create this :
 # https://github.com/lichess-org/lila/blob/cf9e10df24b767b3bc5ee3d88c45437ac722025d/modules/analyse/src/main/Advice.scala
 class GameAnalyzer:
-    def __init__(self, engine_path: str):
+    def __init__(self):
+        engine_path = os.getenv("ENGINE_PATH")
         assert os.path.exists(engine_path), f"{engine_path} doesn't exists !"
 
         self.engine_path = engine_path
