@@ -16,13 +16,13 @@ class WinningChanceJudgements(Enum):
 # Sources used to create this :
 # https://github.com/lichess-org/lila/blob/cf9e10df24b767b3bc5ee3d88c45437ac722025d/modules/analyse/src/main/Advice.scala
 class GameAnalyzer:
-    def __init__(self):
+    def __init__(self)->None:
         engine_path = os.getenv("ENGINE_PATH")
         assert os.path.exists(engine_path), f"{engine_path} doesn't exists !"
 
         self.engine_path = engine_path
 
-    def analyze_game(self, game: chess.pgn.Game):
+    def analyze_game(self, game: chess.pgn.Game)->None:
         with chess.engine.SimpleEngine.popen_uci(self.engine_path) as engine:
             board = game.board()
             prev_score = PovScore(Cp(0), turn=chess.WHITE)

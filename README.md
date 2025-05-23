@@ -2,9 +2,9 @@
 
 ## Create dataset
 
-- Finding games with comments on inaccuracies, mistakes and blunders
-- Create a process to filter/improve the comments on these games
-  - Find all comments made on inaccuracies, mistakes and blunders
+- 🔄 Finding games with comments on inaccuracies, mistakes and blunders
+- 🔄 Create a process to filter/improve the comments on these games
+  - ✅ Find all comments made on inaccuracies, mistakes and blunders
   - Use LLM to evaluate if comment made is of good quality
   - Use LLM to rephrase/improve comment
 
