@@ -2,8 +2,11 @@ import os
 import math
 import chess.pgn
 
-from chess.engine import PovScore, Cp, Mate
+from chess.engine import PovScore, Cp, Mate, MateGiven
+from chess.pgn import NAG_BLUNDER, NAG_MISTAKE, NAG_DUBIOUS_MOVE
 from enum import Enum
+
+from chess.pgn import NAG_MISTAKE
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -22,34 +25,66 @@ class GameAnalyzer:
 
         self.engine_path = engine_path
 
-    def analyze_game(self, game: chess.pgn.Game)->None:
+    def analyze_game(self, game: chess.pgn.Game)->chess.pgn.Game:
         with chess.engine.SimpleEngine.popen_uci(self.engine_path) as engine:
             board = game.board()
+            node = game
             prev_score = PovScore(Cp(0), turn=chess.WHITE)
             for move in game.mainline_moves():
                 san_move = board.san(move)
                 board.push(move)
+                node = node.variations[0]
+                annotation = None
 
                 info = engine.analyse(board, chess.engine.Limit(depth=25, time=1.5))
                 crt_score = info['score']
-                print(f"{math.ceil(board.ply()/2)} {san_move} (cp={crt_score.white()}, depth={info['depth']})", end='')
+                print(f"{math.ceil(board.ply()/2)} {san_move} (cp={crt_score.white()} ({type(crt_score.white())}), depth={info['depth']})", end='')
 
-                if isinstance(crt_score.relative, Cp) and isinstance(prev_score.relative, Cp):
+                if isinstance(prev_score.relative, Cp) and isinstance(crt_score.relative, Cp):
                     crt_score_cp = crt_score.pov(board.turn).score()
                     prev_score_cp = prev_score.pov(board.turn).score()
                     delta = Cp(crt_score_cp).wdl().expectation() - Cp(prev_score_cp).wdl().expectation()
 
                     if delta >= WinningChanceJudgements.BLUNDER.value:
                         print("BLUNDER")
+                        annotation = NAG_BLUNDER
                     elif delta >= WinningChanceJudgements.MISTAKE.value:
                         print("MISTAKE")
+                        annotation = NAG_MISTAKE
                     elif delta >= WinningChanceJudgements.INACCURACY.value:
                         print("INACCURACY")
+                        annotation = NAG_DUBIOUS_MOVE
                     else:
                         print("")
+                # Mate Created
+                elif isinstance(prev_score.relative, Cp) and (isinstance(crt_score.relative, Mate) or isinstance(crt_score.relative, MateGiven)):
+                    if prev_score.relative.score() < -999:
+                        print("INACCURACY")
+                        annotation = NAG_DUBIOUS_MOVE
+                    elif prev_score.relative.score() < -700:
+                        print("MISTAKE")
+                        annotation = NAG_MISTAKE
+                    else:
+                        print("BLUNDER")
+                        annotation = NAG_BLUNDER
+
+                # Mate Lost
+                elif (isinstance(prev_score.relative, Mate) or isinstance(prev_score.relative, MateGiven)) and isinstance(crt_score.relative, Cp):
+                    if crt_score.relative.score() > 999:
+                        print("INACCURACY")
+                        annotation = NAG_DUBIOUS_MOVE
+                    elif crt_score.relative.score() > 700:
+                        print("MISTAKE")
+                        annotation = NAG_MISTAKE
+                    else:
+                        print("BLUNDER")
+                        annotation = NAG_BLUNDER
                 else:
                     print("")
 
+                if annotation:
+                    node.nags.add(annotation)
                 prev_score = crt_score
+        return game
 
 
