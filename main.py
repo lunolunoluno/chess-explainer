@@ -3,28 +3,29 @@ import chess.pgn
 
 from modules.datautils import get_all_comments_after_error
 from modules.gameanalyzer import GameAnalyzer
+from modules.utils import Debug
 
 if __name__ == "__main__":
-    # https://lichess.org/trax6sXR/white
-    # filepath = os.path.join(".", "data", "lildot_anatolym68mav_lichess_commented.pgn")
+    dbg = Debug(debug=True)
+    dbg.print("This will print")
+
+    dbg2 = Debug()
+    dbg2.print("This will also print — same instance")
+    print(dbg is dbg2)  # True — confirms singleton
+
+    dbg.set_debug(False)
+    dbg.print("This will NOT print")
+    dbg.set_debug(True)
+
     filepath = os.path.join(".", "data", "quickgame.pgn")
-
-    # str_exporter = chess.pgn.StringExporter(headers=False, variations=False, comments=True)
-    # pgn = open(filepath)
-    # game = chess.pgn.read_game(pgn)
-    # comments = get_all_comments_after_error(game.accept(str_exporter))
-    # pgn.close()
-    #
-    # print(f"{len(comments)} comments found !")
-
-    ga = GameAnalyzer()
-
     pgn = open(filepath)
     game = chess.pgn.read_game(pgn)
 
-    game2 = ga.analyze_game(game=game)
+    ga = GameAnalyzer()
+    ga.analyze_game(game=game)
+    dbg.print(game)
 
-    print(game)
-    print("---------------------")
-    print(game2)
-
+    str_exporter = chess.pgn.StringExporter(headers=False, variations=False, comments=True)
+    comments = get_all_comments_after_error(game.accept(str_exporter))
+    pgn.close()
+    dbg.print(f"{len(comments)} comments found !")
