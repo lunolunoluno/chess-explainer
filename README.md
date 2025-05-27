@@ -28,3 +28,5 @@
 ## Annotated games
 
 - [ValdemarOrn's Github](https://github.com/ValdemarOrn/Chess/blob/master/Annotated%20Games/)
+- [Path to chess mastery's annotated games](https://www.pathtochessmastery.com/)
+- [Lichess studies](https://lichess.org/study)
