@@ -6,7 +6,7 @@ import logging
 
 from tqdm import tqdm
 
-from modules.datautils import has_game_comments
+from modules.datautils import has_game_comments, pgn_to_id
 from modules.utils import Debug
 from modules.gameanalyzer import GameAnalyzer
 
@@ -24,7 +24,7 @@ class Controller:
         # remove the non-critical logs in the terminal
         logging.getLogger("chess.pgn").setLevel(logging.CRITICAL)
 
-    def update_dataset(self)->None:
+    def analyze_annotated_games(self)->None:
         """
         Will take all the pgn files in DATA_RAW_PATH and analyzed all the games.
         Once analyzed, each game is saved in a pgn file in DATA_ANALYZED_PATH
@@ -35,7 +35,7 @@ class Controller:
         pgn_files = [
             os.path.join(self.data_raw_path, file)
             for file in os.listdir(self.data_raw_path)
-            if os.path.isfile(os.path.join(self.data_raw_path, file)) and file.lower().endswith(".pgn")
+            if os.path.isfile(os.path.join(self.data_raw_path, file)) and file.lower().endswith(".pgn") # for debug purposes only
         ]
         print(f"Number of .pgn files to analyze in {self.data_raw_path}: {len(pgn_files)}")
 
@@ -57,8 +57,17 @@ class Controller:
                     str_exporter = chess.pgn.StringExporter(headers=False, variations=False, comments=True)
                     pgn_str = game.accept(str_exporter)
                     if has_game_comments(pgn_str):
-                        pass
-                        # TODO anaylze the game and save it in self.data_analyzed_path
+                        self.dbg.print(f"Analyzing {game.headers}...")
+                        game_id = pgn_to_id(pgn_str)
+                        analyzed_game_path = os.path.join(self.data_analyzed_path, f"{game_id}.pgn")
+                        if not os.path.exists(analyzed_game_path):
+                            ga.analyze_game(game)
+                            with open(analyzed_game_path, "w", encoding="utf-8") as new_pgn:
+                                exporter = chess.pgn.FileExporter(new_pgn)
+                                game.accept(exporter)
+                            self.dbg.print(f"\tGame saved as {analyzed_game_path}")
+                        else:
+                            self.dbg.print(f"\tGame already saved as {analyzed_game_path}")
                     else:
                         self.dbg.print(f"No comments in {pgnfile} -> {game.headers}")
 

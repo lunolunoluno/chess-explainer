@@ -38,7 +38,7 @@ class GameAnalyzer:
                 node = node.variations[0]
                 annotation = None
 
-                info = engine.analyse(board, chess.engine.Limit(depth=25, time=1.5))
+                info = engine.analyse(board, chess.engine.Limit(depth=30, time=2))
                 crt_score = info['score']
                 self.dbg.print(f"{math.ceil(board.ply()/2)} {san_move} (cp={crt_score.white()} ({type(crt_score.white())}), depth={info['depth']})", end=' ')
 
@@ -83,6 +83,11 @@ class GameAnalyzer:
                         annotation = NAG_BLUNDER
                 else:
                     self.dbg.print("")
+
+                if isinstance(crt_score.white(), Cp):
+                    node.comment = f"[%eval {crt_score.white().score()/100}] "+node.comment
+                else:
+                    node.comment = f"[%eval {crt_score.white()}] "+node.comment
 
                 if annotation:
                     node.nags.add(annotation)

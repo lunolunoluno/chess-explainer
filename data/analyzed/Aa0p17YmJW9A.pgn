@@ -1,0 +1,97 @@
+[Event ""]
+[Site "Warsaw"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "Glucksberg"]
+[Black "Najdorf"]
+[Result "0-1"]
+[ECO "A85"]
+[Annotator "Tim McGrew"]
+
+{ When Najdorf played the following game in Warsaw he was in his early 20s and not yet famous. Later his family would be slaughtered by the Nazis and he would be forced to flee the country. He spent the latter days of his life in Argentina. }
+1. d4
+{ [%eval 0.36] 
+Later in life, Najdorf took up the King's Indian with formidable effect. His games at Zurich in 1953, along with those of Gligoric, made a profound impression on Bobby Fischer. But this game was played in the early 1930's, before Najdorf had discovered the King's Indian. Here, he sets up a classic Stonewall Dutch -- a variation that was serving the up-and-coming Russian player Mikhail Botvinnik well at about the same time. }
+1... f5 { [%eval 0.57] } 2. c4 { [%eval 0.54] } 2... Nf6
+{ [%eval 0.5] 
+This is the first decision point for Black. Some Russian players -- notably Korchnoi -- favored ...g6 and the fianchetto of the King's Bishop. That variation used to be called the Leningrad Dutch...But perhaps we'll have to call it the St. Petersburg Dutch now! }
+3. Nc3 { [%eval 0.43] } 3... e6
+{ [%eval 0.49] 
+This is Black's second decision point. With ...b6 and ...Bb7, he can set up a sort of Queen's Indian formation in which he has a good grip on e4. But Najdorf goes with the classic Stonewall pawn formation, grabbing space and locking down on e4 but creating a rigid pawn formation that may block in his own pieces, particularly the B/c8. }
+4. Nf3 { [%eval 0.29] } 4... d5 $6
+{ [%eval 0.89] 
+This completes the Stonewall pawn formation. } 5. e3 $6
+{ [%eval 0.41] } 5... c6 { [%eval 0.3] } 6. Bd3 { [%eval 0.44] } 6... Bd6
+{ [%eval 0.4] } 7. O-O { [%eval 0.44] } 7... O-O { [%eval 0.44] } 8. Ne2
+{ [%eval 0.42] 
+Glucksberg may have experienced one of Najdorf's attacks before and wanted to cover his Kingside. But this move, taking a tempo to reposition a piece that stood perfectly well, takes too much time. }
+8... Nbd7
+{ [%eval 0.49] 
+This very natural move may be a microscopic inaccuracy, since White can now trade pawns on d5 in a way that is strategically favorable. 
+For example: 9.cxd5 By capturing on d5 at the very moment that Black's N/d7 blocks off his B/c8, White can force Black to recapture with his c-pawn rather than the strategically desirable recapture with the e-pawn. 9...exd5 (9...cxd5 This recapture, though it does not lose a pawn, leaves Black with an unweildy block of pawns including the useless pawn on e6. Since White wishes to operate on the Queenside anyway, the open c-file is to his advantage.) 10.Bxf5 If Black captured with the e-pawn, he would be on his way toward freeing his B/c8 -- but alas, the f-pawn is momentarily undefended, so this is tactically untenable. }
+9. Ng5 $2
+{ [%eval -0.84] 
+White, however, doesn't take advantage of his opportunity, and in letting it slip he also gives Black a free pawn. Najdorf now uses a familiar theme to take advantage of the undefended N/g5. But the use to which he puts that theme is anything but familiar! }
+9... Bxh2+
+{ [%eval -0.85] 
+Obviously, if White captures this Bishop, Black has 10...Ng4+ and 11...Qxg5 recovering the piece and remaining a pawn to the good with a strong attack. }
+10. Kh1 $2
+{ [%eval -1.42] 
+Glucksberg therefore leaves the Bishop where it sits, possibly already envisaging an encirclement with ...g3 to trap and win it. }
+10... Ng4
+{ [%eval -1.53] 
+Najdorf consistently brings his forces over to the Kingside with a gain of time thanks to the unveiled attack on the N/g5. But has he overlooked something? }
+11. f4
+{ [%eval -2.04] 
+White slams the door on the Bishop's exit from h2. Now Najdorf has to prove that he can get sufficient compensation for the piece. But White is also making his own defensive front rigid. It isn't obvious just yet what Black can do to take advantage of this fact. }
+11... Qe8
+{ [%eval -1.94] 
+Blackmar-Diemer Gambit fans the world over know and love this move, preparing to swing the Queen up to h5 for the Kingside assault. But Stonewall fanatics are likely to say that they took out the patent first! }
+12. g3
+{ [%eval -2.19] 
+White consistently pursues the attack on the trapped Bishop. Now Kg2 and Rh1 is threatened. If White can get two minor pieces for a Rook and a pawn, the transaction is likely to favor him -- particularly since Black's remaining Bishop is rather pathetic. }
+12... Qh5
+{ [%eval -2.17] 
+Experienced players know enough to find this concentration of force on the Kingside rather alarming. True, there is no instant mate. But Najdorf shows his tactical mastery in making the most of his pieces' firepower. }
+13. Kg2
+{ [%eval -2.17] 
+still blissfully unsuspecting, Glucksberg continues the encirclement. }
+13... Bg1
+{ [%eval -2.36] 
+A shot! Najdorf clears off the h2 square for a Queen check. There is only one way to capture this Bishop: taking with the King is self-mate. }
+14. Nxg1
+{ [%eval -4.98] 
+Taking with the Rook allows mate in two as well. Only the Knight capture is acceptable -- or so it seems. }
+14... Qh2+ { [%eval -5.0] 
+Driving the King forward -- to his doom! } 15. Kf3
+{ [%eval -5.05] 
+Here it may be salutary for us to apply the "FSA" (Flight Square Analysis) thinking technique. White's King has abruptly run out of room: though centralized, he is stuck in place. What Black needs is a way to open lines to bring in further attacking forces. Najdorf's next few moves accomplish this in a fashion that smacks more of wizardry than of sober chess! }
+15... e5 $1
+{ [%eval -4.88] 
+This fearless break is the prelude to an orgy of sacrifices. The immediate threat is simply 16...e4+ winning massive amounts of material since White must give up two minor pieces just to avoid mate. Obviously, then, White needs to take the pawn. }
+16. dxe5 { [%eval -5.1] } 16... Ndxe5+
+{ [%eval -5.38] 
+Najdorf presses forward! His goal here is to clear the line so that the despised B/c8, buried alive by its own pieces and pawns, can join in the fray. The material investment, however, is fearful. If Black does not succeed in pursuing this to mate, he will have to scrape around for a perpetual check. }
+17. fxe5
+{ [%eval -5.35] 
+Glucksberg still doesn't see what is coming -- pardonably so! }
+17... Nxe5+ { [%eval -4.33] } 18. Kf4
+{ [%eval -4.44] 
+White has no choice but to come further forward. Should Black take a perpetual now with Ng6-e5+? What a mercy that Najdorf set his sights higher! }
+18... Ng6+ { [%eval -4.51] } 19. Kf3 { [%eval -4.84] } 19... f4
+{ [%eval -5.41] 
+Utterly without fear! Najdorf plays with the inspiration of a Morphy. Now the threat of opening the f-file compels White to capture the cheeky pawn. }
+20. exf4
+{ [%eval -5.64] 
+For all that, it looks like White is getting away now. His King has the newly-acquired square e3 for running away. But Najdorf has succeeded in clearing the line for the buried B/c8, which now immolates itself in a burst of glory. }
+20... Bg4+
+{ [%eval -5.63] 
+The skewer on the Queen confronts White with a bitter choice: lose her ladyship, or come still further forward. We may be grateful to Glucksberg for choosing to die with his sword in hand. }
+21. Kxg4 $4 { [%eval #-2] } 21... Ne5+
+{ [%eval #-1] 
+A final minor piece sacrifice, preventing the King's retreat to f3 and forcing open the f-file so that the King is held fast on the g-file. }
+22. fxe5 { [%eval #-1] } 22... h5#
+{ [%eval #-0] 
+Truly a game of brutal efficiency. Black sacrificed all four minor pieces! Small wonder that this game was christened "The Polish Immortal". Soon after, Najdorf became one of the top players in the world and stayed there for decades. He died while attending a chess tournament (as an observer) in Malaga Spain in 1997 at the age of 87. His doctor warned him not to make the trip, but he replied gamely that he wanted to die watching a chess tournament! }
+0-1
+
