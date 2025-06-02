@@ -35,7 +35,7 @@ class Controller:
         pgn_files = [
             os.path.join(self.data_raw_path, file)
             for file in os.listdir(self.data_raw_path)
-            if os.path.isfile(os.path.join(self.data_raw_path, file)) and file.lower().endswith(".pgn") # for debug purposes only
+            if os.path.isfile(os.path.join(self.data_raw_path, file)) and file.lower().endswith(".pgn") 
         ]
         print(f"Number of .pgn files to analyze in {self.data_raw_path}: {len(pgn_files)}")
 
@@ -46,7 +46,7 @@ class Controller:
                     try:
                         game = chess.pgn.read_game(pgn_file)
                         if game is None:
-                            # No more game so exit the while loop
+                            # No more game in the file so exit the while loop
                             break
                         if len(game.errors) > 0:
                             raise Exception(f"error in {game.headers}\n"+"\n".join([str(e) for e in game.errors]))
