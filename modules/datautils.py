@@ -1,3 +1,4 @@
+import os
 import re
 import base64
 import hashlib
@@ -25,3 +26,11 @@ def get_all_comments_in_game(pgn_str: str)->List[str]:
 def pgn_to_id(pgn_str: str):
     hash_bytes = hashlib.sha256(pgn_str.encode()).digest()
     return base64.urlsafe_b64encode(hash_bytes)[:12].decode()
+
+def get_all_pgn_files()->List[str]:
+    data_raw_path = os.getenv("DATA_RAW_PATH")
+    return [
+        os.path.join(data_raw_path, file)
+        for file in os.listdir(data_raw_path)
+        if os.path.isfile(os.path.join(data_raw_path, file)) and file.lower().endswith(".pgn")
+    ]
