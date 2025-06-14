@@ -3,7 +3,7 @@ import re
 import chess.pgn
 import torch
 from tqdm import tqdm
-from transformers import pipeline
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 from huggingface_hub import InferenceClient
 
 from controller import Controller
@@ -12,6 +12,8 @@ from modules.utils import Debug
 from modules.datautils import get_all_comments_after_error, get_all_comments_in_game
 
 if __name__ == "__main__":
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print("device:", device)
     dbg = Debug(debug=True)
     dbg.print("Debug: On")
 
@@ -23,7 +25,7 @@ if __name__ == "__main__":
     str_exporter = chess.pgn.StringExporter(headers=False, variations=False, comments=True)
     pgn = open(filepath)
     game = chess.pgn.read_game(pgn)
-    comments = get_all_comments_after_error(game.accept(str_exporter))
+    comments = get_all_comments_in_game(game.accept(str_exporter))
     pgn.close()
 
     # remove comments with just the engine evaluation
@@ -33,50 +35,46 @@ if __name__ == "__main__":
     ]
     print(f"{len(filtered_comments)} comments found !")
 
-    api_key = os.getenv("HUGGING_FACE_TOKEN")
-    client = InferenceClient(
-        provider="hf-inference",
-        api_key=api_key,
-    )
+#     pipe = pipeline("text-generation", model="microsoft/phi-2", device=device)
+#     prompt = """
+# <|system|>
+# You are an AI whose job is to evaluate whether a chess annotation comment on the quality of the previously played move.
+# When Writing your answer, it is VERY IMPORTANT that you write RES followed by 1 if you think this chess annotation comment on the quality of the previously played move or a 0 if you think it doesn't.
+# <|user|>
+# Here is a comment made after a chess move evaluated as a mistake:
+# "By playing this move, white allows black to capture the bishop on e2 for free."
+# Do you think that this comment explains the mistake made by the player ?
+# Write RES: 1 if yes and write RES: 0 if no.
+# <|assistant|>
+#     """
+#     output = pipe(prompt, max_new_tokens=50)
+#
+#     print(output)
+#     print(output[0]['generated_text'].split('<|assistant|>')[1])
 
-    # completion = client.chat.completions.create(
-    #     model="microsoft/Phi-3-mini-4k-instruct",
-    #     messages=[
-    #         {
-    #             "role": "user",
-    #             "content": "What is the capital of France?"
-    #         }
-    #     ],
-    # )
-    # print(completion.choices[0].message)
-
-    messages = [
-        {
-            "role": "system",
-            "content": "Your job is to analyze how relevant a comment is about a chess game. The user will give you some comments found in games and you'll indicate whether the comment explains the mistake made by a player.",
-        }
-    ]
-
+    pipe = pipeline("text-generation", model="microsoft/phi-2", device=device)
     for c in filtered_comments:
         print(c)
-        messages.append({
-            "role":"user",
-            "content":f"""
-            Here is a comment made after a chess move evaluated as a mistake:
-
-            {c}
-
-            Do you think that this comment explains the mistake made by the player ?
-            """
-        })
-        completion = client.chat.completions.create(
-            model="microsoft/Phi-3-mini-4k-instruct",
-            messages=messages
-        )
-        response = completion.choices[0].message.content
-        print(response)
+        prompt = f"""
+<|system|>
+You are an AI whose job is to evaluate whether a chess annotation comment on the quality of the previously played move.
+When Writing your answer, it is VERY IMPORTANT that you write RES followed by 1 if you think this chess annotation comment on the quality of the previously played move or a 0 if you think it doesn't.
+After that, write a single sentence explaining your reasoning.
+Don't write anything else after.
+<|user|>
+Here is a comment made after a chess move evaluated as a mistake:
+"{c}"
+Do you think that this comment explains the mistake made by the player ?
+Write RES: 1 if yes and write RES: 0 if no.
+After that, write a single sentence explaining your reasoning.
+Don't write anything else after.
+<|assistant|>
+        """
+        output = pipe(prompt)
+        output_txt = output[0]['generated_text'].split('<|assistant|>')[1].strip()
+        print(output_txt)
         print(40 * "=")
-        messages.append({
-            "role":"assistant",
-            "content":response
-        })
+        # messages.append({
+        #     "role":"assistant",
+        #     "content":response
+        # })
