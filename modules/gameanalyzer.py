@@ -22,10 +22,10 @@ class GameAnalyzer:
     def __init__(self)->None:
         self.dbg = Debug()
 
-        engine_path = os.getenv("ENGINE_PATH")
-        assert os.path.exists(engine_path), f"{engine_path} doesn't exists !"
-
-        self.engine_path = engine_path
+        # TODO: dont forget to uncomment this part hehe
+        # engine_path = os.getenv("ENGINE_PATH")
+        # assert os.path.exists(engine_path), f"{engine_path} doesn't exists !"
+        self.engine_path = "yo"
 
     def analyze_game(self, game: chess.pgn.Game)->chess.pgn.Game:
         with chess.engine.SimpleEngine.popen_uci(self.engine_path) as engine:
