@@ -1,0 +1,117 @@
+moves,comment,good
+1. e4 e5 2. Nf3 d6 3. Bc4,"This is th
+e Philidor Defense with some unusual lines. 3. Bc4 is perfectly all right, but
+3. d4! offers much more possibilities. This is an opening where white can get
+a big advantage in the center if black's not careful. The first way to get an
+advantage was to play 3. d4. Again 3. Bc4 is playable.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4,"Not the best
+choice in opening lines. It brings the queen's bishop out much too early. The
+simple 3. Be7 or 3. Nc6 would've sufficed. Also, the strong 3. c6! is a great
+way to take advantage of the fact that white didn't play d4 by intending d5
+himself with a strong mobile center.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3,"Some masters of the past have
+tried this, but with not much success. This pin is not very strong at all.
+There's no need to immediately tickle it with h3. Still attempting to build up
+your center by 4. c3 and then d4 was a more preferable choice. Also, played
+here has been 4. Nc3 with pressure on d5.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3,"A mistake. The bishop
+should've backed up to h5. Now white will get a strong opportunity to attack
+the weak f7 point.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6,"Definitely bad. Much better is 5. Qd7!
+When the weak b-pawn can be defended by c6.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3,"You have sound
+development, but you're not being aggressive enough! 6. Qb3! Continued the
+strong attack (very similar to Morphy - Duke of Brunswick in the Philidor's
+Defense) and punished black for the mistakes of early development of the
+queen's bishop and poor motive for exchanging the bishop.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6,"Bad, once aga
+in, due to the fact it leaves the knight poorly protected (in the short term)
+and the bishop has nothing to contribute to the game from that closed diagonal
+(long term) unless a center break would occur. Better was mending the wounds
+with 6. Nc6 or, in fact the aggressive 6. c6 once again, intending d5 when the
+situation permits or queenside expansion with b5.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5,Development with tempo. Nice.,False
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6,Why exchange when your bishops are excellent?,True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2,"This move is good
+development. It leaves open the option of playing c3. The other plan would
+involve the d5 square with 9. Nc3.",False
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O,"You don't want to commit your king
+until the center is defined and you have no weaknesses (g6 is your weakness
+here). 9. Nd7 or 9. c6 immediately would be indicated. Now the powerful attack
+on the h-file and a castle queenside can occur. Good strategy would involve
+confusing your opponent so he doesn't find the correct strategy right away.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O,"Not bad at all! Slightly better still would be getting the h-pawn
+rolling immediately with 10. h4!. 10. c3 could still successfully be played
+now to intend a center break.",False
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7,"A decent developing move. However, an
+attack on the wing can't beat a counterattack in the center. 10. Nd7 isn't the
+most forcing. Better is 10. c6 once again leaving open b5 or d5 if it's
+allowed.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4,"This begins to attack the g6 weakness and attempts to
+open the h-file. I'm impressed that each side saw the tactics involved in a
+casual yahoo game. Of course, now not 11. Bxh4?, then 12. Qh3! (with an x-ray
+attack on h7) c6 13. Qxh4 Qxh4 14. Qxh4 and a decisive material advantage with
+still some hope for attack on the h-file.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7,"Required is a central
+counterattack with 11. c6, there might follow 12. h5 g5 13. Kb1 b5 14. Bb3 Nc5
+and white has his own problems.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6,"Very nice. The
+opening of the h-file is deadly, while the f7 pawn is being massacared.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6,"Other moves also lose. 13. Qf6 14. Bxf7+! Kh8 15. Qh3 Rfd8 16. Qe3 and
+white's obviously winning. If 13. Qe7, then 14. Bxf7+! Rxf7 15. gxf7+ Qxf7 16.
+Qg3 and white's winning.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2,"Here you missed 14. Bxf7+ with a won
+game. However, you still have a strong kingside pressure.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5,"Good defense!
+Counterattacking in the center is the way to refute a wing attack.",False
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5,"Here you missed the intermezzo check with 15. gxf7+! Which opens the crucial
+diagonal to the black king. After 15. gxf7+, then 15. Rxf7 16. exd5 Qd6 17.
+Qg3! (threatening Rxh6) and you have a winning initiative.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+,"16. Qg3 was preferable and much more threatening, followed by 16. Kh7 17. Rdh1
+Nxd5 18. Ne4 with threats of Ng5+ hanging in the air. This position would be
+very uncomfortable for Black.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1,"In this position also, 17. Qg3 would make Black pay the piper quicker.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5,"This loses outright. Much, much better where black is still in
+the game is 18. h5. Now White can play the strong rook sacrifice 19. Rxh6+ Kg8
+(if Bxh6 it's mate in a couple) 20. Rxg6 Rf7 (the only move) 21. Rh8+! Kxh8 22.
+Qxf7 Qg8 23. Rxf6 and white has an easily won game.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5,"Definitely a
+blunder. The rook sacrifice wins more than a piece for nothing. This gives
+black real counter chances. For instance 19. Ng4! which snatches back the
+initiative and protects all of white's threats or the text.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6,"Once again, 20. Rxh6+ would seem to be in order. Now black has the advantage.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6,"Black doesn't capitalize immediately which he could've done with 20.
+Ng4! followed by 21. Qg5 with advantage.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4,"Of course, this just loses a piece now that the white queen is on a4.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5,"21. Ng4 DID lose a full piece. The reason is because 22. Rxb5 leads
+to a forced mate! Definitely required here was 22. Rxf2 and black is still
+barely hanging on, though a piece down. White can force a checkmate with 23.
+Rxh6+! Kg8 24. Qxg6 Qh4 25. R1xh4 Rxf2 (there's nothing else) and 26. Rh8
+Checkmate.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4,"A grave error, not winning the game at the earliest
+moment. In fact, this once again gives Black counterchances.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4 dxc4,"Another blunder. 23. Rb6 was a required move here. White now has the same
+forced mate mentioned before. 24. Rxh6+ Kg8 25. Qxg6 Qh4 26. R1xh4 Rxf2 27.
+Rh8 Checkmate.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4 dxc4 24. dxc4,"Turning the tables towards black once again. This
+game's becoming a see-saw action.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4 dxc4 24. dxc4 Rc5,"Once again, giving white a mate
+opportunity, though it's very detailed calculation. 25. Rxh6+! Kg8 26. Qxg6
+Rxc4+ 27. Nxc4 Qg5+ 28. Qxg5 Rb8 29. Rh7 Rb7 30. Qd8+ Kf7 31. R1h6 Rxb2
+(nothing else) 32. Nxe5 for the beautiful checkmate.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4 dxc4 24. dxc4 Rc5 25. b4,Not playing through the winning line once again.,True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4 dxc4 24. dxc4 Rc5 25. b4 Rc7,Allowing 26. Qxg6!.,True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4 dxc4 24. dxc4 Rc5 25. b4 Rc7 26. c5,This gives black hope again. This appears to be toying of emotions.,False
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4 dxc4 24. dxc4 Rc5 25. b4 Rc7 26. c5 a5,Still allows white to take on g6. Observe:,True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4 dxc4 24. dxc4 Rc5 25. b4 Rc7 26. c5 a5 27. Qxg6 Rff7 28. Ne4 Qf8 29. Ng5 Rxc5+ 30. Kb1 Rc1+,every single other legal move on the board is mate very interestingly!,True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4 dxc4 24. dxc4 Rc5 25. b4 Rc7 26. c5 a5 27. Qxg6 Rff7 28. Ne4 Qf8 29. Ng5 Rxc5+ 30. Kb1 Rc1+ 31. Kxc1 Qc8+ 32. Kb2 Rxf2+ 33. Kb3 Kg8 34. Rxh6 a4+ 35. Ka3 Qc3+ 36. Kxa4 Qc2+ 37. Qxc2 Rxc2,"and the b-pawn marches forward for the checkmate. This calculation
+is less impressive then it looks. There are almost all checks or forcing moves
+involved and it's much easier to calculate deep variations with forced moves
+involved. Qe6?? Handing his opponent counterchances again. axb4 Rxh6+ Finally
+seeing the move that was begging to be played forever. Still, Qxg6 was still
+more forcing. Bxh6 Rxh6+",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 g6 7. Bg5 Bg7 8. Bxf6 Bxf6 9. Nd2 O-O 10. O-O-O Nd7 11. h4 Bg7 12. h5 h6 13. hxg6 Nf6 14. Rh2 d5 15. exd5 fxg6 16. d6+ Kh8 17. Rdh1 cxd6 18. Qxb7 d5 19. Bb5 Rb8 20. Qa6 Rb6 21. Qa4 Ng4 22. Qxg4 Rxb5 23. c4 dxc4 24. dxc4 Rc5 25. b4 Rc7 26. c5 a5 27. Qxg6 Rff7 28. Ne4 Qf8 29. Ng5 Rxc5+ 30. Kb1 Rc1+ 31. Kxc1 Qc8+ 32. Kb2 Rxf2+ 33. Kb3 Kg8 34. Rxh6 a4+ 35. Ka3 Qc3+ 36. Kxa4 Qc2+ 37. Qxc2 Rxc2 38. Rh7,"Qxe5? Qxg6 adds to the pressure and doesn't
+let black slip in more defensive opportunities. Rf6?? This hands the game to
+white again. Qf6 was black's only chance. Rxh7+?! Missing the punishment for
+Black's last move which is Rxg6!. Kxh7 Ne4 Rf5 Qh2+ Rh5 Qf4 Rh1+ Kb2 Qd4+
+Kc2??? Losing the game to an accidental forced mate. Qd1+! Kb2 Qb1 Checkmate",False

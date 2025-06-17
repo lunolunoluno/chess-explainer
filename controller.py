@@ -8,7 +8,7 @@ import pandas as pd
 
 from sympy.printing.pytorch import torch
 from tqdm import tqdm
-from transformers import pipeline
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
 from modules.datautils import has_game_comments, pgn_to_id, get_all_pgn_files, is_comment_explaining_mistake, \
     get_all_comments_and_lines_in_game, filter_good_comments
@@ -79,13 +79,15 @@ class Controller:
         Once analyzed, each game is saved in a pgn file in DATA_ANALYZED_PATH
         All the comments from a game will be saved in a csv file in DATA_COMMENTS_PATH
         """
-        device = "cuda" if torch.cuda.is_available() else "cpu"
-        if device == 'cuda':
-            torch.cuda.empty_cache()
-            torch.cuda.reset_peak_memory_stats()
-
         # Create the pipeline that will be used to evaluate the comments
-        pipe = pipeline("text-generation", model="microsoft/Phi-3-mini-4k-instruct", device=device)
+        model_id = "microsoft/Phi-3-mini-4k-instruct"
+        tokenizer = AutoTokenizer.from_pretrained(model_id)
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            torch_dtype=torch.float16,
+            device_map="auto"
+        )
+        pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
         # get all the pgn files that will be evaluated
         pgn_files = get_all_pgn_files()
@@ -103,10 +105,14 @@ class Controller:
                 cvs_path = os.path.join(self.data_commented_path, f"{pgn_to_id(pgn_str)}.csv")
                 if not os.path.exists(cvs_path):
                     comments = get_all_comments_and_lines_in_game(game)
-                    good_comments = filter_good_comments(pipe, comments)
+                    if len(comments) > 0:
+                        if torch.cuda.is_available():
+                            torch.cuda.empty_cache()
+                            torch.cuda.reset_peak_memory_stats()
+                        good_comments = filter_good_comments(pipe, comments)
 
-                    df = pd.DataFrame(good_comments)
-                    df.to_csv(cvs_path, index=False)
+                        df = pd.DataFrame(good_comments)
+                        df.to_csv(cvs_path, index=False)
 
                 game = chess.pgn.read_game(pgn_game)
 

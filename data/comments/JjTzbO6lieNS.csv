@@ -1,0 +1,79 @@
+moves,comment,good
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5,"I'm going to leave the theoretical debate to the Opening
+experts. However, White's move is not bad. Logically White should play e5.",False
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5,"The text keeps the game even. 5/\cxd4 is stronger due to the
+establishment of a strong center pawn. The move that is tempting is 5/\Qxd4.
+This leaves Black with the two center pawns after 6. Ngf3 cxd4. For the extra
+pawn, White leads in development. However, I doubt that White can capitalize
+at this point.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5,"Natural. You might consider the placement of the
+QN on d7 with 6/\O-O 7. Nb3 Nbd7. Then on 8.Nxc5 Nxc5 leaves Black with an
+edge in control of the center.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6,"A move that is very subjective. Personally I think the Bishop belongs on d6.
+10/\Bd6 is much more aggressive since the Bishop has plans for the Kingside.
+Also the square f4 tends to be a key post for White in the Tarrasch. The
+advantage of the Bishop at b6 is that it freezes the Rook at f1.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6,"Brave. This move baits 13. Bxh6 when you have the choice between
+13/\gxh6 and 13/\Ne4. Unfortunately for White the sac at h6 is not entirely
+sound.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7,"White's move is not bad. The idea is to
+attempt an ""instant"" endgame where White's pawn structure is superior. Also it
+stops /\Qd6 which is a natural freeing move and gives you plenty of
+opportunity to lose material. You avoid these pitfalls. A stronger
+consideration in this position would be the move 14/\Bxf3. After 15. Qxf3 Ne5
+Qf5 16. Nxd3 17.cxd3 the possibility of 17/\Rd2 comes close to working. 18.
+Nd4 Bxd4 19. Qxd4 Qd6. The question is which will be stronger, the Bishop or
+the Knight. In the endgame with pawns on both sides, the Bishop is favored.
+However, White's pawns are just as ugly as yours and the e-file and the second
+rank belong you. Unless the opponent is an IRS agent/\",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5,"17. Rae1 or 17. c3 and the position is lifeless. With Bishops
+of opposite colors it looks drawish. /\",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5,"Ouch! You miss the second chance at gaining a permanent advantage. 19/\Bxh2 20.
+Kh1 Be5 21. Nxc6 (on 21. Rad1 then choose between /\Bxd4 and /\Rc8) 21/\Bxb2.
+Black has an extra pawn and White has a shattered pawn structure. Black has a
+reasonable shot at winning the end game.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5 20. Nxc5 Bxh2+ 21. Kh1 Bd6,"I agree with your ""?"" to a certain point. It does offer the exchange that
+occurs in the game but that does not really do you damage. About the only
+other reasonable possibility would be 21/\Be5 ""forcing"" either 22. Rad1 or 22.
+c3.  ?",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5 20. Nxc5 Bxh2+ 21. Kh1 Bd6 22. Nb7 Rd7 23. Nxd6 Rxd6 24. Kg1,"Sweet! This subtle idea invokes
+many possibilities. Take some time to ponder this point. Ouch again. Try 24/
+\Rb6. The Knight without a target is only taking up space. I know the
+proverbial idea of taking away the Knight's advance points but in this case it
+opens the door for White to gain a comfortable position. When you have
+positional justification - ATTACK! The move /\g6 can be played later. The idea
+is to inspire those Queenside pawns to move and weaken themselves before your
+opponent can fix the a-pawn and pick it off. Rad1 O.K. Your GM returns the
+favor. 25. Rae1 grabs space and almost wins the endgame by force. You might
+benefit by the study of isolated pawn play. The isolated pawn is safely
+blocked. Controlling the e-file would cut off the support of the King. The
+fatal attack on the blocked pawn must come either from behind or beside the
+pawn. This can't be achieved with the Rook on d1. It's unbelievable that a GM
+would miss this move. You get time to set up an adequate defense. Nice! This
+is about the only chance you have to protect your weakness. White should now
+shift the attention to immobilizing the a-pawn and finding a way to pile up
+against it. The very real problem is going to be that Black gets to stack the
+Rooks. Thus White's response is ""forced."" Rfe1 Rde7",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5 20. Nxc5 Bxh2+ 21. Kh1 Bd6 22. Nb7 Rd7 23. Nxd6 Rxd6 24. Kg1 Re7,Rxe7,True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5 20. Nxc5 Bxh2+ 21. Kh1 Bd6 22. Nb7 Rd7 23. Nxd6 Rxd6 24. Kg1 Re7 25. f3 Nf6,"28/\Ne3 is probably your last chance to win. However, it's not likely that an
+advantage could be generated off this move. It does confuse the race to the
+center and Queenside and makes White's King unstable. The idea is to follow it
+up with /\f4, /\f5 and the strong pawn storm on the Kingside.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5 20. Nxc5 Bxh2+ 21. Kh1 Bd6 22. Nb7 Rd7 23. Nxd6 Rxd6 24. Kg1 Re7 25. f3 Nf6 26. Kf2 Kf8,Rd3 Rb7 Rb3 Rxb3,True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5 20. Nxc5 Bxh2+ 21. Kh1 Bd6 22. Nb7 Rd7 23. Nxd6 Rxd6 24. Kg1 Re7 25. f3 Nf6 26. Kf2 Kf8 27. Nb3 Nd7,"Your opponent seems to be counting on the
+general ignorance of endgames among the average population. This move
+demonstrates a keen understanding of the endgame. It keeps the King and
+opposing Knight from penetrating. It prevents White from promoting a pawn on
+the Queenside. Basically you kill the position. Ke3 Ke7 Kd4 Kd6",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5 20. Nxc5 Bxh2+ 21. Kh1 Bd6 22. Nb7 Rd7 23. Nxd6 Rxd6 24. Kg1 Re7 25. f3 Nf6 26. Kf2 Kf8 27. Nb3 Nd7 28. Nd2 f5,"Also 35/\Nc5. BTW, did you notice that you have ""opposition?""",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5 20. Nxc5 Bxh2+ 21. Kh1 Bd6 22. Nb7 Rd7 23. Nxd6 Rxd6 24. Kg1 Re7 25. f3 Nf6 26. Kf2 Kf8 27. Nb3 Nd7 28. Nd2 f5 29. c4 dxc4 30. Nxc4,Ke6 b4,True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5 20. Nxc5 Bxh2+ 21. Kh1 Bd6 22. Nb7 Rd7 23. Nxd6 Rxd6 24. Kg1 Re7 25. f3 Nf6 26. Kf2 Kf8 27. Nb3 Nd7 28. Nd2 f5 29. c4 dxc4 30. Nxc4 g5 31. a4 h5,b5 axb5 axb5 h4 b6  keep them doggies rollin',True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Qe2+ Be6 8. Ngf3 Nc6 9. O-O O-O 10. Nb3 Bb6 11. Bg5 Re8 12. Qd2 h6 13. Bh4 Bg4 14. Qf4 Bc7 15. Qxg4 Nxg4 16. Bxd8 Raxd8 17. Bb5 a6 18. Bxc6 bxc6 19. Nfd4 c5 20. Nxc5 Bxh2+ 21. Kh1 Bd6 22. Nb7 Rd7 23. Nxd6 Rxd6 24. Kg1 Re7 25. f3 Nf6 26. Kf2 Kf8 27. Nb3 Nd7 28. Nd2 f5 29. c4 dxc4 30. Nxc4 g5 31. a4 h5 32. g4 fxg4 33. fxg4,"Ke3 h3 gxh3 gxh3 Kf3 h2 Kg2 Excellent game! You avoided
+your chances to lose and have a game suitable for framing. You missed two
+opportunities to win material but you controlled the game well. Possibly the
+strategy of simplifying into an end game will be your best chance of improving
+your rating. Consider ""instant"" endgame openings - assuming you have the
+patience to learn endgames really well. Nunn's book on Rook & Pawn endgames
+and Silman's Endgames are basic reading. BTW, against a stronger opponent, I'm
+always looking for a way to simply into a winning (or equal) endgame. It may
+be a ""boring"" way to play but I've collected many scalps.",False

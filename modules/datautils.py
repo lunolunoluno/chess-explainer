@@ -88,7 +88,6 @@ def filter_good_comments(pipe: Pipeline, comments: List[dict]) -> List[dict]:
                                     Don't write anything else after."""},
     ]
     prompts = [prompt_model(comment['comment']) for comment in comments]
-
     def __filter_good_comments__(p: Pipeline, pr: list, depth: int) -> List[dict]:
         # TODO: Make batch_size a parameter that can be changed depending on the machine on which the code is run
         outputs = p(pr, batch_size=4)
@@ -122,6 +121,7 @@ def filter_good_comments(pipe: Pipeline, comments: List[dict]) -> List[dict]:
 
 def is_comment_explaining_mistake(pipe: Pipeline, comment: str) -> bool:
     dbg = Debug()
+    dbg.print("analyzing ->", comment)
     err = True
     while err:
         messages = [
