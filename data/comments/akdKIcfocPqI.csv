@@ -1,0 +1,40 @@
+moves,comment,good
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5,"This does put a foothold in the center, but this allows white
+to weaken your pawn structure if he wishes with Bxc6+. In this case, you don't
+have to allow the weakening. 4. ... Nge7 develops a piece while at the same
+time maintains your pawns' integrity. Notice if white plays complacently with
+5. O-O a6 6. Ba4? b5 7. Bb3 c4 wins a piece. Notice white couldn't take
+advantage of the pin that you walked into after playing ...d5.",True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7,A little passive. Why not the more aggressive ...Bd6?,True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6,"Definitely
+bious. This bishop needs to defend the c5 pawn. Since this bishop has already
+moved, simply castling king-side with O-O was very good. Why can't checkmate
+with just a queen. She needs support.",True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6 10. Qa4 Bb7,"Again, an unnecessarily
+passive piece placement. The most aggiessive post for this piece is a6, and
+you could put it there if you defended your c-pawn with ...Qb6 instead.",True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6 10. Qa4 Bb7 11. Qb3 O-O,"The losing move. Much stronger is ...Rb8!, developing your rook,
+defending your bishop. This even sets up a sneaky trap. If 12. O-O? Ba6 13.
+Qa4 Bxf1 wins material for black.",True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6 10. Qa4 Bb7 11. Qb3 O-O 12. Qxb7 Qe8 13. Na4 Be7 14. d4 cxd4 15. exd4 f6 16. O-O Qf7 17. Qb3 Qg6,"Notice that if you played ...Bd6 earlier, you
+could've expanded in the center by playing ...e5.",True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6 10. Qa4 Bb7 11. Qb3 O-O 12. Qxb7 Qe8 13. Na4 Be7 14. d4 cxd4 15. exd4 f6 16. O-O Qf7 17. Qb3 Qg6 18. Qd3,"White is playing
+well...when ahead in material, trade material. This makes white's piece
+advantage even stronger.",False
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6 10. Qa4 Bb7 11. Qb3 O-O 12. Qxb7 Qe8 13. Na4 Be7 14. d4 cxd4 15. exd4 f6 16. O-O Qf7 17. Qb3 Qg6 18. Qd3 Rfc8 19. Qxg6 hxg6 20. Re1 e5,This loses a pawn. ...Kf7 was to be preferred.,True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6 10. Qa4 Bb7 11. Qb3 O-O 12. Qxb7 Qe8 13. Na4 Be7 14. d4 cxd4 15. exd4 f6 16. O-O Qf7 17. Qb3 Qg6 18. Qd3 Rfc8 19. Qxg6 hxg6 20. Re1 e5 21. dxe5 f5,"This concedes an
+unopposed (passed) pawn to white. As unpleasant as it was, ...fxe5 was to be
+preferred.",True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6 10. Qa4 Bb7 11. Qb3 O-O 12. Qxb7 Qe8 13. Na4 Be7 14. d4 cxd4 15. exd4 f6 16. O-O Qf7 17. Qb3 Qg6 18. Qd3 Rfc8 19. Qxg6 hxg6 20. Re1 e5 21. dxe5 f5 22. e6 Re8 23. h3 Rac8 24. Bd2 c5 25. Re5 Rcd8 26. Ba5 Bf6 27. Re2 Rc8 28. Bc3 d4,"Good, avoiding exchanges when behind in material. This is black's best chance.",True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6 10. Qa4 Bb7 11. Qb3 O-O 12. Qxb7 Qe8 13. Na4 Be7 14. d4 cxd4 15. exd4 f6 16. O-O Qf7 17. Qb3 Qg6 18. Qd3 Rfc8 19. Qxg6 hxg6 20. Re1 e5 21. dxe5 f5 22. e6 Re8 23. h3 Rac8 24. Bd2 c5 25. Re5 Rcd8 26. Ba5 Bf6 27. Re2 Rc8 28. Bc3 d4 29. Bd2 g5 30. c3 g4 31. hxg4 d3 32. Re3 Rcd8 33. gxf5 Bg5 34. e7 Bxe7 35. Rxe7,"Strong move by white. White is trading more & more material... the end result
+is not in doubt.",True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6 10. Qa4 Bb7 11. Qb3 O-O 12. Qxb7 Qe8 13. Na4 Be7 14. d4 cxd4 15. exd4 f6 16. O-O Qf7 17. Qb3 Qg6 18. Qd3 Rfc8 19. Qxg6 hxg6 20. Re1 e5 21. dxe5 f5 22. e6 Re8 23. h3 Rac8 24. Bd2 c5 25. Re5 Rcd8 26. Ba5 Bf6 27. Re2 Rc8 28. Bc3 d4 29. Bd2 g5 30. c3 g4 31. hxg4 d3 32. Re3 Rcd8 33. gxf5 Bg5 34. e7 Bxe7 35. Rxe7 Rxe7 36. Bg5 Kf7 37. Bxe7 Kxe7 38. Re1+ Kf6 39. Nxc5 Kxf5 40. Rd1 Rd5 41. Nxd3 Ke4 42. b3,"This wins, but 42. f3+ Ke3 43. Nf2 preserves
+white's piece, and forces black to resign.",True
+1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5 5. Ne5 Ne7 6. Bxc6+ Nxc6 7. Nxc6 bxc6 8. Nc3 Be7 9. Qg4 Bf6 10. Qa4 Bb7 11. Qb3 O-O 12. Qxb7 Qe8 13. Na4 Be7 14. d4 cxd4 15. exd4 f6 16. O-O Qf7 17. Qb3 Qg6 18. Qd3 Rfc8 19. Qxg6 hxg6 20. Re1 e5 21. dxe5 f5 22. e6 Re8 23. h3 Rac8 24. Bd2 c5 25. Re5 Rcd8 26. Ba5 Bf6 27. Re2 Rc8 28. Bc3 d4 29. Bd2 g5 30. c3 g4 31. hxg4 d3 32. Re3 Rcd8 33. gxf5 Bg5 34. e7 Bxe7 35. Rxe7 Rxe7 36. Bg5 Kf7 37. Bxe7 Kxe7 38. Re1+ Kf6 39. Nxc5 Kxf5 40. Rd1 Rd5 41. Nxd3 Ke4 42. b3 g5 43. c4 Rd4 44. Rd2 Rxd3 45. Rxd3 Kxd3,"So in conclusion, always look at what your opponent's last move was --
+what is their idea? Are they threatening anything? Also, try to place your
+pieces in the best places. To ccompare where good posts are, just compare how
+many moves your piece would have at the various squares. Whichever gives your
+piece the most mobility, is the best square. NOTE: You will have to balance
+good placement with the piece's safety. If pawns can push your piece around,
+then that's not a very good square either. Otherwise, you did fairly well with
+the resources you had available.",True

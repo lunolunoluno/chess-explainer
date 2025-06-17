@@ -1,0 +1,50 @@
+moves,comment,good
+1. d4 e6 2. e4 d5,"There are different types of mistakes a player can make. This isa""psychologica
+l"" mistake (different than the ""concrete"" mistake). Since White opened with
+the Queen's Pawn, this allows Black to force the game into King's Pawn lines.
+Principle: In the Opening you choose the pawn structure - not your opponent.",False
+1. d4 e6 2. e4 d5 3. Nc3 Nf6,"White invites the Winawer Variation (3. /\Bb4). Black however opts
+for the Classical Variation. Gligoric commented that ""Black can not avoid
+concrete variations which tend to favor White."" Short called this line the
+""Boring Variation"" and wrote, ""This variation is suitable for people with
+masochistic urges.""",False
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7,"Probably best is 4. Bg5 (pinning the Knight
+and forcing Black to respond). Principle: seize the initiative.",False
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5,"Before playing this move White should try Qg4. Here is the wages of being lead
+down your opponent's path. The last two moves, White missed the mostaggressive
+idea.",True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5,"9. Re1 is pointless.
+White missed Ne2 with the idea of c3. This would ensure a permanent (possibly
+winning) advantage in pawn structure. At this point 9/\. cxd4 is stronger.
+However, Black's pawn structure resembles a strong Queenside attack.",True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4,"With the last two moves White transforms a playable position
+into one that is almost completely lost. An idea for move 10 is a4. However b3
+is utterly bad. The c-pawn is permanently weak and probably undefendable. The
+""hole"" created on c3 will be the can opener to pry White's position open. At
+this point White can probably resign. White has no credible attacking
+possibilities. The only redeeming quality is that Black is playing a ""virtual""
+piece down (the bad Bishop). Principle: do not weaken your position with pawn
+moves.",True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4 12. Nxd4 Qa5,"A good move but not a game winner. Black aims at the
+hole on c3 and control of the c-file with the Queen Rook. Control open lines
+(files and diagonals)!",True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4 12. Nxd4 Qa5 13. Nxc6 Qxc3 14. Nd4 Rc8 15. Bg5 h6,"White's wounds
+are self-inflicted. The Bishops presence in the center was critical. Black
+should consider the immediate /\Bc5. Principle: always play in the center, if
+possible! An idea for White could be Qg4. Notice that the Queen at g4 still
+operates in the center.",True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4 12. Nxd4 Qa5 13. Nxc6 Qxc3 14. Nd4 Rc8 15. Bg5 h6 16. Bh4 Qb4 17. a3 Qc5,Black misses the simple /\Bc5.,True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4 12. Nxd4 Qa5 13. Nxc6 Qxc3 14. Nd4 Rc8 15. Bg5 h6 16. Bh4 Qb4 17. a3 Qc5 18. Qd3 Qc3,"White can still make life interesting with 18. b4. Black is
+offering an interesting idea that is consistent with the over all game plan.
+The idea is to encourage White to err.",True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4 12. Nxd4 Qa5 13. Nxc6 Qxc3 14. Nd4 Rc8 15. Bg5 h6 16. Bh4 Qb4 17. a3 Qc5 18. Qd3 Qc3 19. Qxc3 Rxc3,"With the exchange of
+Queens, White gives up the c-file, the Queenside and the game.",True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4 12. Nxd4 Qa5 13. Nxc6 Qxc3 14. Nd4 Rc8 15. Bg5 h6 16. Bh4 Qb4 17. a3 Qc5 18. Qd3 Qc3 19. Qxc3 Rxc3 20. a4 b4,"White's move is terrible. Principle: do not attack when you have no positional
+justification! Black lets White off the hook by missing 20/\. bxa4!;completely
+demolishing the White Queenside. (This move was spotted my one of my students.)",True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4 12. Nxd4 Qa5 13. Nxc6 Qxc3 14. Nd4 Rc8 15. Bg5 h6 16. Bh4 Qb4 17. a3 Qc5 18. Qd3 Qc3 19. Qxc3 Rxc3 20. a4 b4 21. Re3 Bc5 22. Rd1 Bxd4 23. Rxd4 Rxc2 24. h3 a5 25. Rf3 O-O 26. Rdf4 Rc3,"White's move is without merit. 26. Rg3 gives possibilities. Black misses the
+simple 26/\.g5. It may look pretty to complicate the position but sometimes
+the risk is too great. Principle: Simpleisbest!",True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4 12. Nxd4 Qa5 13. Nxc6 Qxc3 14. Nd4 Rc8 15. Bg5 h6 16. Bh4 Qb4 17. a3 Qc5 18. Qd3 Qc3 19. Qxc3 Rxc3 20. a4 b4 21. Re3 Bc5 22. Rd1 Bxd4 23. Rxd4 Rxc2 24. h3 a5 25. Rf3 O-O 26. Rdf4 Rc3 27. g4 g5 28. Bxg5 Rxf3,"Again, simple is best. 28/\.hxg5.",True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4 12. Nxd4 Qa5 13. Nxc6 Qxc3 14. Nd4 Rc8 15. Bg5 h6 16. Bh4 Qb4 17. a3 Qc5 18. Qd3 Qc3 19. Qxc3 Rxc3 20. a4 b4 21. Re3 Bc5 22. Rd1 Bxd4 23. Rxd4 Rxc2 24. h3 a5 25. Rf3 O-O 26. Rdf4 Rc3 27. g4 g5 28. Bxg5 Rxf3 29. Rxf3 hxg5 30. Kf1 Rd8 31. Ke2 Bc6 32. Rd3 d4 33. Kd2 Kg7 34. Kc2 Be4,The final error in a completely lost game.,True
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. Bb5 a6 7. Bxd7+ Bxd7 8. O-O Nc6 9. Re1 b5 10. Be3 Qb6 11. b3 cxd4 12. Nxd4 Qa5 13. Nxc6 Qxc3 14. Nd4 Rc8 15. Bg5 h6 16. Bh4 Qb4 17. a3 Qc5 18. Qd3 Qc3 19. Qxc3 Rxc3 20. a4 b4 21. Re3 Bc5 22. Rd1 Bxd4 23. Rxd4 Rxc2 24. h3 a5 25. Rf3 O-O 26. Rdf4 Rc3 27. g4 g5 28. Bxg5 Rxf3 29. Rxf3 hxg5 30. Kf1 Rd8 31. Ke2 Bc6 32. Rd3 d4 33. Kd2 Kg7 34. Kc2 Be4 35. f3 Bxd3+ 36. Kxd3 f6 37. exf6+ Kxf6 38. Kd2 d3 39. Kd1 d2,Resign,False

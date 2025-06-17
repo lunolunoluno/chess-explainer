@@ -1,0 +1,27 @@
+moves,comment,good
+1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6,"? This is unnecessary. Continued development, with ...b5, Bb7, with the idea
+of pressuring white's e-pawn, is preferable.",True
+1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6 10. O-O b5 11. a4 Bb7 12. axb5 axb5 13. Rxa8 Bxa8,"...Qxa8 is preferable. The queen has a lot more scope on
+a8 than d8. The bishop is fine on b7. In addition, black has tactics that make
+his b-pawn immune (Qxb5 Nxe4, d3 Ba6).",True
+1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6 10. O-O b5 11. a4 Bb7 12. axb5 axb5 13. Rxa8 Bxa8 14. Qxb5 d6 15. Qe2 Na5,"Too early.
+hop should go to b6 first, THEN Na5, d5 to try to play energetically.
+Otherwise, black is a pawn down for nothing. Also, the text overlooks a pawn
+fork. Be careful of those! Pawn forks often happen.",True
+1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6 10. O-O b5 11. a4 Bb7 12. axb5 axb5 13. Rxa8 Bxa8 14. Qxb5 d6 15. Qe2 Na5 16. Bc2 c6 17. b4 Ba7 18. bxa5 Qxa5 19. Na3 Re8 20. Nc4 Qd8 21. Ba3 d5 22. Ncxe5,"White gives you a
+chance. He could've played 22. exd5 cxd5 23. Ncxe5 Nd7 24. Qd3! and the
+hanging knight at e5 is immune because Qh7 is mate.",True
+1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6 10. O-O b5 11. a4 Bb7 12. axb5 axb5 13. Rxa8 Bxa8 14. Qxb5 d6 15. Qe2 Na5 16. Bc2 c6 17. b4 Ba7 18. bxa5 Qxa5 19. Na3 Re8 20. Nc4 Qd8 21. Ba3 d5 22. Ncxe5 dxe4 23. Bxe4 Qa5 24. Bd6 Re6 25. Qd3 Nxe4 26. Bb4,"White gives black a breather. Simply Qxe4 Rxd6 27
+Nc4 Qd5 28. Nxd6 would leave white up a rook and pawn vs a knight.",False
+1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6 10. O-O b5 11. a4 Bb7 12. axb5 axb5 13. Rxa8 Bxa8 14. Qxb5 d6 15. Qe2 Na5 16. Bc2 c6 17. b4 Ba7 18. bxa5 Qxa5 19. Na3 Re8 20. Nc4 Qd8 21. Ba3 d5 22. Ncxe5 dxe4 23. Bxe4 Qa5 24. Bd6 Re6 25. Qd3 Nxe4 26. Bb4 Qd5 27. Qa6 Rxe5 28. Qxa7,Gives black a chance again. Nxe5 is still winning.,False
+1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6 10. O-O b5 11. a4 Bb7 12. axb5 axb5 13. Rxa8 Bxa8 14. Qxb5 d6 15. Qe2 Na5 16. Bc2 c6 17. b4 Ba7 18. bxa5 Qxa5 19. Na3 Re8 20. Nc4 Qd8 21. Ba3 d5 22. Ncxe5 dxe4 23. Bxe4 Qa5 24. Bd6 Re6 25. Qd3 Nxe4 26. Bb4 Qd5 27. Qa6 Rxe5 28. Qxa7 Re8 29. Re1 c5 30. Bxc5 Bc6 31. h3,"This now gives black a chance again...31. Be3, and
+white still has chances to convert his extra pawns to a win. Now black is
+equal.",True
+1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6 10. O-O b5 11. a4 Bb7 12. axb5 axb5 13. Rxa8 Bxa8 14. Qxb5 d6 15. Qe2 Na5 16. Bc2 c6 17. b4 Ba7 18. bxa5 Qxa5 19. Na3 Re8 20. Nc4 Qd8 21. Ba3 d5 22. Ncxe5 dxe4 23. Bxe4 Qa5 24. Bd6 Re6 25. Qd3 Nxe4 26. Bb4 Qd5 27. Qa6 Rxe5 28. Qxa7 Re8 29. Re1 c5 30. Bxc5 Bc6 31. h3 Nxd2 32. Rxe8+ Bxe8 33. Nxd2 Qxd2 34. Qb8 Qe1+ 35. Kh2 Kh7 36. c4,"Dubious. White should improve his pieces first. Be3 & Qe5 would give white
+real chances to win.",True
+1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6 10. O-O b5 11. a4 Bb7 12. axb5 axb5 13. Rxa8 Bxa8 14. Qxb5 d6 15. Qe2 Na5 16. Bc2 c6 17. b4 Ba7 18. bxa5 Qxa5 19. Na3 Re8 20. Nc4 Qd8 21. Ba3 d5 22. Ncxe5 dxe4 23. Bxe4 Qa5 24. Bd6 Re6 25. Qd3 Nxe4 26. Bb4 Qd5 27. Qa6 Rxe5 28. Qxa7 Re8 29. Re1 c5 30. Bxc5 Bc6 31. h3 Nxd2 32. Rxe8+ Bxe8 33. Nxd2 Qxd2 34. Qb8 Qe1+ 35. Kh2 Kh7 36. c4 Bc6 37. g4,"This gives black the game. 37. f3 would hold
+the position. Remember, the general rule of thumb is put your pawns opposite
+your own bishop, and on the same squares as your opponent's. The text move
+opens White's king to merciless infiltration.",True
+1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6 10. O-O b5 11. a4 Bb7 12. axb5 axb5 13. Rxa8 Bxa8 14. Qxb5 d6 15. Qe2 Na5 16. Bc2 c6 17. b4 Ba7 18. bxa5 Qxa5 19. Na3 Re8 20. Nc4 Qd8 21. Ba3 d5 22. Ncxe5 dxe4 23. Bxe4 Qa5 24. Bd6 Re6 25. Qd3 Nxe4 26. Bb4 Qd5 27. Qa6 Rxe5 28. Qxa7 Re8 29. Re1 c5 30. Bxc5 Bc6 31. h3 Nxd2 32. Rxe8+ Bxe8 33. Nxd2 Qxd2 34. Qb8 Qe1+ 35. Kh2 Kh7 36. c4 Bc6 37. g4 g5 38. f4 Qh1+ 39. Kg3,"It appears from the game that your weakness is tactics. I suggest working on
+tactical problem books, like ""Bobby Fischer Teaches Chess"".",True

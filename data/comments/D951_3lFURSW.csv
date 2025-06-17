@@ -1,0 +1,78 @@
+moves,comment,good
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6,e. p.,True
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8. Qf4 g6 9. O-O Bg7 10. Re1+ Be6 11. Ng5 O-O 12. Nxe6 fxe6,"So far you and your
+opponent have played ""book"" moves. In other words these moves are already
+known. It is impressive that you and your opponent have picked through the
+maze this deep into the game. You need to be wary of being lead to the
+slaughter. Never take on an opponent in their territory. You can avoid the
+Petroff/Russian Defense with 3. Nc3. This will get you back into lines you
+probably know and positions where you are comfortable. At the very least, you
+take your opponent out of his specialty.",False
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8. Qf4 g6 9. O-O Bg7 10. Re1+ Be6 11. Ng5 O-O 12. Nxe6 fxe6 13. Qg3,"At this point you vary from
+""book."" The old thought is that the first to stray from the lines of the past
+either gets their head handed to them or they have a brilliant idea. In this
+case, you get your head. You have many problems -> the open d - file, the half
+open f - file, the non-development of the Queenside pieces, Black's control of
+the middle, weak King position. (All tactics are based on positional elements.)
+Somehow you must buy some time to develop your pieces. Not to question theory,
+but you should go back and understand how this line has led you to a miserable
+position. BTW, this looks like one of those moves a computer would make.",True
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8. Qf4 g6 9. O-O Bg7 10. Re1+ Be6 11. Ng5 O-O 12. Nxe6 fxe6 13. Qg3 Bd4,"Chess lesson #1: Black takes advantage of a ""pivot point."" This is the
+square(s) that the Bishop uses to attack the same side of the board that it
+sits on. Often we see a Bishop cutting across a diagonal but the real danger
+comes from these pivot points where suddenly it is attacking back across the
+grain. This move is brought to you courtesy of your lack of development.",True
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8. Qf4 g6 9. O-O Bg7 10. Re1+ Be6 11. Ng5 O-O 12. Nxe6 fxe6 13. Qg3 Bd4 14. Re2,"Now your Rook is not on the back row. There is nothing to defend against
+the back row checkmate. Whenever there is a weak King position, look for a
+tactical shot. c3 Ouch, this is probably the only move that looses. You should
+have tried Bg5, Bf4, Nc3, or Nd2. When your opponent has this much development
+on you, you can not afford the time to chase pieces. Besides, c3 does nothing
+to move the Bishop of the ""dangerous diagonal"" (the diagonal that bears down
+on your f2/f7 square). You are completely lost at this point. Chess lesson #2:
+Development is more important than breathing! Chess in a sense is a war game
+where you must mobilize your troops. If you do not, you insure an easy game
+for your opponent. Again, this is another computer like mistake. Play more
+live opponents. Chess lesson #3: Pattern recognition. First, your King is on
+the back row with no breathing room. Second, you have to deal with the open
+files. The one that is going to seal your fate is the d - file. (Chess lesson
+#4: Always play in the center.) Your opponent puts together two common
+patterns. Bxe4 Pattern #1: The decoy. This decoy had the added bite of
+actually creating extra possibilities on f2. Pattern #2: Clearing the file.
+Both of these are simple to see if you know your patterns. Invest time on
+learning these basic patterns. Qxf2",True
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8. Qf4 g6 9. O-O Bg7 10. Re1+ Be6 11. Ng5 O-O 12. Nxe6 fxe6 13. Qg3 Bd4 14. Re2 Rxf2 15. Rxf2,"Ng4 Chess lesson #5:
+Imbalances. An imbalance is any difference in the position. At this point you
+are 2 Bishops & Rook verses Queen and Pawn. Not bad as far as material is
+concerned. However, look at how the Knight dominates both your Bishops and
+Rook. This is called the ""superior minor piece."" In spite of your material
+differences, you are playing a virtual Rook, Knight, and Bishop down (pieces
+that have not been developed). Black also has his pick of the d - file, the f
+- file, and the a7 - g1 diagonal. Nd2 c6 h3 Nxf2 Kxf2 Qb6+ Ke2 Qb5+ Bd3",True
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8. Qf4 g6 9. O-O Bg7 10. Re1+ Be6 11. Ng5 O-O 12. Nxe6 fxe6 13. Qg3 Bd4 14. Re2 Rxf2 15. Rxf2 Qg5 16. Kf1 Rf8,Nf3 Qg3,True
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8. Qf4 g6 9. O-O Bg7 10. Re1+ Be6 11. Ng5 O-O 12. Nxe6 fxe6 13. Qg3 Bd4 14. Re2 Rxf2 15. Rxf2 Qg5 16. Kf1 Rf8 17. Be2 e5,Bh6,True
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8. Qf4 g6 9. O-O Bg7 10. Re1+ Be6 11. Ng5 O-O 12. Nxe6 fxe6 13. Qg3 Bd4 14. Re2 Rxf2 15. Rxf2 Qg5 16. Kf1 Rf8 17. Be2 e5 18. Rf5,Rd1,False
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8. Qf4 g6 9. O-O Bg7 10. Re1+ Be6 11. Ng5 O-O 12. Nxe6 fxe6 13. Qg3 Bd4 14. Re2 Rxf2 15. Rxf2 Qg5 16. Kf1 Rf8 17. Be2 e5 18. Rf5 Qf4+,"Be3 This move is
+not possible - the Bishop can not move though the Queen on f4. Thus I'm
+assuming the correct move was 28/\Qh4. Chess lesson #6: Pins. Somewhere I read/
+heard that 80% of Master level games are decided by a pin. In this case the
+pin is ""absolute."" In other words you can not move the pinned piece. (A
+""relative"" pin is when you can move the pinned piece - at the cost of what's
+behind it.) You must deal with a pin immediately if not sooner! There are
+three ways to do this: move the piece that is behind the pin, attack the
+pinning piece, and impose another piece in-between. For instance, look at the
+common ""relative"" pin of a Black Bishop on g4, White Knight on f3 and Queen on
+d1. You can move the Queen, ""question the Bishop"" with h3 (which generally
+leads to an exchange), or play Be2 (freeing the Knight and the Queen). Bc4+
+Kf8 Bc5+ Ke8 Re1 Kd8 Rd1+ Kc7 Be6 Chess lesson #7: Never resign! You can not
+win if you resign. You have a combination of interesting ideas available to
+you. First, your opponent is crushing you like a bug - you have him just where
+you want him. Second, you have two Bishops on a very open board and a Rook
+sitting on an open file. The conditions are ripe for a major league swindle.
+Possible over-confidence or carelessness can sometimes be used to steal a
+point. Try 35. Rd7+, if Black carelessly moves 35/\Kc8 you force mate. If 35.
+Rd7+ Kb8 36. Bd6 again tempting /\Kc8 forcing mate (37. Bc7+ Kd8 38. Rc8#).
+Develop a reputation for being dangerous when you are cornered. If chess is a
+war, it is not an honorable one. You must try every filthy, disgusting, ugly,
+swindle opportunity the board position gives you. Just be a gentleman and
+don't gloat, laugh or put down your opponent. There is a difference gritty
+chess and bad sportsmanship. exf3 resign",True

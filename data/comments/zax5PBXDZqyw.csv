@@ -1,0 +1,37 @@
+moves,comment,good
+1. e4 e5 2. Nf3 d6 3. d4 Be7 4. h4,"This is definitely not the best move. 4. dxe5 dxe5 5. Qxd8+ Kxd8 6.
+Nxe5 wins a pawn with a great game for white. Among masters, this is usually
+winning. The text move, however, doesn't develop a piece, weakens white's
+kingside, and even concedes the g4 square to black. I honestly can't see how
+this helps white. Piece development is critical...generally white would want
+to get his bishop out, his queen knight out, castle short, and basically get
+all white's pieces into the center to try to overwhelm black.",True
+1. e4 e5 2. Nf3 d6 3. d4 Be7 4. h4 Bg4 5. Be2,"Unnecessarily passive. More promising is 5. dxe5 Bxf3 (forced) 6. Qxf3 dxe5 7.
+Bc4 Nf6 8. Be3 with a reasonable game for white.",True
+1. e4 e5 2. Nf3 d6 3. d4 Be7 4. h4 Bg4 5. Be2 Bxf3 6. Bxf3 Bxh4 7. g3 Bf6 8. dxe5 Bxe5 9. Bf4,"Definitely a mistake. This hangs the pawn on b2 for no
+compensation. 9. Nd2!, however is more active, and can help drive away black's
+bishop with Nc4.",True
+1. e4 e5 2. Nf3 d6 3. d4 Be7 4. h4 Bg4 5. Be2 Bxf3 6. Bxf3 Bxh4 7. g3 Bf6 8. dxe5 Bxe5 9. Bf4 Nc6 10. Rh5,"This entire rook maneuver should not work...
+it's too vulnerable to attack by black's pieces. Instead, the best white may
+have at this point is c3, to defend against the threat of ...Bxb2, plus deny
+the central d4 square for the black pieces.",True
+1. e4 e5 2. Nf3 d6 3. d4 Be7 4. h4 Bg4 5. Be2 Bxf3 6. Bxf3 Bxh4 7. g3 Bf6 8. dxe5 Bxe5 9. Bf4 Nc6 10. Rh5 Nf6 11. Rh4 Bxb2 12. Nd2 Bxa1 13. Qxa1 Nb4 14. Qb2 a5 15. e5,"This does not work out at all, because this opens
+up the center when white's king is still uncastled, plus gives the d5 square
+to use for black's pieces. At this point, white probably had to console
+himself with 15. a3 Nc6 16 Qxb7, though black is certainly still better.",True
+1. e4 e5 2. Nf3 d6 3. d4 Be7 4. h4 Bg4 5. Be2 Bxf3 6. Bxf3 Bxh4 7. g3 Bf6 8. dxe5 Bxe5 9. Bf4 Nc6 10. Rh5 Nf6 11. Rh4 Bxb2 12. Nd2 Bxa1 13. Qxa1 Nb4 14. Qb2 a5 15. e5 dxe5 16. Bxe5 O-O 17. Rh5,"This hangs the rook (17. ... Nxh5 18. Bxh5 Qg5), but
+white's position is very difficult in any case. White cannot castle, and the
+center's wide open, chances look bleak that white can repair his position.",True
+1. e4 e5 2. Nf3 d6 3. d4 Be7 4. h4 Bg4 5. Be2 Bxf3 6. Bxf3 Bxh4 7. g3 Bf6 8. dxe5 Bxe5 9. Bf4 Nc6 10. Rh5 Nf6 11. Rh4 Bxb2 12. Nd2 Bxa1 13. Qxa1 Nb4 14. Qb2 a5 15. e5 dxe5 16. Bxe5 O-O 17. Rh5 Re8 18. Rg5 Ra6,"This is an excellent defensive move, as well as prepares for
+active operations on b6 or e6.",False
+1. e4 e5 2. Nf3 d6 3. d4 Be7 4. h4 Bg4 5. Be2 Bxf3 6. Bxf3 Bxh4 7. g3 Bf6 8. dxe5 Bxe5 9. Bf4 Nc6 10. Rh5 Nf6 11. Rh4 Bxb2 12. Nd2 Bxa1 13. Qxa1 Nb4 14. Qb2 a5 15. e5 dxe5 16. Bxe5 O-O 17. Rh5 Re8 18. Rg5 Ra6 19. Ne4 Nbd5 20. Be2 Rb6 21. Bb5,"Stepping into
+pins (now the rook on b6 pins the bishop on b5) is rarely good, and this is no
+exception. Black could have played 21 ... c6 and pretty much have forced white
+to resign. Notice that 22. Nxf6+ Nxf6 doesn't go anywhere, since the bishop on
+e5 would then be pinned.",True
+1. e4 e5 2. Nf3 d6 3. d4 Be7 4. h4 Bg4 5. Be2 Bxf3 6. Bxf3 Bxh4 7. g3 Bf6 8. dxe5 Bxe5 9. Bf4 Nc6 10. Rh5 Nf6 11. Rh4 Bxb2 12. Nd2 Bxa1 13. Qxa1 Nb4 14. Qb2 a5 15. e5 dxe5 16. Bxe5 O-O 17. Rh5 Re8 18. Rg5 Ra6 19. Ne4 Nbd5 20. Be2 Rb6 21. Bb5 Re7 22. Nxf6+ Nxf6 23. Kf1 Qd1+ 24. Kg2 Qd5+ 25. Kh3,"This hastens the end, but there was no way for white to hold onto the
+position in any case.",True
+1. e4 e5 2. Nf3 d6 3. d4 Be7 4. h4 Bg4 5. Be2 Bxf3 6. Bxf3 Bxh4 7. g3 Bf6 8. dxe5 Bxe5 9. Bf4 Nc6 10. Rh5 Nf6 11. Rh4 Bxb2 12. Nd2 Bxa1 13. Qxa1 Nb4 14. Qb2 a5 15. e5 dxe5 16. Bxe5 O-O 17. Rh5 Re8 18. Rg5 Ra6 19. Ne4 Nbd5 20. Be2 Rb6 21. Bb5 Re7 22. Nxf6+ Nxf6 23. Kf1 Qd1+ 24. Kg2 Qd5+ 25. Kh3 Qh1#,"I know you say you play non-competitively, but
+actually playing better players is THE way to get better quickly. Failing that,
+you could check out some chess books out of the local library, but books can
+only teach so much. There's no substitute for experience.",False

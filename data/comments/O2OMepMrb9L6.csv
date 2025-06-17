@@ -1,0 +1,62 @@
+moves,comment,good
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6,"Imagine that your computer needs repair. You get your Acme
+Handy Dandy Computer Repair Tool Kit out and start to repair the beast. What
+do you have to do first? Answer: Open the kit so you can get the tools out.
+You can hit the computer with the tool kit all you want, but it won't fix the
+computer. You must get the tools out of the kit. Chess is the same way. If you
+want to crush your opponent, you must open the game so you can get your tools
+(pieces) into position where they are useful. Moving the Queen's Bishop to e3
+blocks the potential development of the King's Bishop.",True
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5,"Idea: Do no
+t move a piece a second time in the opening without a specific reason. It is
+almost always a bad idea. The problem with moving a piece a second time is
+that wastes time. Let's say you have only 15 minutes to fix your computer and
+you take 14 minutes to get the Acme Handy Dandy Computer Repair Tool Kit out.
+Remember to make the most efficient use of your TIME and moves. Second idea:
+count the number of squares the Knight can move to on f3 (eight), now count
+the number of squares it can move to on h4 (four). Because FLEXIBILITY is
+important, remember, ""A Knight on the rim is dim [or grim]."" Imagine a really
+ugly Y2K bug creeping out of the shadows and snatching a Knight you put on the
+edge of the board.",True
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5,"Here you had to move the Queen's Bishop again,
+if you had put it here on move 4. you would have had a spare move to make.
+It's like taking an extra turn. [Ever wish you could take more than one turn
+at a time? Here is where you can do it, legally! By playing 4. Bf4 you could
+now play anything else on move 6.] BTW, your opponent helps by mindlessly
+copying your moves.",True
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6,"7. e4 takes up more space in the center.
+Concentrate your opening moves on the four squares in the center of the board.
+If your video card needs to be replaced why try to change your hard drive?
+Important Idea: BEFORE YOU MOVE: Ask yourself, ""What is my opponent
+threatening?"" Answer: 8/\. g5 [forking your Bishop and Knight].",True
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3,"There are three ways to deal with a threat: First, move the piece
+that is threatened. Second, capture the piece that is attacking [in this case
+9. Nxg2 wins the Bishop]. Or finally, ignore the threat and attack something.
+This works when your threat is stronger than your opponents' threat.",False
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3 10. Qd2 Qd7 11. O-O-O Rh7,"Black's play is worse than pointless. It is inviting
+trouble. Of course you can zap the Rook out of the game with Bxh7.",True
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3 10. Qd2 Qd7 11. O-O-O Rh7 12. d4 c6 13. Bd3 Ng4,Good! White covers the center squares.,False
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3 10. Qd2 Qd7 11. O-O-O Rh7 12. d4 c6 13. Bd3 Ng4 14. Nf5 Nxf2,"Other than
+. Bxh7 White could try 14. Bf5. Both are crushing. However there is a trick
+after 14. Bxh7 Black could try /\g6 trapping the Bishop. Still, the Rook is
+more valuable than the Bishop. While not a winning advantage, you should
+probably ""win the exchange"" if possible.",True
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3 10. Qd2 Qd7 11. O-O-O Rh7 12. d4 c6 13. Bd3 Ng4 14. Nf5 Nxf2 15. Qxf2 Qxf5 16. Bxf5 Rd8 17. Bxh3 Nc4 18. b3 Na3 19. Ne2 Rd7 20. Kb2 Nxc2 21. Kxc2 e5,"Idea: A check is a FREE
+MOVE. A check is a FORCING MOVE. Always consider forcing moves first [check,
+threaten checkmate, winning material]. It's like getting to move twice in the
+same move!",True
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3 10. Qd2 Qd7 11. O-O-O Rh7 12. d4 c6 13. Bd3 Ng4 14. Nf5 Nxf2 15. Qxf2 Qxf5 16. Bxf5 Rd8 17. Bxh3 Nc4 18. b3 Na3 19. Ne2 Rd7 20. Kb2 Nxc2 21. Kxc2 e5 22. dxe5 dxe5 23. Bxe5 Re7,"You are probably at a point where
+nothing short of the end of the world will keep you from winning. The point is
+to find the SHORTEST path to victory. If you study the position you will
+discover that Bxd7+ comes close to forcing checkmate. [Actually it does. Can
+you figure out how.]",False
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3 10. Qd2 Qd7 11. O-O-O Rh7 12. d4 c6 13. Bd3 Ng4 14. Nf5 Nxf2 15. Qxf2 Qxf5 16. Bxf5 Rd8 17. Bxh3 Nc4 18. b3 Na3 19. Ne2 Rd7 20. Kb2 Nxc2 21. Kxc2 e5 22. dxe5 dxe5 23. Bxe5 Re7 24. Bb8 h5 25. Bxa7 Rh6 26. Nc3 f5 27. Bxf5 Rg6 28. Bxg6+ Rf7 29. e4 Bb4,29. Qf7#,False
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3 10. Qd2 Qd7 11. O-O-O Rh7 12. d4 c6 13. Bd3 Ng4 14. Nf5 Nxf2 15. Qxf2 Qxf5 16. Bxf5 Rd8 17. Bxh3 Nc4 18. b3 Na3 19. Ne2 Rd7 20. Kb2 Nxc2 21. Kxc2 e5 22. dxe5 dxe5 23. Bxe5 Re7 24. Bb8 h5 25. Bxa7 Rh6 26. Nc3 f5 27. Bxf5 Rg6 28. Bxg6+ Rf7 29. e4 Bb4 30. Na4 Ba3 31. Bxf7+ Ke7 32. Nc5 Bxc5 33. Qxc5+ Kf6,33. Bxc5#,True
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3 10. Qd2 Qd7 11. O-O-O Rh7 12. d4 c6 13. Bd3 Ng4 14. Nf5 Nxf2 15. Qxf2 Qxf5 16. Bxf5 Rd8 17. Bxh3 Nc4 18. b3 Na3 19. Ne2 Rd7 20. Kb2 Nxc2 21. Kxc2 e5 22. dxe5 dxe5 23. Bxe5 Re7 24. Bb8 h5 25. Bxa7 Rh6 26. Nc3 f5 27. Bxf5 Rg6 28. Bxg6+ Rf7 29. e4 Bb4 30. Na4 Ba3 31. Bxf7+ Ke7 32. Nc5 Bxc5 33. Qxc5+ Kf6 34. Rd6+ Ke7,Either 34. Rdf1# or 34. Rgf1#,True
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3 10. Qd2 Qd7 11. O-O-O Rh7 12. d4 c6 13. Bd3 Ng4 14. Nf5 Nxf2 15. Qxf2 Qxf5 16. Bxf5 Rd8 17. Bxh3 Nc4 18. b3 Na3 19. Ne2 Rd7 20. Kb2 Nxc2 21. Kxc2 e5 22. dxe5 dxe5 23. Bxe5 Re7 24. Bb8 h5 25. Bxa7 Rh6 26. Nc3 f5 27. Bxf5 Rg6 28. Bxg6+ Rf7 29. e4 Bb4 30. Na4 Ba3 31. Bxf7+ Ke7 32. Nc5 Bxc5 33. Qxc5+ Kf6 34. Rd6+ Ke7 35. Rxc6+ Kd7,"Excellent! Even though you have been missing the win, this move is a good
+learning tool. By moving the Rook you uncovered the check - giving you a FREE
+MOVE in some cases TWO FREE MOVES! This maneuver is called ""DISCOVERED CHECK.""
+You can gain all sorts of free moves doing this. The power of the idea is that
+you win a pawn [or piece or two] while your opponent is dealing with check.
+Good work! Keep looking for thesefreemoves!",True
+1. Nf3 Nf6 2. Nc3 Nc6 3. d3 d6 4. Be3 Be6 5. Nh4 Na5 6. Bf4 Bd5 7. e3 h6 8. Be2 Bxg2 9. Rg1 Bh3 10. Qd2 Qd7 11. O-O-O Rh7 12. d4 c6 13. Bd3 Ng4 14. Nf5 Nxf2 15. Qxf2 Qxf5 16. Bxf5 Rd8 17. Bxh3 Nc4 18. b3 Na3 19. Ne2 Rd7 20. Kb2 Nxc2 21. Kxc2 e5 22. dxe5 dxe5 23. Bxe5 Re7 24. Bb8 h5 25. Bxa7 Rh6 26. Nc3 f5 27. Bxf5 Rg6 28. Bxg6+ Rf7 29. e4 Bb4 30. Na4 Ba3 31. Bxf7+ Ke7 32. Nc5 Bxc5 33. Qxc5+ Kf6 34. Rd6+ Ke7 35. Rxc6+ Kd7 36. a4 bxc6,36. Rd1# or 36. Qd6#,False
