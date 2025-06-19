@@ -1,0 +1,6 @@
+moves,comment,good
+1. e4,"B54: Sicilian: 2...d6 3 d4 cxd4 4 Nxd4, Unusual Lines",True
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 d6 6. g4 a6,Consolidates b5,True
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 d6 6. g4 a6 7. Be3 Nge7 8. Nb3 b5 9. f4 Bb7 10. Qf3 g5 11. fxg5 Ne5,A comfortable square for the black knight. Black is in command,True
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 d6 6. g4 a6 7. Be3 Nge7 8. Nb3 b5 9. f4 Bb7 10. Qf3 g5 11. fxg5 Ne5 12. Qg2 b4 13. Ne2 h5 14. gxh5 Nf5,Clearance to allow d8-g5,False
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 d6 6. g4 a6 7. Be3 Nge7 8. Nb3 b5 9. f4 Bb7 10. Qf3 g5 11. fxg5 Ne5 12. Qg2 b4 13. Ne2 h5 14. gxh5 Nf5 15. Bf2 Qxg5,White cannot castle queen side.,False

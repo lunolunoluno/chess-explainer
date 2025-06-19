@@ -1,0 +1,6 @@
+moves,comment,good
+1. e4,"B84: Sicilian Scheveningen: 6 Be2 a6, lines without early Be3",False
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Be7 8. f4 O-O 9. Be3 Qc7 10. g4 Re8 11. f5 Bf8 12. g5 Nfd7 13. Nxe6 fxe6 14. Bh5 g6 15. fxg6 Re7 16. Nd5 exd5 17. Qxd5+ Kh8 18. gxh7 Rxh7 19. Bg6 Bg7 20. Bxh7,Threatening mate... how?,True
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Be7 8. f4 O-O 9. Be3 Qc7 10. g4 Re8 11. f5 Bf8 12. g5 Nfd7 13. Nxe6 fxe6 14. Bh5 g6 15. fxg6 Re7 16. Nd5 exd5 17. Qxd5+ Kh8 18. gxh7 Rxh7 19. Bg6 Bg7 20. Bxh7 Qd8 21. Bf5,Threatening mate: Rf3,False
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Be7 8. f4 O-O 9. Be3 Qc7 10. g4 Re8 11. f5 Bf8 12. g5 Nfd7 13. Nxe6 fxe6 14. Bh5 g6 15. fxg6 Re7 16. Nd5 exd5 17. Qxd5+ Kh8 18. gxh7 Rxh7 19. Bg6 Bg7 20. Bxh7 Qd8 21. Bf5 Ne5 22. Qd1,Do you see the mate threat?,True
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Be7 8. f4 O-O 9. Be3 Qc7 10. g4 Re8 11. f5 Bf8 12. g5 Nfd7 13. Nxe6 fxe6 14. Bh5 g6 15. fxg6 Re7 16. Nd5 exd5 17. Qxd5+ Kh8 18. gxh7 Rxh7 19. Bg6 Bg7 20. Bxh7 Qd8 21. Bf5 Ne5 22. Qd1 Bxf5 23. exf5 Qe8 24. g6 Ng4 25. Bd4 Qe4 26. f6 Nc6 27. fxg7+ Kg8 28. Rf8+,Theme: Clearance for d1-f1,True

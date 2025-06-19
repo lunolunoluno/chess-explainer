@@ -1,0 +1,24 @@
+moves,comment,good
+1. e4 e5 2. f4 Bc5,"Let's cite Savely Tartakover here: ""old nad bad"" is
+his short comment in the classic ""Die hypermoderne Schachpartie"" (1925)",False
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5,A rare continuation. The usual moves order here is:,True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4,"7... Nc6 is the more usual continuation here
+but it does not equalize the black game at all as the following gem of a game
+demonstrates:",True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5,"The critical point of the
+game. White has two continuations here: 8.Ng5 or 8. Ne5. Ng5 looks stronger at
+first glance since in it the knight covers the important h4-d8 diagonal but
+black can get acceptable play in it, e.g.:",True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+,?,True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+ 9. g3 Qf6 10. cxd4 Bb4+ 11. Nc3 Ne7 12. Rf1,The moves order has to be precise or else black can get counterchances:,True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+ 9. g3 Qf6 10. cxd4 Bb4+ 11. Nc3 Ne7 12. Rf1 Bf5 13. Qb3 Nec6,to make place at e7 for a king retreat,True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+ 9. g3 Qf6 10. cxd4 Bb4+ 11. Nc3 Ne7 12. Rf1 Bf5 13. Qb3 Nec6 14. Bf7+ Ke7,all other king retreats lose immediately:,False
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+ 9. g3 Qf6 10. cxd4 Bb4+ 11. Nc3 Ne7 12. Rf1 Bf5 13. Qb3 Nec6 14. Bf7+ Ke7 15. Bd5,! now black's game is lost,True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+ 9. g3 Qf6 10. cxd4 Bb4+ 11. Nc3 Ne7 12. Rf1 Bf5 13. Qb3 Nec6 14. Bf7+ Ke7 15. Bd5 a5 16. Be3 a4 17. Qc4 g6,? This loses per force. Better chances offered 17...Bxc3:,True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+ 9. g3 Qf6 10. cxd4 Bb4+ 11. Nc3 Ne7 12. Rf1 Bf5 13. Qb3 Nec6 14. Bf7+ Ke7 15. Bd5 a5 16. Be3 a4 17. Qc4 g6 18. O-O-O,"! Probably it was this move that black did not expect. The pawn win at e4 is
+weaker:",True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+ 9. g3 Qf6 10. cxd4 Bb4+ 11. Nc3 Ne7 12. Rf1 Bf5 13. Qb3 Nec6 14. Bf7+ Ke7 15. Bd5 a5 16. Be3 a4 17. Qc4 g6 18. O-O-O Bxc3 19. Qxc3 Qd6,"? the best chance here was 19...a3, as shown by the following continuation:",True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+ 9. g3 Qf6 10. cxd4 Bb4+ 11. Nc3 Ne7 12. Rf1 Bf5 13. Qb3 Nec6 14. Bf7+ Ke7 15. Bd5 a5 16. Be3 a4 17. Qc4 g6 18. O-O-O Bxc3 19. Qxc3 Qd6 20. Bg5+ Ke8 21. Bf7+ Kf8 22. g4 Nd7,"? I do not understand that move.
+Black had much better continuations here, e.g.:",True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+ 9. g3 Qf6 10. cxd4 Bb4+ 11. Nc3 Ne7 12. Rf1 Bf5 13. Qb3 Nec6 14. Bf7+ Ke7 15. Bd5 a5 16. Be3 a4 17. Qc4 g6 18. O-O-O Bxc3 19. Qxc3 Qd6 20. Bg5+ Ke8 21. Bf7+ Kf8 22. g4 Nd7 23. gxf5 Ndxe5 24. dxe5 Qxe5 25. Qxe5 Nxe5,after the queens are exchanged there is even not a vague hope for black,True
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 f5 5. fxe5 dxe5 6. d4 exd4 7. Bc4 fxe4 8. Ne5 Qh4+ 9. g3 Qf6 10. cxd4 Bb4+ 11. Nc3 Ne7 12. Rf1 Bf5 13. Qb3 Nec6 14. Bf7+ Ke7 15. Bd5 a5 16. Be3 a4 17. Qc4 g6 18. O-O-O Bxc3 19. Qxc3 Qd6 20. Bg5+ Ke8 21. Bf7+ Kf8 22. g4 Nd7 23. gxf5 Ndxe5 24. dxe5 Qxe5 25. Qxe5 Nxe5 26. fxg6 Nf3 27. Rd7,!,True

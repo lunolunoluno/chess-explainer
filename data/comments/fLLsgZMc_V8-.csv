@@ -1,0 +1,19 @@
+moves,comment,good
+1. f4,Bird's opening.,True
+1. f4 e6,Opeining lines for the bishop and controlling d5.,False
+1. f4 e6 2. Nf3 d5 3. g3,The bishop is going to move to g2.,True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6,A logical developing move.,False
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6,This may be a little too aggressive. 4... Be7 is better.,True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4,"This makes it impossible for Black to play the freeing move ...e5. Moreover, e5 will be an excellent square for White's knight. The only disadvantage of this move is that with so many pawns on dark squares, the bishop on c1 will have little mobility.",True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6,"In positions with the d pawns advanced, the Black c pawn should be used to counterattack in the center. This move blocks the c pawn.",True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5,A nicely posted piece. Black cannot play 6... Nxe5 because 7. dxe5 would fork the Black bishop and knight. If 7... Bb4+ then 8. c3 and Black still loses a piece.,True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5 Ne7,"Now the c pawn is unblocked, but the knight is in the way of Black's queen and bishop.",True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5 Ne7 7. Be3 c6 8. a3,White is planning a queenside attack.,False
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5 Ne7 7. Be3 c6 8. a3 h6,This move does nothing other than weaken the Black kingside.,True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5 Ne7 7. Be3 c6 8. a3 h6 9. Nd2 Nd7 10. c4,Attacking the center and making room for the queen to develop.,False
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5 Ne7 7. Be3 c6 8. a3 h6 9. Nd2 Nd7 10. c4 b6,"Possibly thinking that he should prevent 11. c5, which was not a good move anyway. Black should castle.",True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5 Ne7 7. Be3 c6 8. a3 h6 9. Nd2 Nd7 10. c4 b6 11. b4 f6,Attempting to chase away the powerful knight. But Black has made too many weakening pawn moves already.,True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5 Ne7 7. Be3 c6 8. a3 h6 9. Nd2 Nd7 10. c4 b6 11. b4 f6 12. Nxc6,A clever combination.,False
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5 Ne7 7. Be3 c6 8. a3 h6 9. Nd2 Nd7 10. c4 b6 11. b4 f6 12. Nxc6 Nxc6 13. cxd5,If 13... Ne7 then 14. dxe6 and Black's rook and knight are both attacked.,True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5 Ne7 7. Be3 c6 8. a3 h6 9. Nd2 Nd7 10. c4 b6 11. b4 f6 12. Nxc6 Nxc6 13. cxd5 exd5 14. Bxd5,Attacking the knight on c6 and pinning it to the rook.,True
+1. f4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bd6 5. d4 Nc6 6. Ne5 Ne7 7. Be3 c6 8. a3 h6 9. Nd2 Nd7 10. c4 b6 11. b4 f6 12. Nxc6 Nxc6 13. cxd5 exd5 14. Bxd5 Bb7 15. Qc2,This is the point of the combination. White attacks the knight on c6 and threatens 16. Qg6+ Kf8 17. Qf7#. Black's best is now 15... Qc7 16. Rc1 Rc8 17. Qg6+ Kd8 18. Qxg7 but White would still have a huge advantage.,True

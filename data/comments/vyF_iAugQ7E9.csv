@@ -1,0 +1,22 @@
+moves,comment,good
+1. e4,A move leading more often to tactical rather than positional play.,True
+1. e4 c5,The Sicilian Defense.,False
+1. e4 c5 2. d4,Morphy preferred this move order to 2. Nf3 and 3. d4,True
+1. e4 c5 2. d4 cxd4,Otherwise White has control of the center.,False
+1. e4 c5 2. d4 cxd4 3. Nf3,"Black can protect the pawn with 3... e5 since 4. Nxe5 would lose the knight to 4... Qa5+. However, White gets definite compensation after 4. c3 dxc3 5. Nxc3. Morphy's opponents rarely cared to risk this line.",True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6,"Because this move can give Black a backwards d pawn, it was condemned by the analysts for a long time. Only in the middle of the 20th century was it realized that Black's piece activity provides reasonable compensation for the backwards pawn.",True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5,Threatening 6. Nd6+ Bxd6 7. Qxd6 with an advantage.,True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4,Attacking the pawn again.,False
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5,Now the d pawn is backwards: it will have trouble advancing to d5.,False
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5,A premature move.,True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3,White calmly develops and refutes Black's last move. There is no way for Black to stop the knight from going to d5 where it can then give a fatal check on c7. If 8... Be6 then 9. exf5 Bxf5 10. Nd5. Or if 8... a6 then 9. Nd5 axb5 10. Bb6 Qd7 11. Nc7+ and 12. Nxa8. If 8... Nf6 then 9. Bg5 a6 10. Bxf6 gxf6 11. Qh5+ is good for White.,True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3 f4 9. Nd5 fxe3 10. Nbc7+ Kf7,White could now play 11. Nxa8 exf2+ 12. Kxf2 Qh4+ 13. g3 Qxe4 14. Bg2 with an advantage in material.,False
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3 f4 9. Nd5 fxe3 10. Nbc7+ Kf7 11. Qf3+,"Instead White prefers a line with incredible complications. Morphy loved to take risks, and was leading in the match 5.5 to 1.5 (draws count .5).",False
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3 f4 9. Nd5 fxe3 10. Nbc7+ Kf7 11. Qf3+ Nf6 12. Bc4,Threatening 13. Nxf6 checking with the bishop. Black appears to have no defense,True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3 f4 9. Nd5 fxe3 10. Nbc7+ Kf7 11. Qf3+ Nf6 12. Bc4 Nd4,"A clever resource, attacking the queen and the pawn on c2.",True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3 f4 9. Nd5 fxe3 10. Nbc7+ Kf7 11. Qf3+ Nf6 12. Bc4 Nd4 13. Nxf6+,If now 13... Ke7 14. Nfd5+ Kd7 15. Qf7+ and 16. Nxa8 wins easily.,True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3 f4 9. Nd5 fxe3 10. Nbc7+ Kf7 11. Qf3+ Nf6 12. Bc4 Nd4 13. Nxf6+ d5 14. Bxd5+,Here Black should play 14... Ke7 leading to an extremely complicated position after either 15. Ng8+ or 15. Qh5.,True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3 f4 9. Nd5 fxe3 10. Nbc7+ Kf7 11. Qf3+ Nf6 12. Bc4 Nd4 13. Nxf6+ d5 14. Bxd5+ Kg6,This loses at once to a fine combination.,True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3 f4 9. Nd5 fxe3 10. Nbc7+ Kf7 11. Qf3+ Nf6 12. Bc4 Nd4 13. Nxf6+ d5 14. Bxd5+ Kg6 15. Qh5+ Kxf6,White cannot play 16. Ne8+ because of 16... Qxe8 17. Qxe8 Bb4+ 18. c3 Rxe8. After the obvious attacking move 16. Qf7+ Black plays 16... Kg5 and it is not easy to get at the Black king.,True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3 f4 9. Nd5 fxe3 10. Nbc7+ Kf7 11. Qf3+ Nf6 12. Bc4 Nd4 13. Nxf6+ d5 14. Bxd5+ Kg6 15. Qh5+ Kxf6 16. fxe3,Now the rook on h1 can come into the game. If 16... Qxc7 17. Rf1+ Ke7 18. Rf7+ Kd6 19. Rxc7.,True
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e6 5. Nb5 d6 6. Bf4 e5 7. Be3 f5 8. N1c3 f4 9. Nd5 fxe3 10. Nbc7+ Kf7 11. Qf3+ Nf6 12. Bc4 Nd4 13. Nxf6+ d5 14. Bxd5+ Kg6 15. Qh5+ Kxf6 16. fxe3 Nxc2+ 17. Ke2,and Black resigned. If 17... Nxa1 then 18. Ne8+ Ke7 19. Qf7#. If 17... Qxc7 then 18. Rhf1+ Kd7 19. Rf7+ Kd8 20. Rxc7 Kxc7 21. Rc1,True

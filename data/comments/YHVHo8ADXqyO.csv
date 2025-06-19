@@ -1,0 +1,21 @@
+moves,comment,good
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4,"A continuation which is believed less
+strong that the theoretical 4.O-O but, however, must be treated with respect.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7,A developing move but...not very aggressive,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7 7. O-O Nxd4 8. Qxd4 Nc5 9. f4 b6 10. f5,"(!) Bird is
+not afraid of Steinitz threat to replace the Knight in c5 with the Bishop, and
+with the intention to exploit the position of his opponent's King, he
+continues with his attacking plan.",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7 7. O-O Nxd4 8. Qxd4 Nc5 9. f4 b6 10. f5 Nb3 11. Qe4,"""Do you want a Rook? Just take it!""",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7 7. O-O Nxd4 8. Qxd4 Nc5 9. f4 b6 10. f5 Nb3 11. Qe4 Nxa1,"""Did you take it? Good. Do
+you think that now I want to take your Rook in a8? You are wrong!""",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7 7. O-O Nxd4 8. Qxd4 Nc5 9. f4 b6 10. f5 Nb3 11. Qe4 Nxa1 12. f6,(!),True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7 7. O-O Nxd4 8. Qxd4 Nc5 9. f4 b6 10. f5 Nb3 11. Qe4 Nxa1 12. f6 Bc5+ 13. Kh1 Rb8,"It seems that Steinitz want to keep all the
+advantages he has apparently obtained.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7 7. O-O Nxd4 8. Qxd4 Nc5 9. f4 b6 10. f5 Nb3 11. Qe4 Nxa1 12. f6 Bc5+ 13. Kh1 Rb8 14. e6,"It looks like a mistake, and probably it is. Maybe is it a ""terroristic"" move?",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7 7. O-O Nxd4 8. Qxd4 Nc5 9. f4 b6 10. f5 Nb3 11. Qe4 Nxa1 12. f6 Bc5+ 13. Kh1 Rb8 14. e6 Rg8,(??) the move that such a terrorist as was Bird reached its purpose.,False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7 7. O-O Nxd4 8. Qxd4 Nc5 9. f4 b6 10. f5 Nb3 11. Qe4 Nxa1 12. f6 Bc5+ 13. Kh1 Rb8 14. e6 Rg8 15. Qxh7,"+- (?) What a pity!
+Taken by euphoria of a close victory Bird does not see a beautiful mate in
+three.",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7 7. O-O Nxd4 8. Qxd4 Nc5 9. f4 b6 10. f5 Nb3 11. Qe4 Nxa1 12. f6 Bc5+ 13. Kh1 Rb8 14. e6 Rg8 15. Qxh7 Rf8 16. exf7+ Rxf7 17. Re1+,The King is dying.,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d4 exd4 5. e5 Ne4 6. Nxd4 Be7 7. O-O Nxd4 8. Qxd4 Nc5 9. f4 b6 10. f5 Nb3 11. Qe4 Nxa1 12. f6 Bc5+ 13. Kh1 Rb8 14. e6 Rg8 15. Qxh7 Rf8 16. exf7+ Rxf7 17. Re1+ Be7 18. Qg8+ Rf8 19. f7#,A beatiful mate!,False

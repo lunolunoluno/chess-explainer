@@ -1,0 +1,5 @@
+moves,comment,good
+1. e4,"B80: Sicilian Scheveningen: 6 g3 and 6 Be3, including English Attack",True
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. g3 a6 7. Bg2 Nf6 8. O-O d6 9. Re1 Bd7 10. Nxc6 bxc6 11. Na4 Rd8 12. c4 c5 13. Bf4 Be7 14. e5 dxe5 15. Bxe5 Qa5 16. Nc3 O-O 17. Qf3 Bc8 18. Rad1 Rxd1 19. Rxd1 Rd8 20. h3,Prevents intrusion on g4,False
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. g3 a6 7. Bg2 Nf6 8. O-O d6 9. Re1 Bd7 10. Nxc6 bxc6 11. Na4 Rd8 12. c4 c5 13. Bf4 Be7 14. e5 dxe5 15. Bxe5 Qa5 16. Nc3 O-O 17. Qf3 Bc8 18. Rad1 Rxd1 19. Rxd1 Rd8 20. h3 Rxd1+ 21. Qxd1 Nd7 22. Bf4 Qb4 23. Qe2 Bf8 24. Ne4 Qb6 25. Qd2 Nf6 26. Nxf6+ gxf6 27. b3 Be7 28. Qd1 f5 29. g4 e5 30. Qe2 f6 31. Bd5+,The white bishop is well posted.,False
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. g3 a6 7. Bg2 Nf6 8. O-O d6 9. Re1 Bd7 10. Nxc6 bxc6 11. Na4 Rd8 12. c4 c5 13. Bf4 Be7 14. e5 dxe5 15. Bxe5 Qa5 16. Nc3 O-O 17. Qf3 Bc8 18. Rad1 Rxd1 19. Rxd1 Rd8 20. h3 Rxd1+ 21. Qxd1 Nd7 22. Bf4 Qb4 23. Qe2 Bf8 24. Ne4 Qb6 25. Qd2 Nf6 26. Nxf6+ gxf6 27. b3 Be7 28. Qd1 f5 29. g4 e5 30. Qe2 f6 31. Bd5+ Kh8 32. g5,Theme: Clearance for e2-h5,False

@@ -1,0 +1,8 @@
+moves,comment,good
+1. d4,Controlling a portion of the center and putting pressure on the queenside.,False
+1. d4 Nf6,Developing a piece and preventing 2. e4.,True
+1. d4 Nf6 2. Nd2,Planning 3. e4,True
+1. d4 Nf6 2. Nd2 e5,This frees Black's game.,False
+1. d4 Nf6 2. Nd2 e5 3. dxe5 Ng4,If 4. Ngf3 then 4... Nc6 will win back the pawn. Not 4. f4 Ne3 trapping the queen.,True
+1. d4 Nf6 2. Nd2 e5 3. dxe5 Ng4 4. h3,An innocent looking move. White expects 4... Nxe5 5. Ngf3,True
+1. d4 Nf6 2. Nd2 e5 3. dxe5 Ng4 4. h3 Ne3,White resigns. If 5. fxe3 then 5. ...Qh4+ 6. g3 Qxg3#,True

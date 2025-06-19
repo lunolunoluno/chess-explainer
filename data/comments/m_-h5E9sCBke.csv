@@ -1,0 +1,9 @@
+moves,comment,good
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 d5 4. e3 Bf5 5. f3 Nd6,"A rare continuation, which was played in the 1986 Soviet Union Ch. between
+Efimov - Kuzmin. White continued with 6.g4 Bg6 7.Nc3 e6 8.Qd2 h5 9.g5 Nd7 10.
+0-0-0 and had the edge.",False
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 d5 4. e3 Bf5 5. f3 Nd6 6. Nc3 e6 7. Qe2 Be7 8. O-O-O Bg6,The prophilactic move against e4!,False
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 d5 4. e3 Bf5 5. f3 Nd6 6. Nc3 e6 7. Qe2 Be7 8. O-O-O Bg6 9. e4 c6 10. h4 h5 11. Re1 Nc4 12. Qf2 Bb4 13. Bxc4 dxc4 14. Nge2 Nd7 15. Qg3 Nf6 16. Rd1 O-O,"I had expected 16...Qd7 followed by
+Queenside castling. With oposite side castling White will engage the Black h
+pawn first.",True
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 d5 4. e3 Bf5 5. f3 Nd6 6. Nc3 e6 7. Qe2 Be7 8. O-O-O Bg6 9. e4 c6 10. h4 h5 11. Re1 Nc4 12. Qf2 Bb4 13. Bxc4 dxc4 14. Nge2 Nd7 15. Qg3 Nf6 16. Rd1 O-O 17. Bg5 Qb8 18. Qf2 Re8 19. Bxf6 gxf6 20. Qe3 f5 21. g4 hxg4 22. h5 Bh7 23. fxg4 fxe4 24. g5 Bf5 25. Nxe4 Bxe4,So two Knights are better than two Bishops!,True

@@ -1,0 +1,26 @@
+moves,comment,good
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5,"This seemed a good idea at the time, aiming to immobolise White's pawn centre.
+White's alternative of 6.exd6 en passaunt has the same effect.",True
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O,"This move looks illogical. With hind sight why not leave the King
+behind a blocked pawn centre?",True
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O 8. Ng5 c5,"Aiming to either destroy Whites
+pawn centre if he opts for 9.dxc5 Bxe5 or immobolise it completely by playing
+c4 next. But...",True
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O 8. Ng5 c5 9. Nxh7,"Never saw it coming (not quite the words used at
+the time). Now it is going to be a struggle just to survive.",True
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O 8. Ng5 c5 9. Nxh7 Kxh7,Looks no better a position than playing,False
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O 8. Ng5 c5 9. Nxh7 Kxh7 10. Qh5+ Kg8 11. Qh4 c4 12. Be2 f5,"A desperate attempt to create space. I need to be able to move around
+the blocked centre if I am to defend against White's kingside pawns.",True
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O 8. Ng5 c5 9. Nxh7 Kxh7 10. Qh5+ Kg8 11. Qh4 c4 12. Be2 f5 13. Bg5 Nc6 14. f4 Kf7 15. g4 Rh8 16. Qg3 Bh6 17. h4 Bxg5 18. fxg5 e6,"At last, a gap to work through.",True
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O 8. Ng5 c5 9. Nxh7 Kxh7 10. Qh5+ Kg8 11. Qh4 c4 12. Be2 f5 13. Bg5 Nc6 14. f4 Kf7 15. g4 Rh8 16. Qg3 Bh6 17. h4 Bxg5 18. fxg5 e6 19. h5 Ne7 20. Kd2 Bd7 21. Bf3 Bc6 22. Rh4 Qd7 23. Rah1 Raf8 24. hxg6+ Nxg6 25. Rh7+ Rxh7 26. Rxh7+ Ke8 27. Rxd7,"White has regained the sacrificed piece, but can he capitalise on his passed
+pawn?",True
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O 8. Ng5 c5 9. Nxh7 Kxh7 10. Qh5+ Kg8 11. Qh4 c4 12. Be2 f5 13. Bg5 Nc6 14. f4 Kf7 15. g4 Rh8 16. Qg3 Bh6 17. h4 Bxg5 18. fxg5 e6 19. h5 Ne7 20. Kd2 Bd7 21. Bf3 Bc6 22. Rh4 Qd7 23. Rah1 Raf8 24. hxg6+ Nxg6 25. Rh7+ Rxh7 26. Rxh7+ Ke8 27. Rxd7 Bxd7 28. Kc1 f4,"And White has missed the chance to play gxf5.
+Now the locked pawns reduce the mobility of the White Queen, and help me hang
+on.",True
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O 8. Ng5 c5 9. Nxh7 Kxh7 10. Qh5+ Kg8 11. Qh4 c4 12. Be2 f5 13. Bg5 Nc6 14. f4 Kf7 15. g4 Rh8 16. Qg3 Bh6 17. h4 Bxg5 18. fxg5 e6 19. h5 Ne7 20. Kd2 Bd7 21. Bf3 Bc6 22. Rh4 Qd7 23. Rah1 Raf8 24. hxg6+ Nxg6 25. Rh7+ Rxh7 26. Rxh7+ Ke8 27. Rxd7 Bxd7 28. Kc1 f4 29. Qg2 Bc6 30. Kb2 Kd7 31. Ka3 a5 32. Kb2 Kc7 33. Kc1 b6 34. Kd2 Rg8 35. Qh3 Rh8,"# The barrier is complete. With the Knight on g6 covering the pawn on
+f4 and Rook on h8, with the King on b7 or c7, the Bishop on c6 covering Bxd5
+and the Rook free to move to d8 to stop Qd6+, White has no way through without
+sacrifising a piece. The only remaining problem is to convince White he can't
+win.",True
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O 8. Ng5 c5 9. Nxh7 Kxh7 10. Qh5+ Kg8 11. Qh4 c4 12. Be2 f5 13. Bg5 Nc6 14. f4 Kf7 15. g4 Rh8 16. Qg3 Bh6 17. h4 Bxg5 18. fxg5 e6 19. h5 Ne7 20. Kd2 Bd7 21. Bf3 Bc6 22. Rh4 Qd7 23. Rah1 Raf8 24. hxg6+ Nxg6 25. Rh7+ Rxh7 26. Rxh7+ Ke8 27. Rxd7 Bxd7 28. Kc1 f4 29. Qg2 Bc6 30. Kb2 Kd7 31. Ka3 a5 32. Kb2 Kc7 33. Kc1 b6 34. Kd2 Rg8 35. Qh3 Rh8 36. Qg2 Rg8 37. Ke2 Rh8 38. Kf2 Nh4 39. Qh2 Ng6,Nxf3 is fatal as it frees g5.,True
+1. e4 Nf6 2. e5 Nd5 3. Nc3 Nxc3 4. bxc3 g6 5. d4 d5 6. Nf3 Bg7 7. Bd3 O-O 8. Ng5 c5 9. Nxh7 Kxh7 10. Qh5+ Kg8 11. Qh4 c4 12. Be2 f5 13. Bg5 Nc6 14. f4 Kf7 15. g4 Rh8 16. Qg3 Bh6 17. h4 Bxg5 18. fxg5 e6 19. h5 Ne7 20. Kd2 Bd7 21. Bf3 Bc6 22. Rh4 Qd7 23. Rah1 Raf8 24. hxg6+ Nxg6 25. Rh7+ Rxh7 26. Rxh7+ Ke8 27. Rxd7 Bxd7 28. Kc1 f4 29. Qg2 Bc6 30. Kb2 Kd7 31. Ka3 a5 32. Kb2 Kc7 33. Kc1 b6 34. Kd2 Rg8 35. Qh3 Rh8 36. Qg2 Rg8 37. Ke2 Rh8 38. Kf2 Nh4 39. Qh2 Ng6 40. Qg1 Kb7,A sense of both relief and achievement!,False

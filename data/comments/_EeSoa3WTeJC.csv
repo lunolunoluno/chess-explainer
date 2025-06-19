@@ -1,0 +1,60 @@
+moves,comment,good
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5,Makes easier the defense for Black. Better was 5.Nf3.,True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6,(!),True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5,Forced.,False
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5,There was no choice.,False
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5,(!),True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5,"Mikenas: ""Alekhine looked nervous. It was necessary to
+realize the wrong opening strategy and try to keep equality with 14.Nc3.""",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7,"(!) Now Black, gaining a tempo, can double his forces on the ""d""
+file and create ""hidden"" threats.",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2,"Mikenas again:"" A GM
+with a world reputation should not fall in a trap. I think it is not necessary
+to point out that white is already in bad shape. It is the effect of the bad
+omen?""",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4,"(!) ""I realized that, after this move, Alekhine had a jolt.
+Probably such a move was unexpected. Trying to calm down, arranged his glasses,
+and thought for 40 minutes before making his move."" Mikenas, in his article,
+confessed that he had not calculated in depth the consequences of his Knight
+sacrifice.",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4,"After this move Black has an opportunity to seriously
+weaken opponent's castling.",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6,(!) Threatens 20...Ne3.,False
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4,(!) Threatens 22...Nf4 23.gxf4 Rxd2,True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4,"Only nervousnes
+s can explain such a mistake by Alekhine. It was necessary to defend with 23.
+Rac1. Witnesses tell that right in that moment a waiter brought some coffee to
+Alekhine. He thanked the waiter and still looking at the chessboard put a
+piece of sugar in the coffee cup. Only at the last moment he realized that it
+was not a piece of sugar but ... a white pawn. While he realized his mistake,
+he got upset, said something, pushed the cup away and .... coffee spilled out
+of the cup. Mikenas too noticed his opponent apparent nervousness, and perhaps
+distracted by this fact he immediately took the Knight.",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4,"After this
+move Mikenas realized that strangely his opponent was smiling. With a
+trembling hand Alekhine pointed to the c2 square and said:"" Young man, if you
+played Rc2 you had won at once."" Mikenas confesses: ""Only after Alekhine's
+words I realized that I had such an opportunity.""",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4 24. Qxe4 Qxe4 25. Rxe4 Rc2 26. Bd4 Rc4,"Annotations by
+Mikenas, in this game, are many and generous: ""In my analysis before the 23rd
+move, I had reached this position in my mind and indeed it looked promising.
+This explains, maybe, why I overlooked 23...Rc2 with the possibility of a
+beautiful win and the opportunity to take ... a beauty prize.""",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4 24. Qxe4 Qxe4 25. Rxe4 Rc2 26. Bd4 Rc4 27. Re2 g5,"(!) Trying to fix the castle pawns on the dark squares. A very important
+strategical motive.",False
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4 24. Qxe4 Qxe4 25. Rxe4 Rc2 26. Bd4 Rc4 27. Re2 g5 28. h3 h5 29. Bb2 g4 30. hxg4 hxg4 31. Nd4 e6 32. Re4,"In a difficult situation Alekhine succeded to find some chances of salvation.
+Now he threatens both 33.Rxg4 and 33.Nxe6.",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4 24. Qxe4 Qxe4 25. Rxe4 Rc2 26. Bd4 Rc4 27. Re2 g5 28. h3 h5 29. Bb2 g4 30. hxg4 hxg4 31. Nd4 e6 32. Re4 Nc3,(!),True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4 24. Qxe4 Qxe4 25. Rxe4 Rc2 26. Bd4 Rc4 27. Re2 g5 28. h3 h5 29. Bb2 g4 30. hxg4 hxg4 31. Nd4 e6 32. Re4 Nc3 33. Bxc3 Rxc3 34. Rxg4 Kf8,Inaccurate. The right move was 34...Rd5! Now the fight is on.,True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4 24. Qxe4 Qxe4 25. Rxe4 Rc2 26. Bd4 Rc4 27. Re2 g5 28. h3 h5 29. Bb2 g4 30. hxg4 hxg4 31. Nd4 e6 32. Re4 Nc3 33. Bxc3 Rxc3 34. Rxg4 Kf8 35. Re4 Rd5 36. Ne2 Rc2 37. f4 Rdd2 38. Re1,"Even if White is a pawn up, he is not
+in good shape. The two black Rooks on the second rank are a deadly danger.
+Next aim for black: put his own Bishop in action.",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4 24. Qxe4 Qxe4 25. Rxe4 Rc2 26. Bd4 Rc4 27. Re2 g5 28. h3 h5 29. Bb2 g4 30. hxg4 hxg4 31. Nd4 e6 32. Re4 Nc3 33. Bxc3 Rxc3 34. Rxg4 Kf8 35. Re4 Rd5 36. Ne2 Rc2 37. f4 Rdd2 38. Re1 Ke8 39. a4 Bf8 40. Kg2 Bb4 41. Kh3 Ra2 42. Kg4 Rdb2 43. Rc1 Rxe2 44. Rc8+ Ke7 45. Rec4 f5+,(!),True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4 24. Qxe4 Qxe4 25. Rxe4 Rc2 26. Bd4 Rc4 27. Re2 g5 28. h3 h5 29. Bb2 g4 30. hxg4 hxg4 31. Nd4 e6 32. Re4 Nc3 33. Bxc3 Rxc3 34. Rxg4 Kf8 35. Re4 Rd5 36. Ne2 Rc2 37. f4 Rdd2 38. Re1 Ke8 39. a4 Bf8 40. Kg2 Bb4 41. Kh3 Ra2 42. Kg4 Rdb2 43. Rc1 Rxe2 44. Rc8+ Ke7 45. Rec4 f5+ 46. exf6+ Kxf6 47. R4c7 e5,(!) Was threatened 48.Rh8!,False
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4 24. Qxe4 Qxe4 25. Rxe4 Rc2 26. Bd4 Rc4 27. Re2 g5 28. h3 h5 29. Bb2 g4 30. hxg4 hxg4 31. Nd4 e6 32. Re4 Nc3 33. Bxc3 Rxc3 34. Rxg4 Kf8 35. Re4 Rd5 36. Ne2 Rc2 37. f4 Rdd2 38. Re1 Ke8 39. a4 Bf8 40. Kg2 Bb4 41. Kh3 Ra2 42. Kg4 Rdb2 43. Rc1 Rxe2 44. Rc8+ Ke7 45. Rec4 f5+ 46. exf6+ Kxf6 47. R4c7 e5 48. Rxb7 exf4 49. gxf4,"White's attack has lost
+part of his strengt. Now it is up to Mikenas to find the conclusion.",True
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O c5 8. e4 Nf6 9. e5 Nd5 10. dxc5 Na6 11. a3 Nxc5 12. b4 Ne6 13. Bb2 a5 14. b5 Qd7 15. Qe2 Rd8 16. Nbd2 Nef4 17. Qc4 Nxg2 18. Kxg2 Qh3+ 19. Kh1 Be6 20. Qe4 Bf5 21. Qe2 Qg4 22. Rfe1 Rac8 23. Ne4 Bxe4 24. Qxe4 Qxe4 25. Rxe4 Rc2 26. Bd4 Rc4 27. Re2 g5 28. h3 h5 29. Bb2 g4 30. hxg4 hxg4 31. Nd4 e6 32. Re4 Nc3 33. Bxc3 Rxc3 34. Rxg4 Kf8 35. Re4 Rd5 36. Ne2 Rc2 37. f4 Rdd2 38. Re1 Ke8 39. a4 Bf8 40. Kg2 Bb4 41. Kh3 Ra2 42. Kg4 Rdb2 43. Rc1 Rxe2 44. Rc8+ Ke7 45. Rec4 f5+ 46. exf6+ Kxf6 47. R4c7 e5 48. Rxb7 exf4 49. gxf4 Rg2+ 50. Kf3 Rgf2+ 51. Ke3 Rae2+ 52. Kd3 Re6 53. Rc6 Rf3+ 54. Kd4 Rxf4+ 55. Kd5 Rf5+ 56. Kd4 Rxc6 57. bxc6 Ke6 58. Rb5 Rxb5 59. axb5 Kd6 60. Kc4 Kc7 61. Kb3 Kb6 62. Kc4 Bd6 63. Kd5 Bc7,"Mikenas:"" I always had a kind relationship with
+Alekhine but, after this game, the Champion avoided talking to me for three
+days. The great chessplayer don't like to lose..."".  This is a truth for every
+chessplayer, even the titleless ones; indeed even for the chessplayer who play
+once a week at a cafe!",False

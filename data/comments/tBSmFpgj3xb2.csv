@@ -1,0 +1,26 @@
+moves,comment,good
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7,"Everyone wants to play like a champion! Only
+one year has passed since the  London-2000 battle between  Kasparov and
+Kramnik, but the Berlin wall has acquired many admirers.",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3,White has tried a lot of ways here:,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8,The main alternative is,False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8,"This is a 
+novelty, and maybe not good. As you have seen Kramnik never forgot to play h5
+after h2-h3. It's very important to take care of the  knight on f5.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8 14. Rd3,An interesting plan.,False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8 14. Rd3 c5,Black weakens the d5-square. Maybe he can avoid this and play 14...h5!?,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8 14. Rd3 c5 15. Rfd1 Bc6 16. Nd5 Bxd5,"Black can't bear such a strong
+knight and has to part with his main plus - a pair of bishops.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8 14. Rd3 c5 15. Rfd1 Bc6 16. Nd5 Bxd5 17. Rxd5 a4 18. g4 Nh6 19. Nd2 b6 20. Nc4 axb3 21. axb3,"Obviously all of  White's pieces are placed better than
+his opponent's, though it's hard to exploit this advantage because Black
+hasn't any pawn weaknesses.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8 14. Rd3 c5 15. Rfd1 Bc6 16. Nd5 Bxd5 17. Rxd5 a4 18. g4 Nh6 19. Nd2 b6 20. Nc4 axb3 21. axb3 Kb7 22. Na3 Rad8 23. Rxd8 Rxd8 24. Rxd8 Bxd8 25. f4 g6 26. Kf2 Kc6 27. c4,"To interrupt Black's counter-play with b6-b5
+etc. It's almost always useful to block your opponent's pawns on squares the
+same colour as his bishop.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8 14. Rd3 c5 15. Rfd1 Bc6 16. Nd5 Bxd5 17. Rxd5 a4 18. g4 Nh6 19. Nd2 b6 20. Nc4 axb3 21. axb3 Kb7 22. Na3 Rad8 23. Rxd8 Rxd8 24. Rxd8 Bxd8 25. f4 g6 26. Kf2 Kc6 27. c4 Ng8 28. Kf3 Kd7 29. f5 Ne7 30. Ke4 Nc6 31. Bc3,Prophylaxy vs. Na5.,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8 14. Rd3 c5 15. Rfd1 Bc6 16. Nd5 Bxd5 17. Rxd5 a4 18. g4 Nh6 19. Nd2 b6 20. Nc4 axb3 21. axb3 Kb7 22. Na3 Rad8 23. Rxd8 Rxd8 24. Rxd8 Bxd8 25. f4 g6 26. Kf2 Kc6 27. c4 Ng8 28. Kf3 Kd7 29. f5 Ne7 30. Ke4 Nc6 31. Bc3 Bg5 32. Nc2 Nd8 33. Ne1,It is Interesting that both players dream to part with their own bishop.,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8 14. Rd3 c5 15. Rfd1 Bc6 16. Nd5 Bxd5 17. Rxd5 a4 18. g4 Nh6 19. Nd2 b6 20. Nc4 axb3 21. axb3 Kb7 22. Na3 Rad8 23. Rxd8 Rxd8 24. Rxd8 Bxd8 25. f4 g6 26. Kf2 Kc6 27. c4 Ng8 28. Kf3 Kd7 29. f5 Ne7 30. Ke4 Nc6 31. Bc3 Bg5 32. Nc2 Nd8 33. Ne1 c6 34. Nf3 Bc1 35. h4 Ke7 36. h5,"In reality White is a pawn up because on
+the queen side his two pawns on b3 and c4 cost no less than Black's three pawn.
+Also White has more space and now  feels his way to the weak pawn on h7.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8 14. Rd3 c5 15. Rfd1 Bc6 16. Nd5 Bxd5 17. Rxd5 a4 18. g4 Nh6 19. Nd2 b6 20. Nc4 axb3 21. axb3 Kb7 22. Na3 Rad8 23. Rxd8 Rxd8 24. Rxd8 Bxd8 25. f4 g6 26. Kf2 Kc6 27. c4 Ng8 28. Kf3 Kd7 29. f5 Ne7 30. Ke4 Nc6 31. Bc3 Bg5 32. Nc2 Nd8 33. Ne1 c6 34. Nf3 Bc1 35. h4 Ke7 36. h5 gxh5 37. gxh5 Nb7 38. Nh2 Ba3 39. Bd2 Bb4 40. Bg5+ Kf8 41. Ng4 Na5,Black's counter-play is too late.,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 Kc8 11. Bb2 Be7 12. Rad1 a5 13. h3 Re8 14. Rd3 c5 15. Rfd1 Bc6 16. Nd5 Bxd5 17. Rxd5 a4 18. g4 Nh6 19. Nd2 b6 20. Nc4 axb3 21. axb3 Kb7 22. Na3 Rad8 23. Rxd8 Rxd8 24. Rxd8 Bxd8 25. f4 g6 26. Kf2 Kc6 27. c4 Ng8 28. Kf3 Kd7 29. f5 Ne7 30. Ke4 Nc6 31. Bc3 Bg5 32. Nc2 Nd8 33. Ne1 c6 34. Nf3 Bc1 35. h4 Ke7 36. h5 gxh5 37. gxh5 Nb7 38. Nh2 Ba3 39. Bd2 Bb4 40. Bg5+ Kf8 41. Ng4 Na5 42. Nf6 Nxb3 43. Nxh7+ Kg7 44. e6 fxe6 45. fxe6 Nd2+ 46. Kf5,An interesting game in all its stages.,False

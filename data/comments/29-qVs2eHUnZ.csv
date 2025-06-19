@@ -1,0 +1,48 @@
+moves,comment,good
+1. e4,"Hasting. August,5 - September,2 1895. A prestigious tournament,
+organized in order to compare the playing strength of the top chess champions
+at that time. Chigorin, Lasker, Tarrasch, Steinitz, Schlechter and other 17
+players were participating. All of them were very strong players. Among them
+Janowsky and a new talented american player Harry Nelson Pillsbury, who won
+the tournament with 16.5 points out of 21. Janowsky, for various reasons not
+at his best playing strength, was however successfull in defending his
+reputation he had gained in Paris.",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7,"Steinitz, always faithful to his favoured defense, this time has
+improved it with the move a7-a6.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3,An interesting Bishop move.,False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4,"What is that? Some strange impulse or a new idea? Janowsky seems ready
+to give his lightsquare Bishop for the sake of attack. Is that too much?
+Pillsbury, categorically, commented: ""Such a move should cost the game to
+White.""",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5,"(?) Pillsbury again: ""Probably this
+exchange is a real mistake. A deadly mistake, I would say. After 9...Bxf5 10.
+exf5 White would have lost a piece without compensation."" Is it possible that
+both Janowsky and Steinitz overlooked the simple continuation suggested by
+Pillsbury? Uhmm ... hard to believe.  And in fact, the moves 9... Bxf5 10.
+exf5 c4 11. Nc3 (!)  cxb3 12. axb3  followed  by Rf1-e1 and Nc3-d5 (or Nc3-e4)
+should make worry the Black's conductor. Let's say that his position, with the
+King in the middle of the chessboard, half-undressed, seems at least unclear.
+Open windows and doors create air currents which are dangerous for healt. If,
+for instance, 12...Nxf5 then 13.Qd5 would win the piece back with advantage.
+If then White would play at once 11.Re1, Black, before taking the Bishop,
+should scratch his head and think about it one, two, ten times before doing it.
+Maybe Pillsbury, with the presumption tha can be told from his words, did ""pee
+counter wind"", to use an italian expression.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5 10. exf5 Nxb3,Of course now it is too late to play 10...c4 because of 11.Qe2+.,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5 10. exf5 Nxb3 11. Re1+,"Maybe Steinitz has been too quick in willing to eliminate
+the dangerous lightsquare Bishop. Maybe, probably, surely indeed, Janowsky
+will show us that his opponent ""fell out the frying pan into the fire""!",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5 10. exf5 Nxb3 11. Re1+ Be7 12. f6,(!) Have you seen?,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5 10. exf5 Nxb3 11. Re1+ Be7 12. f6 gxf6 13. axb3 d5,"Perhaps, as a last attempt to stop the imminent
+catastrophe, Steinitz could have tried 13...Be6 14.Qh5 Qd7.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5 10. exf5 Nxb3 11. Re1+ Be7 12. f6 gxf6 13. axb3 d5 14. Qh5 Qd6,"It is a bit difficult to think that Black could have escaped by sacrificing a
+Rook for a minor piece: 14...0-0 15.Bh6. And what if Steinitz wanted to save
+this too playing 15...Re8?  Then after 16.Nc3 he could have left the table and
+go sell nuts and beans at the Astor movie theather in his hometown.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5 10. exf5 Nxb3 11. Re1+ Be7 12. f6 gxf6 13. axb3 d5 14. Qh5 Qd6 15. Nc3 Be6 16. Nb5,"(!!) How does it begin the Fifth Simphony of Beethoven? Da-da-da..
+.dawn! The ""theme of destiny""!",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5 10. exf5 Nxb3 11. Re1+ Be7 12. f6 gxf6 13. axb3 d5 14. Qh5 Qd6 15. Nc3 Be6 16. Nb5 Qc6 17. Rxe6 Qxb5 18. Bh6 Kd8 19. Qxf7 Re8 20. Rae1,"Is it clear that White is aiming the ""e7"" and ""f6"" squares? No?
+Ok, let's go on.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5 10. exf5 Nxb3 11. Re1+ Be7 12. f6 gxf6 13. axb3 d5 14. Qh5 Qd6 15. Nc3 Be6 16. Nb5 Qc6 17. Rxe6 Qxb5 18. Bh6 Kd8 19. Qxf7 Re8 20. Rae1 Qd7 21. Bg7,Now it should be clear!,False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5 10. exf5 Nxb3 11. Re1+ Be7 12. f6 gxf6 13. axb3 d5 14. Qh5 Qd6 15. Nc3 Be6 16. Nb5 Qc6 17. Rxe6 Qxb5 18. Bh6 Kd8 19. Qxf7 Re8 20. Rae1 Qd7 21. Bg7 Rc8 22. Bxf6 Bxf6 23. Qxf6+,The shortest way. Now one could announce mate in seven (Fritz says).,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Ne7 6. Bb3 Na5 7. d4 exd4 8. Nxd4 c5 9. Nf5 Nxf5 10. exf5 Nxb3 11. Re1+ Be7 12. f6 gxf6 13. axb3 d5 14. Qh5 Qd6 15. Nc3 Be6 16. Nb5 Qc6 17. Rxe6 Qxb5 18. Bh6 Kd8 19. Qxf7 Re8 20. Rae1 Qd7 21. Bg7 Rc8 22. Bxf6 Bxf6 23. Qxf6+ Kc7 24. Qe5+,Steinitz resigns.,False

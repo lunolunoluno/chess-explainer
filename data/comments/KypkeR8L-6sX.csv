@@ -1,0 +1,68 @@
+moves,comment,good
+1. e4 e6 2. d4 d5 3. Nd2,"The French Tarrasch, a favourite
+of Anatoly Karpov, and the subject of a new book by John Emms published after
+the start of this game.",False
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6,"Thematic, and one of Black's most popular methods of combatting the
+French tarrasch in the past 10 or so years. White normally exchanges on f6,
+but a hardcore of Scandinavian and postal players prefer Nf4 here, leading to
+an exciting struggle where Black drops an exchange (the Rook on h8) but gets a
+strong centre and good development for it. John Watson prefers 7...Qb6 in Play
+The French both editions), which is just as viable.",False
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3,"An old line, but there is nothing wrong with White's plan.
+Black is more or less forced to play a6 to stop the threatened Nb5, but this
+weakens the Black squares on the Queenside, notably c5 and b6. White could
+then settle a Knight on c5 (via a4). pressurising e6, b7, a6 and probably
+Black's White-squared Bishop. On the other hand, moving the Knight from e2
+means White has less control over the squares g3 and f4, allowing Black
+counterplay on the Kingside.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4,"White's idea is to
+reduce pressure alonge the b8-h2 diagonal by offering an exchange of Bishops
+on g3. Black needs a good counter to this plan...",False
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5,"... and this is
+it. It is nearly always dim to stick a Knight on the rim, but here the trusty
+steed intensifies Black's pressure on the key squares g3 and f4, allowing
+Black to keep his Black-squared Bishop, his best minor piece.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6,"h6 was good enough in Shmuter-Nosenko, Ukraine
+Championship 1988, with Nf4 as a follow-up, but g6 instead is natural and good.
+As well as blunting White's attack on h7, playing g6 clears the way for the
+Black Queen to settle on g7 in some lines. In turn this intensifies the
+pressure on the White pawn on d4.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4,"Nf6 and Rf7 are the other moves played here. Mestel played Rf7 against
+Karpov in 1984, unsuccessfuly. Commentators suggested at the time that Nf4 is
+probably better. It certainly seems best to me.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4,"Both gxf4 a
+nd Kh1 were the main alternatives. Black seems fine in these lines too.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4 Rf7 22. Nb6 Raf8 23. Nxd7 Rxd7 24. Bxf4 gxf4 25. Bh3 fxg3,"A sharp exchange sacrifice for long-term pressure and what soon
+becomes a vicious attack against the White King.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4 Rf7 22. Nb6 Raf8 23. Nxd7 Rxd7 24. Bxf4 gxf4 25. Bh3 fxg3 26. Bxe6+ Kh8 27. Bxd7 gxf2+,Only move.,True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4 Rf7 22. Nb6 Raf8 23. Nxd7 Rxd7 24. Bxf4 gxf4 25. Bh3 fxg3 26. Bxe6+ Kh8 27. Bxd7 gxf2+ 28. Kxf2 Qxd7 29. Rg1 Qh3 30. Rg2 Rf4,"Simple chess. Black plans to gang up on the White pawn on d4, to
+increase the pressure on the White Knight on f3, and improve the scope of
+Black's Bishop. Surely the White King cannot survive long in such an open
+position.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4 Rf7 22. Nb6 Raf8 23. Nxd7 Rxd7 24. Bxf4 gxf4 25. Bh3 fxg3 26. Bxe6+ Kh8 27. Bxd7 gxf2+ 28. Kxf2 Qxd7 29. Rg1 Qh3 30. Rg2 Rf4 31. Rg3 Qxh2+,"Picking up a pawn for the
+exchange, but more importantly removing a hiding place for the White King.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4 Rf7 22. Nb6 Raf8 23. Nxd7 Rxd7 24. Bxf4 gxf4 25. Bh3 fxg3 26. Bxe6+ Kh8 27. Bxd7 gxf2+ 28. Kxf2 Qxd7 29. Rg1 Qh3 30. Rg2 Rf4 31. Rg3 Qxh2+ 32. Rg2 Qh3 33. Rg3 Qe6,"It is important to
+combine defence with attack. Here the Queen polices Black's vulnerable back
+rank, as well as commanding the e file.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4 Rf7 22. Nb6 Raf8 23. Nxd7 Rxd7 24. Bxf4 gxf4 25. Bh3 fxg3 26. Bxe6+ Kh8 27. Bxd7 gxf2+ 28. Kxf2 Qxd7 29. Rg1 Qh3 30. Rg2 Rf4 31. Rg3 Qxh2+ 32. Rg2 Qh3 33. Rg3 Qe6 34. Qd3 Nxd4 35. Re1 Qf7 36. Rh1 Nf5 37. Qc3+ d4 38. Qc8+ Bf8 39. Rgh3,"White defends very
+actively, with his major pieces bearing down on the Black King. He has
+succeeded in activating his Rooks aggressively, and has pinned the Bishop to
+the King. So, how to proceed?",False
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4 Rf7 22. Nb6 Raf8 23. Nxd7 Rxd7 24. Bxf4 gxf4 25. Bh3 fxg3 26. Bxe6+ Kh8 27. Bxd7 gxf2+ 28. Kxf2 Qxd7 29. Rg1 Qh3 30. Rg2 Rf4 31. Rg3 Qxh2+ 32. Rg2 Qh3 33. Rg3 Qe6 34. Qd3 Nxd4 35. Re1 Qf7 36. Rh1 Nf5 37. Qc3+ d4 38. Qc8+ Bf8 39. Rgh3 d3,"A decoy, to tempt the White Queen
+away from the back rank, which in turn frees Black's Bishop.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4 Rf7 22. Nb6 Raf8 23. Nxd7 Rxd7 24. Bxf4 gxf4 25. Bh3 fxg3 26. Bxe6+ Kh8 27. Bxd7 gxf2+ 28. Kxf2 Qxd7 29. Rg1 Qh3 30. Rg2 Rf4 31. Rg3 Qxh2+ 32. Rg2 Qh3 33. Rg3 Qe6 34. Qd3 Nxd4 35. Re1 Qf7 36. Rh1 Nf5 37. Qc3+ d4 38. Qc8+ Bf8 39. Rgh3 d3 40. Qd8 Qg7 41. Qxd3 Qxb2+ 42. Ke1 Qa1+ 43. Ke2 Qxa2+,"And this brings about a very unusual middlegame, with White having
+a Queen, two Rooks and a Knight against Queen, Rook, Knight, Bishop and three
+pawns. Barring a fluke, (eg if Black leaves Rxh6 tricks on) White can only
+hope to pinch a draw through a perpetual check, or by holding an endgame
+material down. Black does best to finish the game before an endgame, as
+although he has three good passed pawns, the Bishop controls only one Queening
+square, and his King is poorly placed to help them Queen. All Black's pieces
+are working well, with the minor pieces doing sterling defensive duty as well
+as playing their part in attack. The White King is dangerously exposed against
+four good Black pieces, but actively placed should White get the Queen's off.
+With a modicum of alertness on his part Black's King is safe where it is for
+the present. These factors mean Black's best strategy is still to go for the
+White King.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4 Rf7 22. Nb6 Raf8 23. Nxd7 Rxd7 24. Bxf4 gxf4 25. Bh3 fxg3 26. Bxe6+ Kh8 27. Bxd7 gxf2+ 28. Kxf2 Qxd7 29. Rg1 Qh3 30. Rg2 Rf4 31. Rg3 Qxh2+ 32. Rg2 Qh3 33. Rg3 Qe6 34. Qd3 Nxd4 35. Re1 Qf7 36. Rh1 Nf5 37. Qc3+ d4 38. Qc8+ Bf8 39. Rgh3 d3 40. Qd8 Qg7 41. Qxd3 Qxb2+ 42. Ke1 Qa1+ 43. Ke2 Qxa2+ 44. Nd2 Rd4,"Consistent chess. Black hammers away at the
+weaknesses, currently the pinned Knight on d2.",True
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 Qc7 12. Nc3 a6 13. Bg5 O-O 14. Bh4 Nh5 15. Re1 g6 16. Rc1 Qg7 17. Bf1 Bd7 18. Bg5 h6 19. Be3 Nf4 20. g3 g5 21. Na4 Rf7 22. Nb6 Raf8 23. Nxd7 Rxd7 24. Bxf4 gxf4 25. Bh3 fxg3 26. Bxe6+ Kh8 27. Bxd7 gxf2+ 28. Kxf2 Qxd7 29. Rg1 Qh3 30. Rg2 Rf4 31. Rg3 Qxh2+ 32. Rg2 Qh3 33. Rg3 Qe6 34. Qd3 Nxd4 35. Re1 Qf7 36. Rh1 Nf5 37. Qc3+ d4 38. Qc8+ Bf8 39. Rgh3 d3 40. Qd8 Qg7 41. Qxd3 Qxb2+ 42. Ke1 Qa1+ 43. Ke2 Qxa2+ 44. Nd2 Rd4 45. Qc3 Qe6+ 46. Kd1 Bg7 47. Qb3 Qd7 48. R1h2 Ra4 49. Kc1 Ra1+ 50. Nb1 Nd4,The cleanest kill.,False

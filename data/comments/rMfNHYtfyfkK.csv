@@ -1,0 +1,43 @@
+moves,comment,good
+1. e4,An opening that often leads to attacking rather than postional games.,True
+1. e4 c6,The Caro-Kann defense. It is somewhat passive but difficult to break through.,False
+1. e4 c6 2. d4,Controlling the center with pawns.,False
+1. e4 c6 2. d4 d5,Contesting the center.,False
+1. e4 c6 2. d4 d5 3. Nc3,Developing a piece and protecting the pawn on e4.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4,Eliminating part of White's pawn center.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4,Recapturing.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6,Developing and attacking the knight on e4.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3,More usual is Nxf6.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6,Opening lines for the bishop on f8. 5... h5 may have been better.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3,A natural developing move.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5,Planning to exchange White's remainnig center pawn. Perhaps it would have been more prudent to make a developing move.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3,The best place for the bishop. 7. Be2 would be passive and 7. Bb5+ 7... Bd7 would lead to nothing. If Black tries 7... cxd4 8. Nxd4 Qxd4 then 9. Bb5+ wins the queen.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6,Developing the knight and attacking the pawn on d4.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5,Notice that the placement of White's bishop prevents a queen exchange.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5,Recapturing and developing the bishop at the same time.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3,Preparing for an eventual b4 followd by Bb2 while preventing Nb4.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O,Getting the king out of the center and bringing the rook into play.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O,Following suit.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6,To develop the bishop on b7.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4,Attacking the bishop and preparing Bb2 where the bishop will exert strong pressure on the Black kingside.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2,As planned.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5,Chasing away the knight so that White can play Ne5.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5,There is an old saying that a knight on the rim is dim. But where else can the knight go?,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5,A knight posted in the center is a very powerful piece. Bishops work best at a distance.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4,Threatening 16. Nxf6 Bxf6 17. Bxf6 gxf6 weakening Black's king position. If 15... Nxg4 then after 16. Qxg4 Black must weaken the king position with 16... g6.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8,Protecting the knight to avoid doubled pawns.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3,If now 16... Qc7 then 17. Nh5 Qd8 18. Nxg7 Kxg7 19. Qg4+ Kh8 20. Qh4 Kg8 21. Bxf6 Bxf6 22. Qxh7#.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5,A mistake. The knight is needed on the kingside to defend the king.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5,Threatening Qxh7#. If 17... h6 then 18. Bxg7 Kxg7 19. Ngf5+ exf5 20. Nxf5+ Kg8 21. Qxh6 Bf6 22. Ne7+ Qxe7 23. Qh7#,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6,Black is now weak on the dark squares.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4,Now if 18... gxh5 then 19. Nh6# $1,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4 Bf6,The best defense but it is not good enough.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4 Bf6 19. Nxf6+,Now White has a dark-squared bishop and Black doesn't. It will be difficult for Black to defend the dark squares.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4 Bf6 19. Nxf6+ Nxf6 20. Qh6,White now has an excellent position.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4 Bf6 19. Nxf6+ Nxf6 20. Qh6 Rc8 21. Rad1,White brings additional pieces into play before continuing the attack on the king. One threat is Bxg6 attacking the queen with the rook.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4 Bf6 19. Nxf6+ Nxf6 20. Qh6 Rc8 21. Rad1 Qe7 22. Rfe1,The threat is 23. Nf5 gxf5 24. Qg5+ Kh8 25. Bxf6+ winning the queen.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4 Bf6 19. Nxf6+ Nxf6 20. Qh6 Rc8 21. Rad1 Qe7 22. Rfe1 Ne8 23. Nf5,If Black plays 23... gxf5 then 24 Bxf5 (threatening Qxh7#) 24... f6 25 Bxe6 + Kh8 26 Bxc8 wins. If 23... exf5 then 24 Rxe7.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4 Bf6 19. Nxf6+ Nxf6 20. Qh6 Rc8 21. Rad1 Qe7 22. Rfe1 Ne8 23. Nf5 Qc5 24. Re5,White already has a plan to maneuver the rook to h8.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4 Bf6 19. Nxf6+ Nxf6 20. Qh6 Rc8 21. Rad1 Qe7 22. Rfe1 Ne8 23. Nf5 Qc5 24. Re5 Bd5 25. Ne7+,The begining of a mating combination.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4 Bf6 19. Nxf6+ Nxf6 20. Qh6 Rc8 21. Rad1 Qe7 22. Rfe1 Ne8 23. Nf5 Qc5 24. Re5 Bd5 25. Ne7+ Qxe7 26. Qxh7+ Kxh7 27. Rh5+,The pawn cannot capture the rook because the pawn is pinned by the bishop.,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e6 6. Nf3 c5 7. Bd3 Nc6 8. dxc5 Bxc5 9. a3 O-O 10. O-O b6 11. b4 Be7 12. Bb2 Qc7 13. b5 Na5 14. Ne5 Bb7 15. Ng4 Qd8 16. Ne3 Nd5 17. Qh5 g6 18. Ng4 Bf6 19. Nxf6+ Nxf6 20. Qh6 Rc8 21. Rad1 Qe7 22. Rfe1 Ne8 23. Nf5 Qc5 24. Re5 Bd5 25. Ne7+ Qxe7 26. Qxh7+ Kxh7 27. Rh5+ Kg8 28. Rh8#,Black resigned three moves ago beacuse he saw this ending coming.,False

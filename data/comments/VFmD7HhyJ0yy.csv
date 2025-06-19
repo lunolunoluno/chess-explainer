@@ -1,0 +1,19 @@
+moves,comment,good
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5,One of the main positions of Sicilian Rauzer.,False
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 Qc5,"In exchange for double
+f-pawns black has two bishops and very solid pawn bastions in the centre.",False
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 Qc5 15. Qg3,"Rare move, more often white plays",True
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 Qc5 15. Qg3 O-O-O,It's a novelty: black doesn't worry about his king-side. The previous game runs,True
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 Qc5 15. Qg3 O-O-O 16. Rhe1 Kb8 17. f5 Rdg8 18. Qh3 Qe5,"Usually in such positions (when
+white hasn't a dark-square bishop and has only one knight on c3) black's queen
+is placed very strongly on e5. But here there are some tactical nuances.",True
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 Qc5 15. Qg3 O-O-O 16. Rhe1 Kb8 17. f5 Rdg8 18. Qh3 Qe5 19. Nd5,Here it is!,False
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 Qc5 15. Qg3 O-O-O 16. Rhe1 Kb8 17. f5 Rdg8 18. Qh3 Qe5 19. Nd5 Bd8 20. c4,"Quite unexpectedly
+white begins a direct attack against his opponent's king. It is interesting
+that after 19.Nd5 both black's rooks and queen are cut off from the king on 
+b8.",True
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 Qc5 15. Qg3 O-O-O 16. Rhe1 Kb8 17. f5 Rdg8 18. Qh3 Qe5 19. Nd5 Bd8 20. c4 Bb7 21. cxb5 exd5 22. bxa6 Ba8 23. exd5 Qxd5 24. Be4 Qxe4+,"Black has to part with a queen. In other cases white has many more forces in
+attack than black in defense, i.e.:",True
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 Qc5 15. Qg3 O-O-O 16. Rhe1 Kb8 17. f5 Rdg8 18. Qh3 Qe5 19. Nd5 Bd8 20. c4 Bb7 21. cxb5 exd5 22. bxa6 Ba8 23. exd5 Qxd5 24. Be4 Qxe4+ 25. Rxe4 Bxe4+ 26. Ka1 Rxg2 27. Qb3+ Ka8 28. Qc4 Bf3 29. a3,A very practical decision: now white will never be mated on the first rank.,False
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 Qc5 15. Qg3 O-O-O 16. Rhe1 Kb8 17. f5 Rdg8 18. Qh3 Qe5 19. Nd5 Bd8 20. c4 Bb7 21. cxb5 exd5 22. bxa6 Ba8 23. exd5 Qxd5 24. Be4 Qxe4+ 25. Rxe4 Bxe4+ 26. Ka1 Rxg2 27. Qb3+ Ka8 28. Qc4 Bf3 29. a3 Ba5 30. Rf1 Rb8,The f3 bishop can't leave the h1-a8 diagonal..,True
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. Qe1 Be7 14. Bd3 Qc5 15. Qg3 O-O-O 16. Rhe1 Kb8 17. f5 Rdg8 18. Qh3 Qe5 19. Nd5 Bd8 20. c4 Bb7 21. cxb5 exd5 22. bxa6 Ba8 23. exd5 Qxd5 24. Be4 Qxe4+ 25. Rxe4 Bxe4+ 26. Ka1 Rxg2 27. Qb3+ Ka8 28. Qc4 Bf3 29. a3 Ba5 30. Rf1 Rb8 31. Rxf3 Rgxb2 32. Qd5+ Ka7 33. Qd4+ R2b6 34. Rb3 Rc8 35. Kb1 d5 36. Rxb6 Bxb6 37. Qxd5,Black is unable to defend all his pawns so white has to win.,True

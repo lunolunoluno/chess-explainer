@@ -1,0 +1,52 @@
+moves,comment,good
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4,"So much for theory, as
+far as my limited resources go. Though our wise database checkers may be able
+to point out precedents..",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6,"I'm not sure whether this is
+the right time for Black to play this, limiting the c8 Bishop.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6,A less quiet possibility here would be 9 ... c5 or 9 ... dxc4 followed by c5,True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5,"I had decided Black would not want 10 ... Qxd5 11 Bxc7 but after 11 .
+.. Qc6 he does OK. My main intention was to have a position with d5 blocked,
+thus making a queen side fianchetto unattractive.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5,"Black goes for
+the pawn capture anyway. After all, the c8 h3 diagonal is available again.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6,"The Bishop is driven back but it may still be a
+sacrificial force to be reckoned with  if  there is a build up against h3.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5,"A probing move, eyeing c6.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6,A response that looks weakening,True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5,"An aggressive use of pawns in front of the King to keep me from
+achieving results on the h6 square. It is surprising how well Black does with
+this.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2,"This was prompted by the attractive opening of the
+d1 h5 diagonal in an attempt to combine Bishop and Queen against h7.",False
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7,Bringing more defensive forces into the arena.,True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2,"The Qh5 line just
+does not seem to break through. Black has enough defenders to ward off the
+threats.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5,"Another pawn in front of the king! No battening down of
+hatches here. I decided to respond with a pawn thrust of my own, to give my g3
+Bishop somewhere to retreat and to break things up a bit.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7,"Now Black is building threats himself.  A well timed sac on h3 with
+advanced pawns to follow.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2,A bit of attack and defence. The Queen covers g4 and h5.,False
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5,"A sudden sw
+itch to the queen side which does not seem to be in keeping with all the
+activity on the other wing.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3,"The Knight looks a little odd on the edge but it has avoided being pinned and
+the following pawn push provokes a piece exchange which may well be the
+turning point.",False
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3 27. e5 Bxh4 28. Bxh4 Bg4,Harassing the Queen may not be the best here. Perhaps Bf5 instead.,True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3 27. e5 Bxh4 28. Bxh4 Bg4 29. Qd2 Rf7,"Again Black's choice looks doubtful. The Rook may have some defensive role
+and perhaps even have an attacking square on g7 but ..",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3 27. e5 Bxh4 28. Bxh4 Bg4 29. Qd2 Rf7 30. Bf6 Kf8,Trying to run before the Queen drops in.,True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3 27. e5 Bxh4 28. Bxh4 Bg4 29. Qd2 Rf7 30. Bf6 Kf8 31. Qh6+ Ke8 32. Bxe7,"This took a
+while to decide as I had kept thinking I needed to keep both Bishops. But no,
+this wins material.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3 27. e5 Bxh4 28. Bxh4 Bg4 29. Qd2 Rf7 30. Bf6 Kf8 31. Qh6+ Ke8 32. Bxe7 Qxe7,"And not with the Rook, as then 33. Qh8+  Kf7 
+34. Rf1+. And not with the King as 33. Bg6 Rf8 34. Qg7 or Qh4+",False
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3 27. e5 Bxh4 28. Bxh4 Bg4 29. Qd2 Rf7 30. Bf6 Kf8 31. Qh6+ Ke8 32. Bxe7 Qxe7 33. Bg6 hxg2 34. Kxg2 Bf3+,"Bf5 may have made White work harder, forcing White to win the
+exchange before his Rook can take up an active role.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3 27. e5 Bxh4 28. Bxh4 Bg4 29. Qd2 Rf7 30. Bf6 Kf8 31. Qh6+ Ke8 32. Bxe7 Qxe7 33. Bg6 hxg2 34. Kxg2 Bf3+ 35. Kh2 Be2,"Again, Black might prolong matters with Be4",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3 27. e5 Bxh4 28. Bxh4 Bg4 29. Qd2 Rf7 30. Bf6 Kf8 31. Qh6+ Ke8 32. Bxe7 Qxe7 33. Bg6 hxg2 34. Kxg2 Bf3+ 35. Kh2 Be2 36. Rg1 Bd3,"Too late, and my opponent later admitted he had thought I'd played Kg1 here!",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3 27. e5 Bxh4 28. Bxh4 Bg4 29. Qd2 Rf7 30. Bf6 Kf8 31. Qh6+ Ke8 32. Bxe7 Qxe7 33. Bg6 hxg2 34. Kxg2 Bf3+ 35. Kh2 Be2 36. Rg1 Bd3 37. Bxf7+ Qxf7,"Finally the Rook, pinned since move 33, is removed.",True
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. d4 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 e6 8. e3 O-O 9. Bd3 b6 10. cxd5 exd5 11. O-O Bg4 12. h3 Be6 13. Ne5 f6 14. Ng4 g5 15. Bg3 Nc6 16. Nh2 Ne7 17. Qc2 h5 18. f4 h4 19. Be1 Qd7 20. fxg5 fxg5 21. Rxf8+ Rxf8 22. Qe2 c5 23. Nf3 c4 24. Bc2 Bf6 25. e4 g4 26. Nxh4 gxh3 27. e5 Bxh4 28. Bxh4 Bg4 29. Qd2 Rf7 30. Bf6 Kf8 31. Qh6+ Ke8 32. Bxe7 Qxe7 33. Bg6 hxg2 34. Kxg2 Bf3+ 35. Kh2 Be2 36. Rg1 Bd3 37. Bxf7+ Qxf7 38. Qh8+,In view of 38...Qf8 39. Rg8 or 38. Ke7 Rg7,True

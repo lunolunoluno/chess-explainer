@@ -1,0 +1,30 @@
+moves,comment,good
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5,One of the main continuations of the four knights variation.,False
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 O-O 9. b4 Be6 10. Rb1 f6 11. d3 Qd7,"So far both
+players have followed strictly the main line of the variation. Black is the
+first to deviate in a less practised continuation. Here usually 11. ... Nd4 is
+played. I found the variants there too sharp and insecure to my taste so I
+chose the move in the game which seemed a bit ""calmer"".",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 O-O 9. b4 Be6 10. Rb1 f6 11. d3 Qd7 12. Ne4 Nd5 13. Qc2,threatening 14.Nc5,True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 O-O 9. b4 Be6 10. Rb1 f6 11. d3 Qd7 12. Ne4 Nd5 13. Qc2 b6 14. Bb2 a5,"! The strongest answer. Other
+responses have been tried here also but with less success:",False
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 O-O 9. b4 Be6 10. Rb1 f6 11. d3 Qd7 12. Ne4 Nd5 13. Qc2 b6 14. Bb2 a5 15. b5 Na7 16. a4,"? The first move deviating from known examples and ... a serious mistake.
+White is obliged here to sharpen the game by means of 16.d4, although this is
+pretty risky too, e. g.:",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 O-O 9. b4 Be6 10. Rb1 f6 11. d3 Qd7 12. Ne4 Nd5 13. Qc2 b6 14. Bb2 a5 15. b5 Na7 16. a4 c6 17. bxc6 Nxc6 18. Rbc1 Ndb4,"The plan s
+tarted with this move wasn't all clear to me at that very moment. I somehow
+felt I must be pushing on the queen side and in the center but did not yet see
+any exact goals. I was lucky to find a relatively straightforward way to win
+anyway. Now for the plan: black tries to occupy d4 with a piece (preferably
+knight) and to take the control over the opened c-file. At the same time the
+weak a4-pawn is constantly being threatened so white is kept busy. Black does
+not avoid exchanges since even with relatively few peaces the control of the
+opened line and the penetration with the rook on the seventh rank bring easily
+serious advantages.",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 O-O 9. b4 Be6 10. Rb1 f6 11. d3 Qd7 12. Ne4 Nd5 13. Qc2 b6 14. Bb2 a5 15. b5 Na7 16. a4 c6 17. bxc6 Nxc6 18. Rbc1 Ndb4 19. Qd2 Rfd8 20. Ba1 Rac8 21. Nc3 Bc5 22. Qd1 Nd4 23. Nxd4 Bxd4 24. Nb5,"Now black seizes the control over the opened line though a series of forced
+changes. It is difficult, however, to see some better move for white at this
+point.",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 O-O 9. b4 Be6 10. Rb1 f6 11. d3 Qd7 12. Ne4 Nd5 13. Qc2 b6 14. Bb2 a5 15. b5 Na7 16. a4 c6 17. bxc6 Nxc6 18. Rbc1 Ndb4 19. Qd2 Rfd8 20. Ba1 Rac8 21. Nc3 Bc5 22. Qd1 Nd4 23. Nxd4 Bxd4 24. Nb5 Rxc1 25. Qxc1 Rc8 26. Qd1 Bxa1 27. Qxa1 Rc2 28. Bf3 g5 29. Nc3 g4 30. Bg2 Qd4,"! Now white is lost. Less convincing was the attempt to push further on the
+queen side:",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 O-O 9. b4 Be6 10. Rb1 f6 11. d3 Qd7 12. Ne4 Nd5 13. Qc2 b6 14. Bb2 a5 15. b5 Na7 16. a4 c6 17. bxc6 Nxc6 18. Rbc1 Ndb4 19. Qd2 Rfd8 20. Ba1 Rac8 21. Nc3 Bc5 22. Qd1 Nd4 23. Nxd4 Bxd4 24. Nb5 Rxc1 25. Qxc1 Rc8 26. Qd1 Bxa1 27. Qxa1 Rc2 28. Bf3 g5 29. Nc3 g4 30. Bg2 Qd4 31. Ne4 Qxa1 32. Rxa1 f5 33. Nf6+,"Now the white knight is being
+shut out of the game but 33.Nd6+ was no good either:",True

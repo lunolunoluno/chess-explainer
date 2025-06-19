@@ -1,0 +1,17 @@
+moves,comment,good
+1. e4,A move that can lead to tactical complications.,False
+1. e4 e5 2. Nf3,Developing and attacking the pawn on e5.,False
+1. e4 e5 2. Nf3 Nc6,Defending the pawn.,True
+1. e4 e5 2. Nf3 Nc6 3. d4,This is known as the Scotch Game.,False
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4,Better is exd4.,True
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4,"Better is Qxd4 and the queen would dominate the center. If Black then tries 5... c5, he would have a hole on d5 and a backwards d pawn.",True
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4 Bc5,Guarding the pawn.,False
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4 Bc5 6. c3,After 6...dxc3 7. Nxc3 White has a lead in development as compensation for his pawn.,True
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4 Bc5 6. c3 Qe7,Black should either take the pawn or develop his knight.,True
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4 Bc5 6. c3 Qe7 7. O-O,If Black plays 7... Qxe4 then 8. Re1 pins and wins the queen.,True
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4 Bc5 6. c3 Qe7 7. O-O Qe5,Black should pay more attention to development.,True
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4 Bc5 6. c3 Qe7 7. O-O Qe5 8. f4,White is giving up his rook for an attack.,True
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4 Bc5 6. c3 Qe7 7. O-O Qe5 8. f4 dxc3+ 9. Kh1 cxb2 10. Bxf7+,If 10... Kxf7 then 11. fxe5+ followed by 12. Bxb2.,True
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4 Bc5 6. c3 Qe7 7. O-O Qe5 8. f4 dxc3+ 9. Kh1 cxb2 10. Bxf7+ Kd8 11. fxe5 bxa1=Q 12. Bxg8,"If 12... Rxg8 then 13. Qb3 Rf8 (If 13... Re8 14. Bb2 winning the queen.) 14. Rxf8+ Bxf8 15. Qf7 Bc5 16. Bg5+ Be7 17 Qf8#. Alternatively, if Black had played 12... Qxe5 then 13. Rf5 Qxe4 14. Bg5+ Ke8 (Not 14... Be7 15. Rf8#.) 15. Bf7+ Kf8 16. Bg6+ Kg8 17. Rf8+ Bxf8 18. Bxe4.",True
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4 Bc5 6. c3 Qe7 7. O-O Qe5 8. f4 dxc3+ 9. Kh1 cxb2 10. Bxf7+ Kd8 11. fxe5 bxa1=Q 12. Bxg8 Be7,To prevent 13. Bg5+.,True
+1. e4 e5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 exd4 5. Bc4 Bc5 6. c3 Qe7 7. O-O Qe5 8. f4 dxc3+ 9. Kh1 cxb2 10. Bxf7+ Kd8 11. fxe5 bxa1=Q 12. Bxg8 Be7 13. Qb3,Threatening 14. Bb2 trapping the queen. Black should try 13... Qxe5 leading to unclear complications.,True
