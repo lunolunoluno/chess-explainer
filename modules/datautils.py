@@ -1,3 +1,4 @@
+import io
 import os
 import re
 import base64
@@ -33,7 +34,7 @@ def get_all_comments_in_game(pgn_str: str) -> List[str]:
     return re.findall(pattern, pgn_cleaned)
 
 
-def get_all_comments_and_lines_in_game(game: chess.pgn.Game) -> List[dict]:
+def get_all_comments_and_lines_in_game(game: chess.pgn.Game, initial_context: str) -> List[dict]:
     node = game
     board = chess.Board()
     partial_game = []
@@ -51,10 +52,17 @@ def get_all_comments_and_lines_in_game(game: chess.pgn.Game) -> List[dict]:
 
         # Remove pure eval-only comments
         cleaned_comment = re.sub(r'\s*\[%eval [^]]+\]\s*', '', comment).strip()
+        # Remove newline, tab, carriage return
+        cleaned_comment = re.sub(r'[\n\t\r]+', ' ', cleaned_comment)
+        # Remove double spaces
+        cleaned_comment = re.sub(r" +", " ", cleaned_comment)
+
         if cleaned_comment != '':
+            moves = ' '.join(partial_game)
             res.append({
-                "moves": ' '.join(partial_game),
-                "comment": cleaned_comment
+                "comment": cleaned_comment,
+                "moves": moves,
+                "context": initial_context + ". Last move played: " + get_last_move_from_line_as_string(moves)
             })
         node = next_node
     return res
@@ -97,12 +105,15 @@ def filter_good_comments(pipe: Pipeline, comments: List[dict]) -> List[dict]:
             last_assistant_message = next(msg for msg in reversed(o[0]['generated_text']) if msg["role"] == "assistant")
             output_txt = last_assistant_message['content'].strip()
             if "RES:" in output_txt:
-                res = output_txt.split("RES:")[1].strip()[0]
+                after_res = output_txt.split("RES:")[1].strip()
+                res = after_res[0]
                 if res in ("0", "1"):
                     good_comments.append({
-                        "moves": comment['moves'],
                         "comment": comment['comment'],
-                        "good": res == "1"
+                        "good": res == "1",
+                        "reasoning": after_res[1:],
+                        "moves": comment['moves'],
+                        "context": comment['context']
                     })
                 else:
                     bad_outputs.append(o[0]['generated_text'][:-1])
@@ -153,3 +164,36 @@ def is_comment_explaining_mistake(pipe: Pipeline, comment: str) -> bool:
 
             dbg.print("Invalid or incomplete response. Re-asking the question...")
     return True if res == "1" else False
+
+
+def get_last_move_from_line_as_string(pgn_line: str) -> str:
+    pgn = io.StringIO(pgn_line)
+    game = chess.pgn.read_game(pgn)
+    if len(game.errors) == 0:
+        piece_names = {
+            chess.PAWN: "Pawn",
+            chess.KNIGHT: "Knight",
+            chess.BISHOP: "Bishop",
+            chess.ROOK: "Rook",
+            chess.QUEEN: "Queen",
+            chess.KING: "King"
+        }
+        last_move = game.end()
+        color = 'Black' if last_move.turn() else 'White'
+
+        move = last_move.move
+        board = last_move.board()
+        board.pop()
+
+        if board.is_kingside_castling(move):
+            move_str = "kingside castle"
+        elif board.is_queenside_castling(move):
+            move_str = "queenside castle"
+        else:
+            piece_name = piece_names[board.piece_at(move.from_square).piece_type]
+            move_str = f"{piece_name} {'takes on' if board.is_capture(move) else 'to'} {chess.square_name(move.to_square)}{' promote to a ' + piece_names[move.promotion] if move.promotion else ''}"
+
+        return f"{color} plays {move_str}{' with check' if board.gives_check(move) else ''}"
+    else:
+        errors = '\n\n'.join(str(e) for e in game.errors)
+        raise Exception(f"The following error(s) were encountered during the parsing of the pgn line :\n{errors}")

@@ -10,8 +10,7 @@ from sympy.printing.pytorch import torch
 from tqdm import tqdm
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
-from modules.datautils import has_game_comments, pgn_to_id, get_all_pgn_files, is_comment_explaining_mistake, \
-    get_all_comments_and_lines_in_game, filter_good_comments
+from modules.datautils import has_game_comments, pgn_to_id, get_all_pgn_files, get_all_comments_and_lines_in_game, filter_good_comments
 from modules.utils import Debug
 from modules.gameanalyzer import GameAnalyzer
 
@@ -100,76 +99,55 @@ class Controller:
             pgn_game = open(pgnfile)
             game = chess.pgn.read_game(pgn_game)
             while game is not None:
+                header = chess.pgn.read_headers(pgn_game)
+                if 'White' in header and header['White'].strip() != '':
+                    context = f"This is a game between {header['White']} (as White)"
+                else:
+                    context = "This is a game between an unknown player (as White)"
+                if 'Black' in header and header['Black'].strip() != '':
+                    context += f" and {header['Black']} (as Black)"
+                else:
+                    context += " and an unknown player (as Black)"
                 str_exporter = chess.pgn.StringExporter(headers=False, variations=False, comments=True)
                 pgn_str = game.accept(str_exporter)
                 cvs_path = os.path.join(self.data_commented_path, f"{pgn_to_id(pgn_str)}.csv")
                 if not os.path.exists(cvs_path):
-                    comments = get_all_comments_and_lines_in_game(game)
+                    comments = get_all_comments_and_lines_in_game(game, context)
                     if len(comments) > 0:
                         if torch.cuda.is_available():
                             torch.cuda.empty_cache()
                             torch.cuda.reset_peak_memory_stats()
                         good_comments = filter_good_comments(pipe, comments)
-
                         df = pd.DataFrame(good_comments)
                         df.to_csv(cvs_path, index=False)
 
                 game = chess.pgn.read_game(pgn_game)
 
-    def save_good_comments_from_games_old(self) -> None:
-        """
-        Will take all the pgn files in DATA_RAW_PATH and extract the comments that explain any player's mistake.
-        Once analyzed, each game is saved in a pgn file in DATA_ANALYZED_PATH
-        All the comments from a game will be saved in a csv file in DATA_COMMENTS_PATH
-        """
-        device = "cuda" if torch.cuda.is_available() else "cpu"
-        if device == 'cuda':
-            torch.cuda.empty_cache()
-            torch.cuda.reset_peak_memory_stats()
-        pgn_files = get_all_pgn_files()
-        print(f"Number of .pgn files to analyze in {self.data_raw_path}: {len(pgn_files)}")
+    def reformulate_good_comments(self) -> None:
+        games = [
+            os.path.join(self.data_commented_path, file)
+            for file in os.listdir(self.data_commented_path)
+            if os.path.isfile(os.path.join(self.data_commented_path, file)) and file.lower().endswith(".csv")
+        ]
 
-        pipe = pipeline("text-generation", model="microsoft/Phi-3-mini-4k-instruct", device=device)
+        for game_comments in games:
+            comments = pd.read_csv(game_comments)
+            good_comments = comments[comments["good"]]
 
-        for pgnfile in tqdm(pgn_files):
-            self.dbg.print(f"analyzing {pgnfile}")
+            prompt_model = [
+                {"role": "system",
+                 "content": """You're job is to reformulate chess annotations to make them more neutral. 
+                To achieve this, you will do the following : 
+                -   When a player's name is mentionned, replace it with either 'black' or 'white' according to the player's color.
+                -   When the pronouns she/her/hers or he/him/his is written, replace it by they/them/their"""},
+                {"role": "user",
+                 "content": """in this list you'll find the last move played before the annotation for context and the annotation that should be more neutral if possible: 
+                 1)  move played : """}
+            ]
+            # TODO: complete this function once I added context in the data
+            break
 
-            # extract all the comments from the pgn file
-            pgn_game = open(pgnfile)
-            game = chess.pgn.read_game(pgn_game)
-            while game is not None:
-                str_exporter = chess.pgn.StringExporter(headers=False, variations=False, comments=True)
-                pgn_str = game.accept(str_exporter)
-                cvs_path = os.path.join(self.data_commented_path, f"{pgn_to_id(pgn_str)}.csv")
-                if not os.path.exists(cvs_path):
-                    node = game
-                    board = chess.Board()
-                    partial_game = []
-                    csv_rows = []
-                    while node.variations:
-                        next_node = node.variations[0]
-                        move = next_node.move
-                        san = board.san(move)
-                        board.push(move)
-                        if board.turn == chess.BLACK:
-                            partial_game.append(f"{board.fullmove_number}.")
-                        partial_game.append(san)
-
-                        comment = next_node.comment.strip()
-
-                        # Remove pure eval-only comments
-                        cleaned_comment = re.sub(r'\s*\[%eval [^]]+\]\s*', '', comment).strip()
-                        if cleaned_comment != '':
-                            self.dbg.print("Moves leading to the comment:", ' '.join(partial_game))
-                            good_comment = is_comment_explaining_mistake(pipe, cleaned_comment)
-                            if good_comment:
-                                csv_rows.append({
-                                    "Moves": ' '.join(partial_game),
-                                    "Comment": cleaned_comment
-                                })
-                        node = next_node
-                    df = pd.DataFrame(csv_rows)
-                    df.to_csv(cvs_path, index=False)
-                game = chess.pgn.read_game(pgn_game)
-
-            pgn_game.close()
+        # df_comments = pd.concat((pd.read_csv(g) for g in games), ignore_index=True)
+        # df_good_comments = df_comments[df_comments["good"]]
+        #
+        # print(df_good_comments.head())
