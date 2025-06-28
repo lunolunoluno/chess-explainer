@@ -1,0 +1,7 @@
+comment,good,reasoning,moves,context,reformulated
+Geller has set a trap in an equal position.,True,"
+
+The comment accurately explains the mistake made by the player as it indicates that Geller has intentionally created a deceptive position, which may have led to a tactical blunder by the opponent.",1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 Nc6 5. Nc3 e6 6. Ndb5 d5 7. cxd5 Nxd5 8. Nxd5 exd5 9. e3 Be6 10. Be2 Be7 11. Bd2 a6 12. Nd4 Nxd4 13. exd4 O-O 14. Qb3 Re8 15. O-O Bd6,"This is a game between Bronstein, David (as White) and Geller, Efim (as Black). Last move played: Black plays Bishop to d6"," Geller has fallen for a classic trap, risking their position without adequate compensation."
+Black has a plus in the endgame.,False,"
+
+The comment does not explain the mistake, as it refers to a potential advantage in the endgame rather than the specific error made in the move.",1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 Nc6 5. Nc3 e6 6. Ndb5 d5 7. cxd5 Nxd5 8. Nxd5 exd5 9. e3 Be6 10. Be2 Be7 11. Bd2 a6 12. Nd4 Nxd4 13. exd4 O-O 14. Qb3 Re8 15. O-O Bd6 16. Bb4 Bc7 17. Bf3 Qg5 18. Rad1 Rad8 19. Bd2 Qe7 20. Rfe1 Rd7 21. Rc1 Qf6 22. Qd3 Bd6 23. a3 h6 24. Bb4 Bf4 25. Bd2 Bb8 26. Bb4 h5 27. Bd2 g6 28. Qe3 Ba7 29. Bc3 Bb8 30. Bd2 Rdd8 31. Ba5 Rc8 32. Rxc8 Rxc8 33. Bc3 h4 34. h3 Bf4 35. Qe2 Bd6 36. Qe3 Bf4 37. Qe2 Qg5 38. Bg4 Bxg4 39. Qxg4 Qxg4 40. hxg4 Bd6,"This is a game between Bronstein, David (as White) and Geller, Efim (as Black). Last move played: Black plays Bishop to d6",-

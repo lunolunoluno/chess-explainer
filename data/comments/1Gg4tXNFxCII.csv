@@ -1,0 +1,36 @@
+comment,good,reasoning,moves,context,reformulated
+Just to let White understand that he can suddenly lose the first move advantage.,True,"
+
+The comment accurately points out that White has made a move that could potentially lead to losing the advantage gained from the first move, indicating that the move was a mistake.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: Black plays Knight to c6"," ""White should be aware that they might lose their initial advantage."""
+"According to Tartakower this move is a waste of time. Indeed, he says, the loss of the game is because of such a waste of time. Difficult to believe? Here one could play:",True,"
+
+The comment explains the mistake made by the player as it references Tartakower's opinion on the move being a waste of time and suggesting an alternative play, indicating that the move was not optimal and led to a loss.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Nge7 7. Qc2,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: White plays Queen to c2"," According to Tartakower, the move made by White is considered inefficient. Tartakower suggests that such a move might not be the best strategy and could potentially lead to a loss of the game. Critics might find it hard to accept, but a different approach could be explored.
+
+In this context, White has just played a Queen move to c2."
+Move to prepare an imminent attack.,False,"
+
+The comment does not explain the mistake made by the player, as it does not address the quality of the move but rather implies the player's intent for future actions.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Nge7 7. Qc2 Bg4 8. Nbd2 Qd7 9. O-O f6,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: Black plays Pawn to f6",-
+"Removes the lightsquared Bishop, but also weakens the castling. 11...",True,"
+
+The comment correctly identifies the loss of the bishop and the potential weakening of the player's kingside castling, indicating the move was a mistake.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Nge7 7. Qc2 Bg4 8. Nbd2 Qd7 9. O-O f6 10. Re1 g5 11. h3,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: White plays Pawn to h3"," Black played 11... removing the lightsquared bishop, which could potentially compromise their king's safety and also weaken their ability to castle later in the game."
+Counterattack. 13...,False,"
+
+The comment ""Counterattack. 13..."" does not clearly explain the mistake made by the player as it seems to be a partial or unrelated response.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Nge7 7. Qc2 Bg4 8. Nbd2 Qd7 9. O-O f6 10. Re1 g5 11. h3 Be6 12. Nf1 O-O-O 13. b4,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: White plays Pawn to b4",-
+"To be able to reply to the possible 15.Bb5 con 15...c6. As Nimzowitsch himself teaches us: ""First of all...consolidate your position"".",True,"
+
+The comment explains the mistake made by the player, as it criticizes the move for not consolidating their position, referencing Nimzowitsch's advice which aligns with the principles of chess strategy.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Nge7 7. Qc2 Bg4 8. Nbd2 Qd7 9. O-O f6 10. Re1 g5 11. h3 Be6 12. Nf1 O-O-O 13. b4 Rdg8 14. a4 Nd8,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: Black plays Knight to d8"," White's 15th move with Bb5 could be a mistake, as Nimzowitsch advises strengthening the position first."
+"The two attacks, the Black one on the kingside and the White one on the queenside, look symmetrical. In cases like this one the time factor is decisive. As we have seen, if the argentinian Grau did nont waste a tempo by playng 7.Qc2.... 17...",False,"
+
+The comment focuses on the symmetry of attacks and the importance of the time factor, but it does not directly address the specific mistake made by the player.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Nge7 7. Qc2 Bg4 8. Nbd2 Qd7 9. O-O f6 10. Re1 g5 11. h3 Be6 12. Nf1 O-O-O 13. b4 Rdg8 14. a4 Nd8 15. b5 h5 16. N3h2 Rg7 17. a5,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: White plays Pawn to a5",-
+!,True,"
+
+The comment ""!"" is a widely recognized symbol in chess annotation to indicate a blunder, which signifies that the move made by the player was a significant mistake.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Nge7 7. Qc2 Bg4 8. Nbd2 Qd7 9. O-O f6 10. Re1 g5 11. h3 Be6 12. Nf1 O-O-O 13. b4 Rdg8 14. a4 Nd8 15. b5 h5 16. N3h2 Rg7 17. a5 Kb8 18. Ba3 Bxa3 19. Rxa3 h4,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: Black plays Pawn to h4", This move by Black is not advisable as it allows White to gain a spatial advantage and potentially open up lines for an attack.
+So White can not hope to get something by sacrificing the Rook on the pawn in a7. Strategy and...badness!,True,"
+
+The comment correctly identifies the strategic mistake of sacrificing the Rook on the pawn in a7, which is not beneficial for White.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Nge7 7. Qc2 Bg4 8. Nbd2 Qd7 9. O-O f6 10. Re1 g5 11. h3 Be6 12. Nf1 O-O-O 13. b4 Rdg8 14. a4 Nd8 15. b5 h5 16. N3h2 Rg7 17. a5 Kb8 18. Ba3 Bxa3 19. Rxa3 h4 20. b6 Rhg8 21. a6 cxb6 22. axb7 Nec6,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: Black plays Knight to c6", Black's last move of playing the Knight to c6 was a risky decision. Sacrificing the Rook on the pawn in a7 wouldn't yield any significant advantage for White.
+We are closed to the end.,False,"
+
+The comment ""We are closed to the end"" does not directly explain the mistake made by the player, as it is vague and does not provide specific feedback about the error in the move.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Nge7 7. Qc2 Bg4 8. Nbd2 Qd7 9. O-O f6 10. Re1 g5 11. h3 Be6 12. Nf1 O-O-O 13. b4 Rdg8 14. a4 Nd8 15. b5 h5 16. N3h2 Rg7 17. a5 Kb8 18. Ba3 Bxa3 19. Rxa3 h4 20. b6 Rhg8 21. a6 cxb6 22. axb7 Nec6 23. Bb5 g4,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: Black plays Pawn to g4",-
+!! - Very good!,False,"
+
+The comment ""!! - Very good!"" suggests that the move was considered a strong one, which contradicts the premise that it was evaluated as a mistake.",1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Nge7 7. Qc2 Bg4 8. Nbd2 Qd7 9. O-O f6 10. Re1 g5 11. h3 Be6 12. Nf1 O-O-O 13. b4 Rdg8 14. a4 Nd8 15. b5 h5 16. N3h2 Rg7 17. a5 Kb8 18. Ba3 Bxa3 19. Rxa3 h4 20. b6 Rhg8 21. a6 cxb6 22. axb7 Nec6 23. Bb5 g4 24. hxg4 Bxg4 25. Qd2 Qd6 26. Ra2 Be2,"This is a game between Grau, Roberto (as White) and Nimzowitsch, A. (as Black). Last move played: Black plays Bishop to e2",-

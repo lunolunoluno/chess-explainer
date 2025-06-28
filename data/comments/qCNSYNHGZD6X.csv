@@ -1,0 +1,27 @@
+comment,good,reasoning,moves,context
+"B47: Sicilian: Taimanov: 5 Nc3 Qc7 6 f4, 6 g3 and 6 Be2",True,"
+
+The comment correctly explains the mistake made by the player, as it provides a clear breakdown of the move sequence leading up to the error.",1. e4,"This is a game between Xie Jun (as White) and Polgar, J. (as Black). Last move played: White plays Pawn to e4"
+White loses the upper hand,True,"
+
+The comment explains the mistake as it implies that White's move has weakened their position or provided Black with a strategic advantage.",1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Kh1 Nxd4 9. Qxd4 Bc5 10. Qd3 h5 11. f4 Ng4 12. Qg3 b5 13. Bxg4 hxg4 14. Qxg4 Bb7 15. Qe2 b4 16. Nd1 Ke7 17. Be3 Bxe3 18. Qxe3 Rh4 19. h3 Rah8 20. Kg1 g5 21. fxg5 Bxe4 22. Qf2,"This is a game between Xie Jun (as White) and Polgar, J. (as Black). Last move played: White plays Queen to f2"
+Black threatens strongly Rxh3,True,"
+
+The comment accurately explains the mistake made by the player since Black has a strong threat of capturing the White's rook with Rxh3, indicating that the move played by White was potentially a blunder.",1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Kh1 Nxd4 9. Qxd4 Bc5 10. Qd3 h5 11. f4 Ng4 12. Qg3 b5 13. Bxg4 hxg4 14. Qxg4 Bb7 15. Qe2 b4 16. Nd1 Ke7 17. Be3 Bxe3 18. Qxe3 Rh4 19. h3 Rah8 20. Kg1 g5 21. fxg5 Bxe4 22. Qf2 f5 23. gxf6+ Kf7,"This is a game between Xie Jun (as White) and Polgar, J. (as Black). Last move played: Black plays King to f7"
+Demolishes the pawn shield,True,"
+The comment accurately describes the mistake as it seems the player's move undermined the pawn structure, leaving the pawns weakened and unable to defend effectively.",1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Kh1 Nxd4 9. Qxd4 Bc5 10. Qd3 h5 11. f4 Ng4 12. Qg3 b5 13. Bxg4 hxg4 14. Qxg4 Bb7 15. Qe2 b4 16. Nd1 Ke7 17. Be3 Bxe3 18. Qxe3 Rh4 19. h3 Rah8 20. Kg1 g5 21. fxg5 Bxe4 22. Qf2 f5 23. gxf6+ Kf7 24. Qe3 Bxg2,"This is a game between Xie Jun (as White) and Polgar, J. (as Black). Last move played: Black plays Bishop takes on g2"
+Black has let it slip away,True,"
+
+The comment accurately describes the mistake: Black failed to defend a critical position, allowing the opponent to gain a significant advantage.",1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Kh1 Nxd4 9. Qxd4 Bc5 10. Qd3 h5 11. f4 Ng4 12. Qg3 b5 13. Bxg4 hxg4 14. Qxg4 Bb7 15. Qe2 b4 16. Nd1 Ke7 17. Be3 Bxe3 18. Qxe3 Rh4 19. h3 Rah8 20. Kg1 g5 21. fxg5 Bxe4 22. Qf2 f5 23. gxf6+ Kf7 24. Qe3 Bxg2 25. Qg5 R4h7,"This is a game between Xie Jun (as White) and Polgar, J. (as Black). Last move played: Black plays Rook to h7"
+Threatening mate: Rxg5,True,"
+
+The comment correctly identifies a tactical error in the game, indicating that the player's move threatened checkmate with ""Rxg5.""",1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Kh1 Nxd4 9. Qxd4 Bc5 10. Qd3 h5 11. f4 Ng4 12. Qg3 b5 13. Bxg4 hxg4 14. Qxg4 Bb7 15. Qe2 b4 16. Nd1 Ke7 17. Be3 Bxe3 18. Qxe3 Rh4 19. h3 Rah8 20. Kg1 g5 21. fxg5 Bxe4 22. Qf2 f5 23. gxf6+ Kf7 24. Qe3 Bxg2 25. Qg5 R4h7 26. Kxg2 Rg8,"This is a game between Xie Jun (as White) and Polgar, J. (as Black). Last move played: Black plays Rook to g8"
+Theme: Double Attack,False,"
+
+The comment does not explain the mistake made by the player, as a ""Double Attack"" refers to an opportunity to attack two pieces simultaneously, not necessarily indicating a mistake.",1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Kh1 Nxd4 9. Qxd4 Bc5 10. Qd3 h5 11. f4 Ng4 12. Qg3 b5 13. Bxg4 hxg4 14. Qxg4 Bb7 15. Qe2 b4 16. Nd1 Ke7 17. Be3 Bxe3 18. Qxe3 Rh4 19. h3 Rah8 20. Kg1 g5 21. fxg5 Bxe4 22. Qf2 f5 23. gxf6+ Kf7 24. Qe3 Bxg2 25. Qg5 R4h7 26. Kxg2 Rg8 27. Qxg8+ Kxg8 28. Ne3 Qc6+ 29. Kg3 Qd6+ 30. Rf4 Rxh3+,"This is a game between Xie Jun (as White) and Polgar, J. (as Black). Last move played: Black plays Rook takes on h3 with check"
+If White now only could play f7.... A deflection,False,"
+
+The comment does not explain the mistake made by the player as it doesn't provide a clear analysis or reasoning behind the move.",1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Kh1 Nxd4 9. Qxd4 Bc5 10. Qd3 h5 11. f4 Ng4 12. Qg3 b5 13. Bxg4 hxg4 14. Qxg4 Bb7 15. Qe2 b4 16. Nd1 Ke7 17. Be3 Bxe3 18. Qxe3 Rh4 19. h3 Rah8 20. Kg1 g5 21. fxg5 Bxe4 22. Qf2 f5 23. gxf6+ Kf7 24. Qe3 Bxg2 25. Qg5 R4h7 26. Kxg2 Rg8 27. Qxg8+ Kxg8 28. Ne3 Qc6+ 29. Kg3 Qd6+ 30. Rf4 Rxh3+ 31. Kxh3,"This is a game between Xie Jun (as White) and Polgar, J. (as Black). Last move played: White plays King takes on h3"
+"If White now would get Nxe5 in, he might survive",True,"
+
+This comment explains the mistake as it suggests that White's last move, presumably capturing an unprotected piece, put White in a disadvantageous position, indicating that the player made a strategic error.",1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8. Kh1 Nxd4 9. Qxd4 Bc5 10. Qd3 h5 11. f4 Ng4 12. Qg3 b5 13. Bxg4 hxg4 14. Qxg4 Bb7 15. Qe2 b4 16. Nd1 Ke7 17. Be3 Bxe3 18. Qxe3 Rh4 19. h3 Rah8 20. Kg1 g5 21. fxg5 Bxe4 22. Qf2 f5 23. gxf6+ Kf7 24. Qe3 Bxg2 25. Qg5 R4h7 26. Kxg2 Rg8 27. Qxg8+ Kxg8 28. Ne3 Qc6+ 29. Kg3 Qd6+ 30. Rf4 Rxh3+ 31. Kxh3 Qxf4 32. Ng4 e5 33. Rg1,"This is a game between Xie Jun (as White) and Polgar, J. (as Black). Last move played: White plays Rook to g1"

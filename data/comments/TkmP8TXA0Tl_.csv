@@ -1,0 +1,33 @@
+comment,good,reasoning,moves,context
+This line is known as Kramer's Variation though the Hungarian GM Szabo did work this line.,False,"
+
+The comment does not explain the mistake as it refers to an alternative line played by a different player, rather than addressing the specific error made by the current player.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: White plays Knight to e2"
+"I had lost a previous game to John where I had played the Averbakh variation (5.Be2, 6.Bg5). This move was expected.",False,"
+
+The comment does not explain the mistake since it references a different variation previously played by the opponent, not the current game or move in question.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: Black plays Pawn to c5"
+cxd5 by White gives the position a Benoni type pawn structure.,False,"
+
+The comment does not explain the mistake made by the player as it states a characteristic of the pawn structure rather than evaluating the quality or impact of the move cxd5.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5 7. d5 e6 8. Be2 exd5 9. exd5,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: White plays Pawn takes on d5"
+The major alternative is f4 which can allow Black to sacrifice a pawn.,False,"
+
+The comment does not explain the mistake made by the player as it only suggests an alternative move without providing any reasoning or evaluation of the mistake in the previously played move.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5 7. d5 e6 8. Be2 exd5 9. exd5 Re8 10. O-O Nbd7 11. Bf4,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: White plays Bishop to f4"
+Now I'm out of the theory available to me.,True,"
+
+The comment implies that the player made a move that was not covered in their studied theoretical knowledge, indicating a lack of preparation or understanding of the position.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5 7. d5 e6 8. Be2 exd5 9. exd5 Re8 10. O-O Nbd7 11. Bf4 Ne5 12. Qd2 Bd7,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: Black plays Bishop to d7"
+This move for Black is wrong as I felt that the Queen is better placed on a5 and on b6 it hampers any Queenside counterplay with b5.,True,"
+
+The comment accurately identifies the mistake because moving the queen to b6 restricts counterplay along the Queenside, which is a key element in the game.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5 7. d5 e6 8. Be2 exd5 9. exd5 Re8 10. O-O Nbd7 11. Bf4 Ne5 12. Qd2 Bd7 13. Bg5 Qb6,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: Black plays Queen to b6"
+Necessary to try and deny the e3 square for Black.,True,"
+
+The comment explains the mistake made by the player because it highlights the need to avoid allowing Black's pawn to control the e3 square, which could potentially be advantageous for Black's position.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5 7. d5 e6 8. Be2 exd5 9. exd5 Re8 10. O-O Nbd7 11. Bf4 Ne5 12. Qd2 Bd7 13. Bg5 Qb6 14. f4 Neg4 15. f5,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: White plays Pawn to f5"
+h6 is necessary for Black here now or on the next move.,False,"
+
+The comment does not explain the mistake as ""h6"" is a defensive move and does not directly address the issue with the previous move.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5 7. d5 e6 8. Be2 exd5 9. exd5 Re8 10. O-O Nbd7 11. Bf4 Ne5 12. Qd2 Bd7 13. Bg5 Qb6 14. f4 Neg4 15. f5 Rf8,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: Black plays Rook to f8"
+Where does this Bishop go? There is no active square for it. I feel it cannot go to h4 as White plays Qh6.,True,"
+
+The comment accurately identifies the poor quality of the move by pointing out the lack of active squares for the bishop and the potential threat of the opponent's queen, suggesting that the move was indeed a mistake.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5 7. d5 e6 8. Be2 exd5 9. exd5 Re8 10. O-O Nbd7 11. Bf4 Ne5 12. Qd2 Bd7 13. Bg5 Qb6 14. f4 Neg4 15. f5 Rf8 16. h3 Ne5 17. Bxf6 Bxf6 18. Nce4 Bh8,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: Black plays Bishop to h8"
+This is necessary to allow the Black Knight access to f8 via d7.,True,"
+
+The comment explains the mistake made by the player as it indicates the move allows the Black Knight access to its target square, which may have been the intended purpose of the move despite it being a mistake in the context of the overall game strategy.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5 7. d5 e6 8. Be2 exd5 9. exd5 Re8 10. O-O Nbd7 11. Bf4 Ne5 12. Qd2 Bd7 13. Bg5 Qb6 14. f4 Neg4 15. f5 Rf8 16. h3 Ne5 17. Bxf6 Bxf6 18. Nce4 Bh8 19. f6 Rfd8 20. b3 Bc8,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: Black plays Bishop to c8"
+"If Black takes the Knight, White sacrifices the Bishop with Bxg6+, If Black takes with the pawn the Bishop on h8 falls or if Black takes with the Knight Qxh7+ kf8 Qxg6 is winning clearly fot White.",True,"
+The comment accurately explains the consequences of the player's move, highlighting the potential for White to gain a winning advantage through various tactical options.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5 7. d5 e6 8. Be2 exd5 9. exd5 Re8 10. O-O Nbd7 11. Bf4 Ne5 12. Qd2 Bd7 13. Bg5 Qb6 14. f4 Neg4 15. f5 Rf8 16. h3 Ne5 17. Bxf6 Bxf6 18. Nce4 Bh8 19. f6 Rfd8 20. b3 Bc8 21. Qh6 Nd7 22. Ng5 Nf8 23. Bd3 Bd7 24. Nxf7,"This is a game between Hilton, Steve (as White) and Cadman, John (as Black). Last move played: White plays Knight takes on f7"

@@ -125,8 +125,6 @@ def filter_good_comments(pipe: Pipeline, comments: List[dict]) -> List[dict]:
 
         return good_comments
 
-    dbg = Debug()
-    dbg.print(f"Analyzing {len(comments)} comments...")
     return __filter_good_comments__(pipe, prompts, 0)
 
 

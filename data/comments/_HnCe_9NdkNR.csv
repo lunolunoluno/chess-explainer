@@ -1,0 +1,27 @@
+comment,good,reasoning,moves,context
+"E15: Queen's Indian: 4 g3 sidelines, 4 g3 Ba6 and 4 g3 Bb7 early deviations",True,"
+
+The comment accurately explains the mistake made by the player, as it correctly identifies the early deviations from the Queen's Indian Defense opening sequence.",1. Nf3,"This is a game between Timman, J. (as White) and Polgar, Ju (as Black). Last move played: White plays Knight to f3"
+last book move,True,"
+The comment ""last book move"" does explain the mistake made by the player, as it suggests that the move was from a known chess strategy textbook, implying that the player didn't consider alternatives or apply better judgment.",1. Nf3 Nf6 2. c4 b6 3. d4 e6 4. g3 Ba6 5. Qb3 Nc6 6. Bd2 Bb7,"This is a game between Timman, J. (as White) and Polgar, Ju (as Black). Last move played: Black plays Bishop to b7"
+Prevents intrusion on b4,True,"
+
+The comment accurately explains the mistake, as it suggests that the move allowed the opponent's piece to invade the b4 square.",1. Nf3 Nf6 2. c4 b6 3. d4 e6 4. g3 Ba6 5. Qb3 Nc6 6. Bd2 Bb7 7. Bc3 Ne4 8. a3,"This is a game between Timman, J. (as White) and Polgar, Ju (as Black). Last move played: White plays Pawn to a3"
+The pressure on the isolated pawn grows,False,"
+
+The comment does not directly explain the mistake; it only provides information about a potential consequence.",1. Nf3 Nf6 2. c4 b6 3. d4 e6 4. g3 Ba6 5. Qb3 Nc6 6. Bd2 Bb7 7. Bc3 Ne4 8. a3 Nxc3 9. Qxc3 Be7 10. Qd3 d5 11. cxd5 Qxd5 12. e4 Qa5+ 13. Nbd2 O-O-O 14. Rc1 f5 15. b4 fxe4 16. Qc3 Qd5,"This is a game between Timman, J. (as White) and Polgar, Ju (as Black). Last move played: Black plays Queen to d5"
+A beautiful square!,False,"
+
+The comment ""A beautiful square!"" does not explain the mistake made by the player, as it suggests the move was aesthetically pleasing rather than indicating any strategic error.",1. Nf3 Nf6 2. c4 b6 3. d4 e6 4. g3 Ba6 5. Qb3 Nc6 6. Bd2 Bb7 7. Bc3 Ne4 8. a3 Nxc3 9. Qxc3 Be7 10. Qd3 d5 11. cxd5 Qxd5 12. e4 Qa5+ 13. Nbd2 O-O-O 14. Rc1 f5 15. b4 fxe4 16. Qc3 Qd5 17. Ne5,"This is a game between Timman, J. (as White) and Polgar, Ju (as Black). Last move played: White plays Knight to e5"
+Discovered attack,True,"
+
+The comment ""Discovered attack"" accurately explains the mistake made by the player, as it implies that the opponent found an attacking opportunity by revealing a piece that was previously hidden.",1. Nf3 Nf6 2. c4 b6 3. d4 e6 4. g3 Ba6 5. Qb3 Nc6 6. Bd2 Bb7 7. Bc3 Ne4 8. a3 Nxc3 9. Qxc3 Be7 10. Qd3 d5 11. cxd5 Qxd5 12. e4 Qa5+ 13. Nbd2 O-O-O 14. Rc1 f5 15. b4 fxe4 16. Qc3 Qd5 17. Ne5 e3,"This is a game between Timman, J. (as White) and Polgar, Ju (as Black). Last move played: Black plays Pawn to e3"
+Black threatens strongly Bc5,False,"
+
+The comment does not explain the mistake made by the player, as it only states a future threat and does not address the previous move.",1. Nf3 Nf6 2. c4 b6 3. d4 e6 4. g3 Ba6 5. Qb3 Nc6 6. Bd2 Bb7 7. Bc3 Ne4 8. a3 Nxc3 9. Qxc3 Be7 10. Qd3 d5 11. cxd5 Qxd5 12. e4 Qa5+ 13. Nbd2 O-O-O 14. Rc1 f5 15. b4 fxe4 16. Qc3 Qd5 17. Ne5 e3 18. Ndf3 exf2+ 19. Kxf2 Rhf8,"This is a game between Timman, J. (as White) and Polgar, Ju (as Black). Last move played: Black plays Rook to f8"
+Black is ruining his position,True,"
+
+The comment accurately explains the mistake made by the player as it highlights the negative impact of their move on their position in the game.",1. Nf3 Nf6 2. c4 b6 3. d4 e6 4. g3 Ba6 5. Qb3 Nc6 6. Bd2 Bb7 7. Bc3 Ne4 8. a3 Nxc3 9. Qxc3 Be7 10. Qd3 d5 11. cxd5 Qxd5 12. e4 Qa5+ 13. Nbd2 O-O-O 14. Rc1 f5 15. b4 fxe4 16. Qc3 Qd5 17. Ne5 e3 18. Ndf3 exf2+ 19. Kxf2 Rhf8 20. Kg2 g5,"This is a game between Timman, J. (as White) and Polgar, Ju (as Black). Last move played: Black plays Pawn to g5"
+weakening the position,True,"
+
+The comment accurately describes the mistake, as weakening the position refers to the player's move that compromised their strategic or tactical position on the board.",1. Nf3 Nf6 2. c4 b6 3. d4 e6 4. g3 Ba6 5. Qb3 Nc6 6. Bd2 Bb7 7. Bc3 Ne4 8. a3 Nxc3 9. Qxc3 Be7 10. Qd3 d5 11. cxd5 Qxd5 12. e4 Qa5+ 13. Nbd2 O-O-O 14. Rc1 f5 15. b4 fxe4 16. Qc3 Qd5 17. Ne5 e3 18. Ndf3 exf2+ 19. Kxf2 Rhf8 20. Kg2 g5 21. Nxc6 Rd7 22. g4 Bc5 23. Bb5 Bxc6 24. Bxc6 Qxc6 25. Rhf1,"This is a game between Timman, J. (as White) and Polgar, Ju (as Black). Last move played: White plays Rook to f1"

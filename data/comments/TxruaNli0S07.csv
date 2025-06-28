@@ -1,0 +1,7 @@
+comment,good,reasoning,moves,context
+Geller charges.,True,"
+
+The comment ""Geller charges"" explains the mistake made by the player, as it suggests that the player's piece moved into an aggressive position without proper preparation, likely leading to a loss of material or a checkmate.",1. c4 e5 2. Nc3 d6 3. g3 Nc6 4. Bg2 g6 5. e3 Bg7 6. Nge2 h5 7. d4 exd4 8. Nxd4 Nge7 9. h3 Nxd4 10. exd4 Nf5 11. Ne4,"This is a game between Geller, Efim (as White) and Kholmov, Ratmir (as Black). Last move played: White plays Knight to e4"
+Black reacts quietly.,True,"
+
+The comment indicates that the player made an unforced and overlooked mistake, as ""reacting quietly"" suggests that the opponent's move was not aggressive, and the mistake was subtle rather than blatant.",1. c4 e5 2. Nc3 d6 3. g3 Nc6 4. Bg2 g6 5. e3 Bg7 6. Nge2 h5 7. d4 exd4 8. Nxd4 Nge7 9. h3 Nxd4 10. exd4 Nf5 11. Ne4 O-O,"This is a game between Geller, Efim (as White) and Kholmov, Ratmir (as Black). Last move played: Black plays kingside castle"

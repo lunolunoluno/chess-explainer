@@ -1,0 +1,22 @@
+comment,good,reasoning,moves,context
+"Nc3 is better, or even f4.",True,"
+
+The comment suggests that the move Nc3 did not take into account the strategic implications and possible responses from the opponent, leading to a less optimal position.",1. e4 c5 2. d3 Nc6 3. Bd2,This is a game between W6 (as White) and B6 (as Black). Last move played: White plays Bishop to d2
+"Nf6 or e6 are superior moves. Also 3...e5 follewed by d6,Nf6,g6,Bg7 and 0-0 is another excellent set up. It is Important to play in the center first.",True,"
+
+The comment accurately explains the mistake made by the player, as it provides alternative moves that would have been stronger and emphasizes the importance of playing in the center first.",1. e4 c5 2. d3 Nc6 3. Bd2 b5,This is a game between W6 (as White) and B6 (as Black). Last move played: Black plays Pawn to b5
+"g6! is far better, Increase your control over d4 and develop another piece at the same time, there was no reason to occupy the hole on d4 (no pawns can oppose d4).",True,"
+
+The comment accurately explains the mistake made by the player, highlighting the lack of strategic development and control over the d4 square.",1. e4 c5 2. d3 Nc6 3. Bd2 b5 4. c3 b4 5. c4 Nd4,This is a game between W6 (as White) and B6 (as Black). Last move played: Black plays Knight to d4
+It is better to complete your development with d6 and Nf6. The bishop has aready moved and was placed rather well where it was at.,True,"
+
+The comment accurately identifies the mistake made by the player, which is playing the bishop prematurely before the development of the knight and pawns is completed.",1. e4 c5 2. d3 Nc6 3. Bd2 b5 4. c3 b4 5. c4 Nd4 6. Be3 g6 7. Bxd4 cxd4 8. Qd2 a5 9. Nf3 Bg7 10. Ng5 Bh6,This is a game between W6 (as White) and B6 (as Black). Last move played: Black plays Bishop to h6
+Black can take the rook right away.,True,"
+
+The comment highlights the immediate tactical opportunity for Black to capture the rook, indicating a blunder made by the player who overlooked the threat.",1. e4 c5 2. d3 Nc6 3. Bd2 b5 4. c3 b4 5. c4 Nd4 6. Be3 g6 7. Bxd4 cxd4 8. Qd2 a5 9. Nf3 Bg7 10. Ng5 Bh6 11. f4 e6 12. g3 Bb7 13. a3 b3 14. a4 d5 15. Bg2 Nf6 16. Ra3 Qb6 17. Qe2 Bf8 18. e5 Nd7,This is a game between W6 (as White) and B6 (as Black). Last move played: Black plays Knight to d7
+"The black kn ight has finally found a nice hole to hop in to, even if it is only for a move. Black trades one advantage for another, the two connected passed pawns.",True,"
+
+The comment accurately explains the mistake by pointing out that the black knight's move was intended to exploit a weakness (a hole) but ultimately resulted in conceding another advantage (connected passed pawns).",1. e4 c5 2. d3 Nc6 3. Bd2 b5 4. c3 b4 5. c4 Nd4 6. Be3 g6 7. Bxd4 cxd4 8. Qd2 a5 9. Nf3 Bg7 10. Ng5 Bh6 11. f4 e6 12. g3 Bb7 13. a3 b3 14. a4 d5 15. Bg2 Nf6 16. Ra3 Qb6 17. Qe2 Bf8 18. e5 Nd7 19. Nd2 Bxa3 20. bxa3 b2 21. Nb1 Nc5 22. Qd1 Bc6 23. Nf3 Nxa4 24. O-O Nc3,This is a game between W6 (as White) and B6 (as Black). Last move played: Black plays Knight to c3
+0-0 is a simple win.,False,"
+
+The comment does not explain the mistake made by the player. Castling (0-0) is a strategic move that doesn't directly lead to a win or mistake.",1. e4 c5 2. d3 Nc6 3. Bd2 b5 4. c3 b4 5. c4 Nd4 6. Be3 g6 7. Bxd4 cxd4 8. Qd2 a5 9. Nf3 Bg7 10. Ng5 Bh6 11. f4 e6 12. g3 Bb7 13. a3 b3 14. a4 d5 15. Bg2 Nf6 16. Ra3 Qb6 17. Qe2 Bf8 18. e5 Nd7 19. Nd2 Bxa3 20. bxa3 b2 21. Nb1 Nc5 22. Qd1 Bc6 23. Nf3 Nxa4 24. O-O Nc3 25. Nxc3 dxc3+ 26. Nd4 Qxd4+ 27. Rf2 h5,This is a game between W6 (as White) and B6 (as Black). Last move played: Black plays Pawn to h5

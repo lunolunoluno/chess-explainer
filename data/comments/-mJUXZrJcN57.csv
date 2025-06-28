@@ -1,0 +1,10 @@
+comment,good,reasoning,moves,context,reformulated
+E32: Nimzo-Indian: Classical (4 Qc2): 4...0-0,True,"
+
+The comment explains the mistake because it identifies the opening used, Nimzo-Indian Defense, and points out the specific move played, 4 Qc2, which deviates from the Classical variation and leads to a potential loss of tempo.",1. d4,"This is a game between Kramnik, Vladimir (as White) and Tiviakov, Sergei (as Black). Last move played: White plays Pawn to d4"," E32: Nimzo-Indian: Classical (4 Qc2): The move played by White was inadequate because it does not contribute to the strategic goals of the opening, particularly in terms of controlling the central squares and preparing for the development of the bishops."
+Controls f4,False,"
+
+The comment ""Controls f4"" does not accurately describe the mistake made by the player, as it does not indicate what went wrong with the move or why it was considered a mistake.",1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 b6 7. Bg5 Bb7 8. Nh3 d6 9. f3 Nbd7 10. e4 e5 11. d5 a5 12. b3 h6 13. Be3 c5 14. Nf2 Nh5 15. g3,"This is a game between Kramnik, Vladimir (as White) and Tiviakov, Sergei (as Black). Last move played: White plays Pawn to g3",-
+Demolition of pawn structure,True,"
+
+The comment ""Demolition of pawn structure"" accurately explains the mistake made by the player, as it indicates that the move has weakened the pawn formation, making it more vulnerable to attacks or tactical maneuvers.",1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 b6 7. Bg5 Bb7 8. Nh3 d6 9. f3 Nbd7 10. e4 e5 11. d5 a5 12. b3 h6 13. Be3 c5 14. Nf2 Nh5 15. g3 Bc8 16. Be2 Ra7 17. Qd2 Qf6 18. a4 Re8 19. O-O-O Nf8 20. Kb1 Ng6 21. Rhf1 Qe7 22. Bd3 Qf6 23. Rde1 Nf8 24. f4 exf4 25. gxf4 Ng6 26. f5 Ne5 27. Be2 Qh4 28. Bxh6,"This is a game between Kramnik, Vladimir (as White) and Tiviakov, Sergei (as Black). Last move played: White plays Bishop takes on h6"," After White's bishop takes on h6, Black's pawn structure suffers. This move weakens Black's kingside defenses and creates holes that White might exploit later in the game."

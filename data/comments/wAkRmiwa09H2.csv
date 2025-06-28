@@ -1,0 +1,63 @@
+comment,good,reasoning,moves,context
+"The English Opening is known for leading to subtle positional struggles. As will be seen, this game is an exception.",False,"
+
+This comment does not directly explain the mistake, as it provides general commentary on the opening rather than specific details about the error in the move.",1. c4,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Pawn to c4
+Staking a claim to the center.,False,"
+
+The comment does not explain the mistake as it implies the player was trying to control the center, which is generally a good strategy in chess, rather than indicating a specific error in their move.",1. c4 e5,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: Black plays Pawn to e5
+Planning to place the bishop on the diagonal.,True,"
+
+The comment suggests that the player's move was suboptimal because it did not achieve the strategic intent of placing the bishop on a beneficial diagonal, likely leading to a tactical disadvantage.",1. c4 e5 2. g3,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Pawn to g3
+"By unprotecting the pawn on b7, this move makes it easier for White to play b4. First, however, White must guard his c pawn.",True,"
+
+The comment accurately explains the mistake as it highlights the weakness created by moving the pawn on b7, making it vulnerable to an attack, and suggests a future threat that White could capitalize on if not properly defended.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: Black plays Bishop to e6
+White's queenside attack is off to a fast start. The threat is b5 winnng the pawn on b7. After 6... Nxb4 7. Qb3 Black is in trouble.,False,"
+
+The comment does not directly explain the mistake made by the player; it only evaluates the potential consequences of the move.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Pawn to b4
+Guarding the pawn on b7.,False,"
+
+The comment does not explain the mistake made by the player, as it only mentions protecting a pawn without addressing why the move was considered a mistake.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: Black plays Knight to d8
+"Threatening 10... Bxc3+. However, the move opens up the game which is to White's advantage since he has the better placed pieces.",True,"
+The comment accurately explains that the move was a mistake as it unfavorably opened the game for White who has better placed pieces.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: Black plays Pawn to e4
+White begins an attack on the king.,True,"
+
+The comment accurately identifies the mistake made by the player, as they initiated an attack on the opponent's king which is not a legal move in chess.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Pawn to h4
+"Black is preparing to castle; however, the kingside is almost as dangerous as the center.",True,"
+
+The comment indicates that the player made a mistake by overlooking the vulnerability of the kingside, which could lead to a weakened defense.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: Black plays Knight to e7
+White guards the bishop on b2 so that he threatens Nce4 taking control of f6.,False,"
+
+The comment does not accurately explain the mistake made by the player as it incorrectly states that the bishop on b2 is being guarded, when in reality, the player made a mistake without having any protection for the bishop on that square.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Queen to d2
+To remove the pawn protection from the king and open up the h file. The immediate threat is 16. hxg6 hxg6 17. Nh7 Re8 18. Ne4 and Black is in serious trouble.,True,"
+
+The comment accurately identifies the mistake made by the player in removing the pawn protection from the king, opening up the h file for potential tactical threats.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Pawn to h5
+Guarding the pawn on h7.,True,"
+
+The comment suggests that the player made a move that exposed the pawn on h7, likely resulting in weakness or a loss in material, which indicates a mistake in the move.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5 gxh5 16. Rxh5 Bf5,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: Black plays Bishop to f5
+If 17... Bxe4 18. Ncxe4 h6 19. Nf6+ Bxf6 20. Bxf6 hxg5 21. Rh8#.,True,"
+
+The comment accurately explains the mistake by describing a sequence of moves that leads to a checkmate, indicating a poor defensive move by the player.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5 gxh5 16. Rxh5 Bf5 17. Be4,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Bishop to e4
+Black's bishop was his best defensive piece. Now the king cannot be defended.,True,"
+
+The comment indicates that Black's mistake led to a compromised king's safety, which is a critical error in chess.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5 gxh5 16. Rxh5 Bf5 17. Be4 Bg6 18. Rxh7,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Rook takes on h7
+The threat is to bring the rook over to h1 and then move the bishop from h7. If 20... Bxc3 then 21. Qxc3+ f6 22. Qxf6+ Rxf6 23. Bxf6#.,True,"
+
+The comment accurately explains the tactical sequence that led to the player's mistake, illustrating a forced checkmate position.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5 gxh5 16. Rxh5 Bf5 17. Be4 Bg6 18. Rxh7 Bxh7 19. Bxh7+ Kh8 20. O-O-O,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays queenside castle
+To be able to block the h file with Nh6.,True,"
+
+The comment correctly identifies the mistake of not developing a knight to h6, which could potentially block the h-file and support future operations on the kingside.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5 gxh5 16. Rxh5 Bf5 17. Be4 Bg6 18. Rxh7 Bxh7 19. Bxh7+ Kh8 20. O-O-O Ng8,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: Black plays Knight to g8
+This move pins Black's bishop on g7 and therefore threatens 23. Rxh6,True,"
+
+The comment accurately explains the mistake made by the player, as it points out the pinned bishop and the potential threat of capturing the rook on h6.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5 gxh5 16. Rxh5 Bf5 17. Be4 Bg6 18. Rxh7 Bxh7 19. Bxh7+ Kh8 20. O-O-O Ng8 21. Rh1 Nh6 22. Nd5,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Knight to d5
+Breaking the pin.,False,"
+
+The comment ""Breaking the pin"" doesn't explain the mistake made by the player, as the term usually refers to a defensive action rather than an error.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5 gxh5 16. Rxh5 Bf5 17. Be4 Bg6 18. Rxh7 Bxh7 19. Bxh7+ Kh8 20. O-O-O Ng8 21. Rh1 Nh6 22. Nd5 f6,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: Black plays Pawn to f6
+If 23... Kxh7 then 24. Nexf6+ Rxf6 25. Nxf6+ Bxf6 26. Qxh6+ Kg8 27. Qxf6 and Black is defenseless.,True,"
+
+The comment accurately explains the tactical sequence that reveals the mistake made by the player, leaving Black in a defenseless position.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5 gxh5 16. Rxh5 Bf5 17. Be4 Bg6 18. Rxh7 Bxh7 19. Bxh7+ Kh8 20. O-O-O Ng8 21. Rh1 Nh6 22. Nd5 f6 23. Ne4,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Knight to e4
+Threatening 26. Qxf8+,True,"
+
+The comment explains the mistake made by the player because it highlights a tactical error where the player's move did not pose a significant threat, failing to capitalize on a better opportunity to win material or deliver a decisive attack.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5 gxh5 16. Rxh5 Bf5 17. Be4 Bg6 18. Rxh7 Bxh7 19. Bxh7+ Kh8 20. O-O-O Ng8 21. Rh1 Nh6 22. Nd5 f6 23. Ne4 Rxa2 24. Rxh6 Bxh6 25. Qxh6,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Queen takes on h6
+"Black resigned. White threatens, among other things, 27. Bg6+ Kg8 27. Nexf6+ Rxf6 28. Nxf6+ Kf8 29. Nh7+ Kg8 30. Qxd8+ Qf8 31. Qxf8#. If Black tries 26... Qxh7 then 27. Bxf6+ Rxf6 (27... Kg8 28. Ne7+ wins the queen) 28. Qxf6+ Qg7 (28... Kg8 29. Ne7+) 29. Qxd8+ Qg8 (29... Kh7 30. Ndf6+ Kh6 31. Qe8 Qg6 32. Qh8+ Qh7 33. Qxh7#.) 30. Qxg8+ Kxg8 31. Nec3 with an easily won end game.",True,"
+
+The comment clearly explains the mistake by demonstrating the sequence of moves that lead to a checkmate, showing why Black should not have resigned.",1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Be6 5. d3 g6 6. b4 Qd7 7. b5 Nd8 8. Nf3 Bg7 9. Ng5 e4 10. Bb2 exd3 11. Qxd3 a6 12. h4 axb5 13. cxb5 Ne7 14. Qd2 O-O 15. h5 gxh5 16. Rxh5 Bf5 17. Be4 Bg6 18. Rxh7 Bxh7 19. Bxh7+ Kh8 20. O-O-O Ng8 21. Rh1 Nh6 22. Nd5 f6 23. Ne4 Rxa2 24. Rxh6 Bxh6 25. Qxh6 Qg7 26. Qh4,This is a game between Petrosian (as White) and Estrin (as Black). Last move played: White plays Queen to h4

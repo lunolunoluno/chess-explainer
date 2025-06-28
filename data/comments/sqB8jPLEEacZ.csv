@@ -1,0 +1,12 @@
+comment,good,reasoning,moves,context
+(?!),False,"
+
+The comment ""(?!)"" does not effectively explain the mistake made by the player. It lacks context and specific details about the error in the move, which are necessary for a meaningful evaluation.",1. Nf3 Nf6 2. g3 d5 3. Bg2 c6 4. O-O Bg4 5. d3 Nbd7 6. Bf4 Nh5 7. Bc1 Nhf6 8. h3,"This is a game between Korchnoi V., SUI. (as White) and Ponomariov R., UKR. (as Black). Last move played: White plays Pawn to h3"
+"A horrible mistake, but Korchnoi was not the only one.(!)",True,"
+
+The comment acknowledges that the move was a mistake but also implies that it's a common error among players, possibly referring to Boris Spassky's similar blunder in the 1971 World Chess Championship against Bobby Fischer.",1. Nf3 Nf6 2. g3 d5 3. Bg2 c6 4. O-O Bg4 5. d3 Nbd7 6. Bf4 Nh5 7. Bc1 Nhf6 8. h3 Bh5 9. Bf4 e6 10. c4 Be7 11. cxd5 cxd5 12. Nc3 O-O 13. g4 Bg6 14. Nh4,"This is a game between Korchnoi V., SUI. (as White) and Ponomariov R., UKR. (as Black). Last move played: White plays Knight to h4"
+Trying to create something.,True,"
+The comment explains the mistake made by the player, suggesting they attempted to create a new position or plan without considering the consequences or the opponent's potential responses.",1. Nf3 Nf6 2. g3 d5 3. Bg2 c6 4. O-O Bg4 5. d3 Nbd7 6. Bf4 Nh5 7. Bc1 Nhf6 8. h3 Bh5 9. Bf4 e6 10. c4 Be7 11. cxd5 cxd5 12. Nc3 O-O 13. g4 Bg6 14. Nh4 Nxg4 15. Nxg6 fxg6 16. e3 Ngf6 17. Nb5 Qa5 18. a4 a6 19. b4,"This is a game between Korchnoi V., SUI. (as White) and Ponomariov R., UKR. (as Black). Last move played: White plays Pawn to b4"
+"At the same square! White resigns. (time white 1,54; black 1,40).",True,"
+
+The comment explains the mistake made by the player, as the move led to a disadvantageous position for White, prompting a resignation.",1. Nf3 Nf6 2. g3 d5 3. Bg2 c6 4. O-O Bg4 5. d3 Nbd7 6. Bf4 Nh5 7. Bc1 Nhf6 8. h3 Bh5 9. Bf4 e6 10. c4 Be7 11. cxd5 cxd5 12. Nc3 O-O 13. g4 Bg6 14. Nh4 Nxg4 15. Nxg6 fxg6 16. e3 Ngf6 17. Nb5 Qa5 18. a4 a6 19. b4 Bxb4 20. Bc7 b6 21. Nd4 Bc3 22. Rb1 Bxd4 23. exd4 Qc3 24. Bxb6 Nxb6 25. Rxb6 Qxd4 26. Rxe6 a5 27. Qa1 Qxd3 28. Rd1 Qf5 29. Re5 Qc2 30. Re7 Kh8 31. Rxd5 Rab8 32. Rb5 Rbd8 33. Bf3 Rd3 34. Re3 Rxe3 35. fxe3 h5 36. Rxa5 Ng4,"This is a game between Korchnoi V., SUI. (as White) and Ponomariov R., UKR. (as Black). Last move played: Black plays Knight to g4"

@@ -10,8 +10,9 @@ from sympy.printing.pytorch import torch
 from tqdm import tqdm
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
-from modules.datautils import has_game_comments, pgn_to_id, get_all_pgn_files, get_all_comments_and_lines_in_game, filter_good_comments
-from modules.utils import Debug
+from modules.datautils import has_game_comments, pgn_to_id, get_all_pgn_files, get_all_comments_and_lines_in_game, \
+    filter_good_comments
+from modules.utils import Debug, LLM
 from modules.gameanalyzer import GameAnalyzer
 
 
@@ -79,14 +80,16 @@ class Controller:
         All the comments from a game will be saved in a csv file in DATA_COMMENTS_PATH
         """
         # Create the pipeline that will be used to evaluate the comments
-        model_id = "microsoft/Phi-3-mini-4k-instruct"
-        tokenizer = AutoTokenizer.from_pretrained(model_id)
-        model = AutoModelForCausalLM.from_pretrained(
-            model_id,
-            torch_dtype=torch.float16,
-            device_map="auto"
-        )
-        pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
+        # model_id = "microsoft/Phi-3-mini-4k-instruct"
+        # tokenizer = AutoTokenizer.from_pretrained(model_id)
+        # model = AutoModelForCausalLM.from_pretrained(
+        #     model_id,
+        #     torch_dtype=torch.float16,
+        #     device_map="auto"
+        # )
+        # pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
+        llm = LLM()
+        pipe = llm.get_pipe()
 
         # get all the pgn files that will be evaluated
         pgn_files = get_all_pgn_files()
@@ -99,7 +102,7 @@ class Controller:
             pgn_game = open(pgnfile)
             game = chess.pgn.read_game(pgn_game)
             while game is not None:
-                header = chess.pgn.read_headers(pgn_game)
+                header = game.headers
                 if 'White' in header and header['White'].strip() != '':
                     context = f"This is a game between {header['White']} (as White)"
                 else:
@@ -117,6 +120,7 @@ class Controller:
                         if torch.cuda.is_available():
                             torch.cuda.empty_cache()
                             torch.cuda.reset_peak_memory_stats()
+                        self.dbg.print(f"Analyzing {len(comments)} from {header}...")
                         good_comments = filter_good_comments(pipe, comments)
                         df = pd.DataFrame(good_comments)
                         df.to_csv(cvs_path, index=False)
@@ -124,30 +128,63 @@ class Controller:
                 game = chess.pgn.read_game(pgn_game)
 
     def reformulate_good_comments(self) -> None:
+        # Create the pipeline that will be used to evaluate the comments
+        # model_id = "microsoft/Phi-3-mini-4k-instruct"
+        # tokenizer = AutoTokenizer.from_pretrained(model_id)
+        # model = AutoModelForCausalLM.from_pretrained(
+        #     model_id,
+        #     torch_dtype=torch.float16,
+        #     device_map="auto"
+        # )
+        # pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
+        llm = LLM()
+        pipe = llm.get_pipe()
+
         games = [
             os.path.join(self.data_commented_path, file)
             for file in os.listdir(self.data_commented_path)
             if os.path.isfile(os.path.join(self.data_commented_path, file)) and file.lower().endswith(".csv")
         ]
 
-        for game_comments in games:
+        for game_index, game_comments in enumerate(games):
             comments = pd.read_csv(game_comments)
+            self.dbg.print(f"Reformulating comments in {game_comments}...")
+            if 'reformulated' in comments:
+                # This means that this file has already been reformulated
+                self.dbg.print("Already reformulated !")
+                continue
+
+            comments["reformulated"] = "-"
             good_comments = comments[comments["good"]]
+            self.dbg.print(f"Reformulating {good_comments.shape[0]} comments...")
 
-            prompt_model = [
-                {"role": "system",
-                 "content": """You're job is to reformulate chess annotations to make them more neutral. 
-                To achieve this, you will do the following : 
-                -   When a player's name is mentionned, replace it with either 'black' or 'white' according to the player's color.
-                -   When the pronouns she/her/hers or he/him/his is written, replace it by they/them/their"""},
-                {"role": "user",
-                 "content": """in this list you'll find the last move played before the annotation for context and the annotation that should be more neutral if possible: 
-                 1)  move played : """}
-            ]
-            # TODO: complete this function once I added context in the data
-            break
+            if not good_comments.empty:
+                prompt_model = lambda context, comment: [
+                    {"role": "system",
+                     "content": """You're job is to reformulate chess annotations to make them cleaner. 
+                    Additionally, it is VERY IMPORTANT that when reformulating you do the following:  
+                    -   When using a pronoun to refer to a player, only use they/them/their
+                    -   When mentionning a player's name, use either 'black' or 'white' according to the player's color."""},
+                    {"role": "user",
+                     "content": f"""Here is a small context regarding the game:
+                     '{context}'
+                     You don't have to mention anything about the context in the reformulated comment unless deemed necessary.
+                     Here is the comment that you have to reformulate:
+                     '{comment}'
+                     Remember that you have to simplify the comment to only keep the explaination as to why the move played was bad.
+                     Additionnaly, remember that  it is VERY IMPORTANT that when reformulating you do the following: 
+                    -   When using a pronoun to refer to a player, only use they/them/their
+                    -   When mentionning a player's name, use either 'Black' or 'White' according to the player's color."""}
+                ]
+                # print(good_comments)
+                prompts = [prompt_model(comment['context'], comment['comment']) for _, comment in good_comments.iterrows()]
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                    torch.cuda.reset_peak_memory_stats()
+                # print(prompts)
+                outputs = pipe(prompts, batch_size=4)
+                out_reformulated = [o[0]['generated_text'][-1]['content'] for o in outputs]
+                good_comments.loc[:, "reformulated"] = out_reformulated
+                comments.update(good_comments)
 
-        # df_comments = pd.concat((pd.read_csv(g) for g in games), ignore_index=True)
-        # df_good_comments = df_comments[df_comments["good"]]
-        #
-        # print(df_good_comments.head())
+            comments.to_csv(games[game_index], index=False)

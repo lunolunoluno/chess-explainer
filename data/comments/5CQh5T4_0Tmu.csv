@@ -1,0 +1,7 @@
+comment,good,reasoning,moves,context,reformulated
+Again the English Attack.,True,"
+
+The comment ""Again the English Attack"" implies that the player has made a common mistake by employing a well-known but often risky strategy, suggesting a lack of creativity or poor strategic planning in their move.",1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3,"This is a game between Polgar, Ju (as White) and Kasparov, G. (as Black). Last move played: White plays Bishop to e3"," ""White's last move weakens their position."""
+Attempting to blockade some of those open lines.,True,"
+
+The comment explains the mistake made by the player because the move was an attempt to gain control over open lines, which can be crucial for piece development and tactical opportunities.",1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. f3 b5 8. Qd2 Nbd7 9. O-O-O Bb7 10. g4 Nb6 11. Qf2 Nfd7 12. Bd3 Rc8 13. Nce2 Be7 14. h4 O-O 15. Kb1 Na4 16. g5 Ndc5 17. Ng3 Qc7 18. Nb3 d5 19. e5 Qxe5 20. Bd4 Qc7 21. f4 Ne4,"This is a game between Polgar, Ju (as White) and Kasparov, G. (as Black). Last move played: Black plays Knight to e4"," Polgar, Ju (as White) attempts to blockade some of those open lines, which is a suboptimal strategy."

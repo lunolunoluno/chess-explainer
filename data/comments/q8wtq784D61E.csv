@@ -1,0 +1,49 @@
+comment,good,reasoning,moves,context
+George and I have played many times. He usually plays a Colle or Torre System of some kind so I play a line that has brought me success against him in the past.,True,"
+
+The comment explains the mistake made by the player because it suggests that the player relied on a previous successful strategy against George, which may not have been effective against his current game plan.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Bishop to b7"
+"It is a matter of ""taste"" whether Blacks pawn goes to d6 or d5. I prefer d6 when the centre can be contested with either e5 or c5.",False,"
+
+The comment does not directly address the mistake made by the player, but rather discusses a preference for different pawn moves in the given position.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Pawn to d6"
+Black has snatched a small initiative with the threat of 11...e4.,True,"
+
+The comment correctly identifies the mistake made by the black player, as taking the pawn with 11...e4 is a missed opportunity to gain a small initiative.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Rook to e8"
+Renewing the e4 threat.,False,"
+
+The comment does not explain the mistake because the move ""Renewing the e4 threat"" suggests that the player was attempting to reintroduce a previously discussed threat, not addressing any actual mistake made on the board.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Knight to c5"
+I felt 12.e4 was better. Black is unlikely to exchange the c5 knight for a Bishop with little future.,True,"
+
+The comment accurately identifies the mistake made by the player, suggesting that moving the pawn to e4 was a better option and criticizing the decision to exchange the knight for a bishop.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: White plays Bishop to e2"
+The Bishop threatens to come to f5.,True,"
+
+The comment accurately explains the mistake as the player overlooked the potential check on the enemy king by the bishop moving to f5.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Bishop to c8"
+White creates a new weakness at f4.,True,"
+
+The comment accurately explains the mistake made by the player by highlighting the creation of a new weakness at a specific chess square.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8 13. e4 Nh5,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Knight to h5"
+#This is not the correct plan. White should continue with 17.Rac1 and c5 or 17.a4 and a5.,True,"
+
+The comment explains the mistake by suggesting alternative moves that would have been better for white's position.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8 13. e4 Nh5 14. b4 Nd7 15. Nb3 Nf4 16. Rfe1 Rf8 17. Rad1,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: White plays Rook to d1"
+"The exclamation mark is not for the move itself, but for the plan it initiates.",True,"
+
+The comment accurately highlights that the move was a mistake as it didn't contribute to a plan, but rather initiated a suboptimal one.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8 13. e4 Nh5 14. b4 Nd7 15. Nb3 Nf4 16. Rfe1 Rf8 17. Rad1 f5 18. exf5 gxf5 19. Bc1 Nxe2+ 20. Rxe2 f4 21. Rde1 Qe8,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Queen to e8"
+Threatening mate in one!,True,"
+
+The comment explains the mistake because the player likely failed to recognize or address a direct threat of checkmate by their opponent.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8 13. e4 Nh5 14. b4 Nd7 15. Nb3 Nf4 16. Rfe1 Rf8 17. Rad1 f5 18. exf5 gxf5 19. Bc1 Nxe2+ 20. Rxe2 f4 21. Rde1 Qe8 22. Ng5,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: White plays Knight to g5"
+White was threatening 28.g4! and Rg2! winning.,True,"
+
+The comment accurately explains the mistake made by White, as 28.g4 would weaken their king's position, and Rg2 would create a winning attack on the black king.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8 13. e4 Nh5 14. b4 Nd7 15. Nb3 Nf4 16. Rfe1 Rf8 17. Rad1 f5 18. exf5 gxf5 19. Bc1 Nxe2+ 20. Rxe2 f4 21. Rde1 Qe8 22. Ng5 Qh5 23. Ne6 Rf6 24. Nxc7 Rh6 25. h3 Nf8 26. f3 Bf5 27. Qc3 Qg6,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Queen to g6"
+Good defence as Black was intending e4 next.,False,"
+
+The comment does not explain the mistake because it assumes Black's plans without addressing the specific move that was played incorrectly.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8 13. e4 Nh5 14. b4 Nd7 15. Nb3 Nf4 16. Rfe1 Rf8 17. Rad1 f5 18. exf5 gxf5 19. Bc1 Nxe2+ 20. Rxe2 f4 21. Rde1 Qe8 22. Ng5 Qh5 23. Ne6 Rf6 24. Nxc7 Rh6 25. h3 Nf8 26. f3 Bf5 27. Qc3 Qg6 28. Nxa8 Rxh3 29. Bb2,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: White plays Bishop to b2"
+# Creating an escape square at e2 for the King.,True,"
+
+The comment correctly identifies a blunder as the player has left their king's escape route open (e2) after making a move, which could lead to a potential checkmate threat.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8 13. e4 Nh5 14. b4 Nd7 15. Nb3 Nf4 16. Rfe1 Rf8 17. Rad1 f5 18. exf5 gxf5 19. Bc1 Nxe2+ 20. Rxe2 f4 21. Rde1 Qe8 22. Ng5 Qh5 23. Ne6 Rf6 24. Nxc7 Rh6 25. h3 Nf8 26. f3 Bf5 27. Qc3 Qg6 28. Nxa8 Rxh3 29. Bb2 Qg3 30. Rf2,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: White plays Rook to f2"
+With a deadly threat of 32...Bd3!! followed by 33...Qxf2 or 33...Qh2+ and mate.,True,"
+
+The comment explains the mistake made by the player by highlighting a tactical opportunity for a checkmate, indicating that the player overlooked a strong continuation.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8 13. e4 Nh5 14. b4 Nd7 15. Nb3 Nf4 16. Rfe1 Rf8 17. Rad1 f5 18. exf5 gxf5 19. Bc1 Nxe2+ 20. Rxe2 f4 21. Rde1 Qe8 22. Ng5 Qh5 23. Ne6 Rf6 24. Nxc7 Rh6 25. h3 Nf8 26. f3 Bf5 27. Qc3 Qg6 28. Nxa8 Rxh3 29. Bb2 Qg3 30. Rf2 Bf6 31. Qd2 Bh4,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Bishop to h4"
+Bringing up the calvary.,True,"
+
+The comment, ""Bringing up the calvary,"" suggests that the player's move was aggressive or a desperate attempt, indicating that it was indeed a mistake.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8 13. e4 Nh5 14. b4 Nd7 15. Nb3 Nf4 16. Rfe1 Rf8 17. Rad1 f5 18. exf5 gxf5 19. Bc1 Nxe2+ 20. Rxe2 f4 21. Rde1 Qe8 22. Ng5 Qh5 23. Ne6 Rf6 24. Nxc7 Rh6 25. h3 Nf8 26. f3 Bf5 27. Qc3 Qg6 28. Nxa8 Rxh3 29. Bb2 Qg3 30. Rf2 Bf6 31. Qd2 Bh4 32. Nc1 Ng6,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Knight to g6"
+With mate to follow White Resigns.,True,"
+
+The comment accurately describes the mistake made by the player, indicating that it resulted in a checkmate, leading to the resignation of the opponent.",1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Nbd2 g6 5. Bd3 Bg7 6. O-O O-O 7. b3 d6 8. Bb2 Nbd7 9. c4 e5 10. Qc2 Re8 11. d5 Nc5 12. Be2 Bc8 13. e4 Nh5 14. b4 Nd7 15. Nb3 Nf4 16. Rfe1 Rf8 17. Rad1 f5 18. exf5 gxf5 19. Bc1 Nxe2+ 20. Rxe2 f4 21. Rde1 Qe8 22. Ng5 Qh5 23. Ne6 Rf6 24. Nxc7 Rh6 25. h3 Nf8 26. f3 Bf5 27. Qc3 Qg6 28. Nxa8 Rxh3 29. Bb2 Qg3 30. Rf2 Bf6 31. Qd2 Bh4 32. Nc1 Ng6 33. Nc7 e4 34. Rxe4 Bxe4 35. Qd4 Ne5 36. Kf1 Rh1+ 37. Ke2 Bxf3+ 38. gxf3 Qg1,"This is a game between Sprott, G R. (as White) and Beecham, C R. (as Black). Last move played: Black plays Queen to g1"

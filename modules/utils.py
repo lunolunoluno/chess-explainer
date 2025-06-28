@@ -1,3 +1,7 @@
+import torch
+from transformers import pipeline, Pipeline, AutoTokenizer, AutoModelForCausalLM
+
+
 class SingletonMeta(type):
     _instances = {}
 
@@ -17,3 +21,24 @@ class Debug(metaclass=SingletonMeta):
     def print(self, *args, **kwargs):
         if self.debug:
             print(*args, **kwargs)
+
+
+
+class LLM(metaclass=SingletonMeta):
+    def __init__(self):
+        self.model_id = "microsoft/Phi-3-mini-4k-instruct"
+        self.pipe = self.set_model_id(self.model_id)
+
+    def set_model_id(self, model_id: str) -> Pipeline:
+        self.model_id = model_id
+        tokenizer = AutoTokenizer.from_pretrained(model_id)
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            torch_dtype=torch.float16,
+            device_map="auto"
+        )
+        self.pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
+        return self.pipe
+
+    def get_pipe(self):
+        return self.pipe

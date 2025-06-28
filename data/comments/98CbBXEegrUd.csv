@@ -1,0 +1,16 @@
+comment,good,reasoning,moves,context,reformulated
+Maybe Black could have safely taken the pawn on e4 though this would cost him two tempi in retreating the piece hence my reason for playing d6.,False,"
+
+The comment does not provide a clear explanation for the mistake made by the player, as it only speculates about an alternative move without addressing the reason for the original move played.",1. c4 Nf6 2. Nc3 e5 3. e4 Nc6 4. Nf3 Bb4 5. a3 Bxc3 6. dxc3 d6,"This is a game between Crane, K. (as White) and Hilton, S. (as Black). Last move played: Black plays Pawn to d6",-
+Risky but worthwhile as Black has a lead in development.,False,"
+
+The comment does not justify the mistake, as a lead in development does not necessarily mean that a risky move is worthwhile.",1. c4 Nf6 2. Nc3 e5 3. e4 Nc6 4. Nf3 Bb4 5. a3 Bxc3 6. dxc3 d6 7. Bg5 h6 8. Bxf6 Qxf6 9. h3 Be6 10. Qd3 O-O-O,"This is a game between Crane, K. (as White) and Hilton, S. (as Black). Last move played: Black plays queenside castle",-
+An interesting position is reached. White is trying for a Queenside attack whilst Black is trying for play on the Kingside. However Black's pieces are supporting the attack whilst White's are not and that is a crucial factor in what follows.,True,"
+
+The comment accurately explains the mistake made by indicating that Black's pieces are better positioned to support the attack, suggesting that White's move was less effective.",1. c4 Nf6 2. Nc3 e5 3. e4 Nc6 4. Nf3 Bb4 5. a3 Bxc3 6. dxc3 d6 7. Bg5 h6 8. Bxf6 Qxf6 9. h3 Be6 10. Qd3 O-O-O 11. Be2 Na5 12. Nd2 Nc6 13. b4 Ne7 14. O-O Ng6,"This is a game between Crane, K. (as White) and Hilton, S. (as Black). Last move played: Black plays Knight to g6", White's attempt at a Queenside attack is met with Black's active support. This dynamic is crucial as White's pieces lack support for their aggressive strategy.
+This unecessarily weakens the Kingside.,True,"
+
+The comment accurately points out the mistake made by the player, which was weakening their king's position on the board.",1. c4 Nf6 2. Nc3 e5 3. e4 Nc6 4. Nf3 Bb4 5. a3 Bxc3 6. dxc3 d6 7. Bg5 h6 8. Bxf6 Qxf6 9. h3 Be6 10. Qd3 O-O-O 11. Be2 Na5 12. Nd2 Nc6 13. b4 Ne7 14. O-O Ng6 15. Qe3 Kb8 16. b5 Nf4 17. Kh2 g5 18. g4,"This is a game between Crane, K. (as White) and Hilton, S. (as Black). Last move played: White plays Pawn to g4", 'Playing Pawn to g4 weakens White's Kingside.'
+Black has won a pawn and maintains his initiative.,False,"
+
+The comment does not explain the mistake, as it suggests a benefit (winning a pawn and maintaining the initiative) that would result from a correct move, not a mistake.",1. c4 Nf6 2. Nc3 e5 3. e4 Nc6 4. Nf3 Bb4 5. a3 Bxc3 6. dxc3 d6 7. Bg5 h6 8. Bxf6 Qxf6 9. h3 Be6 10. Qd3 O-O-O 11. Be2 Na5 12. Nd2 Nc6 13. b4 Ne7 14. O-O Ng6 15. Qe3 Kb8 16. b5 Nf4 17. Kh2 g5 18. g4 h5 19. gxh5 Nxh3 20. Qg3 Nf4 21. Bg4 Bxg4 22. Qxg4 Rxh5+,"This is a game between Crane, K. (as White) and Hilton, S. (as Black). Last move played: Black plays Rook takes on h5 with check",-

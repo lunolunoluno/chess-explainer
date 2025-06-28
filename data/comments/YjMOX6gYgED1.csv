@@ -1,0 +1,19 @@
+comment,good,reasoning,moves,context
+B12: Caro-Kann: Advance Variation,False,"
+
+The comment does not explain the mistake made by the player as it simply states the opening variation without indicating any strategic or tactical errors.",1. e4,"This is a game between Shirov, Alexei (as White) and Kramnik, Vladimir (as Black). Last move played: White plays Pawn to e4"
+A sound move,False,"
+
+The comment contradicts itself by labeling a move as both a sound move and a mistake.",1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. Bf4 Bxc5 6. Bd3 Nc6 7. Nf3 f6 8. Nbd2 fxe5 9. Bxe5 Nf6 10. Qe2 O-O 11. O-O-O a5 12. Nb3 Bd6 13. Kb1 Bxe5 14. Nxe5,"This is a game between Shirov, Alexei (as White) and Kramnik, Vladimir (as Black). Last move played: White plays Knight takes on e5"
+here's the full point,True,"
+
+The comment implies that the move was a blunder and directly points out the mistake being made.",1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. Bf4 Bxc5 6. Bd3 Nc6 7. Nf3 f6 8. Nbd2 fxe5 9. Bxe5 Nf6 10. Qe2 O-O 11. O-O-O a5 12. Nb3 Bd6 13. Kb1 Bxe5 14. Nxe5 a4 15. Nc1 a3 16. b3 Qa5 17. c4 dxc4 18. Nxc4 Qc7 19. Rhe1 Nd5 20. Qd2 Ncb4 21. Ne2 Rxf2 22. Be4 b5 23. Qd4 Rxe2,"This is a game between Shirov, Alexei (as White) and Kramnik, Vladimir (as Black). Last move played: Black plays Rook takes on e2"
+Do you see the mate threat?,False,"
+
+The comment does not explain the mistake made by the player because it seems to be addressing an opponent's move that may lead to a checkmate threat, rather than analyzing the previously played move.",1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. Bf4 Bxc5 6. Bd3 Nc6 7. Nf3 f6 8. Nbd2 fxe5 9. Bxe5 Nf6 10. Qe2 O-O 11. O-O-O a5 12. Nb3 Bd6 13. Kb1 Bxe5 14. Nxe5 a4 15. Nc1 a3 16. b3 Qa5 17. c4 dxc4 18. Nxc4 Qc7 19. Rhe1 Nd5 20. Qd2 Ncb4 21. Ne2 Rxf2 22. Be4 b5 23. Qd4 Rxe2 24. Rxe2 bxc4 25. Bxd5 Nxd5 26. bxc4 Ba6 27. Rc1 Nf4 28. Rd2 e5,"This is a game between Shirov, Alexei (as White) and Kramnik, Vladimir (as Black). Last move played: Black plays Pawn to e5"
+Threatening mate... how?,True,"
+
+The comment implies that the move made by the player could potentially lead to a checkmate, but the opponent is questioning the viability of the threat, suggesting that it might not be a mistake but rather a brilliant strategic move.",1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. Bf4 Bxc5 6. Bd3 Nc6 7. Nf3 f6 8. Nbd2 fxe5 9. Bxe5 Nf6 10. Qe2 O-O 11. O-O-O a5 12. Nb3 Bd6 13. Kb1 Bxe5 14. Nxe5 a4 15. Nc1 a3 16. b3 Qa5 17. c4 dxc4 18. Nxc4 Qc7 19. Rhe1 Nd5 20. Qd2 Ncb4 21. Ne2 Rxf2 22. Be4 b5 23. Qd4 Rxe2 24. Rxe2 bxc4 25. Bxd5 Nxd5 26. bxc4 Ba6 27. Rc1 Nf4 28. Rd2 e5 29. Qe3 Bxc4 30. Ka1 Qf7 31. g3 Nd3 32. Rxd3 Bxd3 33. Qxd3 h6 34. Qb3 Qxb3 35. axb3 Kf7 36. Rc6 a2 37. h4 Ra3 38. b4 e4 39. Rc4 e3 40. Re4 Kf6 41. g4 h5 42. gxh5 Kf5,"This is a game between Shirov, Alexei (as White) and Kramnik, Vladimir (as Black). Last move played: Black plays King to f5"
+Threatening mate: Rd3,False,"
+
+The comment ""Threatening mate: Rd3"" does not explain the mistake made by the player as it does not mention any specific move or position that led to the mistake.",1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. Bf4 Bxc5 6. Bd3 Nc6 7. Nf3 f6 8. Nbd2 fxe5 9. Bxe5 Nf6 10. Qe2 O-O 11. O-O-O a5 12. Nb3 Bd6 13. Kb1 Bxe5 14. Nxe5 a4 15. Nc1 a3 16. b3 Qa5 17. c4 dxc4 18. Nxc4 Qc7 19. Rhe1 Nd5 20. Qd2 Ncb4 21. Ne2 Rxf2 22. Be4 b5 23. Qd4 Rxe2 24. Rxe2 bxc4 25. Bxd5 Nxd5 26. bxc4 Ba6 27. Rc1 Nf4 28. Rd2 e5 29. Qe3 Bxc4 30. Ka1 Qf7 31. g3 Nd3 32. Rxd3 Bxd3 33. Qxd3 h6 34. Qb3 Qxb3 35. axb3 Kf7 36. Rc6 a2 37. h4 Ra3 38. b4 e4 39. Rc4 e3 40. Re4 Kf6 41. g4 h5 42. gxh5 Kf5 43. Re7 Kf4 44. b5 Rb3 45. Rf7+ Ke4 46. Re7+ Kd3 47. Rd7+ Kc2,"This is a game between Shirov, Alexei (as White) and Kramnik, Vladimir (as Black). Last move played: Black plays King to c2"

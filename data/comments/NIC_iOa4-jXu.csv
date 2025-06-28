@@ -1,0 +1,37 @@
+comment,good,reasoning,moves,context
+B52: Sicilian: Moscow Variation with 3...Bd7,True,"
+
+The comment accurately describes the mistake by explaining that the player made a move in the Moscow Variation of the Sicilian Defense, which was not the best response given the circumstances.",1. e4,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: White plays Pawn to e4"
+Prevents intrusion on e5,False,"
+
+The comment does not explain the mistake, as it does not indicate whether the move was poor in terms of strategy or position, or if it was a blunder.",1. e4 c5 2. Nf3 d6,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: Black plays Pawn to d6"
+Controls g4,False,"
+
+The comment does not explain the mistake, as it only mentions a potential advantage (controlling the g4 square) but does not address the fundamental issues with the move itself.",1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8. d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: White plays Pawn to f3"
+Consolidates b5,False,"
+
+The comment ""Consolidates b5"" does not explain the mistake made by the player as it fails to indicate any specific issue or flawed strategy in the move.",1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8. d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3 a6,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: Black plays Pawn to a6"
+Secures d5,False,"
+
+The comment ""Secures d5"" does not explain the mistake as it implies a strategic move to strengthen the position rather than a failed one.",1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8. d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3 a6 12. a4 Rfc8 13. b3 Qd8 14. Kh1 Nd7 15. Bg5 Qa5 16. Qd2 Nc5 17. Rab1 e6,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: Black plays Pawn to e6"
+Threatening mate: Ne7,False,"
+
+The comment does not explain the mistake made by the player, as it merely states that the move ""Ne7"" is threatening mate, which does not provide insight into why the move was a mistake in the context of the previous board state.",1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8. d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3 a6 12. a4 Rfc8 13. b3 Qd8 14. Kh1 Nd7 15. Bg5 Qa5 16. Qd2 Nc5 17. Rab1 e6 18. Rfd1 Rab8 19. Bh4 Qb6 20. Qxd6 Be5 21. Qd2 Nxb3 22. Qb2 Nca5 23. Nd5,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: White plays Knight to d5"
+The knight dominates,False,"
+
+The comment ""The knight dominates"" does not explain the mistake made by the player, as it does not clarify what the problem is with the knight's position or why it is considered a mistake.",1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8. d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3 a6 12. a4 Rfc8 13. b3 Qd8 14. Kh1 Nd7 15. Bg5 Qa5 16. Qd2 Nc5 17. Rab1 e6 18. Rfd1 Rab8 19. Bh4 Qb6 20. Qxd6 Be5 21. Qd2 Nxb3 22. Qb2 Nca5 23. Nd5 exd5 24. Qxe5 Nxc4,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: Black plays Knight takes on c4"
+White creates threats along the open d-file,False,"
+
+The comment only describes a potential strategy or future play along the d-file, but it does not explain or evaluate the mistake made by the player.",1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8. d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3 a6 12. a4 Rfc8 13. b3 Qd8 14. Kh1 Nd7 15. Bg5 Qa5 16. Qd2 Nc5 17. Rab1 e6 18. Rfd1 Rab8 19. Bh4 Qb6 20. Qxd6 Be5 21. Qd2 Nxb3 22. Qb2 Nca5 23. Nd5 exd5 24. Qxe5 Nxc4 25. Qxd5,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: White plays Queen takes on d5"
+The mate threat is Qxc8,True,"
+
+The comment ""The mate threat is Qxc8"" explains the mistake made by the player as it points out a specific threat of checkmate in a single move, indicating that the player did not see the opportunity to deliver checkmate or defend against it effectively.",1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8. d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3 a6 12. a4 Rfc8 13. b3 Qd8 14. Kh1 Nd7 15. Bg5 Qa5 16. Qd2 Nc5 17. Rab1 e6 18. Rfd1 Rab8 19. Bh4 Qb6 20. Qxd6 Be5 21. Qd2 Nxb3 22. Qb2 Nca5 23. Nd5 exd5 24. Qxe5 Nxc4 25. Qxd5 Qe3 26. Re1 Nbd2 27. Rxb7 Rxb7 28. Qxb7,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: White plays Queen takes on b7"
+Do you see the mate threat?,True,"
+
+The comment highlights the immediate threat of checkmate, indicating that the move played was a blunder due to overlooking a critical tactical opportunity.",1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8. d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3 a6 12. a4 Rfc8 13. b3 Qd8 14. Kh1 Nd7 15. Bg5 Qa5 16. Qd2 Nc5 17. Rab1 e6 18. Rfd1 Rab8 19. Bh4 Qb6 20. Qxd6 Be5 21. Qd2 Nxb3 22. Qb2 Nca5 23. Nd5 exd5 24. Qxe5 Nxc4 25. Qxd5 Qe3 26. Re1 Nbd2 27. Rxb7 Rxb7 28. Qxb7 Re8 29. Qd7,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: White plays Queen to d7"
+With the decisive threat Qc8,True,"
+
+The comment ""With the decisive threat Qc8"" likely indicates that the player made a move allowing their opponent to capture a critical piece on c8, resulting in a significant disadvantage.",1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8. d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3 a6 12. a4 Rfc8 13. b3 Qd8 14. Kh1 Nd7 15. Bg5 Qa5 16. Qd2 Nc5 17. Rab1 e6 18. Rfd1 Rab8 19. Bh4 Qb6 20. Qxd6 Be5 21. Qd2 Nxb3 22. Qb2 Nca5 23. Nd5 exd5 24. Qxe5 Nxc4 25. Qxd5 Qe3 26. Re1 Nbd2 27. Rxb7 Rxb7 28. Qxb7 Re8 29. Qd7 Rb8 30. Bg3 Nxf3 31. Bxb8,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: White plays Bishop takes on b8"
+shortens the misery for Black,True,"
+
+The comment accurately describes the strategic impact of the white player's move, which placed the black king in a vulnerable position, potentially leading to a disadvantageous situation for Black.",1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8. d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3 a6 12. a4 Rfc8 13. b3 Qd8 14. Kh1 Nd7 15. Bg5 Qa5 16. Qd2 Nc5 17. Rab1 e6 18. Rfd1 Rab8 19. Bh4 Qb6 20. Qxd6 Be5 21. Qd2 Nxb3 22. Qb2 Nca5 23. Nd5 exd5 24. Qxe5 Nxc4 25. Qxd5 Qe3 26. Re1 Nbd2 27. Rxb7 Rxb7 28. Qxb7 Re8 29. Qd7 Rb8 30. Bg3 Nxf3 31. Bxb8 Qxe4,"This is a game between Kramnik, V. (as White) and Gelfand, B. (as Black). Last move played: Black plays Queen takes on e4"

@@ -1,0 +1,25 @@
+comment,good,reasoning,moves,context
+This is quite common in the Stonewall Attack. White castles short and Black Long and once the centre battle has been resolved a pawn race follows.,True,"
+
+The comment explains the mistake as it provides context about the Stonewall Attack, explains the general tactical situation (castling and pawn race), and why the move made by the player may be considered a mistake in that situation.",1. d4 d5 2. e3 Nf6 3. Bd3 e6 4. Nd2 c5 5. c3 c4 6. Bc2 b5,"This is a game between Petrie, A R. (as White) and Jack, J P E. (as Black). Last move played: Black plays Pawn to b5"
+The Stonewall is established. Black can try 8...Nxe5 9.dxe5 Ne4. This Knight can be a thorn in White's side as either the Kingside pawn structure is weakened or the better hite squared Bishop is traded.,False,"
+
+The comment does not explain the mistake made by the player, as it seems to suggest a different strategic plan rather than addressing the error in the previous move.",1. d4 d5 2. e3 Nf6 3. Bd3 e6 4. Nd2 c5 5. c3 c4 6. Bc2 b5 7. Ndf3 Nc6 8. Ne5 Bb7 9. f4,"This is a game between Petrie, A R. (as White) and Jack, J P E. (as Black). Last move played: White plays Pawn to f4"
+I decided it was better to keep the centre closed and try to control the f-file.,True,"
+
+The comment explains the mistake because it indicates that the player intentionally made a move to keep the center closed and gain control over the f-file, likely realizing it would not provide immediate strategic benefits and hence, it was a mistake.",1. d4 d5 2. e3 Nf6 3. Bd3 e6 4. Nd2 c5 5. c3 c4 6. Bc2 b5 7. Ndf3 Nc6 8. Ne5 Bb7 9. f4 Nxe5 10. fxe5,"This is a game between Petrie, A R. (as White) and Jack, J P E. (as Black). Last move played: White plays Pawn takes on e5"
+Weakening the King side.,True,"
+
+The comment ""Weakening the King side"" accurately describes the mistake made by the player, as their move compromised the security of their king's position.",1. d4 d5 2. e3 Nf6 3. Bd3 e6 4. Nd2 c5 5. c3 c4 6. Bc2 b5 7. Ndf3 Nc6 8. Ne5 Bb7 9. f4 Nxe5 10. fxe5 Nd7 11. Nh3 Qc7 12. Qf3 f6,"This is a game between Petrie, A R. (as White) and Jack, J P E. (as Black). Last move played: Black plays Pawn to f6"
+# White has more space and the idea of opening the f-file looks even more appealing.,False,"
+
+The comment does not explain the mistake made by the player since it only states potential advantages without addressing the reason for the move being a mistake.",1. d4 d5 2. e3 Nf6 3. Bd3 e6 4. Nd2 c5 5. c3 c4 6. Bc2 b5 7. Ndf3 Nc6 8. Ne5 Bb7 9. f4 Nxe5 10. fxe5 Nd7 11. Nh3 Qc7 12. Qf3 f6 13. O-O O-O-O,"This is a game between Petrie, A R. (as White) and Jack, J P E. (as Black). Last move played: Black plays queenside castle"
+White normally plays Nf2 followed by e4. 15.Ng5 is a bit of a cheapo and I was surprised by Black's reply.,True,"
+
+The comment accurately explains that White deviated from the usual development plan with 15.Ng5, and the player's surprise at Black's reply indicates that the move was indeed unexpected and possibly a mistake.",1. d4 d5 2. e3 Nf6 3. Bd3 e6 4. Nd2 c5 5. c3 c4 6. Bc2 b5 7. Ndf3 Nc6 8. Ne5 Bb7 9. f4 Nxe5 10. fxe5 Nd7 11. Nh3 Qc7 12. Qf3 f6 13. O-O O-O-O 14. exf6 Nxf6 15. Ng5,"This is a game between Petrie, A R. (as White) and Jack, J P E. (as Black). Last move played: White plays Knight to g5"
+Charge!!!,True,"
+
+The term ""Charge!!!"" suggests that the move was aggressive and possibly reckless, indicating that it may indeed be a mistake.",1. d4 d5 2. e3 Nf6 3. Bd3 e6 4. Nd2 c5 5. c3 c4 6. Bc2 b5 7. Ndf3 Nc6 8. Ne5 Bb7 9. f4 Nxe5 10. fxe5 Nd7 11. Nh3 Qc7 12. Qf3 f6 13. O-O O-O-O 14. exf6 Nxf6 15. Ng5 Kd7 16. Nf7,"This is a game between Petrie, A R. (as White) and Jack, J P E. (as Black). Last move played: White plays Knight to f7"
+Note the QR and B never moved during the game. The Stonewall might not be everyone's cup of tea but in the right circumstances it shows what can be done with Queen and minor pieces.,True,"
+
+The comment explains the mistake as it points out the unused Queen (QR) and Bishop (B), implying they were potential resources that could have contributed to a stronger position, particularly when referring to the Stonewall formation.",1. d4 d5 2. e3 Nf6 3. Bd3 e6 4. Nd2 c5 5. c3 c4 6. Bc2 b5 7. Ndf3 Nc6 8. Ne5 Bb7 9. f4 Nxe5 10. fxe5 Nd7 11. Nh3 Qc7 12. Qf3 f6 13. O-O O-O-O 14. exf6 Nxf6 15. Ng5 Kd7 16. Nf7 Bd6 17. Nxh8 Bxh2+ 18. Kf2 Rxh8 19. g3 h5 20. Qf4 Qd8 21. Kg2 Ng4 22. Qf7+,"This is a game between Petrie, A R. (as White) and Jack, J P E. (as Black). Last move played: White plays Queen to f7 with check"

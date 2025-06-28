@@ -1,0 +1,55 @@
+comment,good,reasoning,moves,context,reformulated
+Polgar prefers this move which often leads to games with many tactical rather than postional possibilities.,False,"
+
+The comment does not directly address the mistake made by the player but rather provides information about Judit Polgar's preference for tactical games.",1. e4,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Pawn to e4,-
+The Sicilian Defense.,False,"
+
+The comment does not explain the mistake as it only names a chess opening (Sicilian Defense) but does not provide any information about the specific move that was made or why it was a mistake.",1. e4 c5,This is a game between Polgar (as White) and Angelova (as Black). Last move played: Black plays Pawn to c5,-
+More usual here is 3. d4.,True,"
+The comment does explain the mistake because the move 3. d4 is a common and more logical move in the given position.",1. e4 c5 2. Nf3 Nc6 3. Bb5,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Bishop to b5, The recent move from White to Bishop to b5 does not align with the more typical strategy of advancing the pawn with 3. d4.
+Black plans to develop the bishop on g7.,True,"
+
+The comment explains the mistake made by the player because it identifies an incorrect development strategy, implying the player did not follow the fundamental opening principles.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6,This is a game between Polgar (as White) and Angelova (as Black). Last move played: Black plays Pawn to g6," After Black's last move, they play Pawn to g6. The previous comment suggested they were planning on developing the bishop to g7, which is not a strong move given the current position."
+White plans to play 6. d4 with a strong center.,False,"
+
+The comment does not explain the mistake made by the player, as it only describes the intended plan for the next move, not the error in the previous move.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Pawn to c3,-
+To prevent 6. d4 5... d6 would have been better.,True,"
+The comment provides a suggestion for an alternative move that would be more favorable for Black.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5,This is a game between Polgar (as White) and Angelova (as Black). Last move played: Black plays Pawn to e5," ""Black's move e5 avoids the potential for White's 6. d4 push."""
+The pawn sacrifice is justified on the basis of White's lead in development and Black's weaknesses on the dark squares.,False,"
+
+The comment does not explain the mistake made as it justifies the pawn sacrifice without addressing the specific error in the player's move.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Pawn to d4,-
+This move keeps Black from developing normally. If 9... Bxe5 then 10. Re1 f6 11. f4 would win the bishop.,True,"
+
+The comment explains the mistake because it correctly identifies that the move 9... Bxe5 allows White to quickly exploit the position, gaining material advantage after 10. Re1 f6 11. f4.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Pawn to e5," 'White's move disrupts Black's normal development. If Black captures the pawn with 9... Bxe5, White can follow up with 10. Re1 and aim to win the bishop with 11. f4.'"
+Black want to castle to safety as soon as possible.,False,"
+
+The comment does not explain the mistake made by the player, as it seems to be a misunderstanding or misspelling of ""White wants to castle to safety as soon as possible.""",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7,This is a game between Polgar (as White) and Angelova (as Black). Last move played: Black plays Knight to e7,-
+Putting pressure on the weak dark squares.,False,"
+
+The comment does not explain the mistake made by the player, as it merely states a general strategy related to the position of the pieces, rather than addressing the specific error in the move.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7 10. Bg5,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Bishop to g5,-
+White has her pawn back and is still in an excellent position.,True,"
+
+The comment describes the consequences of the move, highlighting a potential mistake due to the loss of a pawn without indicating the specific move or positional error.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7 10. Bg5 O-O 11. Qxd4,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Queen takes on d4," Black has regained their pawn, but the position remains favorable for them."
+"If now 12. Bxd8 then 12... Nxd4. Or, if 12. Bxc6 then 12... Qxg5.",True,"
+
+The comment accurately explains the mistake made by the player, as it provides two alternative moves that could have been played in response to the mentioned move.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7 10. Bg5 O-O 11. Qxd4 Nc6,This is a game between Polgar (as White) and Angelova (as Black). Last move played: Black plays Knight to c6," The move 12... Nxd4 is a blunder by Black, as it allows White to play 13. Nxd4."
+Attacking the bishop and threatening 14... Bxe5.,True,"
+
+The comment correctly explains the mistake as the player's move did not adequately address the threat to the bishop, allowing it to be captured without a proper response.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7 10. Bg5 O-O 11. Qxd4 Nc6 12. Qh4 Qb6,This is a game between Polgar (as White) and Angelova (as Black). Last move played: Black plays Queen to b6," ""Black's queen move to b6 is aggressive but potentially weakening a critical diagonal for the bishop."""
+White is delighted to sacrifice the pawn for the attack.,False,"
+
+The comment does not explain the mistake made by the player as it seems to imply that sacrificing a pawn was a deliberate strategic decision rather than a mistake.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7 10. Bg5 O-O 11. Qxd4 Nc6 12. Qh4 Qb6 13. Nc3,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Knight to c3,-
+"It is dangerous to grab a pawn when behind in development, but the pawn on e5 kept Black's queen bishop hemmed in. Besides, Black now threatens 15... Bxc3 16. bxc3 17. Qxb5",True,"
+
+The comment accurately points out the strategic intention behind the pawn move and the potential threats that may follow, indicating that the move might have been a tactical error given the situation.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7 10. Bg5 O-O 11. Qxd4 Nc6 12. Qh4 Qb6 13. Nc3 Bxe5,This is a game between Polgar (as White) and Angelova (as Black). Last move played: Black plays Bishop takes on e5," Taking a pawn when development is lacking is usually not wise. However, capturing the pawn on e5 restricts Black's queen bishop. Now Black has an immediate threat to capture White's pawn on b5."
+White ignores Black's threats and continues with her development. If Black refuses the piece and plays 15... Bg7 the following is a possible continuation: 16. Bc4 d6 17. Nd5 Qxb2 18. Nf6+ Bxf6 19. Bxf6 (Threatening Qh6) 19... Qd2 20. Re3 h5 21. Qg5 Kh7 22. Bd3 Ne5 23. Qxh5+ Kg8 24. Qh8#.,True,"
+
+The comment correctly identifies that White's move, 16. Bc4, overlooks Black's threats after 15... Bg7 and provides a clear sequence where Black capitalizes on this oversight.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7 10. Bg5 O-O 11. Qxd4 Nc6 12. Qh4 Qb6 13. Nc3 Bxe5 14. Rae1,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Rook to e1," In this move, White disregards Black's threats and continues with their development. Playing 15... Bg7, Black offers a potential continuation including 16. Bc4 d6, 17. Nd5 Qxb2, 18. Nf6+ Bxf6, 19. Bxf6 threatening Qh6, 19... Qd2, 20. Re3 h5, 21. Qg5 Kh7, 22. Bd3 Ne5, 23. Qxh5+ Kg8, and White's final checkmate with Qh8#."
+The dark squares now belong to White.,True,"
+
+The comment refers to the strategic importance of controlling the dark squares, implying that by losing material or positional advantage on these squares, the player made a mistake that could be detrimental to their overall game plan.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7 10. Bg5 O-O 11. Qxd4 Nc6 12. Qh4 Qb6 13. Nc3 Bxe5 14. Rae1 Bxc3,This is a game between Polgar (as White) and Angelova (as Black). Last move played: Black plays Bishop takes on c3, Black's bishop capture on c3 is a suboptimal play.
+Threatening 18. Bf6 and 19. Qg7#.,True,"
+The comment explains the mistake made by the player by highlighting the aggressive and potentially checkmating moves that could follow if a different move were played.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7 10. Bg5 O-O 11. Qxd4 Nc6 12. Qh4 Qb6 13. Nc3 Bxe5 14. Rae1 Bxc3 15. bxc3 Qxb5 16. Qh6,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Queen to h6," White's queen move to h6 poses risks, as it could lead to aggressive Black counterplay with moves like 18...f5, challenging the pawn on g5, or 18...g6, preparing to counterattack the queen. This move may appear to be setting up a check on h7, but it leaves the queen vulnerable to threats and overlooks the potential power of Black's pieces."
+Black resigned after White's 18th move,False,"
+
+The comment does not explain the mistake made by the player.",1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 Nxd4 8. Nxd4 exd4 9. e5 Ne7 10. Bg5 O-O 11. Qxd4 Nc6 12. Qh4 Qb6 13. Nc3 Bxe5 14. Rae1 Bxc3 15. bxc3 Qxb5 16. Qh6 Qf5 17. Qxf8+ Kxf8 18. Bh6+ Kg8 19. Re8#,This is a game between Polgar (as White) and Angelova (as Black). Last move played: White plays Rook to e8 with check,-

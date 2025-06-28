@@ -1,0 +1,86 @@
+comment,good,reasoning,moves,context
+Bird's opening. White plays for control of e5 and a kingside attack.,False,"
+
+The comment does not explain the mistake made by the player as it merely describes the general strategy behind the opening plays, without pinpointing the specific error.",1. f4,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Pawn to f4
+White plans to position his bishops on b2 and d3.,False,"
+
+The comment does not explain the mistake as it only states White's potential plans without addressing why the move was incorrect.",1. f4 d5 2. e3 Nf6 3. b3,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Pawn to b3
+To develop the bishop and castle.,True,"
+The comment suggests that the mistake was a missed opportunity to develop the bishop and castle, indicating a lack of strategic understanding or foresight.",1. f4 d5 2. e3 Nf6 3. b3 e6,This is a game between Lasker (as White) and Bauer (as Black). Last move played: Black plays Pawn to e6
+"It is unusual to block the d pawn. The move works out well in this position, however.",False,"
+
+The comment does not explain the mistake made by the player as it acknowledges the unconventional nature of the move but does not specify why it was a mistake.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Bishop to d3
+Black would probably have been better off castling followed by ... c5 and ... Nc6,True,"
+
+The comment accurately explains the mistake as it suggests a better alternative for Black's strategy.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6,This is a game between Lasker (as White) and Bauer (as Black). Last move played: Black plays Pawn to b6
+"The knight is not particularly effective here, but it will move to e2, g3 and eventually h5.",True,"
+
+This comment explains the mistake made by the player as it highlights the lack of effectiveness of the knight's move and provides insight into where the knight will eventually move.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Knight to c3
+Attacking the key square e5.,True,"
+
+The comment accurately describes the mistake as it highlights the player's action that targeted an important square on the board, potentially weakening their position.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Knight to f3
+Repositioning the knight and unleashing the bishop on b2.,False,"
+
+The comment does not explain the mistake made by the player, as it simply suggests a potential improvement without identifying why the previous move was a mistake.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Knight to e2
+Planning 12... c4 chasing the bishop from its powerful position.,True,"
+
+The comment accurately describes the mistake as it points out the player's intent to disrupt the opponent's well-placed bishop, which indicates an understanding of the tactical implications of the move.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7,This is a game between Lasker (as White) and Bauer (as Black). Last move played: Black plays Queen to c7
+Indirectly threatening the square g2 and once again threatening c4.,True,"
+
+The comment correctly points out that the move indirectly threatens the squares g2 and c4, which indicates that the player's move was a mistake due to leaving those important squares unprotected.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6,This is a game between Lasker (as White) and Bauer (as Black). Last move played: Black plays Queen to c6
+Preventing 13... c4. If 13... Rac8 then 14. Bb5 trapping the queen.,True,"
+
+The comment justifies the mistake by explaining that the move 13... c4 could lead to a tactical threat after 14... Rac8, resulting in the queen being trapped by 15. Bb5.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Queen to e2
+Preventing 14. Bb5.,True,"
+
+The comment explains the mistake as it suggests the player failed to prevent their opponent's bishop from moving to b5, which could potentially cause issues in the game.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6,This is a game between Lasker (as White) and Bauer (as Black). Last move played: Black plays Pawn to a6
+Threatening 15. Nxf6+ Bxf6 16. Bxf6 gxf6 17. Bxh7+ Kxh7 18. Qh5+ Kg7 19. Qg4+ Kh2 20. Rf3 and 21. Rh3 Mate cannot be prevented.,True,"
+
+The comment accurately explains the mistake made by the player by detailing the sequence of moves leading to checkmate.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Knight to h5
+"Black undoubtedly expected 15. Qxh5 f5 where White has a powerful attack, but the game still has a lot of play in it.",True,"
+
+The comment accurately explains the mistake by pointing out the unanticipated response (f5) to White's aggressive move (Qxh5), which opens up the game for Black despite White's attacking intentions.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5,This is a game between Lasker (as White) and Bauer (as Black). Last move played: Black plays Knight takes on h5
+The first of two bishop sacrifices.,True,"
+
+The comment clearly explains the mistake made by the player, indicating that they made a bishop sacrifice, which is often a risky move that can lead to a disadvantageous position.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Bishop takes on h7 with check
+Threatening 18. Qh8#. If 17... f6 then 18. Qg6 (Threatening 19. Bxf6#.) 18... Rf7 19. Bh6+ Kh8 20. Qxf7.,True,"
+
+The comment correctly identifies the mistake by highlighting the threat of Qxf6# after 17... f6, demonstrating a deep understanding of tactical motifs and the potential consequences of specific moves in chess.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Bishop takes on g7
+If 20... Kf6 then 21. Qg5#.,True,"
+
+The comment accurately explains the mistake made by the player, as if black plays 20...Kf6, white can deliver a checkmate with 21.Qg5#.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Queen to g4 with check
+Threatening 22. Rh3#. Black must now give up his queen to prevent it.,True,"
+
+The comment appropriately highlights the player's mistake by pointing out the threat of checkmate on the next move (22. Rh3#) and advises the player that sacrificing the queen is the only way to avoid it.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Rook to f3
+Two bishops and a rook are worth more than a queen.,True,"
+
+The comment accurately explains the mistake made by the player because it highlights the relative value of the pieces involved, suggesting that the loss of a queen (a higher-valued piece) for two bishops and a rook (lower-valued pieces) was a poor trade.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6,This is a game between Lasker (as White) and Bauer (as Black). Last move played: Black plays King takes on h6
+Attacking both bishops at the same time.,True,"
+
+The comment accurately describes the mistake made by the player, as it indicates an aggressive move to target both bishops simultaneously, which is likely a mistake given the standard chess opening principles.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6 22. Qd7,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Queen to d7
+If 25... exf4 then 26. Rf1 Kg7 27. Rxf4,True,"
+
+The comment explains the mistake made by the player by highlighting that the pawn move to f4 allows the rook to capture on f4, which could potentially lead to a significant disadvantage.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6 22. Qd7 Bf6 23. Qxb7,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Queen takes on b7
+Calling up the reserves.,False,"
+
+The comment ""Calling up the reserves"" does not explain the mistake made by the player, as it refers to a strategic decision rather than addressing the specific error in the previously played move.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6 22. Qd7 Bf6 23. Qxb7 Kg7 24. Rf1,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Rook to f1
+Attacking the queen and giving the king an escape square on f8.,True,"
+The comment accurately describes the mistake made by the player as it highlights the aggression towards the queen and the creation of a potential escape square for the king, which could lead to a compromised position.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6 22. Qd7 Bf6 23. Qxb7 Kg7 24. Rf1 Rab8 25. Qd7 Rfd8,This is a game between Lasker (as White) and Bauer (as Black). Last move played: Black plays Rook to d8
+"With the rook bearing down on the king, Black has no defense. If 29... Bxe5 then 30. Qf5 threatening both 31. Qxf7# and 31. Qxe5",True,"
+
+The comment accurately explains the mistake made by Black, as it points out that after 29... Bxe5, White can deliver a checkmate with 30. Qf5.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6 22. Qd7 Bf6 23. Qxb7 Kg7 24. Rf1 Rab8 25. Qd7 Rfd8 26. Qg4+ Kf8 27. fxe5,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Pawn takes on e5
+White begins attacking the pinned pawn.,True,"
+
+The comment accurately explains the mistake made by the player, as attacking the pinned pawn is a potential loss of material and exposes the pinned piece to threats.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6 22. Qd7 Bf6 23. Qxb7 Kg7 24. Rf1 Rab8 25. Qd7 Rfd8 26. Qg4+ Kf8 27. fxe5 Bg7 28. e6,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Pawn to e6
+Threatening 32. Rxf7+,True,"
+
+The comment appropriately identifies a tactical error, as capturing the rook on f7 would create a double check situation, forcing the opponent's king to move and losing material immediately.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6 22. Qd7 Bf6 23. Qxb7 Kg7 24. Rf1 Rab8 25. Qd7 Rfd8 26. Qg4+ Kf8 27. fxe5 Bg7 28. e6 Rb7 29. Qg6,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Queen to g6
+To protect the rook on d8.,False,"
+
+The comment does not explain the mistake made by the player, as it does not mention the specific move or its consequences on the game board.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6 22. Qd7 Bf6 23. Qxb7 Kg7 24. Rf1 Rab8 25. Qd7 Rfd8 26. Qg4+ Kf8 27. fxe5 Bg7 28. e6 Rb7 29. Qg6 f6 30. Rxf6+ Bxf6 31. Qxf6+ Ke8,This is a game between Lasker (as White) and Bauer (as Black). Last move played: Black plays King to e8
+It is the rook on b7 that White is after.,False,"
+
+The comment does not explain the mistake; it merely states a possible intention behind a move, without clarifying why it was a mistake.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6 22. Qd7 Bf6 23. Qxb7 Kg7 24. Rf1 Rab8 25. Qd7 Rfd8 26. Qg4+ Kf8 27. fxe5 Bg7 28. e6 Rb7 29. Qg6 f6 30. Rxf6+ Bxf6 31. Qxf6+ Ke8 32. Qh8+,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Queen to h8 with check
+Black resigned since if 35... Kxe6 then 36. Qxb7 wins easily for White,True,"
+
+The comment accurately explains the mistake made by the player, as it highlights that Black resigned due to a strong continuation by White following the move 35... Kxe6.",1. f4 d5 2. e3 Nf6 3. b3 e6 4. Bb2 Be7 5. Bd3 b6 6. Nc3 Bb7 7. Nf3 Nbd7 8. O-O O-O 9. Ne2 c5 10. Ng3 Qc7 11. Ne5 Nxe5 12. Bxe5 Qc6 13. Qe2 a6 14. Nh5 Nxh5 15. Bxh7+ Kxh7 16. Qxh5+ Kg8 17. Bxg7 Kxg7 18. Qg4+ Kh7 19. Rf3 e5 20. Rh3+ Qh6 21. Rxh6+ Kxh6 22. Qd7 Bf6 23. Qxb7 Kg7 24. Rf1 Rab8 25. Qd7 Rfd8 26. Qg4+ Kf8 27. fxe5 Bg7 28. e6 Rb7 29. Qg6 f6 30. Rxf6+ Bxf6 31. Qxf6+ Ke8 32. Qh8+ Ke7 33. Qg7+,This is a game between Lasker (as White) and Bauer (as Black). Last move played: White plays Queen to g7 with check
