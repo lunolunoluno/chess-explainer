@@ -1,4 +1,4 @@
-comment,good,reasoning,moves,context
+comment,good,reasoning,moves,context,reformulated
 Draw is a useful result for Stein. Exchange of the queens brings him toward his goal.,True,"
 
-The comment accurately explains the mistake made by the player, as it acknowledges the strategic intent behind the move to exchange queens and progress towards the player's goal.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5 c5 7. d5 e6 8. Nf3 h6 9. Be3 exd5 10. exd5 Bf5 11. O-O Ne4 12. Nxe4 Bxe4 13. Bd3 Bxf3 14. Qxf3 Nd7 15. Qh3 Ne5 16. Rad1 Qd7,"This is a game between Kholmov, Ratmir (as White) and Stein, Leonid (as Black). Last move played: Black plays Queen to d7"
+The comment accurately explains the mistake made by the player, as it acknowledges the strategic intent behind the move to exchange queens and progress towards the player's goal.",1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5 c5 7. d5 e6 8. Nf3 h6 9. Be3 exd5 10. exd5 Bf5 11. O-O Ne4 12. Nxe4 Bxe4 13. Bd3 Bxf3 14. Qxf3 Nd7 15. Qh3 Ne5 16. Rad1 Qd7,"This is a game between Kholmov, Ratmir (as White) and Stein, Leonid (as Black). Last move played: Black plays Queen to d7"," 'Exchanging queens is not beneficial for Black, as it doesn't bring them closer to their objective.'"

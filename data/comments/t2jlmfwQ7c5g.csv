@@ -1,10 +1,12 @@
-comment,good,reasoning,moves,context
+comment,good,reasoning,moves,context,reformulated
 A17: English Opening: 1...Nf6 with ...Bb4,True,"
 
-The comment explains that playing 1...Nf6 with...Bb4 after the English Opening move suggests a mistake because it doesn't directly challenge White's central pawns or create a solid pawn structure.",1. Nf3,"This is a game between Kramnik, V. (as White) and Romanishin, O. (as Black). Last move played: White plays Knight to f3"
+The comment explains that playing 1...Nf6 with...Bb4 after the English Opening move suggests a mistake because it doesn't directly challenge White's central pawns or create a solid pawn structure.",1. Nf3,"This is a game between Kramnik, V. (as White) and Romanishin, O. (as Black). Last move played: White plays Knight to f3"," Here's the reformulated comment:
+
+Black plays Nf6, which is not the best response to White's English Opening, followed by...Bb4, as it exposes the bishop to potential attacks and does not contribute to the development of the pieces."
 last book move,True,"
 
-The comment suggests that the move made was not advised by chess literature, implying it may not have been a strong or optimal move.",1. Nf3 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. a3 Ba5 6. g3 Nc6 7. Bg2 Bxc3 8. Qxc3 Qa5 9. b4 cxb4 10. axb4 Qxb4 11. Qxb4 Nxb4 12. Nd4 d5 13. Ba3 Nc6 14. Nb5 Kd7 15. Nd6 Rf8 16. Rc1 b6 17. g4,"This is a game between Kramnik, V. (as White) and Romanishin, O. (as Black). Last move played: White plays Pawn to g4"
+The comment suggests that the move made was not advised by chess literature, implying it may not have been a strong or optimal move.",1. Nf3 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. a3 Ba5 6. g3 Nc6 7. Bg2 Bxc3 8. Qxc3 Qa5 9. b4 cxb4 10. axb4 Qxb4 11. Qxb4 Nxb4 12. Nd4 d5 13. Ba3 Nc6 14. Nb5 Kd7 15. Nd6 Rf8 16. Rc1 b6 17. g4,"This is a game between Kramnik, V. (as White) and Romanishin, O. (as Black). Last move played: White plays Pawn to g4"," White played Pawn to g4, which could be seen as a weakening move, potentially allowing Black to gain control in the center."
 Theme: Double Attack,False,"
 
-The comment refers to a strategy that involves using a single piece to attack two enemy pieces simultaneously, but it doesn't directly address the mistake made in the move.",1. Nf3 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. a3 Ba5 6. g3 Nc6 7. Bg2 Bxc3 8. Qxc3 Qa5 9. b4 cxb4 10. axb4 Qxb4 11. Qxb4 Nxb4 12. Nd4 d5 13. Ba3 Nc6 14. Nb5 Kd7 15. Nd6 Rf8 16. Rc1 b6 17. g4 Ne7 18. g5 Nfg8 19. cxd5 Nxd5 20. Nb5 Ba6 21. Nc7,"This is a game between Kramnik, V. (as White) and Romanishin, O. (as Black). Last move played: White plays Knight to c7"
+The comment refers to a strategy that involves using a single piece to attack two enemy pieces simultaneously, but it doesn't directly address the mistake made in the move.",1. Nf3 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. a3 Ba5 6. g3 Nc6 7. Bg2 Bxc3 8. Qxc3 Qa5 9. b4 cxb4 10. axb4 Qxb4 11. Qxb4 Nxb4 12. Nd4 d5 13. Ba3 Nc6 14. Nb5 Kd7 15. Nd6 Rf8 16. Rc1 b6 17. g4 Ne7 18. g5 Nfg8 19. cxd5 Nxd5 20. Nb5 Ba6 21. Nc7,"This is a game between Kramnik, V. (as White) and Romanishin, O. (as Black). Last move played: White plays Knight to c7",-
