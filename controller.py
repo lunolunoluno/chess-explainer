@@ -79,15 +79,6 @@ class Controller:
         Once analyzed, each game is saved in a pgn file in DATA_ANALYZED_PATH
         All the comments from a game will be saved in a csv file in DATA_COMMENTS_PATH
         """
-        # Create the pipeline that will be used to evaluate the comments
-        # model_id = "microsoft/Phi-3-mini-4k-instruct"
-        # tokenizer = AutoTokenizer.from_pretrained(model_id)
-        # model = AutoModelForCausalLM.from_pretrained(
-        #     model_id,
-        #     torch_dtype=torch.float16,
-        #     device_map="auto"
-        # )
-        # pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
         llm = LLM()
         pipe = llm.get_pipe()
 
@@ -128,15 +119,6 @@ class Controller:
                 game = chess.pgn.read_game(pgn_game)
 
     def reformulate_good_comments(self) -> None:
-        # Create the pipeline that will be used to evaluate the comments
-        # model_id = "microsoft/Phi-3-mini-4k-instruct"
-        # tokenizer = AutoTokenizer.from_pretrained(model_id)
-        # model = AutoModelForCausalLM.from_pretrained(
-        #     model_id,
-        #     torch_dtype=torch.float16,
-        #     device_map="auto"
-        # )
-        # pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
         llm = LLM()
         pipe = llm.get_pipe()
 
