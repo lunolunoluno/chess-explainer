@@ -9,10 +9,10 @@ if __name__ == "__main__":
     dbg = Debug(debug=True)
     dbg.print("Debug: On")
 
-    llm = LLM()
-    llm.set_model_id("microsoft/Phi-3-mini-4k-instruct")
-
     ctrl = Controller()
-    ctrl.save_good_comments_from_games()
-    ctrl.reformulate_good_comments()
+    # ctrl.save_good_comments_from_games()
+    # ctrl.reformulate_good_comments()
+
+    dataset_path = os.path.join(".", "data", "filtered_merged_20250708_134716.csv")
+    ctrl.train_model(dataset_path, ["context", "moves"], "reformulated")
 

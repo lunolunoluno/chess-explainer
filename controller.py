@@ -1,6 +1,7 @@
 import re
 import os.path
 import sys
+from typing import List
 
 import chess.pgn
 import logging
@@ -8,7 +9,10 @@ import pandas as pd
 
 from sympy.printing.pytorch import torch
 from tqdm import tqdm
-from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, \
+    DataCollatorForLanguageModeling, AutoModelForSeq2SeqLM
+from datasets import Dataset
+from peft import get_peft_model, LoraConfig, TaskType, PeftModel, PeftConfig
 
 from modules.datautils import has_game_comments, pgn_to_id, get_all_pgn_files, get_all_comments_and_lines_in_game, \
     filter_good_comments
@@ -158,15 +162,141 @@ class Controller:
                     -   When using a pronoun to refer to a player, only use they/them/their
                     -   When mentionning a player's name, use either 'Black' or 'White' according to the player's color."""}
                 ]
-                # print(good_comments)
-                prompts = [prompt_model(comment['context'], comment['comment']) for _, comment in good_comments.iterrows()]
+
+                prompts = [prompt_model(comment['context'], comment['comment']) for _, comment in
+                           good_comments.iterrows()]
                 if torch.cuda.is_available():
                     torch.cuda.empty_cache()
                     torch.cuda.reset_peak_memory_stats()
-                # print(prompts)
+
                 outputs = pipe(prompts, batch_size=4)
                 out_reformulated = [o[0]['generated_text'][-1]['content'] for o in outputs]
                 good_comments.loc[:, "reformulated"] = out_reformulated
                 comments.update(good_comments)
 
             comments.to_csv(games[game_index], index=False)
+
+    def train_model(self, dataset_path: str, inputs_columns: List[str], label_column: str) -> None:
+        assert os.path.exists(dataset_path), f"{dataset_path} does not exists !"
+        df_dataset = pd.read_csv(dataset_path)
+        assert set(inputs_columns).issubset(
+            df_dataset.columns), f"One of the inputs ({inputs_columns}) is not found in the dataset ({df_dataset.columns})"
+        assert label_column in df_dataset.columns, f"{label_column} is not found in the dataset !"
+
+        # llm = LLM()
+        # model_id = llm.model_id
+        model_id = "google/flan-t5-base"
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
+        model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-base")
+        # tokenizer = AutoTokenizer.from_pretrained(model_id)
+        # tokenizer.pad_token = tokenizer.eos_token
+        # model = AutoModelForCausalLM.from_pretrained(
+        #     model_id,
+        #     torch_dtype=torch.bfloat16,
+        #     device_map="auto"  # temp solution but for some reason gpu doesnt work for me in this instance
+        # )
+
+        # Create hugging face dataset
+        def prompt_model(row) -> str:
+            info = "\n".join([f"{col}: {row[col]}" for col in inputs_columns])
+            return re.sub(r'\t| {2,}', '', f"""
+                    Based on the following information: 
+                    {info}
+                    Generate a comment explaining the error that the player just made
+                    Comment: \n""".strip())
+
+        df_dataset["prompt"] = df_dataset.apply(prompt_model, axis=1)
+        dataset = Dataset.from_pandas(df_dataset[["prompt", label_column]])
+
+        # Tokenize prompts + apply masking
+        def tokenize(example):
+            full_text = example["prompt"] + " " + example[label_column]
+            prompt_len = len(tokenizer(example["prompt"], add_special_tokens=False)["input_ids"])
+
+            tokenized = tokenizer(
+                full_text,
+                truncation=True,
+                padding="max_length",
+                max_length=256
+            )
+
+            # No masking for now as it causes issues
+            # labels = tokenized["input_ids"].copy()
+            # labels[:prompt_len] = [-100] * prompt_len  # mask prompt tokens
+            # tokenized["labels"] = labels
+
+            return tokenized
+
+        tokenized_dataset = dataset.map(tokenize, batched=False)
+        # No masking for now as it causes issues
+        # tokenized_dataset.set_format("torch", columns=["input_ids", "attention_mask", "labels"])
+        # print(tokenized_dataset[0])
+
+        # LoRA configuration
+        lora_config = LoraConfig(
+            r=8,
+            lora_alpha=16,
+            target_modules=[
+                "q",  # query projection
+                "k",  # key projection
+                "v",  # value projection
+                "o",  # output projection
+                "wi",  # feed-forward inner projection (usually split into wi_0 and wi_1)
+                "wo"  # feed-forward output projection
+            ],
+            lora_dropout=0.05,
+            bias="none",
+            task_type="CAUSAL_LM"
+        )
+
+        # Apply LoRA
+        model = get_peft_model(model, lora_config)
+
+        # Training arguments
+        training_args = TrainingArguments(
+            output_dir="./lora-multiinput-output",
+            per_device_train_batch_size=4,
+            num_train_epochs=3,
+            logging_steps=10,
+            save_steps=100,
+            fp16=True,
+            report_to="none",
+            # use_cpu=True
+        )
+
+        # Data collator for language modeling
+        data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
+
+        # Trainer
+        trainer = Trainer(
+            model=model,
+            args=training_args,
+            train_dataset=tokenized_dataset,
+            processing_class=tokenizer,
+            data_collator=data_collator
+        )
+
+        trainer.train()
+
+        model.save_pretrained("lora-flan-t5-output")
+        tokenizer.save_pretrained("lora-flan-t5-output")
+
+        tokenizer = AutoTokenizer.from_pretrained("lora-flan-t5-output")
+        peft_config = PeftConfig.from_pretrained("lora-flan-t5-output")
+        base_model = AutoModelForSeq2SeqLM.from_pretrained(peft_config.base_model_name_or_path)
+        model = PeftModel.from_pretrained(base_model, "lora-flan-t5-output")
+
+        model.eval()
+
+        prompt = re.sub(r'\t| {2,}', '', f"""
+                    Based on the following information: 
+                    context: This is a game between Scicluna, Tristan Jes (as White) and Noel, Lucien (as Black). Last move played: White plays pawn to d3
+                    moves: 1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. Nc3 Bc5 6. d3
+                    Generate a comment explaining the error that the player just made
+                    Comment: \n""".strip())
+        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+
+        with torch.no_grad():
+            outputs = model.generate(**inputs, max_new_tokens=50)
+
+        print(tokenizer.decode(outputs[0], skip_special_tokens=True))
