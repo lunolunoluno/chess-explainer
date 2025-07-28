@@ -57,6 +57,322 @@
 34...Qd8 35. Qc1 Rb3 36. Kg2 Qf8 37. Qc7 
 1-0 
 
+[Event "Yugoslavian Club Championship"]
+[Site "Vrnjacka-Banja"]
+[Date "1999"]
+[White "Beliavsky, Alexander"]
+[Black "Sakaev, Konstantin"]
+[WhiteELO "2618"]
+[BlackELO "2648"]
+[Result "1/2-1/2"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Sakaev"]
+ 
+1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Nb6 6. Bb3 Nc6 7. Ne2 Bf5 8. a3 e6 9. Nbc3 Qd7 10. O-O O-O-O 11. Be3 h5 $1 
+(11...f6 12. exf6 gxf6 13. Re1 $1 $14)
+12. Bc2
+(12. Rc1 h4 13. Na4 Nd5 14. Nc5 Bxc5 15. Rxc5 {$13})
+12...h4 $1 
+(12...Ne7 13. Bg5 $1 $14)
+13. h3 f6 $1 14. Bxf5 exf5 15. exf6 gxf6 16. Nf4 Bd6 (16...Nxd4 $6 17. Bxd4 Qxd4 18. Qf3 $1 $14) (16...Bh6 17. Nd3 $1 Nxd4 18. Nc5 Qd6 19. b4 {$44})
+17. Qf3 
+(17. Nd3 Rhg8 $37)
+17...Bxf4 18. Qxf4 Ne7 19. Rac1 Ned5 20. Qf3 $1 
+(20. Nxd5 Nxd5 21. Qf3 Rhe8 $1 $17)
+20...Rhg8 21. Nxd5 Qxd5 
+(21...Nxd5 22. Rc5 $132)
+22. Qxd5 Nxd5 23. Bd2 Rge8 
+(23...Rg7 24. f3 $12)() (23...f4 24. f3 Ne3 25. Bxe3 fxe3 26. Rc3 $1 $12 )
+24. Rfe1
+({Better is} 24. f3 $1 Re2 25. Rf2 Rde8 26. Kf1 R2e6 $15)
+24...Re4 25. Rxe4 fxe4 26. Re1 Re8 27. g3 hxg3 28. fxg3 f5 29. Rf1 Rf8 30. Kf2 Kd7 31. Ke2 Ke6 32. Bg5 Rg8 33. h4 c6 34. Rc1 $6 Kf7 $1 35. Kf2 Kg6 36. Kg2 Kh5
+$15
+(34...a6 $6) 
+1/2-1/2 
+
+[Event "Russian Men Championship"]
+[Site "Moscow"]
+[Date "1999"]
+[White "Bezgodov"]
+[Black "Sakaev, Konstantin"]
+[Result "0-1"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Sakaev"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nce2 c5 6. c3 cxd4 7. cxd4 f6 8. Nf4 Bb4+ 9. Bd2 Qb6 10. Bxb4
+(10. Qh5+ g6 11. Nxg6 Bxd2+ 12. Kxd2 Qxb2+ 13. Ke3 Qxa1 14. Nxh8+ Kd8)
+10... Qxb4+ 11. Qd2 Qxd2+ 12. Kxd2 Ke7
+(12... Kf7 13. exf6 gxf6 14. Nf3 Nc6 15. Bb5)
+13. exf6+ gxf6 14. Re1
+(14. Nge2 Nc6 15. Nd3 e5 16. f4 exd4 17. Ng3 Nb6 18. b3 h5) (14. Nfe2 e5 15. f4) 
+14... Nb6 15. Bd3
+(15. Nf3 Kd6 16. Nh5 Rf8 17. Bd3 Nc6) 
+15... Nc6 16. Nf3 Kd6 17. Nh5 Rf8
+(17... e5 18. Nxf6 e4 19. Ng5 Kc7 20. Bxe4 dxe4 21. Rxe4 Bf5 22. Rf4 Nc4+ 23. Kc3 Nd6 24. d5 (24. g4 24... h6 25. Rxf5 25... hxg5 $1 26. Rxg5 Raf8 27. Rg7+ Kc8 28. g5 Rh3+ 29. Kc2 Nf5))
+18. Bxh7 e5 19. Ng3
+(19. dxe5+ fxe5 20.Rhf1 Bg4) 
+19... e4 20. Nh4 Nxd4 21. f3 Rh8 
+(21... f5 22. Rhf1)
+22. Nhf5+ Bxf5 23. Nxf5+ Ke5
+(23... Nxf5 24. Bxf5 Ke5 25. fxe4 Nc4+ 26. Kc1 Nd6 27. Bg6 dxe4 28. h4) 
+24. Nxd4 Kxd4
+(24... Rxh7 25. Ne2)
+25. Bf5 Nc4+
+(25... Rag8 26. g4 Nc4+ 27. Kc1) 
+26. Ke2 Rag8
+(26... Ne3 27. Bh3 (27. fxe4 dxe4 28. Bh3 Rag8 29. Rhg1 f5 30. Kf2 f4 31. Re2 Rxh3 32. Rd2+ Ke5 33. gxh3 Rxg1 34. Kxg1 f3) 27... Rag8 28. Rhg1 f5 29. Kf2)
+27. Rd1+ Ke5 28. g4 Rh3 
+(28... exf3+ 29. Kf2 (29. Kxf3 29... Rh3+) 29... d4 (29... Nd6 30. h4) 30. h4 Ne3 31. h5 Nxg4+ (31... Nxd1+ 32. Rxd1) 32. Bxg4 Rxg4 33. h6)
+29. fxe4 Re3+
+(29... dxe4 30. Rd7 Re3+ 31. Kd1)
+30. Kf2 dxe4 31. Rd7 Kf4 32. Re1
+(32. Rxb7 Ne5)
+32... Rh8 33. Bh7 Ne5 34. Rxe3 Nxg4+ 35. Ke2 Nxe3 36. Rxb7 Nf5 37. Rxa7 Nd4+ 38. Kd1 Rd8 39. Rf7 f5 40. Kc1 e3 
+0-1 
+
+[Event "Russian Men Championship"]
+[Site "Moscow"]
+[Date "1999"]
+[White "Fominyh, Alexander"]
+[Black "Sakaev, Konstantin"]
+[WhiteELO "2552"]
+[BlackELO "2648"]
+[Result "0-1"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Sakaev"]
+ 
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. g3 Ba6 5. Qb3 Nc6 6. Bd2 Bb7 7. d5 Ne7 $1 (7...exd5 8. cxd5 Ne7 9. d6 cxd6 {$13})
+8. dxe6 fxe6 9. Bg2 Nf5 10. O-O Bc5 $15
+11. Nc3 O-O 12. Qc2 Qe8 13. Bg5
+(13. e4 Qh5 $1 $17)
+13...Ng4 $1
+(13...Qh5 14. Bxf6 Rxf6 15. Ne4 $12)
+14. h3 
+(14. Ne4 Qg6 $1 $17)
+14...Nxf2 $1 15. Rxf2 Nxg3 16. Qd2 $2 
+(16. Qd3 $7 16...Bxf2+ 
+(16...e5 17. e4 Bxf2+ (17...Rf4 $6 18. Bxf4 exf4 19. Nd4 Qe5 20. Rd1 $16) 18. Kxf2 Nh5 {$13})
+(16...Qg6 $2 17. Qxg6 hxg6 18. e3 Rf5 19. Bf4 $1 a5 $1 {$45} 
+(19...Rxf4 20. exf4 Rf8 21. b4 $1 Bxb4 22. Ne2 Nxe2+ 23. Rxe2 Rxf4 24. Rf1 Bc5+ 25. Kh1 $16))
+(16...d5 $5 17. Be3 (17. cxd5 exd5 $41) 17...dxc4 18. Qd2 Rd8 19. Qc1 Qh5 20. Bxc5 Qxc5 21. Qg5 Nf5 {$45, with idea} 22. e4 Rd3 $1)
+(16...Qh5 17. Be3 e5 18. Nd2 (18. Qd2 e4 19. Nd4 Qe5 $41) 18...Bxg2 (18...e4 19. Ndxe4) 19. Rxg2 $1 
+(19. Kxg2 Bxe3 20. Qxe3 
+(20. Rxf8+ Rxf8 21. Qxe3 Nf5 22. Qd3 Qg5+ 23. Kh2 Ne3 24. Rg1 (24. Qe4 Rf2+ 25. Kh1 Qg3 $19) 24...Rf2+ 25. Kh1 Qf4 26. Nf3 Rxf3 27. exf3 Qxf3+ 28. Kh2 Ng4+ $19)
+20... Nf5 21. Rxf5 (21. Qe4 Qg6+ $19) (21. Qd3 Qg5+ 22. Kh2 Ne3 23. Nf3 Qf4+ 24. Kh1 Rf7 25. Qe4 Raf8 $1 $17) 21...Rxf5 22. Rf1 
+(22. Nf3 Raf8 23. Nd5 Qg6+ 24. Kh2 Qd6 25. Qe4 c6 26. Ne3 (26. Nc3 Qe6 27. Rd1 Rh5 $19) 26...Rxf3 27. exf3 Rf4 28. Qc2 Rxf3 29. Rd1 Qe6 30. Ng4 h5 31. Nf2 e4 $19)
+Qg6+ 23. Kh2 Rxf1 24. Nxf1 Rf8 25. Ng3 Qe6 $17)
+(19. Bxc5 Qxh3 20. Rxf8+ Rxf8 21. Bxf8 Bc6 $17 (21...Bh1 22. Kf2 $13))
+Qxh3 20. Rh2 Qg4 21. Qxh7+ Kf7 22. Bxc5 bxc5 {$13})
+17. Kxf2 Nh5 {$13})
+16...Nf5 $1 $17
+17. Re1
+(17. e4 Nd6 $17)
+17...Qh5 18. Bf4 Bxf2+ 19. Kxf2 Nh4 20. Qe3 Nxg2 21. Kxg2 Qh4 22. Bg3 
+(22. Bxc7 $2 Qxe1 $19)
+22...Qxc4 $19
+23. Rd1 Qc6 24. Rd4 Rae8 25. Re4 Rf5 26. Kh2 Qc5 27. Nd4 Bxe4 28. Nxe4 Re5 $1 29. Qd3 Rxe4 30. Qxe4 d6 31. Nf3 a5 32. a3 Qd5 33. Qc2 Qc5 34. Qe4 Qb5 35. Qc2 h6 36. Nd4 Qd7 37. Qe4 e5 38. Nf3 Rf8 39. a4 Qf5 40. Qc6 Rf7 41. Qc4 g5 42. Ne1 h5 43. Ng2 h4 44. Be1 Kh7 45. Bd2 Rg7 46. Be3 e4 47. Bd4 Re7 48. Qc6 Qf7 49. Kg1 Qe6 50. Qa8 c5 51. Qh8+ Kg6 52. Bf2 Re8 53. Qc3 Rf8 54. Be1 d5 55. Qb3 Rf6 56. Qb5 d4 57. e3 d3 58. Bc3 Rf3 59. Qa6 Rxh3 60. Qb7 Rf3 61. Qg7+ Kh5 62. Qh8+ Kg4 63. Be1 h3 64. Nf4 gxf4 65. Qh4+ Kf5 66. Qh5+ Kf6 67. Bc3+ Ke7 68. Qg5+ Kd7 69. exf4 Kc6 
+0-1 
+
+[Event "Russian Club Championship"]
+[Site "St.Petersburg"]
+[Date "1999"]
+[White "Raetsky, Alexander"]
+[Black "Sakaev, Konstantin"]
+[WhiteELO "2453"]
+[BlackELO "2649"]
+[Result "0-1"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Sakaev"]
+ 
+1. d4 d6 2. e4 g6 3. Nc3 Bg7 4. g3 Nc6 5. d5 Nd4 6. Nb1 $5  $146  c6 7. c3 Nb5 8. Bg2 cxd5 9. exd5 Nc7 10. Ne2 Nf6 11. O-O O-O 12. c4
+(12. a4 $5)
+12...b5 $5
+(12...e5 13. Nbc3 (13. dxe6 Bxe6 14. Na3 d5  $12) 13...Bf5 14. h3 h5 $13)
+13. cxb5 Nxb5 14. a4 
+(14. Nbc3 Nxc3 15. Nxc3 Rb8 $37)
+14...Nc7 15. Nbc3 Bb7 16. Rb1 Qd7 17. b4 e6 $1 18. dxe6 $2 
+(18. Nf4 $1 $7 e5 (18...Ncxd5 19. Ncxd5 Nxd5 20. Nxd5 Bxd5 21. Bxd5 exd5 22. b5 $14) 19. Nfe2)
+18...Nxe6 19. Bxb7 Qxb7 20. Nf4 
+(20. Qxd6 Rfd8 21. Qe5 Rac8 $1 $17)
+20...d5 $1 21. Qf3 
+(21. Ncxd5 Rad8 22. Nxf6+ Bxf6 23. Qg4 Nd4 $17)
+21...Rad8 22. Rd1 Ne4 $1 23. Nce2 
+(23. Ncd5 N4g5 $1 $19)
+23...Rfe8 $1 24. Be3 $6 
+(24. b5)
+24...Nxf4 $19 25. Bxf4 d4 26. b5 Qd5 27. Rb3 Qc4 28. Rbd3 Nc5 29. R3d2 d3 30. Nc1 Bc3 31. Rxd3 Nxd3 32. Rxd3 Rxd3 33. Nxd3 Qxa4 34. Qd5 Qe4 35. Qd7 Qe7 36. Qd5 Rd8 37. Qc4 Bf6 38. Nb4 Rd4 39. Qc8+ Kg7 40. Nc6 Rd1+ 41. Kg2 Qe4+ 42. Kh3 Rd5 
+0-1 
+
+[Event "Istanbul olm (2)"]
+[Site "Istanbul"]
+[Date "2000"]
+[White "Rossi, C"]
+[Black "Sakaev, Konstantin"]
+[WhiteELO "2436"]
+[BlackELO "2627"]
+[Result "0-1"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Sakaev"]
+ 
+1.e4 c5 2.Nf3 Nc6 3.Bb5 e6 4.0-0 Nge7 5.c3 a6 6.Ba4 b5 7.Bc2 Bb7 8.Re1 Rc8 9.a3 $6 c4 $12 10.d4 cxd3 11.Qxd3 Ng6 12.Nbd2 
+(12.Be3 Be7 13.Nbd2 0-0 14.Rad1 Qc7 (14...Nce5 $2 15.Nxe5 Nxe5 16.Qe2 Nc4 17.Nxc4 bxc4 18.e5 $16 {Gershon}) 15.Nb3 d6 16.Nbd4 $12) 
+12...Be7 13.Nf1 $146 
+(13.Nb3 Qc7 14.Nbd4 (14.Be3 Nce5 15.Nxe5 Nxe5 16.Qe2 Nc4 $15) (14.Nfd4 0-0 15.Qh3 Nce5 $1 $15) 14...0-0 15.Be3
+(15.Nxc6 dxc6 $1
+(15...Bxc6 16.Be3 d6 (16...d5 17.e5 f5 18.Bd4 $14) (16...f5 $6 17.exf5 Rxf5 18.Nd4 Rh5 19.Nxc6 $16 {with the idea} Qxh2+ 20.Kf1 dxc6 21.Qd7 $20) 17.Nd4 Bb7 18.Rad1 $14) 
+16.Be3 c5 $15)
+15... Nce5 16.Nxe5 Nxe5 17.Qe2 Nc4 18.Bc1 Bf6 $15 {Westerinen,H-Schandorff,L/Gentofte 1999})
+13...0-0 14.Ng3 Qc7 
+(14...d6 15.Be3 Qc7 16.Rad1 $12)
+15.e5 $5 
+(15.Qe2 Na5 16.Nd4 Nc4 $15) (15.Be3 Nce5 16.Nxe5 Nxe5 17.Qe2 Nc4 $15) 
+15...Na5 $5 
+(15...d6 16.exd6 Bxd6 $15) 
+16.Ne4 Nc4 17.Neg5 $1 Qc6 $1 
+(17...Bxg5 18.Nxg5 Ncxe5 19.Qg3 {with compensation for the material}) 
+18.h4 
+(18.b3 Ncxe5 $1 (18...Bxg5 19.Bxg5 Nb2 20.Qd2 Qxc3 21.Nd4 {unclear}) 19.Rxe5 f6 $17) (18.Qd4 h6 $1 (18...Bxg5 19.Be4 Qc7 20.Bxb7 Qxb7 21.Nxg5 {unclear}) 19.Be4 Qc7 20.Bxb7 Qxb7 21.Ne4 Qc7 $15) 18...Bxg5 $1 19.hxg5 Rfd8 $15 20.Qd4 Qc5 
+(20...d6 21.exd6 Rxd6 (21...Nxd6 22.Qg4 Qc4 23.Qh3 Nf5 24.Bxf5 exf5 25.Qxf5 Rd5 26.Qh3 Rd3 27.Be3 Rcd8 $45) 22.Qg4 Rcd8 $15) 
+21.Qd3 $6 
+(21.Bxg6 hxg6 22.b3 Qxd4 (22...Bxf3 23.bxc4 Bb7 24.Qxc5 Rxc5 25.cxb5 axb5 26.Bd2 Ra8) 23.Nxd4 Nb6 24.Bd2 d6 $15)
+21...Bxf3 22.Qxf3 Ncxe5 23.Qh5 Nc4 $1 
+(23...d6 24.Re3 Nd7 25.Rh3 Ndf8 26.Bd2 $44)
+24.b3 Nd6 25.Re3 f5 $1 $17 
+(25...Nf5 26.Rh3 Nf8 27.Bf4 $44)
+26.Rh3 Nf8 27.g6 $6 
+(27.Bf4 Ne4 $17) 
+27...hxg6 28.Qh8+ Kf7 29.Bg5 Re8 30.Rd1 Qc6 $21 31.c4 bxc4 32.bxc4 Nxc4 33.Rd4 d5 34.Qh4 Nd6 
+(34...e5 35.Rd1 Ne6 $21) 
+35.Ba4 Nb5 36.Rb4 e5
+(36...Nd7 $21) 
+37.g4 $1 e4 
+(37...Ne6 38.Bd2 (38.gxf5 Nxg5 39.Qxg5 Qc1+  $21) 38...Nc5 (38...Ned4 $5) 39.gxf5 Nxa4 40.Qg5 (40.Rxa4 Nd4 $21) 40...Nc5 41.fxg6+ Ke6 42.f4 Kd7 43.Rh7 Re7 $21)
+38.Bb3 a5
+(38...Qd7 39.a4 Nc3 40.gxf5 gxf5 41.Qh5+ (41.Rb6 Rc6 $21) 41...Ng6 42.Bd2 Rh8 43.Rb7 Rxh5 (43...Qxb7 $2 44.Qxf5+ Ke7 45.Bg5+ Kd6 46.Qxg6+ Ke5 47.f4+ exf3 48.Rxf3 Rhf8 {unclear}) 44.Rxd7+ Ke6 45.Rxh5 Kxd7 46.Rg5 (46.Rxf5 Nh4 $21) 46...Ne5 47.Rxg7+ Ke6 $21)
+39.Ra4 Ra8 40.gxf5 gxf5 41.Qh5+ Ng6 42.Qd1 
+(42.Bf4 Qe6 43.Rg3 Rh8 44.Qg5 Rh6 $21)
+42...Re5 43.Qd2 Qe6 44.Bf4 Nxf4 45.Qxf4 Nd6 46.Rc3 Kg8 47.Ba2 
+(47.Rc5 Rb8 $21) 
+47...Nf7 48.Rc5 Rd8 49.Raxa5 e3 50.fxe3 Rxe3 51.Rc2 Re1+ 52.Kf2 Rh1 53.Kg2 Qe1 54.Rxd5 Qg1+ 55.Kf3 Rxd5 
+0-1 
+
+[Event "Russian Men Championship"]
+[Site "Moscow"]
+[Date "1999"]
+[White "Sakaev, Konstantin"]
+[Black "Ibragimov, Ildar"]
+[WhiteELO "2648"]
+[BlackELO "2554"]
+[Result "1/2-1/2"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Sakaev"]
+ 
+1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Nb6 6. Bd3 Nc6 7. Ne2 Bg4 8. f3 Be6 9. Nbc3 Nb4 $6  $146 10. Be4 c6 11. a3
+(11. O-O Bc4 $14)
+11...N4d5 12. O-O Qd7 13. Qc2 
+(13. Bd3 Bf5 $5 14. Ne4 e6 $14)
+13...g6 
+(13...f5 $5 14. exf6 (14. Bd3 $14) 14...exf6 15. Bxh7 (15. Nf4 $5 $14) 15...O-O-O $44) 
+14. Bd3 $1 $16
+14...Nxc3
+(14...f5 15. exf6 exf6 16. Ne4 $16)
+15. bxc3 Bc4 16. a4 $1 Bxd3 17. Qxd3 c5 18. a5 c4 19. Qc2 Nd5 20. Nf4 $1 e6 21. Nxd5 exd5 22. f4 
+(22. Bg5 Be7 23. Bxe7 (23. Bh6 O-O-O $1) 23...Qxe7 24. f4 f5 $1 25. exf6 Qe3+ $1 26. Kh1 O-O $14)
+22...Qf5 23. Qa4+ 
+(23. Qxf5 $2 gxf5 24. Rb1 O-O-O $12)
+23...Qd7 24. f5
+(24. Qxd7+ Kxd7 25. f5 Be7 $14)
+24...Qxa4 25. Rxa4 gxf5 
+(25...Be7 26. f6 Bd8 (26...Bf8 27. g4 $1 Kd7 28. Be3 g5 29. Kg2 h5 30. h3 hxg4 31. hxg4 Rh4 32. Kg3 $18) 27. e6 $18)
+26. Rxf5 Be7 27. Bg5 $1 Bxg5 28. Rxg5 Rd8 29. Rb4 Rd7 30. Rb2 Ke7 31. Rf2 b5 32. axb6 axb6 33. Rgf5 Rf8 34. Rf6 Rb7 (34...b5 35. Rb6 $18)
+35. e6 $2
+(35. Rd6 $18)
+35...Ke8 36. R2f5 Re7 37. exf7+ Rexf7 38. Rxf7 Rxf7 39. Rxd5 
+(39. Rxf7 Kxf7 40. g4 h5 $1)
+39...Ra7 $14
+40. Rb5 Ra3 41. Rxb6 Rxc3 42. Rh6 Rd3 43. Rxh7 Rxd4 44. Kf2 c3 45. Rc7 Rd2+ 46. Kf3 Rd3+ 47. Kg4 Rd2 48. Kh3 c2 49. g4 Kd8 50. Rc4 Ke7 51. Kg3 Ke6 52. Rc8 Ke5 53. h4 Rd3+ 54. Kg2 Rd2+ 55. Kf3 Rd3+ 56. Ke2 Rd4 
+1/2-1/2 
+
+[Event "Russian Men Championship"]
+[Site "Moscow"]
+[Date "1999"]
+[White "Sakaev, Konstantin"]
+[Black "Ibragimov, Ildar"]
+[WhiteELO "2648"]
+[BlackELO "2554"]
+[Result "1-0"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Sakaev"]
+ 
+1. d4 d5 2. c4 dxc4 3. e4 c5 4. d5 Nf6 5. Nc3 b5 6. Bf4 Ba6 7. e5 b4 8. e6 $1 $146 fxe6 $2
+(8...Qa5 $7 9. exf7+ (9. Na4 fxe6 10. dxe6 Nc6 11. b3 Rd8 $17) 9...Kxf7 10. Na4 Nbd7
+(10...c3 11. bxc3 (11. Nf3 $2 c2 12. Qxc2 b3+ $17)(11. b3 $6 Bxf1 12. Kxf1 Qb5+ 13. Ne2 Qb7 $15)(11. Bxa6 Nxa6 12. b3 Rd8 13. Nf3 Rxd5 14. Qe2 $44) 11...bxc3 12. Qc2 Nxd5 13. Nf3 Nxf4 14. Qf5+ Kg8 15. Qxf4 Qb4 16. Qe5 $40)
+11. Rc1 $5 
+(11. b3 cxb3 12. axb3 Bxf1 13. Kxf1 Qb5+ 14. Ne2 Qb7 $15) 
+(11. Nf3 Bb5 12. b3 Bxa4 13. bxa4 b3+ 14. Nd2 b2 15. Rb1 c3 (15...Nb6 16. Qc2 $13) 16. Nc4 c2+
+(16...Qb4 17. a3 Qb7 18. Na5
+(18. Ne3 Nb6 19. Qb3 Nfxd5 20. Bc4 e6 21. a5 $2 (21. Bg3 $13) 21...Nxf4 22. axb6 Nxg2+)
+18... Qb6 19. Nc6 $16)
+17. Nxa5 cxd1=Q+ 18. Kxd1 Nb6
+(18...Nxd5 19. Bc4 N7b6 (19...e6 20. Bxd5 exd5 21. Rxb2 Nb6 22. Nc6 $36) 20. Be5 Rd8 21. Ke2 e6 22. Bxb2 (22. Rxb2 Bd6 23. Bxd6 Rxd6 24. Rc1 $12) 22...Nxa4 23. Rhc1 Nxb2 (23...Bd6 24. Nb7 Rd7 25. Nxd6+ Rxd6 26. Be5 Rb6 27. Bb3 $16) 24. Rxb2 Nb6 25. Nc6 $16)
+19. Rxb2 Nfxd5 20. Be5 e6 $12)
+11... Bb5 12. b3 Bxa4
+(12...c3 13. Nf3 Bxf1 14. Kxf1 Qb5+ 15. Kg1 Qb7 (15...c4 16. Qe2 Qxd5 17. Rd1 Qc6 18. Ng5+ Kg8 19. Rd6 $1 $18) 16. Qe2 Qxd5 17. Rd1 Qf5 (17...Qc6 18. Ng5+ Ke8 20. h4 $40) 18. Qc4+ Ke8 19. Ng5 $40)
+13. bxa4 Nb6
+(13...c3 14. Nf3 Nb6 15. Ng5+ (15. Ne5+ Kg8 16. Bb5 (16. Nc6 Qxa4 17. Qe2) 16...Nbxd5 $13)
+15... Kg8 16. Qe2 e5 17. dxe6 (17. Qxe5 Re8 18. Ne6 Qxa4 $13 (18...Nbxd5 19. Bc4 $18)( 18...Nfxd5 19. Bb5 $18))
+17... Be7 18. g3 $16)
+14. Bxc4 Nxc4 15. Rxc4 Rd8 16. Nf3 $44 )
+9. Qa4+ Qd7 
+(9...Nbd7 10. dxe6 bxc3 11. exd7+ (11. bxc3 Qb6 12. exd7+ Nxd7 13. Nf3 $16) 11...Qxd7 12. Qxa6 cxb2 13. Rb1 $18)( 9...Nfd7 10. dxe6 bxc3 11. O-O-O $5 (11. bxc3 Qb6 12. exd7+ Nxd7 13. Nf3 $16) 11...cxb2+ 12. Kb1 $18)
+10. dxe6 Qxa4 
+(10...Qc6 11. Bxb8 Qxa4 12. Nxa4 Rxb8 13. Nxc5 Bb5 14. a4 bxa3 15. Rxa3 $1 (15. bxa3 Rc8 16. a4 Rxc5 17. axb5 $16) 15...Rc8 16. Rxa7 $1 $18)
+11. Nxa4 Bb5 12. Nxc5 Nc6 
+(12...Na6 13. a4 (13. Nb3 $5) 13...Nxc5 14. axb5 Nxe6 15. Be3 $16)
+13. Rc1 Nd5 
+(13...Na5 14. Bd2 $1 Nd5 15. a3 $1 $18)
+14. Bxc4 Bxc4 15. Rxc4 Nxf4 16. Rxf4 g5 17. Rc4 Bg7 18. Nf3 $1 $16
+(18. Na6 Ne5 $1 $133)( 18. Nd3 Nd4 19. Ne2 Nxe6 20. Rxb4 Rd8 $133)
+18...Ne5 $2 
+(18...Bxb2 19. Na6 (19. Na4 Ne5 20. Nxb2 Nxc4 21. Nxc4 Rc8 22. Nfe5 h5 23. Ke2 Rh6 $133) 19...Bc3 20. Rxc3 bxc3 21. Nc7+ Kd8 22. Nxa8 Kc8 23. Nxg5 $16)
+19. Nxe5 Bxe5 20. Nd3 Bd6 21. h4 $18
+21...gxh4 22. Rcxh4 a5 23. Rxh7 Rg8 24. g3 O-O-O 25. Ke2 Kb7 26. R7h4 Rg6 27. Re4 Rg5 28. g4 Rd5 29. Rd1 Kb6 30. b3 Rc8 31. Rd2 Kb5 32. Nb2 Rxd2+ 33. Kxd2 Bc5 34. Nd3 Bd6 35. f4 a4 36. g5 a3 37. f5 Rf8 38. f6 
+1-0 
+
+[Event "Russian Men Championship"]
+[Site "Moscow"]
+[Date "1999"]
+[White "Sakaev, Konstantin"]
+[Black "Kobalija, Mihail"]
+[WhiteELO "2648"]
+[BlackELO "2573"]
+[Result "1-0"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Sakaev"]
+ 
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Nh4 e6 7. Nxf5 exf5 8. e3 Bb4 9. Bxc4 O-O 10. O-O Nbd7 11. Qc2 g6 12. f3 Nb6 $6 
+(12...Rc8)
+13. Bb3 a5 14. Qf2  $146 
+(14. Kh1 Re8 (14...c5 15. Qf2 (15. Nb5 Rc8 16. Qf2 $14)( 15. Na2 cxd4 16. Nxb4 axb4 17. exd4 Qxd4 18. Bg5 $13) 15...Qe7 16. Bd2 Rad8 17. Rad1 $14) 
+15. e4 $5 (15. Qf2 c5 16. Bd2 $14 {with idea} 16... f4 $6 17. Rad1 $1 $16) 
+15...Qxd4 (15...fxe4 $2 16. fxe4 Qxd4 17. Bg5 Be7 (17...Nbd7 18. Rad1 Qe5 19. Bxf7+ $18) 18. Rad1 Qe5 19. Bxf6 Bxf6 20. Qf2 $18) 16. exf5 Nfd5 $1 (16...Nbd5 $2 17. fxg6 hxg6 18. Bg5 $16 {E.Gleizerov - D.Djaparidze, Katowice, 1991}) 17. fxg6 hxg6 18. Ne4 (18.Bg5 $6 Bxc3 19. Rad1 (19. bxc3 Qxc3 $15) 19...Qe5 20. f4 Qe2 $15) 18...f5 $1 $13)
+14...Kg7 $6 
+(14...c5 $6 15. Na2 $1 $16)( 14...Qe7 $5 15. e4 $5 (15. Bd2 c5 16. Rad1 $14) 15...fxe4 16. Bg5 e3 17. Qh4 (17. Bxe3 $14) 17...Nbd7 18. Rfe1 Rae8 19. Rxe3 Qd6 (19...Qxe3+ $5 20. Bxe3 Rxe3 21. Re1 $14) 20. Rae1 Rxe3 21. Rxe3 $14)
+15. Bd2 Qd6
+(15...Qe7 16. Rae1 $40)
+16. Rad1 Rad8 17. Kh1 Qe7 18. Rfe1 $16
+18...c5 19. Qh4
+(19. Nb5 $14)
+19...c4 $2
+(19...Ng8 $7 20. Qg3 Nf6 $16)
+20. Bc2 Nh5 21. Qf2 $1 
+(21. Qxe7 Bxe7 22. Nb5 (22. Na2 $5) 22...Bb4 23. Bc3 $16)
+21...Qf6 22. e4 $1 fxe4 
+({Better is} 22...f4)
+23. g4 $1 $18
+23...Nf4 24. Nxe4 Qc6 25. Bxf4 Bxe1 26. Rxe1 Nd7 27. g5 $1 Rfe8 28. Kg2 Kg8 29. Rd1 f5 30. d5 Qa6 31. Nd6 Re7 32. Re1 
+1-0 
+
 [Event "Istanbul olm (8)"]
 [Site "Istanbul"]
 [Date "2000"]
@@ -105,6 +421,127 @@ Deserves attention} 14...Bh6 15.b4 (15.h4 f5 16.h5 Kg7 17.b4) 15...f5 {with comp
 (43.Rxb6 Bxb6 44.Qxc6 Ba5+)
 (43.Ra7 $1 43...Qxa7 44.Qxc6 Qd7 45.Nf6+ Bxf6 46.Qxf6)
 1-0 
+
+[Event "Dubai"]
+[Site "Dubai"]
+[Date "2000"]
+[White "Sakaev, Konstantin"]
+[Black "Ulibin, Mikhail"]
+[WhiteELO "2629"]
+[BlackELO "2579"]
+[Result "1-0"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Sakaev"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 c5 7. Bxe7 Kxe7 8. dxc5 Nxe5 9. Qe2 $1 $146
+(9. Qd2) 9...Nbc6 
+(9...f6 10. f4 Nec6
+(10...Nec6 11. f5 Nd4 12. Qf2
+(12. Qf2 Nxf5
+(12... Nxf5 13. g4 d4 $1 14. O-O-O Ne3 $1(14...Qa5 $2 15. gxf5 dxc3 16. Qg3 Rg8 (16...Kf7 17. Bc4 $18) 17. Qd6+ Kf7 18. Bc4 $18) 15. Rd2 e5 $17)
+(12... Nxf5 13. O-O-O $1 d4 14. Nf3 e5 15. Bc4 Ne3 16. Rhe1 $1 $40
+))
+(12. Qf2 e5 13. O-O-O (13. g4 b6 $13) 13...Bxf5 (13...Nbc6 14. g4 $16 {with idea 15. Bg2}) 14. Rxd4 exd4 15. Nb5 Be4 $13))
+(10...Nec6 11. O-O-O Kf7
+(11... Kf7 12. Nb5 Rf8 13. Nd6+ Kg8 14. f5 exf5 15. Rxd5 Ne5 16. Rxe5 fxe5 17. Qxe5 Qf6 (17...Nc6 18. Bc4+ Kh8 19. Qf4 Qa5 20. Nf3 Qxc5 21. Ng5 $40) 18. Bc4+ Kh8 19. Qxf6 (19. Qf4 Be6 {with unclear play}) 19...gxf6 20. Ne2 Nc6 21. Nf4 b6 22. Bd5 Bd7 23. cxb6 axb6 $14)
+(11... Kf7 12. f5 Re8 
+(12... Re8 13. fxe6+ Bxe6 14. Nxd5 Bxd5 15. Qh5+ Kf8 16. Qxd5 (16. Rxd5 Re1+ 17. Kd2 $2 Qa5+) 16...Qxd5 17. Rxd5 Re1+ 18. Rd1 Rxd1+ 19. Kxd1 Nd7 $12 )
+(12... Re8 13. Qh5+ Kg8
+(13... Kg8 14. fxe6 $6 Bxe6 15. Nxd5 Bf7 $1 16. Qf3 Ne5 17. Qb3 Nbc6 $15)
+(13... Kg8 14. Bc4 Qe7 15. Bb3 (15. Bxd5 $2 exd5 16. Nxd5 Qf7 17. Qxf7+ Kxf7 18. Nc7 Bxf5 19. Nxa8 Na6 $17) 15...Na6 16. fxe6 Nxc5 17. Bxd5 Bxe6 18. Nf3 Qf7 $12 )
+(13... Kg8 14. Nf3 $1 Ne7 15. Bd3 exf5 16. Rhe1 $40
+)))))
+(9...Nec6 10. O-O-O Kf8 11. f4 Nd7 {- 9...Nbc6})
+10. O-O-O
+(10. f4 $6
+(10. f4 Nc4 11. O-O-O Kf8 12. Qf2 $16)
+(10. f4 Nd7 11. Nxd5+ Kf8 12. Nc3 Nxc5 13. Nf3 b6 14. Qe3 $16)
+(10. f4 Ng6
+(10... Ng6 11. Qf2 $2 d4 12. O-O-O Qa5 $17)
+(10... Ng6 11. g3 Qa5 (11...d4 12. Ne4 Qa5+ (12...f5 13. Nd2 $36) 13. Qd2 (13. Kf2 f5 14. Ng5 Qxc5 15. Kg2 h6 $17) 13... Qxd2+ 14. Kxd2 $14) 12. Qb5 $12 )
+(10... Ng6 11. h5 Nxf4 12. Qf2 e5 13. O-O-O d4 $13)
+(10... Ng6 11. f5 Nd4 12. Qf2 Nxf5 $13))
+(10. f4 10...d4 $1 11. O-O-O Qa5 12. fxe5 (12. Ne4 Nd7 $14 {with idea} 13. Qc4 f5 14. Ng5 Nxc5 $17) 12...dxc3 13. Qe3 Qxa2 (13...cxb2+ 14. Kb1) 14. Qxc3 Qa1+ 15. Kd2 Qa4 $15
+))
+10...Kf8
+(10...Qa5
+(10...Qa5 11. f4 d4 $1 $15 {- 10. f4 d4 11. O-O-O Qa5})
+(10...Qa5 11. Rh3 d4 (11...Nc4 $6 12. Qg4 $14) 12. Ne4 (12. Nb5 d3 $17)
+(12. Ne4 d3 $2 13. cxd3 Nd4 (13...Qxa2 14. d4 Qa1+ (14...Rd8 15. Ra3 $18) 15. Kc2 Qa4+ (15...Nb4+ 16. Kb3 Qa2+ 17. Kxb4 $18) 16. Kb1 Nxd4 (16...Nb4 17. Ra3 $18) 17. Qd2 Rd8 18. Ra3 Qc6 19. Qg5+ $18) 14. Qd2 Qxa2 15. Qg5+ Kd7 16. Qxe5 Qa1+ 17. Kd2 Qxb2+ 18. Ke3 $18)
+(12. Ne4 Qxa2 13. Ra3 Qd5 14. f4 
+(14. f4 Nd7 15. c4 (15. Rg3 $5 $44)( 15. Nf3 Nxc5 16. Nxc5 Qxc5 $14) 
+(15. c4 d3 16. Raxd3 (16. Rdxd3 Qxc4+ 17. Kb1 (17. Rac3 Qa2 18. Ra3 $12) 17...b5 18. Nf3 $40 (18. cxb6 Nxb6 19. Rac3 Qa4)) 16...Qxc4+ 17. Kb1 Qb4 18. Nf3 Nxc5 19. Nxc5 Qxc5 20. Ne5 $40)
+(15. c4 Qf5 16. Nh3 Nxc5 17. Ng3 Qg6 (17...Qf6 18. Nh5 d3 (18...Qxh4 $2 19. g3 d3 20. Raxd3 Nxd3+ 21. Rxd3 $18)( 18... Qg6 19. g4 Qe4 20. Qf2 $40) 19. Qe3 Qd4 20. Qg3 $44) 18. Ng5 $44 (18. f5 Qh6+)( 18. h5 Qf6)))
+(14. f4 Nc4 15. Rg3 $1 $44 (15. Ra4 b5 16. cxb6 Nxb6 17. Ra3 Rd8 18. Nf3 Bb7 $17))))
+(10...Qa5 11. Kb1 Kf8
+(11... Kf8 12. Rh3 Qxc5 (12...Nc4 13. Rg3 $1 (13. b3 Na3+ 14. Kb2 Qxc5 $13) 13...Qxc5 14. Qg4 g6 15. h5 (15.Bxc4 Qxc4 16. Qxc4 dxc4 17. Rg4 $12)( 17. Ne4 Ke7 $15) 15...Qb4 16. Bxc4 Qxc4 17. Qg5 $36) 13. f4 Nc4 $15)
+(11... Kf8 12. f4 Nc4 (12...Nd7 13. Nf3 Nxc5 {- 10...Kf8 11. f4 Nd7 12. Nf3 Nc5 13. Kb1 Qa5}) 13. Qf3 (13. Qf2 Nxb2 $1 $17)( 13. Rh3 e5 $5) 13...Qxc5 14. Bxc4 Qxc4 15. Nge2 $44
+)))
+11. f4 Nd7 12. Nf3 Nxc5 13. Kb1 $5 
+(13. f5 (13. g4 b5 $1 14. Qxb5 Qb6 $12) 13...exf5 $1 14. Rxd5 Qb6 15. Qc4 Nd7 (15...Ne4 16. Nxe4 fxe4 17. Qxe4 Be6 18. Rb5 Qc7 (18...Qf2 19. Bd3 $36) 19. Ng5 Re8 20. Bd3 $36) 16. Rxf5 Qe3+ 17. Kb1 Nf6 18. Qc5+ Qxc5 19. Rxc5 $14)
+13...b5 
+(13...b6 14. Qe3 (14. f5 $5 Ba6 15. Qe3 Bxf1 16. Rhxf1 $40) 14...Ba6 15. Bxa6 Nxa6 16. f5 $40)
+(13...Qa5 $1 14. Qe3 Na4 15. Nxa4 Qxa4 16. Bd3 b6 (16...Nb4 17. a3 Nxd3 18. Rxd3 $36) 
+(16... b6 17. h5 h6 (17...Ba6 18. Bxa6 Qxa6 19. h6 $36) 18. f5 exf5 19. Rh4 Qa5 {with unclear play})
+(16... b6 17. Qe2 Nb4 18. a3 Nxd3 19. cxd3 $44)
+(16... b6 17. c3 Ba6 18. Bc2 Qc4 19. Rhe1 $44 (19. Bd3 Qa4 $12) 
+))
+14. Qe3 $1 
+(14. Qxb5 Qb6 $12)
+14...Qb6 15. Rxd5 $1
+(15. Nxd5 $2 exd5 16. Rxd5 Nd7 $17)( 15. Bxb5 $2 Rb8 $16 {with idea} 16. b3 Ne4})
+15...exd5 16. Nxd5 Qd8 17. Qxc5+ Ne7 18. Nc3 $1 $44
+(18. Qxe7+ Qxe7 19. Nxe7 Kxe7 20. Bxb5 Rd8 (20...Bb7 $5 21. Re1+ Kf6 $5 22. Ne5 Bxg2 $5) 21. Re1+ Kf8 $12)
+18...a6 
+(18...Qb6 19. Qxb6 axb6 20. Bxb5 Bb7 21. Ne5 $1 $16)( 18...Bb7 19. Bxb5 Bxf3 20. gxf3 Qb6 21. Qa3 $16)
+19. Be2 Be6 $6 
+(19...Bg4 20. Rd1 Qc8 21. Qb4 f6 22. f5 $5 (22. Nd5 Ra7 $13) 22...Bxf5 23. Nd4 $40)( 19...Bb7 $1 20. Rd1 Qc8 21. Qb4 Qc7 22. Ne5 Rd8 23. Rxd8+ Qxd8 24. a4 $44)
+20. Rd1 Qc8 21. Qb4 $16 h5
+(21...Qc7) 22. Nd4 $16 Rh6 23. Bf3 Ra7
+(23...Rb8 24. f5 $1 (24. Nc6 Bxa2+ 25. Kxa2 Rxc6 26. Bxc6 Qxc6 $12) 24...Bxf5 25. Nd5 $18)
+24. f5 $1 Bc4 25. Nc6 Rxc6 26. Bxc6 Kg8 27. Be4 Nxf5 28. Qa5 $1 $18
+28...Rd7 29. Rxd7 Qxd7 30. b3 Bf1 31. Qxa6 g6 32. Nd5 Qd6 
+(32...Qe6 33. Qxe6 fxe6 34. Bxf5 gxf5 35. Ne3 Be2 36. Kc1 $1 f4 (36...b4 37. Kd2 Bb5 38. g3 Kf7 39. c3 bxc3+ 40. Kxc3 $18) 37. Kd2 Bg4 38. Nxg4 hxg4 39. a4 $18)
+33. Qxd6 $2 {Time}
+(33. Nf6+ Kh8 34. Qa8+ Kg7 35. Ne8+ $18)
+33...Nxd6 34. Ne3 Nxe4
+(34... Be2 35. Bd5 $18)
+35. Nxf1 $18
+35...Kg7 36. Kb2 Kf6 37. Ka3 Nc3 38. Kb4 Nxa2+ 39. Kxb5 Ke5 40. Kc5 Nc3 41. b4 Ne4+ 42. Kb5 Nc3+ 43. Kc4 {Time}
+43...Ne4 44. Kb5 Nd6+ 45. Kc6 Nf5 46. b5 Nd4+ 47. Kc5 Ne6+ 48. Kb4 Kd6 49. c4 Nc5 50. Nd2 f6 51. Nb3 Nd3+ 52. Ka5 g5 53. c5+ Kc7 54. b6+ Kb7 55. Kb5 gxh4 56. c6+ Kb8 57. Nc5 
+1-0 
+
+[Event "Sarajevo"]
+[Site "Sarajevo"]
+[Date "2000"]
+[White "Shirov, Aleksei"]
+[Black "Topalov, Veselin"]
+[WhiteELO "2751"]
+[BlackELO "2702"]
+[Result "1-0"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Sakaev"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 de4 5. Nxe4 Be7 6. Bxf6 gf6 7. Nf3 a6 8. c4 $6 f5 9. Nc3 Bf6 $1 
+(9...c5 10. d5 Bf6 11. Qc2 $1 $14 {Wang Zili - Dreev, 1999})
+10. Qd2 c5 11. d5 0-0 12. 0-0-0 e5 $2
+(12...b5 13. de6 (13. cb5 e5 14. h4 $13) 13...Qxd2+ 14. Rxd2 (14. Nxd2 Bxe6 15. Nd5 (15. cb5 Bxc3 16. bc3 ab5 17. Bxb5 Rxa2 $15) 15... Bxd5 16. cd5 c4 $15) 14...Bxe6 15. Nd5 $14)
+( 12...Nd7 13. h4 Nb6 $1 $13)
+( 12...Qa5 $1 13. Kb1 Bg7 $15) 
+13. h4 b5 14. d6 $1 Nc6
+(14...Be6 15. Ng5 $1 $14)
+15. d7 Bb7 16. Qd6 $1 $16
+16...e4
+(16...Nd4 17. Nxe5 Be7 (17...b4 18. Na4 $1 Be7 19. Qb6 $16) 18. Qh6 b4 19. Nd5 $1 (19. Rh3 Bf6 $13)( 19. Na4 Qc7 $13) 19...Bxd5 20. cd5 $16)
+17. Nd5 Bg7 18. Ng5 Nd4 
+(18...Qa5 $6 19. Kb1 $16)( 18...Kh8 19. g4 $40)( 18...h6 19. Nh3 $16)
+19. Ne7+ Kh8 20. Rh3 $1 f4 
+(20...Qb8 21. Rxd4 $1 cd4 (21...Bxd4 22. Qh6 Qf4+ 23. Kb1 $18) 22. Nxf5 d3 23. c5 $16)
+21. Kb1 b4 22. Be2 $3 f3 
+(22...Nxe2 23. Qxc5 $18)
+23. gf3 Nxe2 24. Qxc5 Nf4 25. Qf5 Ng6 26. h5 Qxe7 27. hg6
+(27. hg6 fg6 28. Rxh7+ Kg8 29. Qxg6 -- 30. Rh8+ $1 )
+1-0
 
 [Event "KC Internet Grand Prix"]
 [Site " $4"]
@@ -594,6 +1031,201 @@ But, as a matter of the fact, after 21. Qe2 the pawn b4 is not under attack, so 
 ({Black resigned, not awaiting for} 26. h4+ Kh5 27. Qf5+ g5 28. Qg5#)
 1-0
 
+[Event "St.Petersburg (m/8)"]
+[Site "St.Petersburg"]
+[Date "1999"]
+[White "Korchnoi, Viktor"]
+[Black "Spassky, Boris"]
+[WhiteELO "2675"]
+[BlackELO "2550"]
+[Result "1-0"]
+[Source "Russian Chess"]
+[Annotator "GM Sergey Ivanov"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bxa6 7. e4 Bxf1 8. Kxf1 d6 9. Nf3 Bg7 10. g3 O-O 11. Kg2 Nbd7 12. h3 Ra6 13. Re1 Qa8 14. Bg5 $5 
+(14. Bf4)( 14. Re2)( 14. Qc2 )
+14...h6 
+(14...e6 15. Qd2 $1 exd5 16. exd5 Rb8 17. Rad1 Qb7 18. b3 $14 { P.Ricardi - S.Giardelli, Buenos Aires, 1995.})
+15. Bd2
+(15. Be3 $5 {A.Beliavsky.} )
+15...e6 $5 
+(15...Rb8 16. b3 Ne8 17. Re2 $1 Nc7 18. Rc1 $1 Ra7 (18...Bxc3 19. Rxc3 Rxa2 20. Bxh6 $16)( 18...Nb5 19. Nxb5 Rxb5 20. a4 Rb8 21. a5 $16 {A.Karpov}) 19. Qc2 Na6 20. Na4 Nb4 21. Bxb4 Rxb4 22. Qd3 Ra5 23. Rec2 h5 24. Rc4 $16 {A.Karpov - B.Gelfand, Sanghi Nagar, 1995, m/6. })
+16. dxe6 fxe6 17. Qc2
+(17. a4 d5 $6 (17...g5 $1) 18. exd5 exd5 19. Nb5 Qb7 20. Bf4 $1 g5 21. Bd6 Rf7 22. Nd2 d4+ 23. Qf3 $14 {A.Beliavsky - A.Khalifman, Novosibirsk, 1995.})
+17...g5 
+(17...Rf7 18. a4 c4 $6 19. Be3 d5 {S.Atalik - D.Gurevich, San Francisco, 1998} 20. e5 $5 Nh7 21. Bd4 Qf8 22. Nh4 $16 {S.Atalik.} )
+18. a4 g4 $146
+(
+18...d5 $5 19. Ra3
+(19. exd5 exd5 20. Re7 $5
+	(20. Nb5 Qb7 21. Bxg5 $2
+	(21. Rad1 Ne4 $41 )
+	(21. Nh2 Ne4 (21...d4 22. Kg1 $13) 22. f3 Nxd2 23. Qxd2 Ne5 $37 )
+	(21. Re7 g4 22. hxg4 Nxg4 $37)
+	21... hxg5 22. Nxg5 d4+ 23. Kg1 Qd5 $1 24. Nc7 Qxg5 25. Nxa6 Ne5 26. Rxe5 Qxe5 27. Nxc5 Qd5 $17 {C.Minzer - A.Khalifman, Linares, 1997.}) 20... d4 21. Nb5 $37(21. Qg6 Ne8)
+)
+19... Rb6 
+(19...Nb6 20. e5 Nc4 $2 21. exf6 Nxa3 22. bxa3 Rxf6 $16)
+(19...Rf7 $6 20. exd5 exd5 21. Nb5 Qb7 22. Bxg5 $1 hxg5 23. Nxg5 Nf8 24. Nxf7 Qxf7 25. Rf3 $1 $16 {S.Atalik - A.Khalifman, Hastings, 1995/96} )
+20. Bc1 (20. a5 $5 Ra6 $13 {A.Khalifman}) 20...Rf7 21. Nd2 Rb4 $13 {L.Ljubojevic - V.Topalov, Linares, 1995.})
+19. hxg4 Nxg4 20. Bf4 {weak point} d5 21. Nb5 
+(21. exd5 exd5 22. Re7 $16)
+21...e5 $1 22. Nc7 
+(22. Bd2 $5 dxe4 23. Qxe4 Qxe4 24. Rxe4 $14)
+22...Qa7
+(22...Qb7 $2 23. Nxa6 exf4 24. Nxc5 $18)
+23. Nxa6
+(23. Nxe5 $5 Ndxe5 (23...Qxc7 24. Nxg4 Rxf4 25. gxf4 Qxf4 26. Qd1 $16) 24. Nxa6 Qxa6 25. exd5 Nd3 26. Re6 $13.)
+23...exf4 24. exd5 
+(24. Qd3 c4 (24...fxg3 25. Qxd5+ Rf7) 25. Qxd5+ Rf7 26. Re2 Qxa6 (26...fxg3 $5) 27. e5 c3 {with unclear play.})
+24...Qxa6 25. Re6 
+(25. Qe2 Qxe2 26. Rxe2 fxg3 27. Kxg3 $5 (27. fxg3 Nb6 28. d6 Nc4 $133) 27...Nge5 28. Nxe5 Bxe5 29. Kg2 $14)
+(25. Re7 Qd6 26. Qe4 Nb6 27. Re6 Qd5 28. Re1 Qe4 29. R1e4 Nd5 30. a5 $14.)
+25...Qb7
+(25...Qa8 26. Qg6 $1 (26. Re7 Nde5) 26...Nge5 27. Nxe5 Qxd5+ 28. Nf3 fxg3 29. Qe4 $16)
+26. Re7 $5
+(26. Qg6 Qxb2 27. Qxg4 Qxa1 28. Re7 fxg3 29. Rxd7 gxf2 30. Kxf2 Qd4+ $12) 
+26...fxg3
+(26...Qxd5 $4 27. Rd1 $18.)
+27. Qg6 Qxb2 28. Ra2 
+(28. Qg4 Qxa1 (28...Qxf2+ $2 29. Kh3 $18) 29. Rxd7 {- 26. Qg6} )
+28...Ne3+ 
+(28...Qf6 $5 29. Qxf6 Ngxf6 30. fxg3 Rd8 $15.)
+29. Kh3 $7
+(29. Rxe3 $2 Qxa2 $19)
+(29. Kxg3 $2 Nf5+ 30. Kg2 Qxa2 $19)
+29...gxf2 
+(29...Qf6 30. Qxf6 Nxf6 31. Rxe3 Nxd5 32. Kxg3 Nxe3 33. fxe3 $12)
+(29...Nxd5 $5 30. Qe6+ Kh8 31. Rxb2 (31. Qxd5 gxf2 32. Nh2 Qc3+ 33. Kg2 Rg8 $1 $17) 31...Nf4+ 32. Kxg3 Nxe6 33. Rb7 Ne5 34. Nxe5 (34. Rxe6 Nxf3 35. Ree7 Be5 {with unclear play}) 34...Bxe5+ 35. Kg2 Nf4+ 36. Kf1 Nd3 $13.)
+30. Rxb2 f1=Q+
+({Better is} 30...Rxf3+ 31. Kh2 Rh3+ $3 {M.Taimanov} (31...f1=N+ $2 32. Kg1 Rg3+ 33. Qxg3 Nxg3 34. Rb7 $18) 32. Kxh3 f1=Q+ 33. Kh2 Qf4+ 34. Kg1 Qf1+ $12 )
+31. Kh2 Nf5 32. Rg2 Qxg2+ 
+(32...Qa1 33. Rxd7 $18)( 32...Kh8 33. Rxg7 Qxg2+ 34. Kxg2 Nxg7 35. Qd6 $18.)
+33. Kxg2 Nxe7 34. Qe6+ Rf7 35. Qxd7 $18
+35...Nf5 36. Qc8+ Bf8 37. Ne5 Rg7+ 38. Kh3 Nd6 39. Qe6+ Kh7 40. Nd7 Be7 41. Nxc5
+1-0 
+
+[Event "Chigorin memorial"]
+[Site " $4"]
+[Date "1997"]
+[White "Aseev, Konstantin"]
+[Black "Karpeshov"]
+[WhiteELO "2545"]
+[BlackELO "2430"]
+[Result "1-0"]
+[Source "Russian Chess"]
+[Annotator "GM Konstantin Aseev"]
+
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 5.a3 Bxc3+ 6.bxc3 c5 7.Nf3 b6
+{with the idea to change the "bad" French bishop: 8....Ba6. White prevent this move.}
+8.Bb5+ Bd7 9.Bd3 h6 
+({Canning move. Usually play} 9...c4 10.Bf1 {with following g3 and Bh3}) 
+10.0-0 c4 11.Be2 Ba4 
+{Black prepares Kd7 with the idea Qg8-h7 and pressing the pawn c2. This is GM A.Yusupov's plan.} 
+12.g3 
+(12.Nh4 Nf5 $5 (12...Ng6 $5)( 12...g5 $6 13.Nf3 $14 {with the idea Ne1, f2-f4}) 13.Nxf5 exf5 14.g4 Bd7 $13)
+(12.Ne1 Kd7 13.f4 Qg8 14.Rf2 (14.g4 $5 {with the idea f5}) 14...f5 15.exf6 gxf6 16.f5 exf5 17.Bh5 Kc8 18.Nf3 Bd7 19.Nh4 Nbc6 20.Qf3 Kb7 $13 {Gonsales-Dimitrov, Las-Palmas,1993.})
+12...Kd7 13.Nh4 Qg8 14.f4 Qh7 15.f5 
+({This move is available thanks to bishop's position e2:} 15.f5 ef5 16.Nxf5 $1 Nxf5 17.Rxf5 Qxf5 18.Bg4 Bxc2 19.Qf3 Ke6 20.Ra2 $1 h5 21.Bxf5 Bxf5 22.Rf2 Bg6 (22...g6 23.h3 -- 24.g4 $20) 23.Qg2 $5 Nc6 24.Qh3 Ke7 25.Bg5 $16)
+15...g5
+(15...Nbc6 16.Bg4+ (16.g4))
+16.fxg6 fxg6 17.Bg4
+(
+{better} 
+17.Rf6 $1 g5
+( 17...Nbc6 18.Bg4 Nd8 19.Ng2 $5 (19.Be3 $2 g5 20.Bxe6+ Nxe6 21.Qg4 Qg8 $21)( 19.Ra2 $5) 19...g5 20.Ra2 (20.Ne3 $5 h5 21.Be2 g4 22.Ra2 {with the idea Ng2}) 20...h5 21.Be2 $20) 
+ 18.Bg4 $1 gxh4 19.Bxe6+ Kd8 20.Rxh6 Qg7 (20...Qxh6 21.Bxh6 Rxh6 22.Qg4+) 21.Qg4 $1 Rh7 (21...Qxg4 $2 22.Rxh8+ $20)( 21...Qf8 22.Qxh4 Rxh6 23.Bxh6 $20) 22.Qxh4 $5 Bxc2 23.Bxd5 $20
+)
+17...Nf5
+(17...g5 $4 18.Bxe6+ Kxe6 19.Qg4+ $20)
+(17...Nbc6 18.Rf6+ )
+18.Ng2
+(18.Nxf5 gxf5 19.Bh5 $14)
+18...Nc6 19.Nf4
+(19.Qd2 $5 $14 {with the idea Bb2, Rf2, Raf1})
+(19.Qe2 $5 $14 {with the idea Be3} )
+19...Nce7
+(19...Raf8 $5)
+20.Rf2
+(
+{More naturally} 20.Qe2 Raf8 21.Bb2 {with the idea Rae1,Bc1} 
+(21.Rf2 21...Rf7
+( 21...h5 22.Bf3 h4 23.g4 Ng7 (23...Ng3 24.hxg3 hxg3 25.Rf1 $20) 24.Nh3 $20)
+( 21...Ng7 $5)
+ 22.Bb2 h5 23.Bf3 (23.Bh3 $2 g5 $21) 23...h4 24.g4 Ng3 $2
+( 24...Nxd4 25.cxd4 Rxf4 26.Bc1 $5 (26.c3 $5 {with the idea} -- 27. Bc1 $44) 26...Rxd4 27.Be3 Nc6 28.Bxd4 Nxd4 29.Qd1 Nxf3+ (29...Nc6 30.Bxd5 $5) 30.Qxf3)
+ 25.Qe3+ {with the idea Nh3-g5})
+21...h5
+(21...Ng7 $5 22.h4 $5
+(22.Nxd5 $5 Nxd5 23.Qxc4 Bc6 24.Qd3 (24.Qd3 {with the idea} -- 25.c4 Ne7 26.d5 $44}) (24.Qa6 $2 g5 $1 25.Qxa7+ Nc7 $21) )
+( 22.Qg2 $5)
+ 22...h5 $5 (22...g5 23.Nxe6 $1 Nxe6 24.Rf6 Rxf6 25.ef6 Nf5 26.Rf1 $40 ) 23.Bh3 g5 24.hxg5 Bxc2)
+ 22.Bf3 h4 23.g4 Ng3 $2
+( 23...Nxd4 24.cxd4 Rxf4 25.Bc1 Rf7
+( 25...Rxd4 $2 26.Be3 Nc6 27.Qf2 Re4 28.Bxe4 dxe4 29.Bxb6 $5 (29.Qd2+ $5) )
+ 26.Bg5 $44)
+ 24.hxg3 hxg3 25.Bc1 Qh2+ 26.Qxh2 Rxh2 27.Be3 $20 (27.Ng2 $5 Rfh8 28.Ne1 $20) 27...Rxc2 $4 28.Bd1
+)
+20...Raf8 21.Bh3 $6
+({better} 21.Qe2)
+21...Rf7
+(21...Ng7 $5)
+22.Qd2 Rhf8 23.Bb2 Ng7 
+(
+{better} 23...h5 24.Bg2
+( 24.Ng2 g5 $1 25.Qxg5 Nxd4 $5 26.Nf4
+( 26.Rxf7 Qxf7 (26...Ne2+ $5) 27.cxd4 $4 Qf2+ 28.Kh1 Qf1 $20)
+ 26...Rxf4 $1 $21)  24...Ng7 $1
+( 24...g5 $2 25.Nh3)
+( 24...h4 25.g4 Nh6 (25...Ng3 26.Nh3 $1) 26.g5 Nhf5 (26...Ng4 $2 27.Rff1+) 27.Bh3+)
+ 25.h4 g5 26.hxg5 h4 27.gxh4
+( 27.g4 Qxc2 $5 (27...Ng6 $5) 28.Qe3 Qb3 $17 {with the idea Rxf4} (28...Qh7 $2 29.Raf1+) )
+ Qxh4 $37
+)
+24.Raf1 Qg8 $2
+({Black misses the suitable moment of activity} 24...g5 25.Nxd5 $2 Rxf2 26.Rxf2 Rxf2 27.Nf6+ (27.Qxf2 $2 Nxd5 28.Qf7+ Ne7 29.Bxe6+ Kd8) 27...Rxf6 28.exf6 $15)
+25.Qe2
+(25.Qe1 $5)
+25...Ngf5
+(25...g5 $2 26.Nxe6 $1 Nxe6 27.Bxe6+ Kxe6 28.Rf6+ Kd7 (28...Rxf6 29.exf6+ $20) 29.e6+ $20)
+26.Bc1 Qh7 27.Nxe6 $6
+(27.Bg4 $5)( 27.Qe1 $5)
+27...Kxe6 28.g4 Nxd4
+(28...Nh4 $2 29.Rf6+ Rxf6 30.exf6+ Kd7 31.Bxh6 Rf7 32.Bg5+ (32.Qe5 $5) )
+29.cxd4 Rxf2 30.Rxf2 Rxf2 31.Qxf2 g5 32.c3 $2
+(
+{Natural move although a serious mistake, better was} 
+32.Qf6+ Kd7 33.Bd2 $1
+(33.e6+ Kd6
+(33...Kc6 34.Bd2 a5 35.c3
+(35.Qf7 Bxc2 (35...Qxf7 36.exf7 Ng6 37.Bg2 Bxc2 38.h4 Kd6 39.hxg5 hxg5 40.Bxg5) 36.Qe8+ Kb7 37.Bg2 $1 (37.Qd7+ $2 Ka6 38.a4 Bxa4 39.Qxa4 Qd3 $17 ) )
+35...Bd1 $5 {with the idea Nb5-d4} 36.Qf7 Qxf7 37.exf7 Ng6 38.a4 $5 {with the idea} 
+38...Kd6 ( 38...Ba4 39.Bc1 -- 40.Ba3 )
+ 39.Bc1 Ke6 40.Bg2 Bxg4 41.h4 Kxf7 (41...gxh4 42.Bxh6 Kxf7 43.Bxd5+ Be6 44.Be4) 42.hxg5 hxg5 43.Bxd5+ (43.Bxg5 Ke6 $5 44.Bd8 b5 $1 45.axb5 a4 46.b6 Nf8 47.b7 Nd7 48.Bg5 a3 49.Bc1 a2 50.Bb2 Kd6 51.Kf2 Be6 $17 {with the idea Kc7-b7}) 43...Be6)
+34.Bd2 a5 35.Be1 Bxc2 36.Bg3+ Kc6 37.Qf8 (37.Qe5 $5) 37...Kb5 38.Qd8 (38.Qe8+ Nc6 $17 ) ) 
+33...Qe4 (33...Qxc2 $6 34.e6+)( 33...Qg6 34.Bb4 Qxf6 35.exf6 Ng6 36.f7 $20) 34.Bb4 Qe3+
+(34...Qxd4+ $2 35.Kh1 Qd1+ (35...Qe4+ 36.Bg2 $20) 36.Bf1 Nc8 37.e6+)
+35.Kg2 Bxc2 $5 (35...Qe4+ 36.Kf1 $5 Qh1+ 37.Kf2 Qxh2+ 38.Bg2 Qf4+ 39.Qxf4 gxf4 40.Bxe7 Kxe7 41.Bxd5+)( 35...Qe2+ 36.Kh1) 36.Qxe7+ Kc6 37.Qe6+ Kb5 38.Qd7+ (38.Qxd5+ $4 Ka4 $21) 38...Ka6 39.Qc8+ $10)
+( 32.Bd2 Qf7)
+32...Qd3 $2
+({Black also doesn't find the best move} 32...Qb1 $1 $17 )
+(32...Qf7 $5 )
+33.Bf1 Qxc3 $6 
+(
+{better} 33...Qd1 34.Qf6+ Kd7 35.Qd6+ Ke8 36.Be3
+(36.e6 $2 Qxg4+ (36...Nc8 $21) 37.Bg2 Nc8 (37...Kf8 38.Qe5 $5) 38.Qxd5 Qd1+ 39.Bf1 (39.Kf2 Qxc1 40.Qxc4 Bc2 41.Kg3 Ne7 $21) 39...Qxc1 40.Qxc4 Qe3+ 41.Kh1 Qe4 $20 42.Kg1 
+(42.Bg2 Qe1+ 43.Bf1 Kd8 $5 $21) 42...Qc6 (42...Bc6) ) 
+36... Qxg4+ 37.Bg2 {with the idea Qh6,e6} (37.Kf2 Qh4+ $1 38.Kg1 Bd7 $17 )
+)
+34.Bd2 Qxa3
+(34...Qb2 35.Qf6+ Kd7 36.e6+ (36.Qd6+ Ke8 37.Be3) 36...Kc6 37.Bb4 Ng8 38.Qg7 -- 39.Qd7#) 
+35.Qf6+ Kd7 36.Qxh6 Qb2 $2
+{Black overrate his position, it was necessary to play 36...Qf3 with counter-play}
+37.Be3 Bc2 $2
+{The decisive mistake. The square d7 ought to have the defence.}
+38.Qd6+ Ke8 39.e6 $20 Ba4 40.Qb8+ Nc8 41.Qxc8+ Ke7 
+1-0 
+
 [Event "Chigorin memorial"]
 [Site " $4"]
 [Date "1997"]
@@ -633,4 +1265,30 @@ But, as a matter of the fact, after 21. Qe2 the pawn b4 is not under attack, so 
 ({In case of sacrificing the rook for the bishop} 18.Rxd7 Rxd7 19.fxe6 Re7 20.Ne4 Qe5 21.Nxf6+ Qxf6 22.exf7+ 
 {White hardly has to count on the advantage})
 18...Bxe6 19.Bxe6 Bxc3
-1/2-1/2
+1/2-1/2  
+
+[Event "Petrov memorial"]
+[Site "Saint-Petersburg"]
+[Date "1998"]
+[White "Najer"]
+[Black "Ionov, Sergei"]
+[WhiteELO "2495"]
+[BlackELO "2545"]
+[Result "0-1"]
+[Source "Russian Chess"]
+[Annotator "GM Sergei Ionov"]
+
+1. e4 c5 2. Nc3 e6 3. Nf3 a6 4. g3 b5 5. Bg2 Bb7 6. d3 d6 7. O-O Nf6 8. Ng5 $5
+(8.e5 dxe5 9.Nxe5 Bxg2 10.Kxg2 Nbd7 $10)( 8.Nh4 Nc6 9.f4 Be7 10.f5)
+8...Nc6 $146
+(8...h6)
+(8...Be7 9.e5 (9.f4 0-0 10.e5 Nd5 11.Nce4) 9...Bxg2 10.exf6 Bxf6 11.Nxf7 Kxf7 12.Kxg2 Re8)
+9. f4 Be7 10. f5
+(10.e5 $2 dxe5 11.fxe5 Qd4+ 12.Kh1 Qxe5 13.Bf4 Qd4 $17)
+10...exf5 11. exf5 d5 $5
+(11...0-0 12.Nge4 b4 13.Nxf6+ Bxf6 14.Nd5 Bd4+ 15.Kh1 Ne7 16.Nf6+ Bxf6 17.Bxb7 Ra7)
+12. Nxd5
+(12.Nh3 b4 13.Na4 0-0 14.g4 h6)
+12...Nxd5 13. Qh5 Bxg5 14. Bxg5 Nf6 15. Rae1+ Kf8 16. Bxf6 Qxf6 17. Re6 Qd4+ 18. Rf2 Qd7 19. f6 Qxe6 20. Qxc5+ Ke8 21. Bd5 Qd7 22. Qe3+ Kd8 23. fxg7 Re8 24. Rxf7 Ne7 25. Qb6+ Qc7 26. Qxb7 Qc5+ 27. Kf1 Qxd5 28. Qxe7+ Rxe7 29. g8=Q+ Re8 30. Qxh7 Qh1+ 31. Kf2 Qe1+ 32. Kg2 Qe2+ 33. Rf2 Qe6 34. h4 Rc8 35. Qg7 Rc7 36. Qd4+ Rd7 37. Qc5 Qd5+ 38. Qxd5 Rxd5 39. g4 Rd4
+0-1  
+

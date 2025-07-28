@@ -30,9 +30,10 @@ pip install -r ./requirements.txt
 
 - Train the agent to generate comments similar to the ones found on the dataset
 - The comment will be made based on some data:
-  - The moves leading up to the position
-  - The best moves recommended by a strong engine ([Stockfish](https://stockfishchess.org/))
-  - (Maybe) Moves recommended by a human-like AI ([Maia](https://www.maiachess.com/))
+    - The context of the game (player names, annotator name, last move played)
+    - The moves leading up to the position
+    - The best moves recommended by a strong engine ([Stockfish](https://stockfishchess.org/))
+    - (Maybe) Moves recommended by a human-like AI ([Maia](https://www.maiachess.com/))
 
 # Sources
 
@@ -43,4 +44,4 @@ pip install -r ./requirements.txt
 
 - [ValdemarOrn's Github](https://github.com/ValdemarOrn/Chess/blob/master/Annotated%20Games/)
 - [Path to chess mastery's annotated games](https://www.pathtochessmastery.com/)
-- [Lichess studies](https://lichess.org/study)
+- [PGN Library](https://www.angelfire.com/games3/smartbridge/)
