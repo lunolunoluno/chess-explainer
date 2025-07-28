@@ -16,6 +16,9 @@ pip install -r ./requirements.txt
 - 🔄 Finding games with comments on inaccuracies, mistakes and blunders
 - 🔄 Create a process to filter/improve the comments on these games
   - ✅ Find all comments made on inaccuracies, mistakes and blunders
+  - Add name of the opening in dataset
+  - Add Stockfish evaluation in the dataset
+  - (Maybe) Add Maia evaluation in the dataset
   - 🔄 Use LLM to evaluate if comment made is of good quality
   - 🔄 Use LLM to rephrase/improve comment
 
