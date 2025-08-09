@@ -25,10 +25,10 @@ class Debug(metaclass=SingletonMeta):
 
 
 class LLM(metaclass=SingletonMeta):
-    def __init__(self):
+    def __init__(self, model_id: str = "google/gemma-3-1b-it"):
         self.model = None
         self.tokenizer = None
-        self.model_id = "microsoft/Phi-3-mini-4k-instruct"
+        self.model_id = model_id
         self.pipe = self.set_model_id(self.model_id)
 
     def set_model_id(self, model_id: str) -> Pipeline:

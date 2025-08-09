@@ -7,7 +7,9 @@ from typing import List
 
 import chess.pgn
 import torch
+import pandas as pd
 from transformers import Pipeline
+from datasets import Dataset
 
 from modules.utils import Debug
 
@@ -195,3 +197,24 @@ def get_last_move_from_line_as_string(pgn_line: str) -> str:
     else:
         errors = '\n\n'.join(str(e) for e in game.errors)
         raise Exception(f"The following error(s) were encountered during the parsing of the pgn line :\n{errors}")
+
+def create_dataset(dataset_path: str, inputs_columns: List[str], label_column: str) -> Dataset:
+    df_dataset = pd.read_csv(dataset_path)
+    dbg = Debug()
+
+    # Create hugging face dataset
+    def prompt_model(row) -> str:
+        info = "\n".join([f"{col}: {row[col]}" for col in inputs_columns])
+        return re.sub(r'\t| {2,}', '', f"""
+                        Based on the following information: 
+                        {info}
+                        Generate a comment explaining the error that the player just made
+                        Comment: \n""".strip())
+
+    dbg.print("Creating dataset...")
+    df_dataset["prompt"] = df_dataset.apply(prompt_model, axis=1)
+    df_dataset["full_text"] = df_dataset["prompt"] + " " + df_dataset[label_column].astype(str)
+
+    # Create dataset with only necessary columns
+    dataset = Dataset.from_pandas(df_dataset[["prompt", label_column, "full_text"]])
+    return dataset
