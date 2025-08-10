@@ -11,22 +11,50 @@ from modules.utils import Debug
 
 load_dotenv()
 
+
 class WinningChanceJudgements(Enum):
     INACCURACY = 0.1
     MISTAKE = 0.2
     BLUNDER = 0.3
 
+
 # Sources used to create this :
 # https://github.com/lichess-org/lila/blob/cf9e10df24b767b3bc5ee3d88c45437ac722025d/modules/analyse/src/main/Advice.scala
 class GameAnalyzer:
-    def __init__(self)->None:
+    def __init__(self) -> None:
         self.dbg = Debug()
 
         engine_path = os.getenv("ENGINE_PATH")
         assert os.path.exists(engine_path), f"{engine_path} doesn't exists !"
         self.engine_path = engine_path
 
-    def analyze_game(self, game: chess.pgn.Game)->chess.pgn.Game:
+    def get_engine_eval_comment(self, fen: str) -> str:
+        with chess.engine.SimpleEngine.popen_uci(self.engine_path) as engine:
+            board = chess.Board(fen)
+            info = engine.analyse(board, chess.engine.Limit(depth=30, time=2))
+            score = info['score'].white()
+            if isinstance(score, Cp):
+                score = score.cp/100.0
+        return f"[%eval {score}]"
+
+    def get_engine_best_line(self, fen: str) -> str:
+        line = ""
+        with chess.engine.SimpleEngine.popen_uci(self.engine_path) as engine:
+            board = chess.Board(fen)
+            info = engine.analyse(board, chess.engine.Limit(depth=30, time=2))
+            if len(info['pv']) > 0:
+                if board.turn == chess.BLACK:
+                    line += f"{board.fullmove_number}... "
+                for move in info['pv']:
+                    san = board.san(move)
+                    if board.turn == chess.WHITE:
+                        line += f"{board.fullmove_number}. {san} "
+                    else:
+                        line += f"{san} "
+                    board.push(move)
+        return line
+
+    def analyze_game(self, game: chess.pgn.Game) -> chess.pgn.Game:
         with chess.engine.SimpleEngine.popen_uci(self.engine_path) as engine:
             board = game.board()
             node = game
@@ -84,13 +112,11 @@ class GameAnalyzer:
                     self.dbg.print("")
 
                 if isinstance(crt_score.white(), Cp):
-                    node.comment = f"[%eval {crt_score.white().score()/100}] "+node.comment
+                    node.comment = f"[%eval {crt_score.white().score() / 100}] " + node.comment
                 else:
-                    node.comment = f"[%eval {crt_score.white()}] "+node.comment
+                    node.comment = f"[%eval {crt_score.white()}] " + node.comment
 
                 if annotation:
                     node.nags.add(annotation)
                 prev_score = crt_score
         return game
-
-

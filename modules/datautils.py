@@ -11,6 +11,7 @@ import pandas as pd
 from transformers import Pipeline
 from datasets import Dataset
 
+from modules.gameanalyzer import GameAnalyzer
 from modules.utils import Debug
 
 
@@ -37,6 +38,7 @@ def get_all_comments_in_game(pgn_str: str) -> List[str]:
 
 
 def get_all_comments_and_lines_in_game(game: chess.pgn.Game, initial_context: str) -> List[dict]:
+    ga = GameAnalyzer()
     node = game
     board = chess.Board()
     partial_game = []
@@ -44,8 +46,10 @@ def get_all_comments_and_lines_in_game(game: chess.pgn.Game, initial_context: st
     while node.variations:
         next_node = node.variations[0]
         move = next_node.move
+        fen_before = board.fen()
         san = board.san(move)
         board.push(move)
+        fen_after = board.fen()
         if board.turn == chess.BLACK:
             partial_game.append(f"{board.fullmove_number}.")
         partial_game.append(san)
@@ -64,7 +68,9 @@ def get_all_comments_and_lines_in_game(game: chess.pgn.Game, initial_context: st
             res.append({
                 "comment": cleaned_comment,
                 "moves": moves,
-                "context": initial_context + ". Last move played: " + get_last_move_from_line_as_string(moves)
+                "context": initial_context + ". Last move played: " + get_last_move_from_line_as_string(moves),
+                "engine_eval": ga.get_engine_eval_comment(fen_after),
+                "engine_best_line": ga.get_engine_best_line(fen_before)
             })
         node = next_node
     return res
@@ -92,7 +98,7 @@ def filter_good_comments(pipe: Pipeline, comments: List[dict]) -> List[dict]:
                                     Don't write anything else after."""},
         {"role": "user", "content": f"""Here is a comment made after a chess move evaluated as a mistake:
                                     Comment: "{c}"
-                                    Do you think that this comment explains the mistake made by the player ?
+                                    Do you think that this comment explains the mistake made by a player ?
                                     Write RES: 1 if yes and write RES: 0 if no.
                                     After that, write a single sentence explaining your reasoning.
                                     Don't write anything else after."""},

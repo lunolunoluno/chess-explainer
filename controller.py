@@ -13,7 +13,7 @@ import pandas as pd
 from sympy.printing.pytorch import torch
 from tqdm import tqdm
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, \
-    DataCollatorForLanguageModeling, AutoModelForSeq2SeqLM, PreTrainedTokenizerFast
+    DataCollatorForLanguageModeling, PreTrainedTokenizerFast
 from datasets import Dataset
 from peft import get_peft_model, LoraConfig, TaskType, PeftModel, PeftConfig
 
@@ -23,15 +23,13 @@ from modules.utils import Debug, LLM
 from modules.gameanalyzer import GameAnalyzer
 
 
-
-
-
-
 class Controller:
 
     def __init__(self):
         self.dbg = Debug()
 
+        self.data_path = os.getenv("DATA_PATH")
+        assert os.path.exists(self.data_path), f"{self.data_path} doesn't exists !"
         self.data_raw_path = os.getenv("DATA_RAW_PATH")
         assert os.path.exists(self.data_raw_path), f"{self.data_raw_path} doesn't exists !"
         self.data_analyzed_path = os.getenv("DATA_ANALYZED_PATH")
@@ -87,7 +85,6 @@ class Controller:
     def save_good_comments_from_games(self) -> None:
         """
         Will take all the pgn files in DATA_RAW_PATH and extract the comments that explain any player's mistake.
-        Once analyzed, each game is saved in a pgn file in DATA_ANALYZED_PATH
         All the comments from a game will be saved in a csv file in DATA_COMMENTS_PATH
         """
         llm = LLM()
@@ -154,20 +151,24 @@ class Controller:
             if not good_comments.empty:
                 prompt_model = lambda context, comment: [
                     {"role": "system",
-                     "content": """You're job is to reformulate chess annotations to make them cleaner. 
-                    Additionally, it is VERY IMPORTANT that when reformulating you do the following:  
-                    -   When using a pronoun to refer to a player, only use they/them/their
-                    -   When mentionning a player's name, use either 'black' or 'white' according to the player's color."""},
+                     "content": """You're job is to reformulate chess comments to make them cleaner. 
+                    It is VERY IMPORTANT that when reformulating you do the following:
+                    -   The reformulated comment should only contain an explanation of why the move was bad and NOTHING ELSE.  
+                    -   When using a pronoun to refer to a player, only use they/them/their.
+                    -   NEVER mention a player's name. Use either 'black' or 'white' according to the player's color.
+                    -   If the original comment is talking about something or someone unrelated to the game, do not mention it."""},
                     {"role": "user",
                      "content": f"""Here is a small context regarding the game:
                      '{context}'
                      You don't have to mention anything about the context in the reformulated comment unless deemed necessary.
                      Here is the comment that you have to reformulate:
                      '{comment}'
-                     Remember that you have to simplify the comment to only keep the explaination as to why the move played was bad.
+                     Remember that your job is to simplify the comment to strictly only keep the explaination as to why the move played was bad.
                      Additionnaly, remember that  it is VERY IMPORTANT that when reformulating you do the following: 
-                    -   When using a pronoun to refer to a player, only use they/them/their
-                    -   When mentionning a player's name, use either 'Black' or 'White' according to the player's color."""}
+                     -   The reformulated comment should only contain an explanation of why the move was bad and NOTHING ELSE.  
+                     -   When using a pronoun to refer to a player, only use they/them/their.
+                     -   NEVER mention a player's name. Use either 'black' or 'white' according to the player's color.
+                     -   If the original comment is talking about something or someone unrelated to the game, do not mention it."""}
                 ]
 
                 prompts = [prompt_model(comment['context'], comment['comment']) for _, comment in
@@ -183,6 +184,26 @@ class Controller:
 
             comments.to_csv(games[game_index], index=False)
 
+
+    def save_comments_as_csv(self) -> str:
+        comments_files = [
+            os.path.join(self.data_commented_path, file)
+            for file in os.listdir(self.data_commented_path)
+            if os.path.isfile(os.path.join(self.data_commented_path, file)) and file.lower().endswith(".csv")
+        ]
+
+        df_merged = pd.concat((pd.read_csv(f) for f in comments_files), ignore_index=True)
+        merge_path = os.path.join(self.data_path, f"merged_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv")
+        df_merged.to_csv(merge_path, index=False)
+
+        df_filtered_merged = df_merged[df_merged["good"]]
+        filtered_merged_path = os.path.join(self.data_path,
+                                            f"filtered_merged_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv")
+        df_filtered_merged.to_csv(filtered_merged_path, index=False)
+
+        self.dbg.print(f"{df_merged.shape[0]} total comments for {df_filtered_merged.shape[0]} good comments")
+
+        return filtered_merged_path
 
     def train_model(self, dataset_path: str, inputs_columns: List[str], label_column: str) -> str:
         assert os.path.exists(dataset_path), f"{dataset_path} does not exists !"
@@ -280,7 +301,7 @@ class Controller:
 
         return model, tokenizer
 
-    def prompt_model(self, model, tokenizer, prompt)->str:
+    def prompt_model(self, model, tokenizer, prompt) -> str:
         model.eval()
 
         inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
