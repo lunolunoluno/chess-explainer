@@ -1,0 +1,18 @@
+moves,comment,good
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5,"This attempt to refute the black opening strategy at once does not look
+particularly convincing. Much better is further quiet development, e.g.:",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5 g6 9. Nxf6+ Qxf6 10. Ne4 Qe7 11. b3 Ba7,"Not letting the bishop be exchanged. Although it
+did not do much of anything in the actual game, some variations later proved
+this decision has been right.",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5 g6 9. Nxf6+ Qxf6 10. Ne4 Qe7 11. b3 Ba7 12. Bb2,still keeping the position equal,True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5 g6 9. Nxf6+ Qxf6 10. Ne4 Qe7 11. b3 Ba7 12. Bb2 d6 13. Ng3,"A pure waiting move.
+Black does not want to make any decisive moves before white has castled. Early
+pawn moves on the king side could prove verydangerous indeed, should white
+later decide to castle long.",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5 g6 9. Nxf6+ Qxf6 10. Ne4 Qe7 11. b3 Ba7 12. Bb2 d6 13. Ng3 f5 14. Be2 Be6,"?! Is risky and prematured, although white has to play precisely.",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5 g6 9. Nxf6+ Qxf6 10. Ne4 Qe7 11. b3 Ba7 12. Bb2 d6 13. Ng3 f5 14. Be2 Be6 15. O-O f4,"white stays a little bit better, I think",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5 g6 9. Nxf6+ Qxf6 10. Ne4 Qe7 11. b3 Ba7 12. Bb2 d6 13. Ng3 f5 14. Be2 Be6 15. O-O f4 16. Ne4 Bf5 17. Bd3,with mating atack,True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5 g6 9. Nxf6+ Qxf6 10. Ne4 Qe7 11. b3 Ba7 12. Bb2 d6 13. Ng3 f5 14. Be2 Be6 15. O-O f4 16. Ne4 Bf5 17. Bd3 f3,is no better either,False
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5 g6 9. Nxf6+ Qxf6 10. Ne4 Qe7 11. b3 Ba7 12. Bb2 d6 13. Ng3 f5 14. Be2 Be6 15. O-O f4 16. Ne4 Bf5 17. Bd3 f3 18. gxf3 Bh3 19. Rfe1 Rxf3 20. Be2 Rf7 21. Bf1 Bg4,?,True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5 g6 9. Nxf6+ Qxf6 10. Ne4 Qe7 11. b3 Ba7 12. Bb2 d6 13. Ng3 f5 14. Be2 Be6 15. O-O f4 16. Ne4 Bf5 17. Bd3 f3 18. gxf3 Bh3 19. Rfe1 Rxf3 20. Be2 Rf7 21. Bf1 Bg4 22. Ng3,and black should go down on the many weaknesses (e3 especially is very weak),True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 O-O 6. Nd5 a5 7. a3 Bc5 8. Ng5 g6 9. Nxf6+ Qxf6 10. Ne4 Qe7 11. b3 Ba7 12. Bb2 d6 13. Ng3 f5 14. Be2 Be6 15. O-O f4 16. Ne4 Bf5 17. Bd3 f3 18. gxf3 Bh3 19. Rfe1 Rxf3 20. Be2 Rf7 21. Bf1 Bg4 22. Ng3 Raf8 23. Nh1 Qg5,- +,True

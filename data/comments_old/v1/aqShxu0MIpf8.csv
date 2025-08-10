@@ -1,0 +1,85 @@
+moves,comment,good
+1. e4 Nc6 2. Nf3,"Another good
+idea here is to play d4. These pawns make it easier to control the center. 2.
+d4 e5 3.d5 White has firm control of the center. The center is important
+because if you lose the center then you lose the game.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3,"Developing
+your pieces is good. Objectively this is not the best move but this develops
+good habits for the novice player.",False
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5,"This is the move I like because it
+gains all sorts of space in the center. The move also prepares to attack on
+the Kingside because of the space that is gained there. 3...e5 Welcome to the
+""Four Knights"". The reason we have these names is to help us identify common
+opening sequences. Once you learn these names then you can find them in books
+and study them until you know them. At this point, just enjoy the King hunt.",False
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5,"This is a error. There are several reasons for this judgment.
+First, the Knight and the Bishop are of equal value. Your Bishop move does not
+really immediately threaten anything. Finally, the Knight on the rim is
+severely restricted in its movement. As you get better you will find
+exceptions to the rule for concrete reasons. But for now remember, ""a Knight
+on the rim is dim.""",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5,Good! You removed the defender and now you pick up the piece.,False
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6,"This is not
+a good place for the Bishop because it blocks the advance of the d-pawn. If
+the d-pawn is blocked then the Queen Bishop will have difficulty developing
+properly.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4,"5.d4 does the same thing and completes the control in the
+center. I distrust this move because if you castle Kingside the g1-a7 diagonal
+is open to all sorts of mischief.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3,"This move is not
+correct. First, it gives back material ...Bxf4. Second it signals a retreat
+from the center. Remember that when your Knight crosses the 4/5 line, you want
+to maximize the damage it causes before retreating back into your own
+territory.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6,"A blunder, that you nicely point out.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5,"Nice! One of
+the basic move in the ""how to humiliate your opponent 101"" class. The idea
+behind this is repeated through the GM level. The pawns being the ""weakest""
+(read ""least valuable"", because they are the ""least mobile"") become the
+strongest (since they can make contact, threats, and do battle where others
+fear to tread!",False
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4,12.Re1+ Kf8 13.Ne4,True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4,Another mistake because of 13.Nfg5 Qe5 14.Qxh5,True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5,"Chasing the unguarded Bishop on a6. This is a ""one move"" attack. For the
+novice, it's ok. However, I'd like to push you to deepen your thought process
+and think at least one move deeper. One problem with the ""one move"" attack is
+that it often does not take into account the opponent's threatsandpossibilitie
+s. Another problem is that better moves are typically available.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1,"Always play with a plan. As yourself what your opponent is threatening and
+what you are threatening.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4,Nxa6,True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4 Bc8 17. bxa5,"Your Knight is
+much more useful than the Knight on a5. Do not trade useful pieces for useless
+pieces, even if they are of equal value.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4 Bc8 17. bxa5 Qxc5+,"Remember this diagonal? It is trouble, all started by the move f4.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4 Bc8 17. bxa5 Qxc5+ 18. Kh1 d5 19. c4,"A mistake, but an interesting idea. You recognize the power of the
+Bishop pair. The giving of the pawn frees the Queen Bishop. A much stronger
+idea to free the Bishop is to play a4. [19.a4 b4 20.c3 Nf4 21.cxb4 and the
+Bishops are free.]",False
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4 Bc8 17. bxa5 Qxc5+ 18. Kh1 d5 19. c4 Re6 20. Bb1,"Repeat after me.... ""ATTACK!"" ""Fischer's
+rule"" was attack something if it doesn't move take it. Unless you there are
+specific reasons you must attack. [20.Bf5 Ree8 21.Bxc8 Rxc8 22.cxb5 cxb5 Being
+a piece up gives you the luxury of opening the game up. Typically the open
+nature will favor the player that is best developed (or has the most material.)
+]",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4 Bc8 17. bxa5 Qxc5+ 18. Kh1 d5 19. c4 Re6 20. Bb1 Rh6 21. g4,"OK, I've got to complain about this move. The move d4
+attacks the Queen (at c5) with the pawn and the Rook (at h6) with the Bishop
+at the same time. The basic idea of the combination is to attack two things at
+the same time.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4 Bc8 17. bxa5 Qxc5+ 18. Kh1 d5 19. c4 Re6 20. Bb1 Rh6 21. g4 Ng3+ 22. Kg2 Nxf1 23. g5 Rxh2+,Missing a force mate. 23...Bh3+ 24.Kh1 Qf2 and there is no stopping Qg2 mate!,True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4 Bc8 17. bxa5 Qxc5+ 18. Kh1 d5 19. c4 Re6 20. Bb1 Rh6 21. g4 Ng3+ 22. Kg2 Nxf1 23. g5 Rxh2+ 24. Nxh2 Nxh2 25. Qh1,"You needed Qc2. This move allow Black an advantage
+with ...Qd4 or ...g6 or ...Re8 or ...f5. You get the point.",True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4 Bc8 17. bxa5 Qxc5+ 18. Kh1 d5 19. c4 Re6 20. Bb1 Rh6 21. g4 Ng3+ 22. Kg2 Nxf1 23. g5 Rxh2+ 24. Nxh2 Nxh2 25. Qh1 f6 26. Qxh2 fxg5,27.Qxh7+,True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4 Bc8 17. bxa5 Qxc5+ 18. Kh1 d5 19. c4 Re6 20. Bb1 Rh6 21. g4 Ng3+ 22. Kg2 Nxf1 23. g5 Rxh2+ 24. Nxh2 Nxh2 25. Qh1 f6 26. Qxh2 fxg5 27. Bxh7+ Kf7 28. Ba3 Qxa3 29. Qc7+ Kf6 30. Rf1+ Bf5 31. Rxf5+ Ke6 32. Qxc6+,The reason for Ba3.,True
+1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bb5 Na5 5. Nxe5 Bd6 6. f4 c6 7. Bd3 b5 8. Nf3 Ba6 9. e5 Nh5 10. exd6 Qf6 11. O-O Qxd6 12. Ne4 Qxf4 13. Qe2 O-O 14. Nc5 Rae8 15. Qd1 Qd6 16. b4 Bc8 17. bxa5 Qxc5+ 18. Kh1 d5 19. c4 Re6 20. Bb1 Rh6 21. g4 Ng3+ 22. Kg2 Nxf1 23. g5 Rxh2+ 24. Nxh2 Nxh2 25. Qh1 f6 26. Qxh2 fxg5 27. Bxh7+ Kf7 28. Ba3 Qxa3 29. Qc7+ Kf6 30. Rf1+ Bf5 31. Rxf5+ Ke6 32. Qxc6+ Qd6 33. cxd5+ Ke7,"And White gets to take all
+Black's remaining pieces, if you want them. 27...Kf7 28.Bb2 d4 29.Bg6+ Ke6 30.
+Re1+ Kd6 31.Qxg7 Rf4 32.Re8 32.Qe7# That's check mate. 32...Rg4+ 33.Kf3 Rg1 34.
+Bxd4 34.Qe7# That's check mate. 34...Qa3+ 35.Kf2 Re1 Black misses mate in two
+with.... 35...Qg3+ 36.Ke2 Now pick one either ...Re1 or Bg4 is check mate. 36.
+Rxe1 36.Rd8+ Ke6 Pick one 37.Qf6 or 37.Qf7 are both mate. 36...bxc4 37.Be5+ 37.
+Qe7+ Kd5 38.Qe5# That's check mate. 37...Kd5 38.Be4+ Kc5 OK, we are into the
+territory where ""anything"" wins. I suppose it could be argued that it doesn't
+matter, but I do not like to see a student go to sleep at this point in the
+game. When the point is in hand, don't lose it! Like you almost did when Black
+missed ...Qg3+ a couple of moves back. 39.Rb1 Bg4 Qxa7, Qe7 and Qf8 are all
+check mate. 40.Qb7 Qxa5 41.Qxc6# 1-0",True

@@ -1,0 +1,42 @@
+moves,comment,good
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7,The exchange in c3 and then g7-g6 was preferable.,False
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7,"A reply which is not unpleasant at all for White: the right
+square for this Knight was c6. The c5 Pawn should be protected in a different
+way.",True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6,"Not 12... Nd4 for 13. Bxd4 cxd4 14.
+Bd5+ Kh8 15. Qe4 with the threats 16.Bxb7 and, more important, 16. Ng6+ hxg6
+17.Qh4+ mate.",True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5,"Not wasting time in the Knight exchange. Flohr wants
+to have a clear edge in the middlegame and is not afraid of doubling the
+a-file pawn.",True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5 Nxa4 14. bxa4 Rb8 15. f4 exf4 16. gxf4 Re8,"Of course the
+Pf4 is at present one of the ""untouchables"": 16... Nxf4 17. Qc4+ Ne6 18. Bd5
+Qd7 19. Bxe6+ Qxe6 20. Nxe7+",True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5 Nxa4 14. bxa4 Rb8 15. f4 exf4 16. gxf4 Re8 17. Rg1,"Flohr: ""Up to now I was satisfied with
+my play. But castling now would be stronger because, after moving the Rook to
+f3, there would be more opportunities for an attack. I played this move
+because I expected some defensive reply from my opponent. And he did not
+disappoint me.""",False
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5 Nxa4 14. bxa4 Rb8 15. f4 exf4 16. gxf4 Re8 17. Rg1 Bf8,"Clearly not expecting White's reply. 17...Kh8 was
+needed and Flohr should have protected the f4 Pawn with e2-e3 (not necessary
+if he had castled at the 17th move).",True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5 Nxa4 14. bxa4 Rb8 15. f4 exf4 16. gxf4 Re8 17. Rg1 Bf8 18. Bc6,"Here is the reason for 17.Rg1!.
+Just a bit of imagination. Now the threat is 19.Nh6+ and 20.Nf7+.",True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5 Nxa4 14. bxa4 Rb8 15. f4 exf4 16. gxf4 Re8 17. Rg1 Bf8 18. Bc6 Nd4 19. Nh6+,"A mistake would be 19. Bxd4 for 19... Bxf5. 19. Nxd4 was also wrong
+because of the continuation 19... bxc6 20. Nxc6 Rxe2+ 21. Kxe2 Qe8+ and Black
+is better.",True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5 Nxa4 14. bxa4 Rb8 15. f4 exf4 16. gxf4 Re8 17. Rg1 Bf8 18. Bc6 Nd4 19. Nh6+ Kh8 20. Nf7+ Kg8 21. Nh6+ Kh8 22. Nf7+,"Flohr: ""I was in
+severe zeitnot - only two minutes to the time control - and repeating moves
+had helped me saving time. My opponent proposed a draw. I thanked him but
+declined the proposal, because, in the mean time, I had found a good plan of
+attack (I had calculated variations up to the 29th move)."" My friends, here is
+a ""tough"" chessplayer! Indeed he was, for sure! How many of us, with only two
+minutes left to play to the 40th move or give checkmate would have declined
+the proposal?",True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5 Nxa4 14. bxa4 Rb8 15. f4 exf4 16. gxf4 Re8 17. Rg1 Bf8 18. Bc6 Nd4 19. Nh6+ Kh8 20. Nf7+ Kg8 21. Nh6+ Kh8 22. Nf7+ Kg8 23. Qc4 Rxe2+,If 23... Be6 then 24. Nxd8 Bxc4 25. Bxe8 gains material.,True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5 Nxa4 14. bxa4 Rb8 15. f4 exf4 16. gxf4 Re8 17. Rg1 Bf8 18. Bc6 Nd4 19. Nh6+ Kh8 20. Nf7+ Kg8 21. Nh6+ Kh8 22. Nf7+ Kg8 23. Qc4 Rxe2+ 24. Qxe2 Nxe2 25. Nxd8 Nxg1,"Perhaps 25... bxc6 was better but after 26.Kxe2 Ba6+ 27. Ke3 Rxd8
+28. d4 the White Rook is in action also.",True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5 Nxa4 14. bxa4 Rb8 15. f4 exf4 16. gxf4 Re8 17. Rg1 Bf8 18. Bc6 Nd4 19. Nh6+ Kh8 20. Nf7+ Kg8 21. Nh6+ Kh8 22. Nf7+ Kg8 23. Qc4 Rxe2+ 24. Qxe2 Nxe2 25. Nxd8 Nxg1 26. Bd5+ Kh8 27. Nf7+ Kg8 28. Kf2 Nh3+ 29. Kg3,so Knight's fate is decided already.,True
+1. c4 c5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nc7 6. b3 e5 7. Bb2 Be7 8. Rc1 O-O 9. Na4 Nd7 10. Nf3 f6 11. Qc2 Ne6 12. Nh4 Nb6 13. Nf5 Nxa4 14. bxa4 Rb8 15. f4 exf4 16. gxf4 Re8 17. Rg1 Bf8 18. Bc6 Nd4 19. Nh6+ Kh8 20. Nf7+ Kg8 21. Nh6+ Kh8 22. Nf7+ Kg8 23. Qc4 Rxe2+ 24. Qxe2 Nxe2 25. Nxd8 Nxg1 26. Bd5+ Kh8 27. Nf7+ Kg8 28. Kf2 Nh3+ 29. Kg3 b5 30. axb5 Bb7 31. Bc4 a6 32. a4 axb5 33. axb5 Nxf4 34. Kxf4 h5 35. Rg1 Kh7 36. Bxf6,"Black resign
+s. Flohr does not tell us how many seconds are left, but probably, at this
+point he did not need so many of them.",True

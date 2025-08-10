@@ -1,8 +1,0 @@
-moves,comment,good
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bb4+ 5. c3,This check only helps white.,False
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bb4+ 5. c3 dxc3 6. bxc3,0-0 may also be possible.,False
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bb4+ 5. c3 dxc3 6. bxc3 Bc5,6...Ba5 is better since it avoids losing a pawn by force.,False
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bb4+ 5. c3 dxc3 6. bxc3 Bc5 7. Bxf7+ Kxf7 8. Qd5+ Ke8 9. Qh5+ g6 10. Qxc5 d6 11. Qe3 Bg4 12. O-O Bxf3 13. Qxf3 Ne5 14. Qe2 Qf6 15. f4 Nc6 16. e5,a good breakthrough.,True
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bb4+ 5. c3 dxc3 6. bxc3 Bc5 7. Bxf7+ Kxf7 8. Qd5+ Ke8 9. Qh5+ g6 10. Qxc5 d6 11. Qe3 Bg4 12. O-O Bxf3 13. Qxf3 Ne5 14. Qe2 Qf6 15. f4 Nc6 16. e5 dxe5 17. fxe5 Qe6 18. Re1,Nd2 is far superior.,True
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bb4+ 5. c3 dxc3 6. bxc3 Bc5 7. Bxf7+ Kxf7 8. Qd5+ Ke8 9. Qh5+ g6 10. Qxc5 d6 11. Qe3 Bg4 12. O-O Bxf3 13. Qxf3 Ne5 14. Qe2 Qf6 15. f4 Nc6 16. e5 dxe5 17. fxe5 Qe6 18. Re1 Nge7 19. Nd2 Kd7 20. Nf3 Raf8 21. Ng5 Qf5 22. e6+ Kc8 23. Nf7 Rhg8 24. Nh6 Qc5+ 25. Be3 Qxc3 26. Nxg8 Nxg8 27. Rac1 Qf6 28. Rxc6 bxc6 29. Qa6+ Kd8 30. Rd1+,"Oops! Qd3! wins at once. 30...Ke7 or e8 Qd7 mate.30...Kc8
-31.Qd7 Kb7 32.Rb1 Ka6 32.Qc6 Ka5 33.Qb5 mate.",False

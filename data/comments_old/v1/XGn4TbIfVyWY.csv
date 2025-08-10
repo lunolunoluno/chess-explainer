@@ -1,0 +1,35 @@
+moves,comment,good
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. Nc3 d5 5. e3 c6 6. Be2 O-O 7. O-O Nbd7,"While this plan is sound,
+white can get a slight pull by playing 8. cxd5 cxd5 9. Qb3 e6 (...Nb6 10. Ne5)
+10. Bd2, and white can gain c-file occupatio first. Probably 7. ... dxc4 8.
+Bxc4 Bg4 leads to better chances for equality, with the idea of an eventual ...
+e5 by black.",True
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. Nc3 d5 5. e3 c6 6. Be2 O-O 7. O-O Nbd7 8. Qc2 dxc4 9. Bxc4 Nb6 10. Bb3 Nfd5 11. Nxd5,"? Definitely
+wrong. If white was planning this, he never should've posted his queen on c2,
+because now the lady will be exposed for free tempos by black. Instead, a3 or
+e4 are much more consistent...leaving white with a slight advantage (center,
+black's less than ideal knight on b6).",True
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. Nc3 d5 5. e3 c6 6. Be2 O-O 7. O-O Nbd7 8. Qc2 dxc4 9. Bxc4 Nb6 10. Bb3 Nfd5 11. Nxd5 cxd5 12. Bd2 Bf5 13. Qd1 Rc8 14. Ba5 Qd6 15. Bxb6 axb6 16. Qe2,"An automatic move...this connects rooks, but that's
+about it. Instead Qd2 is stronger. This would prevent blacks' queen from
+infiltrating b4, help insure white can contest the c-file (since the Q would
+be covering c1), and indirectly hinders an e5 break by black (because the
+black d-pawn would be hit by white's queen and bishop. Also, ...Bg4, followed
+by ...Bxf3, gxf3 is not dangerous for white. Remember: a weakness is only a
+weakness if it can be taken advantage of! This motif is seen often in
+Grandmaster (GM) chess.",True
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. Nc3 d5 5. e3 c6 6. Be2 O-O 7. O-O Nbd7 8. Qc2 dxc4 9. Bxc4 Nb6 10. Bb3 Nfd5 11. Nxd5 cxd5 12. Bd2 Bf5 13. Qd1 Rc8 14. Ba5 Qd6 15. Bxb6 axb6 16. Qe2 Bg4 17. h3 Bxf3 18. Qxf3 e6 19. Rac1 Qb4 20. Qe2 Rc6 21. Rxc6,"? Now black mobilizes his pawns, white's bishop is bad, and will
+activate black's bishop as well, not to mention undoubling black's pawns for
+him. Because of the opposite colored bishops, white could put a much stiffer
+reistance by playing 21. Qd3 Rfc8 22. Rcd1!, and black has no access points
+(c2 is covered by the light squared bishop), and no way to boot white's bishop.
+Note that even if black sac'd his rook on c4 at some point, white doesn't even
+have to take it! Also, the d-line pressure would discourage a ...e5 break by
+black. White would basically ""shuffle"", since black can't break through.",True
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. Nc3 d5 5. e3 c6 6. Be2 O-O 7. O-O Nbd7 8. Qc2 dxc4 9. Bxc4 Nb6 10. Bb3 Nfd5 11. Nxd5 cxd5 12. Bd2 Bf5 13. Qd1 Rc8 14. Ba5 Qd6 15. Bxb6 axb6 16. Qe2 Bg4 17. h3 Bxf3 18. Qxf3 e6 19. Rac1 Qb4 20. Qe2 Rc6 21. Rxc6 bxc6 22. Qa6 c5 23. Rd1 cxd4 24. exd4 Bxd4 25. Qa3 Qc5 26. Qxc5 bxc5 27. Rd2 Rb8,"Good move, this restricts white's options, and indirectly prevents white from
+mobilizing his own pawn majority.",True
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. Nc3 d5 5. e3 c6 6. Be2 O-O 7. O-O Nbd7 8. Qc2 dxc4 9. Bxc4 Nb6 10. Bb3 Nfd5 11. Nxd5 cxd5 12. Bd2 Bf5 13. Qd1 Rc8 14. Ba5 Qd6 15. Bxb6 axb6 16. Qe2 Bg4 17. h3 Bxf3 18. Qxf3 e6 19. Rac1 Qb4 20. Qe2 Rc6 21. Rxc6 bxc6 22. Qa6 c5 23. Rd1 cxd4 24. exd4 Bxd4 25. Qa3 Qc5 26. Qxc5 bxc5 27. Rd2 Rb8 28. Kf1 Kg7 29. Ke2 Kf6 30. f3 Ke5 31. Kd1 c4 32. f4+ Ke4 33. Bc2+ Ke3 34. b3 cxb3 35. Bxb3 Rb7 36. g3 Bc3 37. Rc2 d4 38. Rg2,"A well-played game by black...black made the most of his opportunities.
+With this game, it's hard to answer your question about strength...white made
+a number of positional errors, and black could be anywhere from an A-class
+player to grandmaster. I need more games to make a better evaluation in that
+regard. White played approx. B-player strength. Keep at it, and always go over
+any losses/draws you experience, so you can learn and improve even more.",False

@@ -1,0 +1,13 @@
+comment,good,reasoning,moves,context,reformulated
+Black remains passive. The rook can go to c8 in one move.,True,"
+
+The comment accurately identifies a missed opportunity for Black to improve their position by moving the rook to c8.",1. c4 c5 2. Nf3 Nf6 3. Nc3 e6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. d4 cxd4 8. Qxd4 O-O 9. e4 Nc6 10. Qe3 d6 11. Rd1 Qc7 12. Qe2 Ne5 13. b3 Nxf3+ 14. Bxf3 a6 15. Bb2 Rfd8 16. Rac1 Rab8,"This is a game between Korchnoi, Viktor (as White) and Kholmov, Ratmir (as Black). Last move played: Black plays Rook to b8", White is taking an aggressive approach. Black's passivity could be improved by placing the rook on c8.
+This commitment weakens the queenside.,True,"
+
+The comment accurately explains the mistake made by the player, as weakening the queenside generally refers to a loss of control over the b2, b3, and b4 squares, which can be detrimental to the player's position.",1. c4 c5 2. Nf3 Nf6 3. Nc3 e6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. d4 cxd4 8. Qxd4 O-O 9. e4 Nc6 10. Qe3 d6 11. Rd1 Qc7 12. Qe2 Ne5 13. b3 Nxf3+ 14. Bxf3 a6 15. Bb2 Rfd8 16. Rac1 Rab8 17. Rc2 Rbc8 18. Bg2 Bc6 19. Rcd2 Rb8 20. Rc1 Qb7 21. a4 a5,"This is a game between Korchnoi, Viktor (as White) and Kholmov, Ratmir (as Black). Last move played: Black plays Pawn to a5", Black's latest move to a5 may not be considered strategic.
+A temporary sacrifice eliminates the weakness d6.,True,"
+
+The comment explains the mistake made by the player as it indicates that the move resulted in a temporary sacrifice, which was intended to eliminate the weakness on the d6 square.",1. c4 c5 2. Nf3 Nf6 3. Nc3 e6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. d4 cxd4 8. Qxd4 O-O 9. e4 Nc6 10. Qe3 d6 11. Rd1 Qc7 12. Qe2 Ne5 13. b3 Nxf3+ 14. Bxf3 a6 15. Bb2 Rfd8 16. Rac1 Rab8 17. Rc2 Rbc8 18. Bg2 Bc6 19. Rcd2 Rb8 20. Rc1 Qb7 21. a4 a5 22. Ba3 Nd7,"This is a game between Korchnoi, Viktor (as White) and Kholmov, Ratmir (as Black). Last move played: Black plays Knight to d7"," Black's knight sacrifice on d7, while aiming to eliminate the d6 weakness, was unnecessary."
+Suddenly Korchnoi makes a terrible blunder.,True,"
+
+The comment correctly identifies Korchnoi's move as a blunder, indicating a significant mistake in the game.",1. c4 c5 2. Nf3 Nf6 3. Nc3 e6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. d4 cxd4 8. Qxd4 O-O 9. e4 Nc6 10. Qe3 d6 11. Rd1 Qc7 12. Qe2 Ne5 13. b3 Nxf3+ 14. Bxf3 a6 15. Bb2 Rfd8 16. Rac1 Rab8 17. Rc2 Rbc8 18. Bg2 Bc6 19. Rcd2 Rb8 20. Rc1 Qb7 21. a4 a5 22. Ba3 Nd7 23. Bxd6 Bxd6 24. Rxd6 Nc5 25. Rcd1 Qc7 26. e5 Bxg2 27. Nb5 Qe7 28. Kxg2 Nxb3 29. Qf3 Nc5 30. Nd4 Rxd6 31. exd6 Qf6 32. Qc6 e5 33. Qc7,"This is a game between Korchnoi, Viktor (as White) and Kholmov, Ratmir (as Black). Last move played: White plays Queen to c7", 'White' commits an egregious mistake.'

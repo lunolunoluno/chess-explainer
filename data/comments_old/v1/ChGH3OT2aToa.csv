@@ -1,0 +1,15 @@
+moves,comment,good
+1. c4,The English opening. White takes possession of d5.,True
+1. c4 Nf6,Developing and attacking the center.,False
+1. c4 Nf6 2. Nc3,A natural move.,False
+1. c4 Nf6 2. Nc3 e6,Preparing to play 3... d5. Also playable is 2... e5.,True
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4,This position can also arise from the Queen's gambit as follows: 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3.,True
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c5,This variation is called the Semi-Tarrasch Defense.,False
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c5 5. cxd5,If 5... exd5 then Black will end up with an isolated queen pawn.,True
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c5 5. cxd5 Nxd5,The usual next move for White when this game was played was 6. e3,True
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c5 5. cxd5 Nxd5 6. e4,Spassky will demonstrate the strength of the pawn center.,False
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8. cxd4,White now occupies the center. The question is whether he will be able to use it to advantage or spend all his energy protecting it.,True
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8. cxd4 Bb4+,The side with less space should strive to exchange pieces.,False
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8. cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Bc4,A natural developing move.,False
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8. cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Bc4 Nc6,Developing and beginning to put pressure on White's center.,False
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8. cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Bc4 Nc6 12. O-O b6,The bishop is better placed on b7 then d7.,True

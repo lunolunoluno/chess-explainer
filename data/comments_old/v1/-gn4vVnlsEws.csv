@@ -1,0 +1,44 @@
+moves,comment,good
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7,"A very bad move. In the opening stages of the game, do NOT move a piece
+twice without first developing your other pieces, except to prevent loss of
+material. In the beginning, there are 3 elements that are very important: 1)
+Development -- getting pieces out of their home squares 2) Center control, and
+3) space. Black should've staked some central control by playing either ...c5
+or ...e5.",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3,"Because of black's particularly passive play,
+there's no reason white should not do 5. f4! right away to gain more SPACE and
+central control (e5 square). Notice white plays f4 later anyways, albeit after
+a lot of maneuvering.",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1,"There isn't a good
+reason for this move. Simply 8. d4, staking claim in the center and opening up
+the f1-a6 diagonal for the white's light-squared bishop is more logical.",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6,"Again, black needs to control the center. ...c5! and Nc6! would give black a
+fighting chance.",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6 9. d4 O-O 10. e5,"Good! You're locking up the center to give
+yourself a free hand on the king-side.",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6 9. d4 O-O 10. e5 d5 11. h4 Nc6,"VERY bad. Black needs
+open lines for his pieces, including . ...c5! is the natural way to do that,
+followed by ..Nc6, ...Rc8, and mabe ...cxd4. This would also weaken white's
+protection of his e5 pawn once the d4 pawn falls. The general principle is:
+Attack the base of pawn chains. For white, this is e6, and for black it is d4.
+Note that eventually, White indeed does attack the base of black's pawn chain,
+which was black's fatal error.",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6 9. d4 O-O 10. e5 d5 11. h4 Nc6 12. g3 h6,"Black should've avoided weakening
+his king position. Again, ..Na5 and ...c5 was mandatory. White could've taken
+advantage of this mistake by playing 13. g4!, followed by h5, Rg1, and g5
+opening up lines on black's king side immediately.",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6 9. d4 O-O 10. e5 d5 11. h4 Nc6 12. g3 h6 13. Nh2 Re8,"Black misses many chances to play ...c5, which is his correct plan.",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6 9. d4 O-O 10. e5 d5 11. h4 Nc6 12. g3 h6 13. Nh2 Re8 14. f4 Na5 15. b3,"This weakens your king position unnecessarily. Since there is no
+threat, white can play g4! with a strong attack. For example, if 15. ... Bxh4
+16. Nf3 Be7 17. g5, and white opens the h-file to fatal effect, because of
+mate threats involving Qh2. And if black declines white's pawn, white can
+simply play g5, opening up black's king side.",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6 9. d4 O-O 10. e5 d5 11. h4 Nc6 12. g3 h6 13. Nh2 Re8 14. f4 Na5 15. b3 Nb8 16. Qf3 Qd7 17. Bd3 Bb4 18. Bd2 Nbc6,"Of course, ...c5! would be very strong for black. For example, 18. ..
+. c5 19. Ne2 Bxd2 20. Rxd2 c4 21. bxc4 Nxc4 22. Bxc4 (forced because of the ...
+Qb5+, Ka1, Qb2 mate threat) dxc4 23. Qf1 Bxh1 would leave black with a winning
+position!",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6 9. d4 O-O 10. e5 d5 11. h4 Nc6 12. g3 h6 13. Nh2 Re8 14. f4 Na5 15. b3 Nb8 16. Qf3 Qd7 17. Bd3 Bb4 18. Bd2 Nbc6 19. Ne2 Bxd2 20. Rxd2 Rad8 21. f5 Na7 22. f6 N5c6 23. h5,Good constriction move! White now has a winning position.,False
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6 9. d4 O-O 10. e5 d5 11. h4 Nc6 12. g3 h6 13. Nh2 Re8 14. f4 Na5 15. b3 Nb8 16. Qf3 Qd7 17. Bd3 Bb4 18. Bd2 Nbc6 19. Ne2 Bxd2 20. Rxd2 Rad8 21. f5 Na7 22. f6 N5c6 23. h5 Nb5 24. Qg4 g5 25. hxg6 Na3+ 26. Ka1 Nxc2+ 27. Rxc2 Kf8 28. Nf3,"This wins, but the fastest win
+is 28. g7+ Kg8 29. Qh5, with the idea of Qxh6 and Qh8 checkmate.",True
+1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6 9. d4 O-O 10. e5 d5 11. h4 Nc6 12. g3 h6 13. Nh2 Re8 14. f4 Na5 15. b3 Nb8 16. Qf3 Qd7 17. Bd3 Bb4 18. Bd2 Nbc6 19. Ne2 Bxd2 20. Rxd2 Rad8 21. f5 Na7 22. f6 N5c6 23. h5 Nb5 24. Qg4 g5 25. hxg6 Na3+ 26. Ka1 Nxc2+ 27. Rxc2 Kf8 28. Nf3 fxg6 29. Qxg6 Re7 30. Rxh6,"Good! Playing only for mate, as the rook on e7 is irrelevant.
+The pawn on f6 is very dangerous to black's king position.",False

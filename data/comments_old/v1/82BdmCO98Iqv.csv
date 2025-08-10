@@ -1,0 +1,22 @@
+moves,comment,good
+1. e4,"In 1884 the magazine ""Vsemirnaia Illiustrazia"", in which the chess
+column was held by Chigorin himself, organized a correspondence chess
+tournament. There were 12 participants, each playing two game with everyone
+else. The tournament was easily won by Chigorin with 20 wins and 2 draws, 4
+points ahead of the runner up. The games were then published, and the
+following game started a lot of lively discussions in the press in many
+countries.",False
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4,The Evans Gambit,True
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. O-O d6 7. d4 exd4 8. cxd4 Bb6 9. Nc3,"This simple developing move
+was Chigorin's favourite one and proved to be the right one.",False
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. O-O d6 7. d4 exd4 8. cxd4 Bb6 9. Nc3 Na5,"Now, however, this Knight
+jump near the fence is not so good and makes a lot of troubles to its
+conductor.  Right was 9... Bg4 10. Bb5 Kf8 (!) 11. Be3 Nge7 and Black would
+have kept his extra pawn and a solid position.",True
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. O-O d6 7. d4 exd4 8. cxd4 Bb6 9. Nc3 Na5 10. Bg5 Ne7 11. Nd5 f6 12. Bxf6,A risky decision. Against Steinitz our hero played the stronger move 12.Bf4.,True
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. O-O d6 7. d4 exd4 8. cxd4 Bb6 9. Nc3 Na5 10. Bg5 Ne7 11. Nd5 f6 12. Bxf6 gxf6 13. Nxf6+ Kf8 14. Ng5,"The cavalry is sent audaciously to the
+attack. (Different times, different spirit, different phylosophy of the game!)",True
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. O-O d6 7. d4 exd4 8. cxd4 Bb6 9. Nc3 Na5 10. Bg5 Ne7 11. Nd5 f6 12. Bxf6 gxf6 13. Nxf6+ Kf8 14. Ng5 Ng8 15. Ngxh7+ Kg7 16. Bxg8 Rxh7 17. Nxh7,Urusov is now facing a difficult choice.,True
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. O-O d6 7. d4 exd4 8. cxd4 Bb6 9. Nc3 Na5 10. Bg5 Ne7 11. Nd5 f6 12. Bxf6 gxf6 13. Nxf6+ Kf8 14. Ng5 Ng8 15. Ngxh7+ Kg7 16. Bxg8 Rxh7 17. Nxh7 Qh4 18. Qf3 Kxg8 19. Nf6+ Kg7 20. Nh5+ Kg6 21. Nf4+ Kh7 22. Nd5 Be6 23. Nxb6 axb6 24. d5 Bg8 25. Rac1 Qe7 26. Qh3+,"Black, aware that it is
+impossible to prevent the Rook in c1 from entering the battle via c3 with
+deadly effects, resigns.",False

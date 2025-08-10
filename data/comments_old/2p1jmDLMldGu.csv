@@ -1,9 +1,0 @@
-moves,comment,good
-1. d4,"E97: King's Indian: Classical Main Line (6...e5 7 0-0 Nc6): 8 Be3 and 8
-d5 Ne7, not 9 Ne1",True
-1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8. Be3 Ng4 9. Bg5 f6 10. Bc1 f5 11. dxe5 Ngxe5 12. exf5 Bxf5 13. Be3 Qf6 14. Rc1 Rae8 15. b3 h6,Covers g5,False
-1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8. Be3 Ng4 9. Bg5 f6 10. Bc1 f5 11. dxe5 Ngxe5 12. exf5 Bxf5 13. Be3 Qf6 14. Rc1 Rae8 15. b3 h6 16. Qd2 g5 17. Nd4 Nxd4 18. Bxd4 g4 19. Kh1 Qg6 20. Rg1 Qh5 21. Nd5 Be4 22. Nxc7 Nf3 23. gxf3 Rxf3,Do you see the mate threat?,False
-1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8. Be3 Ng4 9. Bg5 f6 10. Bc1 f5 11. dxe5 Ngxe5 12. exf5 Bxf5 13. Be3 Qf6 14. Rc1 Rae8 15. b3 h6 16. Qd2 g5 17. Nd4 Nxd4 18. Bxd4 g4 19. Kh1 Qg6 20. Rg1 Qh5 21. Nd5 Be4 22. Nxc7 Nf3 23. gxf3 Rxf3 24. Rg2 Qh3,The mate threat is Rg3,False
-1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8. Be3 Ng4 9. Bg5 f6 10. Bc1 f5 11. dxe5 Ngxe5 12. exf5 Bxf5 13. Be3 Qf6 14. Rc1 Rae8 15. b3 h6 16. Qd2 g5 17. Nd4 Nxd4 18. Bxd4 g4 19. Kh1 Qg6 20. Rg1 Qh5 21. Nd5 Be4 22. Nxc7 Nf3 23. gxf3 Rxf3 24. Rg2 Qh3 25. Rcg1 Re5,Threatening mate: g3,False
-1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8. Be3 Ng4 9. Bg5 f6 10. Bc1 f5 11. dxe5 Ngxe5 12. exf5 Bxf5 13. Be3 Qf6 14. Rc1 Rae8 15. b3 h6 16. Qd2 g5 17. Nd4 Nxd4 18. Bxd4 g4 19. Kh1 Qg6 20. Rg1 Qh5 21. Nd5 Be4 22. Nxc7 Nf3 23. gxf3 Rxf3 24. Rg2 Qh3 25. Rcg1 Re5 26. Bxf3,gives the opponent counterplay,False
-1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8. Be3 Ng4 9. Bg5 f6 10. Bc1 f5 11. dxe5 Ngxe5 12. exf5 Bxf5 13. Be3 Qf6 14. Rc1 Rae8 15. b3 h6 16. Qd2 g5 17. Nd4 Nxd4 18. Bxd4 g4 19. Kh1 Qg6 20. Rg1 Qh5 21. Nd5 Be4 22. Nxc7 Nf3 23. gxf3 Rxf3 24. Rg2 Qh3 25. Rcg1 Re5 26. Bxf3 Bxf3 27. Bxe5 Bxe5 28. Qd5+ Kh8,Do you see the mate threat?,True

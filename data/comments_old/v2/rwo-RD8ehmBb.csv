@@ -1,0 +1,10 @@
+comment,good,reasoning,moves,context,reformulated
+The players fight for their last chance.,False,"
+
+The comment doesn't directly explain the mistake as it doesn't provide any insight into the specific move or the reason why it was considered a mistake in the game.",1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. cxd5 exd5 7. Be2 Bd6 8. dxc5 Bxc5 9. O-O O-O 10. b3 Be6 11. Bb2 Qe7 12. a3 Rfd8 13. Na4 Bd6 14. b4 Ng4,"This is a game between Korchnoi, Viktor (as White) and Suetin, Alexei (as Black). Last move played: Black plays Knight to g4",-
+White misses a combination.,True,"
+
+The comment suggests that the player overlooked a potential tactical sequence, indicating that the move was not strong.",1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. cxd5 exd5 7. Be2 Bd6 8. dxc5 Bxc5 9. O-O O-O 10. b3 Be6 11. Bb2 Qe7 12. a3 Rfd8 13. Na4 Bd6 14. b4 Ng4 15. Rc1 Nce5 16. Nxe5 Nxe5 17. Qd4 f6 18. Nc3 Nc6 19. Qh4 Be5 20. Bd3 f5 21. Qxe7 Nxe7 22. Na4 Bxb2 23. Nxb2 Rac8 24. Na4 Rxc1 25. Rxc1 d4 26. exd4,"This is a game between Korchnoi, Viktor (as White) and Suetin, Alexei (as Black). Last move played: White plays Pawn takes on d4"," In this situation, White underestimates the complexity of the position and fails to capitalize on the tactical opportunities."
+Hereafter White gets a passive position.,True,"
+
+The comment accurately highlights the consequence of the error in terms of the player's future positional prospects.",1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. cxd5 exd5 7. Be2 Bd6 8. dxc5 Bxc5 9. O-O O-O 10. b3 Be6 11. Bb2 Qe7 12. a3 Rfd8 13. Na4 Bd6 14. b4 Ng4 15. Rc1 Nce5 16. Nxe5 Nxe5 17. Qd4 f6 18. Nc3 Nc6 19. Qh4 Be5 20. Bd3 f5 21. Qxe7 Nxe7 22. Na4 Bxb2 23. Nxb2 Rac8 24. Na4 Rxc1 25. Rxc1 d4 26. exd4 Rxd4 27. Bf1 Kf7 28. g3 f4 29. Nc5 Bd5 30. Nd3 g5 31. b5 Be4 32. Nb4,"This is a game between Korchnoi, Viktor (as White) and Suetin, Alexei (as Black). Last move played: White plays Knight to b4", Black's position becomes somewhat passive following White's move.

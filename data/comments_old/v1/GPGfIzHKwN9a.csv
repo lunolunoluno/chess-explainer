@@ -1,0 +1,28 @@
+moves,comment,good
+1. d4,Controls the center and is usually followed by 2. c4.,True
+1. d4 d5 2. c4,The Queen's Gambit. It is not a true gambit because White can eventually win back the pawn if Black plays 1... dxc4,True
+1. d4 d5 2. c4 e6,Declining the gambit and defending the center.,True
+1. d4 d5 2. c4 e6 3. Nc3,Developing and putting pressure on the center.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6,Defending the center.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3,Developing.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5,Pinning the knight to the queen.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7,Breaking the pin.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3,Preparing to develop the bishop.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6,It would have been better to castle first.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5,If now 7... exd5 then 8. Bb5 Bb7 9. Ne5 (Threatening 10. Bxf6 Bxf6 11. Bxd7+) 0-0 10. Bc6 Bxc6 11.Nxc6 and White has a strong postion.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5,If 8... Bxg5 then 9. Nxc7+ Qxc7 10.Nxg5 and White is a pawn ahead.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4,White now has the more active pieces and a chance to bring the rook into action on the c file.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O,Getting the king out of the center and bringing the rook into play.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3,The bishop has designs on the Black king.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5,Attempting to put pressure on the queenside.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O,Continuing development.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O Bb7 12. Rc1,Rooks work best when not blocked by their own pawns.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O Bb7 12. Rc1 Re8 13. Ne5,Centralizing the knight and putting pressure on the Black king.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O Bb7 12. Rc1 Re8 13. Ne5 Nxe5 14. Bxe5 cxd4,The losing move. It lets White's rook slip in.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O Bb7 12. Rc1 Re8 13. Ne5 Nxe5 14. Bxe5 cxd4 15. Rc7,Black's days are numbered.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O Bb7 12. Rc1 Re8 13. Ne5 Nxe5 14. Bxe5 cxd4 15. Rc7 Bc8,White controls most of the board.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O Bb7 12. Rc1 Re8 13. Ne5 Nxe5 14. Bxe5 cxd4 15. Rc7 Bc8 16. Qh5,Threatening 17. Qxh7+ Kf8 18. Qh8#.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O Bb7 12. Rc1 Re8 13. Ne5 Nxe5 14. Bxe5 cxd4 15. Rc7 Bc8 16. Qh5 g6 17. Bxg6,If Black plays 17... hxg6 then 18. Qh8#.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O Bb7 12. Rc1 Re8 13. Ne5 Nxe5 14. Bxe5 cxd4 15. Rc7 Bc8 16. Qh5 g6 17. Bxg6 fxg6 18. Qh6,Threatening Qg7#.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O Bb7 12. Rc1 Re8 13. Ne5 Nxe5 14. Bxe5 cxd4 15. Rc7 Bc8 16. Qh5 g6 17. Bxg6 fxg6 18. Qh6 Bf6 19. Qxh7+,The White rook has made its presence known.,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 Be7 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bf4 O-O 10. Bd3 c5 11. O-O Bb7 12. Rc1 Re8 13. Ne5 Nxe5 14. Bxe5 cxd4 15. Rc7 Bc8 16. Qh5 g6 17. Bxg6 fxg6 18. Qh6 Bf6 19. Qxh7+ Kf8 20. Qf7#,Black actually resigned after White's 17th move.,False

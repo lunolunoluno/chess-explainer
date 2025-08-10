@@ -1,0 +1,31 @@
+comment,good,reasoning,moves,context,reformulated
+C87: Closed Ruy Lopez: Steinitz-type lines after 6 Re1 d6,True,"
+
+The comment accurately explains the mistake by pointing out that the move (6 Re1) in the Closed Ruy Lopez opening does not correspond to the expected Steinitz-type lines.",1. e4,"This is a game between Polgar, Judit (as White) and Anastasian, A. (as Black). Last move played: White plays Pawn to e4"," The move played by White, moving the pawn to e4, leads to Closed Ruy Lopez, which often results in Steinitz-type lines after 6 Re1 d6. This can limit the activity of White's pieces and lead to passive positions."
+last book move,True,"
+
+The comment ""last book move"" implies that the player made a mistake by playing a move that was already documented as incorrect in a chess book, indicating a poor understanding or application of established chess knowledge.",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 d6 7. Bxc6+ bxc6 8. d4 exd4 9. Nxd4 Bd7 10. b3,"This is a game between Polgar, Judit (as White) and Anastasian, A. (as Black). Last move played: White plays Pawn to b3"," Polgar, Judit's last move to b3 was not advantageous as it did not develop any pieces or influence the center of the board effectively."
+Secures f5,False,"
+
+The comment ""Secures f5"" does not explain the mistake made by the player, as it suggests a defensive or strategic move rather than pointing out the error.",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 d6 7. Bxc6+ bxc6 8. d4 exd4 9. Nxd4 Bd7 10. b3 O-O 11. Bb2 g6,"This is a game between Polgar, Judit (as White) and Anastasian, A. (as Black). Last move played: Black plays Pawn to g6",-
+Black prepares the advance a4,False,"
+
+The comment does not explain the mistake as the player's previous move is not mentioned.",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 d6 7. Bxc6+ bxc6 8. d4 exd4 9. Nxd4 Bd7 10. b3 O-O 11. Bb2 g6 12. Qf3 Nh5 13. e5 d5 14. Nd2 a5 15. c4 c5,"This is a game between Polgar, Judit (as White) and Anastasian, A. (as Black). Last move played: Black plays Pawn to c5",-
+The knight aims for Nd4-e2-c1-d3,True,"
+
+The comment provides a clear explanation of the knight's potential movement, which can help identify why the move may be considered a mistake based on the threat it creates or fails to exploit.",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 d6 7. Bxc6+ bxc6 8. d4 exd4 9. Nxd4 Bd7 10. b3 O-O 11. Bb2 g6 12. Qf3 Nh5 13. e5 d5 14. Nd2 a5 15. c4 c5 16. Ne2,"This is a game between Polgar, Judit (as White) and Anastasian, A. (as Black). Last move played: White plays Knight to e2", The knight's move to c1 is a blunder as it exposes White to potential attacks and does not contribute to a coherent strategy.
+Black gets more space,False,"
+
+The comment ""Black gets more space"" does not specifically explain the mistake made by the player, as it only describes a possible advantage for Black after the move.",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 d6 7. Bxc6+ bxc6 8. d4 exd4 9. Nxd4 Bd7 10. b3 O-O 11. Bb2 g6 12. Qf3 Nh5 13. e5 d5 14. Nd2 a5 15. c4 c5 16. Ne2 d4,"This is a game between Polgar, Judit (as White) and Anastasian, A. (as Black). Last move played: Black plays Pawn to d4",-
+The white knight is safe in front of d4,True,"
+
+The comment accurately identifies that the white knight was not in a threatening position, thus highlighting a possible oversight in considering the knight's safety.",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 d6 7. Bxc6+ bxc6 8. d4 exd4 9. Nxd4 Bd7 10. b3 O-O 11. Bb2 g6 12. Qf3 Nh5 13. e5 d5 14. Nd2 a5 15. c4 c5 16. Ne2 d4 17. Nc1 Ra6 18. Nd3,"This is a game between Polgar, Judit (as White) and Anastasian, A. (as Black). Last move played: White plays Knight to d3", The move is not advantageous as it does not pose any immediate threat to Black.
+Controls f4,False,"
+
+The comment ""controls f4"" does not explain the mistake made by the player, as controlling the f4 square does not necessarily indicate a poor move.",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 d6 7. Bxc6+ bxc6 8. d4 exd4 9. Nxd4 Bd7 10. b3 O-O 11. Bb2 g6 12. Qf3 Nh5 13. e5 d5 14. Nd2 a5 15. c4 c5 16. Ne2 d4 17. Nc1 Ra6 18. Nd3 Bc6 19. Qg4 a4 20. Ne4 Bxe4 21. Qxe4 Qa8 22. Qg4 Qc8 23. Qxc8 Rxc8 24. Ba3 Ra5 25. Reb1 g5 26. g3,"This is a game between Polgar, Judit (as White) and Anastasian, A. (as Black). Last move played: White plays Pawn to g3",-
+Black intends Rxa3,True,"
+
+The comment accurately identifies the mistake by pointing out the player's intention to capture a specific piece with the rook, indicating a potential error in the move.",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 d6 7. Bxc6+ bxc6 8. d4 exd4 9. Nxd4 Bd7 10. b3 O-O 11. Bb2 g6 12. Qf3 Nh5 13. e5 d5 14. Nd2 a5 15. c4 c5 16. Ne2 d4 17. Nc1 Ra6 18. Nd3 Bc6 19. Qg4 a4 20. Ne4 Bxe4 21. Qxe4 Qa8 22. Qg4 Qc8 23. Qxc8 Rxc8 24. Ba3 Ra5 25. Reb1 g5 26. g3 axb3 27. axb3 Rb8 28. Kf1 f6 29. Ke2 Kf7 30. Kd2 Ke6 31. exf6 Bd6 32. Kc2 Rba8,"This is a game between Polgar, Judit (as White) and Anastasian, A. (as Black). Last move played: Black plays Rook to a8"," ""Black's move to Rxa3 might be considered poor because it's overly aggressive without compensating strategic benefits, potentially exposing their king or valuable pieces."""
+White gets strong initiative,False,"
+
+The comment does not explain the mistake made by the player, as it praises the opponent's move rather than addressing the error.",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 d6 7. Bxc6+ bxc6 8. d4 exd4 9. Nxd4 Bd7 10. b3 O-O 11. Bb2 g6 12. Qf3 Nh5 13. e5 d5 14. Nd2 a5 15. c4 c5 16. Ne2 d4 17. Nc1 Ra6 18. Nd3 Bc6 19. Qg4 a4 20. Ne4 Bxe4 21. Qxe4 Qa8 22. Qg4 Qc8 23. Qxc8 Rxc8 24. Ba3 Ra5 25. Reb1 g5 26. g3 axb3 27. axb3 Rb8 28. Kf1 f6 29. Ke2 Kf7 30. Kd2 Ke6 31. exf6 Bd6 32. Kc2 Rba8 33. Bb2 Rxa1 34. Bxa1 Nxf6 35. Re1+ Kf5 36. f3 h5 37. b4 Ra2+ 38. Bb2 Nd7 39. b5 Ne5 40. Nxe5 Bxe5 41. Kb3 Ra8 42. g4+ Kf6 43. Bc1 Bd6 44. h3 Rh8 45. Kc2 hxg4 46. hxg4 Rh3 47. Rf1 Be7 48. Kd3 Ke6 49. Re1+ Kd6 50. Ke4 Rh6 51. Rf1 Re6+ 52. Kd3 Rh6 53. f4 Rh4 54. Ke4 Ke6 55. f5+ Kf7 56. Rg1 Rh6 57. Bd2 Ke8 58. Be1 Rh2 59. Bg3,"This is a game between Polgar, Judit (as White) and Anastasian, A. (as Black). Last move played: White plays Bishop to g3",-

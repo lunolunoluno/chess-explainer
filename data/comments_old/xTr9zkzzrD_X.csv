@@ -1,7 +1,0 @@
-moves,comment,good
-1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 cxd4 5. Qxd4 Nc6 6. Qd1 exd5 7. Qxd5 Bd7 8. Nf3 Nf6 9. Qd1,"# Qb3 seems better to me now, but Qd1 shows how much fun the main line is.",True
-1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 cxd4 5. Qxd4 Nc6 6. Qd1 exd5 7. Qxd5 Bd7 8. Nf3 Nf6 9. Qd1 Bc5 10. e3 Qc7 11. Be2 O-O-O 12. O-O g5,# Ouch!! Clearly taking on g5 gives Black a gory g file attack.,True
-1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 cxd4 5. Qxd4 Nc6 6. Qd1 exd5 7. Qxd5 Bd7 8. Nf3 Nf6 9. Qd1 Bc5 10. e3 Qc7 11. Be2 O-O-O 12. O-O g5 13. Nd4 Qe5,# I start to feel this game slipping away after this move.,True
-1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 cxd4 5. Qxd4 Nc6 6. Qd1 exd5 7. Qxd5 Bd7 8. Nf3 Nf6 9. Qd1 Bc5 10. e3 Qc7 11. Be2 O-O-O 12. O-O g5 13. Nd4 Qe5 14. Nxc6 Bxc6 15. Qb3 h5 16. Qc4,Qxf7 seems to give Black more space to attack.,False
-1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 cxd4 5. Qxd4 Nc6 6. Qd1 exd5 7. Qxd5 Bd7 8. Nf3 Nf6 9. Qd1 Bc5 10. e3 Qc7 11. Be2 O-O-O 12. O-O g5 13. Nd4 Qe5 14. Nxc6 Bxc6 15. Qb3 h5 16. Qc4 Ng4 17. Bxg4+ hxg4 18. Qxg4+ f5 19. Qg3 Bd6 20. Qxe5 Bxe5 21. h3 g4 22. hxg4 Bh2+,"Here I thought it was a draw with Kh1 Bh2+ Kg1 ect, but",True
-1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 cxd4 5. Qxd4 Nc6 6. Qd1 exd5 7. Qxd5 Bd7 8. Nf3 Nf6 9. Qd1 Bc5 10. e3 Qc7 11. Be2 O-O-O 12. O-O g5 13. Nd4 Qe5 14. Nxc6 Bxc6 15. Qb3 h5 16. Qc4 Ng4 17. Bxg4+ hxg4 18. Qxg4+ f5 19. Qg3 Bd6 20. Qxe5 Bxe5 21. h3 g4 22. hxg4 Bh2+ 23. Kh1 Rh4,Planning Be5 Kg1 Rdh8 and White is a goner.,True

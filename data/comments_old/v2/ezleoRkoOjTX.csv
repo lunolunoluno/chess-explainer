@@ -1,0 +1,16 @@
+comment,good,reasoning,moves,context,reformulated
+D12: Slav Defence: 3 Nf3 Nf6 4 e3 Bf5,False,"
+
+The comment does not explicitly explain the mistake made by the player. It simply lists the moves leading up to the mistake but does not provide any analysis on why it was incorrect.",1. d4,"This is a game between Kramnik, V. (as White) and Morozevich, A. (as Black). Last move played: White plays Pawn to d4",-
+Covers b5,True,"
+
+The comment explains the mistake because moving ""Covers b5"" implies that the player's move is blocking or attacking the pawn on b5, which could be a strategic mistake if it wasn't necessary or a blunder.",1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 a6,"This is a game between Kramnik, V. (as White) and Morozevich, A. (as Black). Last move played: Black plays Pawn to a6"," 'Covers b5 presents a weakness in Black's position, potentially allowing White to gain a tactical advantage.'"
+White gets more space,False,"
+
+The comment ""White gets more space"" does not directly address the mistake made by the player in their move.",1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 a6 6. Bd3 Bxd3 7. Qxd3 e6 8. O-O Be7 9. e4 O-O 10. Rd1 b5 11. c5,"This is a game between Kramnik, V. (as White) and Morozevich, A. (as Black). Last move played: White plays Pawn to c5",-
+Blocks the pawn on c5,True,"
+
+The comment accurately identifies a potential mistake by suggesting that the move blocks the pawn on c5, which could be a disadvantageous position.",1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 a6 6. Bd3 Bxd3 7. Qxd3 e6 8. O-O Be7 9. e4 O-O 10. Rd1 b5 11. c5 dxe4 12. Nxe4 Nxe4 13. Qxe4 Qd5 14. Qxd5 cxd5 15. Bf4 Nc6 16. Ne5 Nb8 17. Rd3 Rc8 18. Re1 Bf6 19. Ng4 Nc6,"This is a game between Kramnik, V. (as White) and Morozevich, A. (as Black). Last move played: Black plays Knight to c6", The move was bad because it weakens the pawn structure.
+The passed pawn on h5 will become decisive later,False,"
+
+The comment does not explain the mistake, as it provides a future potential of the passed pawn rather than addressing the current move's error.",1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 a6 6. Bd3 Bxd3 7. Qxd3 e6 8. O-O Be7 9. e4 O-O 10. Rd1 b5 11. c5 dxe4 12. Nxe4 Nxe4 13. Qxe4 Qd5 14. Qxd5 cxd5 15. Bf4 Nc6 16. Ne5 Nb8 17. Rd3 Rc8 18. Re1 Bf6 19. Ng4 Nc6 20. Nxf6+ gxf6 21. Bg3 Kg7 22. Bh4 Ne7 23. g4 Ng6 24. Bg3 a5 25. Bd6 h5 26. gxh5,"This is a game between Kramnik, V. (as White) and Morozevich, A. (as Black). Last move played: White plays Pawn takes on h5",-

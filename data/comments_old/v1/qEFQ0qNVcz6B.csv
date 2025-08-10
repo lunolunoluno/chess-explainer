@@ -1,0 +1,41 @@
+moves,comment,good
+1. e4 d5 2. e5,"This doesn't offer much for white. This allows black to keep his center pawn
+at d5, and e5 becomes a target. 2. exd5 Qxd5 3. Nc3 is the usual and more
+promising continuation for white.",True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6,This sacrifice isn't sound. 4. f4 is the best white has.,True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+,"This doesn't accomplish anything. Try not to check just to check...only if it
+helps you accomplish some aim. In this case, black's only way to get his
+dark-squared bishop out was to play ...g6 and ...Bg7, so this only helps black.
+Better was quick development, like Nf3, O-O, d4, and Nc3.",True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1,"This can't be right. Development is still critical. 7. Bxc6+ bxc6 8. Nf3 Bg7
+9. d4 is white's best chance, though black is a little better because of his
+central control.",True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1 Ne5,"There's a saying, ""avoid moving your piece twice in the
+opening"". Black makes the same mistake white did. Much more promising for
+black is ...Bg7.",True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1 Ne5 8. d4 cxd4 9. Qxd4 Qa5+,"...Bg7 is still strong (threatens ..
+.Nf3+ winning white's queen). This check should have accomplished nothing.",False
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1 Ne5 8. d4 cxd4 9. Qxd4 Qa5+ 10. b4,"This weakens white along the a1-h8 diagonal. Much better is 10. Bd2 Qc7 11.
+Bf4 Bg7 12. Nc3 Nf3+ 13. Nxf3 Bxd4 14. Bxc7 is much better for white than the
+game. White would be up a piece!",True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1 Ne5 8. d4 cxd4 9. Qxd4 Qa5+ 10. b4 Qc7 11. Bf4 Bg7 12. Nf3,"This only falls
+into black's plan. Much better was 12. c3, though black would still have an
+advantage because of his central control.",False
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1 Ne5 8. d4 cxd4 9. Qxd4 Qa5+ 10. b4 Qc7 11. Bf4 Bg7 12. Nf3 Nxf3+ 13. gxf3 Bxd4 14. Bxc7 Bxa1 15. c3 Bb2,"Black missed his chance to extricate his bishop. 15. ... d4! would
+do the trick. Notice that 16. Be5 dxc3! 17. Bxh8 c2, and black queens by force.
+Any other variation allows the black bishop to escape.",True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1 Ne5 8. d4 cxd4 9. Qxd4 Qa5+ 10. b4 Qc7 11. Bf4 Bg7 12. Nf3 Nxf3+ 13. gxf3 Bxd4 14. Bxc7 Bxa1 15. c3 Bb2 16. Be5 Nf6 17. Kd1 O-O 18. Kc2 Nd7 19. Bd4 Ba1 20. Bh3 e5 21. Be3 Rxf3 22. Bxd7 Bxd7 23. Bh6 Bf5+ 24. Kb3 Rxf2 25. Na3 Rb2+ 26. Ka4 Rxa2 27. Rc1 Bb2,"Black has better, with 27. ...
+b5+ 28. Ka5 Rxa3+ 29. Kb6 Bxc3, which is resignable for white.",True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1 Ne5 8. d4 cxd4 9. Qxd4 Qa5+ 10. b4 Qc7 11. Bf4 Bg7 12. Nf3 Nxf3+ 13. gxf3 Bxd4 14. Bxc7 Bxa1 15. c3 Bb2 16. Be5 Nf6 17. Kd1 O-O 18. Kc2 Nd7 19. Bd4 Ba1 20. Bh3 e5 21. Be3 Rxf3 22. Bxd7 Bxd7 23. Bh6 Bf5+ 24. Kb3 Rxf2 25. Na3 Rb2+ 26. Ka4 Rxa2 27. Rc1 Bb2 28. Kb3 Rxa3+ 29. Kxb2 Ra4 30. Kb3 b5 31. Bg5 e6,"In endgames, the general rule of thumb is:
+keep your pawns on opposite colors of your bishop, and the same color as your
+opponent's (to limit scope of the enemy bishop). ...Kf7 would be a nice way to
+limit white's activity, while getting black's king active to help the black
+pawn mass to advance.",True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1 Ne5 8. d4 cxd4 9. Qxd4 Qa5+ 10. b4 Qc7 11. Bf4 Bg7 12. Nf3 Nxf3+ 13. gxf3 Bxd4 14. Bxc7 Bxa1 15. c3 Bb2 16. Be5 Nf6 17. Kd1 O-O 18. Kc2 Nd7 19. Bd4 Ba1 20. Bh3 e5 21. Be3 Rxf3 22. Bxd7 Bxd7 23. Bh6 Bf5+ 24. Kb3 Rxf2 25. Na3 Rb2+ 26. Ka4 Rxa2 27. Rc1 Bb2 28. Kb3 Rxa3+ 29. Kxb2 Ra4 30. Kb3 b5 31. Bg5 e6 32. Be7 Ra7 33. Bd6 e4 34. Bc5 Rb7 35. h4 a5 36. Rg1 axb4 37. cxb4 e5 38. h5 Rc7 39. Bd6 Rc4 40. Rg2 Bh3 41. Rg3 Bf5 42. Rg5 h6 43. Rg3 d4 44. hxg6 d3 45. Rg1 e3 46. g7 e2 47. Bf8 Bh3 48. Rh1 Bf1,?? The losing move. 48. ... d2 49. Rxh3 d1Q+ leads to mate.,True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1 Ne5 8. d4 cxd4 9. Qxd4 Qa5+ 10. b4 Qc7 11. Bf4 Bg7 12. Nf3 Nxf3+ 13. gxf3 Bxd4 14. Bxc7 Bxa1 15. c3 Bb2 16. Be5 Nf6 17. Kd1 O-O 18. Kc2 Nd7 19. Bd4 Ba1 20. Bh3 e5 21. Be3 Rxf3 22. Bxd7 Bxd7 23. Bh6 Bf5+ 24. Kb3 Rxf2 25. Na3 Rb2+ 26. Ka4 Rxa2 27. Rc1 Bb2 28. Kb3 Rxa3+ 29. Kxb2 Ra4 30. Kb3 b5 31. Bg5 e6 32. Be7 Ra7 33. Bd6 e4 34. Bc5 Rb7 35. h4 a5 36. Rg1 axb4 37. cxb4 e5 38. h5 Rc7 39. Bd6 Rc4 40. Rg2 Bh3 41. Rg3 Bf5 42. Rg5 h6 43. Rg3 d4 44. hxg6 d3 45. Rg1 e3 46. g7 e2 47. Bf8 Bh3 48. Rh1 Bf1 49. Rxh6 e1=Q 50. Rh8+ Kf7 51. g8=Q+ Ke8 52. Bd6+ Kd7 53. Qe6+,"Black could have taken the queen. Was there time pressure, perhaps?",True
+1. e4 d5 2. e5 c5 3. Bb5+ Nc6 4. e6 fxe6 5. Qh5+ g6 6. Qd1 a6 7. Bf1 Ne5 8. d4 cxd4 9. Qxd4 Qa5+ 10. b4 Qc7 11. Bf4 Bg7 12. Nf3 Nxf3+ 13. gxf3 Bxd4 14. Bxc7 Bxa1 15. c3 Bb2 16. Be5 Nf6 17. Kd1 O-O 18. Kc2 Nd7 19. Bd4 Ba1 20. Bh3 e5 21. Be3 Rxf3 22. Bxd7 Bxd7 23. Bh6 Bf5+ 24. Kb3 Rxf2 25. Na3 Rb2+ 26. Ka4 Rxa2 27. Rc1 Bb2 28. Kb3 Rxa3+ 29. Kxb2 Ra4 30. Kb3 b5 31. Bg5 e6 32. Be7 Ra7 33. Bd6 e4 34. Bc5 Rb7 35. h4 a5 36. Rg1 axb4 37. cxb4 e5 38. h5 Rc7 39. Bd6 Rc4 40. Rg2 Bh3 41. Rg3 Bf5 42. Rg5 h6 43. Rg3 d4 44. hxg6 d3 45. Rg1 e3 46. g7 e2 47. Bf8 Bh3 48. Rh1 Bf1 49. Rxh6 e1=Q 50. Rh8+ Kf7 51. g8=Q+ Ke8 52. Bd6+ Kd7 53. Qe6+ Kc6 54. Be7+ Kc7 55. Bd8+ Kb7 56. Rh7+ Kb8 57. Qb6+ Kc8 58. Qe6+ Kxd8 59. Rh8+ Kc7 60. Rh7+ Kb8 61. Qe8+ Rc8 62. Qxb5+ Ka8 63. Qxa4+ Kb8 64. Qa7#,"A narrow escape by
+white. Be careful when an enemy bishop or rook is on the same line as your
+queen or king. There may some nasty discoveries, as there was this game. Also,
+try not to allow your opponent a massive pawn center. Passed pawns (pawns
+unopposed by enemy pawns) are very dangerous. Keep a close eye on your
+opponent's passed pawns, and support your own the best you can.",True

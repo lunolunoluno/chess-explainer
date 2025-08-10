@@ -1,9 +1,0 @@
-moves,comment,good
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5,A Giuoco Piano.,False
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O d6 5. c3 Bb6 6. b4 Nf6 7. d3 d5 8. exd5 Nxd5 9. Bxd5 Qxd5,Now he can attack the Queen and trap the Bishop,True
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O d6 5. c3 Bb6 6. b4 Nf6 7. d3 d5 8. exd5 Nxd5 9. Bxd5 Qxd5 10. c4 Qd6,Now at least I get two pawns for the Bishop.,True
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O d6 5. c3 Bb6 6. b4 Nf6 7. d3 d5 8. exd5 Nxd5 9. Bxd5 Qxd5 10. c4 Qd6 11. c5 Bxc5 12. bxc5 Qxc5 13. Ba3 Qb6 14. Re1 f6 15. d4 Kf7 16. dxe5 Re8,"I don't really see what White is
-frightened by in this position. I can't see any deadly threats in this
-position. Perhaps that sys more about my chess-playing ability than anything
-else! Anyway I received his resignation on Christmas eve, which was a nice
-Christmas present for me.",False

@@ -1,6 +1,0 @@
-moves,comment,good
-1. d4 d5 2. Nf3 f5 3. c4 Nf6 4. g3 e6 5. Bg2 Bb4+ 6. Nc3 Nc6 7. O-O Bxc3,(Black will soon regret this as my Bishop on C! becomes all powerfull.),False
-1. d4 d5 2. Nf3 f5 3. c4 Nf6 4. g3 e6 5. Bg2 Bb4+ 6. Nc3 Nc6 7. O-O Bxc3 8. bxc3 dxc4 9. Qa4 h6 10. Ba3 Bd7 11. Qxc4 Ng4 12. Rae1,(I think this is a mistake. Instead Rfe1 looks healthier.)#,False
-1. d4 d5 2. Nf3 f5 3. c4 Nf6 4. g3 e6 5. Bg2 Bb4+ 6. Nc3 Nc6 7. O-O Bxc3 8. bxc3 dxc4 9. Qa4 h6 10. Ba3 Bd7 11. Qxc4 Ng4 12. Rae1 Qf6 13. e4 O-O-O 14. e5 Qf7 15. Rb1,(The b file looks tasty!!),True
-1. d4 d5 2. Nf3 f5 3. c4 Nf6 4. g3 e6 5. Bg2 Bb4+ 6. Nc3 Nc6 7. O-O Bxc3 8. bxc3 dxc4 9. Qa4 h6 10. Ba3 Bd7 11. Qxc4 Ng4 12. Rae1 Qf6 13. e4 O-O-O 14. e5 Qf7 15. Rb1 a6,(Black had to try Na5.),True
-1. d4 d5 2. Nf3 f5 3. c4 Nf6 4. g3 e6 5. Bg2 Bb4+ 6. Nc3 Nc6 7. O-O Bxc3 8. bxc3 dxc4 9. Qa4 h6 10. Ba3 Bd7 11. Qxc4 Ng4 12. Rae1 Qf6 13. e4 O-O-O 14. e5 Qf7 15. Rb1 a6 16. Rxb7,(The Rook smashes in for the kill. Black cannot accept or refuse the Rook.),False

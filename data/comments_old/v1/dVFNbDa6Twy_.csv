@@ -1,0 +1,42 @@
+moves,comment,good
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3,"McDonnell's invention. Usual here is 5. 0-0,
+the Muzio Gambit,
+ which sacrifices a piece for a fierce attack on
+black's undeveloped kingside. 5. Ne5 the Salvio
+Gambit was also played in the nineteenth century. 
+Eventually it was found that 5. Qh4+ 6. Kf1  Nc6 $1
+refutes it, as complex analysis would show.",False
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O,"6. Qxf3, as also played by McDonnell, would
+lead to more independent positions.  Note it is as if
+White played a Muzio and followed it up with Nc3
+instead of the usual Qxf3",True
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6,"Black plans to
+place his Queen on Qf6, so that after White plays Qxf3
+he cannot at once follow this with Qxf4 because Black
+will exchange queens. With the text move Black keeps
+White's knight out of Nd5 where he may eventually
+harass Black's Queen. However,  if 6..
+Qf3, Nd5?? then 7..Qd4+ and Qxc4 but in this wild 
+open position there is not time for such a move.",True
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5,"Itâs quite worth another pawn to open the
+position further",True
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5 Qxe5 9. Bxf7+,A finely conceived sacrifice,False
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5 Qxe5 9. Bxf7+ Kxf7 10. d4 Qxd4+,Perhaps better was 10...Qg7 at once.,True
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5 Qxe5 9. Bxf7+ Kxf7 10. d4 Qxd4+ 11. Be3,"The piquant point, Black can not play
+11...Qxe3+? because after QxQ Blackâs Bishop Pawn is pinned and cannot recapture. Notice how all of Whiteâs moves gain time and development.",True
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5 Qxe5 9. Bxf7+ Kxf7 10. d4 Qxd4+ 11. Be3 Qg7 12. Bxf4,"Black has two extra pieces, but he is far
+behind in developement and his King is 
+ very exposed",True
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5 Qxe5 9. Bxf7+ Kxf7 10. d4 Qxd4+ 11. Be3 Qg7 12. Bxf4 Nf6 13. Ne4,"White must strike while the iron is hot. The
+text starts on attack against Blackâs
+ knight, which covers his King. Black cannot play
+13...Nxe4 because 14. Be5 or Bh6
+ dis. + wins the Queen.",True
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5 Qxe5 9. Bxf7+ Kxf7 10. d4 Qxd4+ 11. Be3 Qg7 12. Bxf4 Nf6 13. Ne4 Be7 14. Bg5,Continuing the pressure against the Knight.,False
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5 Qxe5 9. Bxf7+ Kxf7 10. d4 Qxd4+ 11. Be3 Qg7 12. Bxf4 Nf6 13. Ne4 Be7 14. Bg5 Rg8,"inderectly menacing 
+ Whiteâs King Knight Pawn",False
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5 Qxe5 9. Bxf7+ Kxf7 10. d4 Qxd4+ 11. Be3 Qg7 12. Bxf4 Nf6 13. Ne4 Be7 14. Bg5 Rg8 15. Qh5+,Planning a brilliant combination.,True
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5 Qxe5 9. Bxf7+ Kxf7 10. d4 Qxd4+ 11. Be3 Qg7 12. Bxf4 Nf6 13. Ne4 Be7 14. Bg5 Rg8 15. Qh5+ Qg6,Not 15...Kf8?? 16. Bh6.,True
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3 gxf3 6. O-O c6 7. Qxf3 Qf6 8. e5 Qxe5 9. Bxf7+ Kxf7 10. d4 Qxd4+ 11. Be3 Qg7 12. Bxf4 Nf6 13. Ne4 Be7 14. Bg5 Rg8 15. Qh5+ Qg6 16. Nd6+,"If now 16..Bxd6 17. Rxf6+ followed by 18.
+ Rxg6  notice that Black's Queen is 
+ pinned, so he cannot play 17...Qxf6",True

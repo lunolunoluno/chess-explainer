@@ -1,0 +1,30 @@
+moves,comment,good
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6,"According to Flohr the following continuation is stronger: 7... c5 8. Rd1 Qa5 9.
+Bd3 h6 10. Bh4 cxd4 11.exd4dxc4",True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6,not 11... e5 because of 12. Bxd5 cxd5 13. Nc3,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6,Vanek does not play 13...Nf6 in order to keep control over the e5 square,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4,"Better than 17.Rxd4, after which
+White would have lost control of the squares e4 and c5, and Black would have
+had a pawn majority on the queenside",True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4 Nb6 18. Ne5 Be6 19. Re3,"Flohr is b
+etter developed but has to act energically before Black Rooks come in action
+and attack together his isolated Pawn.",True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4 Nb6 18. Ne5 Be6 19. Re3 Rad8 20. Rf3 Qh4 21. g3 Qh5,"It was more convenient to go backward to e7. Now the Black Queen has to dance
+in a restricted field.",True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4 Nb6 18. Ne5 Be6 19. Re3 Rad8 20. Rf3 Qh4 21. g3 Qh5 22. h4 Bg4,22... f5 23. g4 Qxh4 (23... fxg4 24. Bh7+) 24. gxf5 etc.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4 Nb6 18. Ne5 Be6 19. Re3 Rad8 20. Rf3 Qh4 21. g3 Qh5 22. h4 Bg4 23. Re1 Nd5,"Of course not 23... Bxf3 for 24. Bxf3 and the Queen's dance is over After 23..
+. Rxd4 White could play 24. Bh7+ Kh8 25. Nxf7+ A relatively bettercontinuation
+would have been 23... Be6 24. Bh7+ Kh8 25. Bg6 fxg6 26. Nxg6+ Kg8 27. Rxf8+
+Rxf8 28. Rxe6 and White is ""only"" a pawn up Not advisable 28. Nxf8 for 28...
+Bf5 29. Qc5 Qf7 30. Re5 Bc8 and now it is the Knight who has to stop his ride
+in the opponent field.",True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4 Nb6 18. Ne5 Be6 19. Re3 Rad8 20. Rf3 Qh4 21. g3 Qh5 22. h4 Bg4 23. Re1 Nd5 24. Rxf7,Surprise!,False
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4 Nb6 18. Ne5 Be6 19. Re3 Rad8 20. Rf3 Qh4 21. g3 Qh5 22. h4 Bg4 23. Re1 Nd5 24. Rxf7 Rxf7 25. Bh7+ Kh8 26. Bg6,"Better than 26. Ng6+ Qxg6 27. Bxg6 Rf6 and Black still has sufficient forces
+to organize a solid defense.",True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4 Nb6 18. Ne5 Be6 19. Re3 Rad8 20. Rf3 Qh4 21. g3 Qh5 22. h4 Bg4 23. Re1 Nd5 24. Rxf7 Rxf7 25. Bh7+ Kh8 26. Bg6 Qxe5,Nearly forced.,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4 Nb6 18. Ne5 Be6 19. Re3 Rad8 20. Rf3 Qh4 21. g3 Qh5 22. h4 Bg4 23. Re1 Nd5 24. Rxf7 Rxf7 25. Bh7+ Kh8 26. Bg6 Qxe5 27. dxe5,And now? Who can stop this Pawn?,True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4 Nb6 18. Ne5 Be6 19. Re3 Rad8 20. Rf3 Qh4 21. g3 Qh5 22. h4 Bg4 23. Re1 Nd5 24. Rxf7 Rxf7 25. Bh7+ Kh8 26. Bg6 Qxe5 27. dxe5 Rff8 28. e6 Ne7 29. Bf7 Rd4,"A mistake 
+but Vanek was in zeitnot... Time is a sharp weapon, which both the players
+have. If one of them loses the possibility to use it ... that's bad for him!
+However Black's position was already compromised.",True
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Qc2 c6 8. a3 dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 N5f6 12. Bd3 Nxe4 13. Bxe4 h6 14. O-O e5 15. Rfe1 Qf6 16. Rad1 exd4 17. exd4 Nb6 18. Ne5 Be6 19. Re3 Rad8 20. Rf3 Qh4 21. g3 Qh5 22. h4 Bg4 23. Re1 Nd5 24. Rxf7 Rxf7 25. Bh7+ Kh8 26. Bg6 Qxe5 27. dxe5 Rff8 28. e6 Ne7 29. Bf7 Rd4 30. Qc5 Rfd8 31. Qxe7 Bf3 32. Qxd8+,Enough!,False

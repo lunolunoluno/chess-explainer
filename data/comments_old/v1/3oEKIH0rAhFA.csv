@@ -1,0 +1,36 @@
+moves,comment,good
+1. h4 Nf6,"Good. You get
+your knight into the game, and help control the center. When getting your
+pieces out, develop toward the center (the squares e4, d4, e5, d5 are known as
+the center).",True
+1. h4 Nf6 2. Rh3,"?! Extremely dubious. The rook is vulnerable to attack,
+this move does not control the center, and this weakens white's kingside. Pawn
+to d4 makes more sense.",True
+1. h4 Nf6 2. Rh3 h5,"Much stronger is 2 ... d5. This gets a foothold
+in the center, opens up a line for your bishop on c8, and to boot forces white
+to move one of his pieces again, since the Rook on h3 is threatened by black's
+bishop. Notice too, that now the g5 square is open for white's pieces, since
+now your h-pawn can't cover it.",True
+1. h4 Nf6 2. Rh3 h5 3. e3 d5 4. Bb5+ c6 5. Ba4 b5 6. Bb3 Qd6,"Since a rook is worth more than a bishop (rook = 5 pawns, bishop = 3 pawns),
+better is to take the free material with ...Bxh3. Believe it or not, among
+masters, the difference of having a rook instead of a bishop is winning.",False
+1. h4 Nf6 2. Rh3 h5 3. e3 d5 4. Bb5+ c6 5. Ba4 b5 6. Bb3 Qd6 7. Nc3 a5 8. Nf3 a4,"Instead, of ...Bxh3 9.gxh3 a4! would leave black up a rook!
+If you see a good move, stop: there might be an even better move.",True
+1. h4 Nf6 2. Rh3 h5 3. e3 d5 4. Bb5+ c6 5. Ba4 b5 6. Bb3 Qd6 7. Nc3 a5 8. Nf3 a4 9. Rg3 axb3 10. cxb3 Bf5 11. Rg5 Rh6,"This overlooks white's threat. A handy thing to
+remember is: why did my opponent make that move? You probably would've seen
+that he was threatening your bishop.",True
+1. h4 Nf6 2. Rh3 h5 3. e3 d5 4. Bb5+ c6 5. Ba4 b5 6. Bb3 Qd6 7. Nc3 a5 8. Nf3 a4 9. Rg3 axb3 10. cxb3 Bf5 11. Rg5 Rh6 12. Rxf5 Rg6 13. Ne5 Qe6,"There's a princ
+iple in chess that says, ""Avoid moving queens early"". This is no exception. In
+addition, White's knight was threatening to capture black's rook. Why not win
+a pawn and get your rook out of jeapardy with ...Rxg2?",True
+1. h4 Nf6 2. Rh3 h5 3. e3 d5 4. Bb5+ c6 5. Ba4 b5 6. Bb3 Qd6 7. Nc3 a5 8. Nf3 a4 9. Rg3 axb3 10. cxb3 Bf5 11. Rg5 Rh6 12. Rxf5 Rg6 13. Ne5 Qe6 14. e4 Rxg2 15. Ne2 dxe4,"...Nxe4 wins immediately. Black would be threatening white's Rook,
+Knight, and once white's rook moves, even ...Nxf2 is in the air.",True
+1. h4 Nf6 2. Rh3 h5 3. e3 d5 4. Bb5+ c6 5. Ba4 b5 6. Bb3 Qd6 7. Nc3 a5 8. Nf3 a4 9. Rg3 axb3 10. cxb3 Bf5 11. Rg5 Rh6 12. Rxf5 Rg6 13. Ne5 Qe6 14. e4 Rxg2 15. Ne2 dxe4 16. Nd4 Qd5,"This was good retort on your part. You save your queen, and stay in the center.
+As it happens, black can win a knight by playing 16. ... Rg1+ 17. Ke2 (forced)
+Rxd1 18 Nxe6 fxe6 19. Kxd1 exf5. You'll start seeing these combinations with
+practice.",False
+1. h4 Nf6 2. Rh3 h5 3. e3 d5 4. Bb5+ c6 5. Ba4 b5 6. Bb3 Qd6 7. Nc3 a5 8. Nf3 a4 9. Rg3 axb3 10. cxb3 Bf5 11. Rg5 Rh6 12. Rxf5 Rg6 13. Ne5 Qe6 14. e4 Rxg2 15. Ne2 dxe4 16. Nd4 Qd5 17. Nexc6 Qd6,17. ... Qxf5! 18. Nxf5 Rg1+ still wins material for black. Work it out.,True
+1. h4 Nf6 2. Rh3 h5 3. e3 d5 4. Bb5+ c6 5. Ba4 b5 6. Bb3 Qd6 7. Nc3 a5 8. Nf3 a4 9. Rg3 axb3 10. cxb3 Bf5 11. Rg5 Rh6 12. Rxf5 Rg6 13. Ne5 Qe6 14. e4 Rxg2 15. Ne2 dxe4 16. Nd4 Qd5 17. Nexc6 Qd6 18. a4 Qh2,Good infiltration! This move takes advantage of white's exposed king position.,True
+1. h4 Nf6 2. Rh3 h5 3. e3 d5 4. Bb5+ c6 5. Ba4 b5 6. Bb3 Qd6 7. Nc3 a5 8. Nf3 a4 9. Rg3 axb3 10. cxb3 Bf5 11. Rg5 Rh6 12. Rxf5 Rg6 13. Ne5 Qe6 14. e4 Rxg2 15. Ne2 dxe4 16. Nd4 Qd5 17. Nexc6 Qd6 18. a4 Qh2 19. Rxb5 Rxf2 20. Rxb8+ Rxb8 21. Nxb8,"So in conclusion, develop toward the
+center, with attack if possible, and especially look at forcing moves minimize
+missing combinations.",True

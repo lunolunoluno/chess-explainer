@@ -1,0 +1,31 @@
+moves,comment,good
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8,"A strange loo king move which I was not able to find in any of the games in my
+database. It is not clear at all what black intends to do with his h8 rook.
+Perhaps an atack on the king side? He should better have thought ofdevelopment
+first. In any event black already has difficulties as is to be seen from the
+follwing variants:",True
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8 7. O-O Nbd7 8. d4 Nb6 9. Bb3,"? Of course this sounds stupid but I cannot
+say exactly why I have played this move. I was not able to find any serious
+refutation of the simple 9.Nc3. I must have been trying to keep the bisho pair
+at any rate - but the price is too high and it is only the weak play of the
+oponent that allowed me to come out as a winner. I think the black position is
+rather acceptable after he gets rid of the d5 pawn.",False
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8 7. O-O Nbd7 8. d4 Nb6 9. Bb3 Nbxd5 10. c4 Ne3 11. Bxe3 fxe3 12. Qxe3 c5,"!? of course this looks very good but
+it might have been even better to prepare the move by first playing 12...Ng4,
+e. g.:",True
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8 7. O-O Nbd7 8. d4 Nb6 9. Bb3 Nbxd5 10. c4 Ne3 11. Bxe3 fxe3 12. Qxe3 c5 13. Nc3,I did not like 13.d5 because of the following line:,True
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8 7. O-O Nbd7 8. d4 Nb6 9. Bb3 Nbxd5 10. c4 Ne3 11. Bxe3 fxe3 12. Qxe3 c5 13. Nc3 Ng4 14. Qd2 Bf5,"? Black loses the thread here.
+He could still have fought for advantage in the following line:",True
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8 7. O-O Nbd7 8. d4 Nb6 9. Bb3 Nbxd5 10. c4 Ne3 11. Bxe3 fxe3 12. Qxe3 c5 13. Nc3 Ng4 14. Qd2 Bf5 15. g3,!,False
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8 7. O-O Nbd7 8. d4 Nb6 9. Bb3 Nbxd5 10. c4 Ne3 11. Bxe3 fxe3 12. Qxe3 c5 13. Nc3 Ng4 14. Qd2 Bf5 15. g3 Nf6 16. Ng5 g6 17. Rae1 Be7,"? Black continues with purely defensive, passive play which in this position
+equals slow death. He should have in any event tried something more activelike:",True
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8 7. O-O Nbd7 8. d4 Nb6 9. Bb3 Nbxd5 10. c4 Ne3 11. Bxe3 fxe3 12. Qxe3 c5 13. Nc3 Ng4 14. Qd2 Bf5 15. g3 Nf6 16. Ng5 g6 17. Rae1 Be7 18. d5 h6 19. Nf3 Bh3 20. Rf2 Kg8,"?? This move
+is so incomprehesible to me that I consider it the weakest in the whole game.
+Why does he not play the natural Kg7 here? That could have allowed him to keep
+the position since the rook finally comes into play, e. g.:",True
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8 7. O-O Nbd7 8. d4 Nb6 9. Bb3 Nbxd5 10. c4 Ne3 11. Bxe3 fxe3 12. Qxe3 c5 13. Nc3 Ng4 14. Qd2 Bf5 15. g3 Nf6 16. Ng5 g6 17. Rae1 Be7 18. d5 h6 19. Nf3 Bh3 20. Rf2 Kg8 21. Rfe2 Bf8,"? Holding 
+on to that passive style. He might have been afraid of the lines following 21..
+.Bd6 22.Nb5 but that row of pieces on the eight rank does not look good at all",True
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8 7. O-O Nbd7 8. d4 Nb6 9. Bb3 Nbxd5 10. c4 Ne3 11. Bxe3 fxe3 12. Qxe3 c5 13. Nc3 Ng4 14. Qd2 Bf5 15. g3 Nf6 16. Ng5 g6 17. Rae1 Be7 18. d5 h6 19. Nf3 Bh3 20. Rf2 Kg8 21. Rfe2 Bf8 22. Ne5 h5 23. Qf4 Rh7 24. Bc2 Nd7,"? This loses per force. Black had here the good move 24...Bh6, e. g.:",True
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bc4 Bd6 6. Qe2+ Kf8 7. O-O Nbd7 8. d4 Nb6 9. Bb3 Nbxd5 10. c4 Ne3 11. Bxe3 fxe3 12. Qxe3 c5 13. Nc3 Ng4 14. Qd2 Bf5 15. g3 Nf6 16. Ng5 g6 17. Rae1 Be7 18. d5 h6 19. Nf3 Bh3 20. Rf2 Kg8 21. Rfe2 Bf8 22. Ne5 h5 23. Qf4 Rh7 24. Bc2 Nd7 25. Ne4,"Here black resigned. I think this was a prematured
+decision given the following lines:",True

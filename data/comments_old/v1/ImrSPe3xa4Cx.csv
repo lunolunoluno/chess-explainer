@@ -1,0 +1,40 @@
+moves,comment,good
+1. e4 c5 2. Nf3 e6 3. g3 b6,"Played in the ""spirit of the hedgehog""
+according to my book ""Sizilianisch im Geiste des Igels"".   played in the
+""spirit of the hedgehog"" according to my book",False
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7,"This opening line is rarely seen. Perhaps
+my move is already a novelty. This opening line is rarely seen. Perhaps my
+move is already a novelty. You can reach the position from many different ways:
+2. ...a6, 2. ...b6, 2. ...d6 and finally 2. ...e6, but in every occasion there
+are plausible causes for both players to deviate. The black strategie, to slow
+the development of the king's side while seizing a capable hedgehog-formation
+on the other side, is a central thougt in my book.  In this special line it's
+necessary not to engage the kings knight too early.",False
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4,"the corresponding capter in my book
+handles with two principle plans for white: first, to fight the cautious black
+manouvers simply with pieces in the center - that means Re1, eventually Bg5
+and culminates in the Nd5-sacrifice. In this case it's not so easy for white
+to open files on the queenside, since black moved the b-pawn only to b6
+instead of b5!   Second, to start a fierce pawn-attack on the kingside. In the
+game white manages to combine this different strategic aims in a remarkable
+way:",False
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4 Ngf6,"The treat was 10.f5 e6 11.
+Ne6, but now black  neglects the ""credo"" of holding back the kings-knigt
+development. The safer move is 9. ...Qc7, and 9. ...b6-b5 also deserves
+attention. Now white has got a target...",False
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4 Ngf6 10. Re1,"with the ideas e5, Nd5",True
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4 Ngf6 10. Re1 Qc7,"I was not confident with this move, but I felt forced to do so. My
+prefered move, the alternative ...h5!?, looks interesting, but the analyse
+suggests a littlel but forced advantage for white:",True
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4 Ngf6 10. Re1 Qc7 11. g4,the immediate Nd5 looks overhasted. After,True
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4 Ngf6 10. Re1 Qc7 11. g4 h6,"ready to face the storm, but nevertheless very risky. The
+""computer-move"" 11. ...e5!? is not refutable. In any case black would get more
+air to breath.",True
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4 Ngf6 10. Re1 Qc7 11. g4 h6 12. Nd5,the only sensible continuation,False
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4 Ngf6 10. Re1 Qc7 11. g4 h6 12. Nd5 exd5 13. exd5+ Be7 14. Nf5 Ng8 15. Qd4,"A very powerfull continuation, which I didn't anticipate.",False
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4 Ngf6 10. Re1 Qc7 11. g4 h6 12. Nd5 exd5 13. exd5+ Be7 14. Nf5 Ng8 15. Qd4 Ndf6 16. g5 hxg5 17. fxg5 O-O-O,Only by giving back material black is able to continue fighting.,True
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4 Ngf6 10. Re1 Qc7 11. g4 h6 12. Nd5 exd5 13. exd5+ Be7 14. Nf5 Ng8 15. Qd4 Ndf6 16. g5 hxg5 17. fxg5 O-O-O 18. Nxe7+ Nxe7 19. gxf6 gxf6 20. Qxf6,"This leads to a forced draw in different ways but
+white needs strong nerves to master the complications. Therefore 20.c4 appears
+more practical. After 20. ...Rdg8 the position is quit unclear with winning
+chances for both sides.",True
+1. e4 c5 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. Nc3 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O Nd7 9. f4 Ngf6 10. Re1 Qc7 11. g4 h6 12. Nd5 exd5 13. exd5+ Be7 14. Nf5 Ng8 15. Qd4 Ndf6 16. g5 hxg5 17. fxg5 O-O-O 18. Nxe7+ Nxe7 19. gxf6 gxf6 20. Qxf6 Nxd5 21. Qf5+ Kb8 22. Bxd5 Qc5+ 23. Be3 Rdg8+ 24. Kf1 Qxd5 25. Qxd5 Bxd5 26. Bf4,(...Tg6 27.Tad1 Tf6 =),True

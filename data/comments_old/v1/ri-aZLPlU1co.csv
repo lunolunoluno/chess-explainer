@@ -1,0 +1,18 @@
+moves,comment,good
+1. e4 c5 2. Ne2,"An unusual Sicilian.
+2...",False
+1. e4 c5 2. Ne2 Nf6 3. Nbc3 Nc6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Nxc3 7. bxc3,"Opening the ""b"" column, where a Rook,
+helping the action of the Bishop in g2 on the big diagonal, can increase the
+pressure on the opponent's field.  7...",True
+1. e4 c5 2. Ne2 Nf6 3. Nbc3 Nc6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Nxc3 7. bxc3 e6 8. O-O Be7 9. Rb1 O-O 10. c4,"This move has an advantage and a disadvantage. The advantage: White can place
+a Bishop on the diagonal a1-g8; the disadvantage: it weakens the control of
+the d4 square, which can become a good base for Black counterplay.  10...",True
+1. e4 c5 2. Ne2 Nf6 3. Nbc3 Nc6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Nxc3 7. bxc3 e6 8. O-O Be7 9. Rb1 O-O 10. c4 Qd7 11. Bb2 b6,"? ""A natural move, nevertheless a mistake. I thought
+Black would have prepared this push with",True
+1. e4 c5 2. Ne2 Nf6 3. Nbc3 Nc6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Nxc3 7. bxc3 e6 8. O-O Be7 9. Rb1 O-O 10. c4 Qd7 11. Bb2 b6 12. d4 Bb7 13. d5,! - This pawn is annoying (for Black).,True
+1. e4 c5 2. Ne2 Nf6 3. Nbc3 Nc6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Nxc3 7. bxc3 e6 8. O-O Be7 9. Rb1 O-O 10. c4 Qd7 11. Bb2 b6 12. d4 Bb7 13. d5 Na5 14. Nf4 Nxc4 15. Bxg7,"!! - The beginning of the bad news for Foltys.
+15...",True
+1. e4 c5 2. Ne2 Nf6 3. Nbc3 Nc6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Nxc3 7. bxc3 e6 8. O-O Be7 9. Rb1 O-O 10. c4 Qd7 11. Bb2 b6 12. d4 Bb7 13. d5 Na5 14. Nf4 Nxc4 15. Bxg7 Kxg7 16. Qg4+ Kh8 17. dxe6,!!,False
+1. e4 c5 2. Ne2 Nf6 3. Nbc3 Nc6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Nxc3 7. bxc3 e6 8. O-O Be7 9. Rb1 O-O 10. c4 Qd7 11. Bb2 b6 12. d4 Bb7 13. d5 Na5 14. Nf4 Nxc4 15. Bxg7 Kxg7 16. Qg4+ Kh8 17. dxe6 Rg8,"""In a difficult position Black makes a mistake which leads him to an immediate
+defeat"". (Keres)",True
+1. e4 c5 2. Ne2 Nf6 3. Nbc3 Nc6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Nxc3 7. bxc3 e6 8. O-O Be7 9. Rb1 O-O 10. c4 Qd7 11. Bb2 b6 12. d4 Bb7 13. d5 Na5 14. Nf4 Nxc4 15. Bxg7 Kxg7 16. Qg4+ Kh8 17. dxe6 Rg8 18. Qxg8+,Black resigns.,False

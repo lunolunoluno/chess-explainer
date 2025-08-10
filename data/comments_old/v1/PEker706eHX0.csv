@@ -1,0 +1,49 @@
+moves,comment,good
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6,"Safe enough. If White now takes the
+e-pawn, the game might go on thus: 5.fxe5 dxe5 6.Nxe5 Qd4 7.Nd3 Bb6, etc.",False
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6,"This move was played by Anderssen against Blackburne in the
+Vienna tourney, whereupon the latter also replied 7.a3.",True
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5,"Stronger than
+7.a3, and it seems, from the progress of the present game, that the array of
+White's pawns on the kingside cannot be broken through.",False
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6,"The answer
+either 7...g6 or 7...Na5 would have been 8.a3; for in the former case, if
+Black proceeded by 8...gxf5, White would reply 9.Bg5, threatening knight to d5,
+and in the latter case Black could only follow up by taking the bishop, and on
+the pawn retaking he would have had little prospect of liberating his game on
+either side.",True
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3,"In order to fortify the attack immediately by pawn to g4,
+in case Black attempted to castle on the kingside, or to open the game by pawn
+to g6, as afterwards done.",False
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3,"White, being safe on both wings,
+makes an opening for his bishop to prevent the opponent exchanging it by
+knight to a5. He has now also prepared for an attack with his pawns, on either
+side, wherever the adversary might attempt to castle, while his own king is in
+perfect security.",False
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3 b5 10. Nd5 Nxd5 11. Bxd5 Bb7 12. b4 Bb6 13. a4 Rb8,[?:??-1:00],True
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3 b5 10. Nd5 Nxd5 11. Bxd5 Bb7 12. b4 Bb6 13. a4 Rb8 14. c3 Nd8 15. Bb3 g6 16. g4 h5 17. Rf1 hxg4 18. hxg4 gxf5 19. gxf5 f6 20. Qe2,[1:00-?:??],True
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3 b5 10. Nd5 Nxd5 11. Bxd5 Bb7 12. b4 Bb6 13. a4 Rb8 14. c3 Nd8 15. Bb3 g6 16. g4 h5 17. Rf1 hxg4 18. hxg4 gxf5 19. gxf5 f6 20. Qe2 Qg7 21. Be3,"White threatens now to take
+possession of the open g-file with both rooks by rook to g1, followed by rook
+to a2.",True
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3 b5 10. Nd5 Nxd5 11. Bxd5 Bb7 12. b4 Bb6 13. a4 Rb8 14. c3 Nd8 15. Bb3 g6 16. g4 h5 17. Rf1 hxg4 18. hxg4 gxf5 19. gxf5 f6 20. Qe2 Qg7 21. Be3 Bxe3 22. Qxe3 Qh6,"22...Rh3 would not have improved Black's
+position, for the opponent would have first answered 23.Ke2 before attacking
+the queen.",True
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3 b5 10. Nd5 Nxd5 11. Bxd5 Bb7 12. b4 Bb6 13. a4 Rb8 14. c3 Nd8 15. Bb3 g6 16. g4 h5 17. Rf1 hxg4 18. hxg4 gxf5 19. gxf5 f6 20. Qe2 Qg7 21. Be3 Bxe3 22. Qxe3 Qh6 23. Qxh6 Rxh6 24. Rg1 d5,"24...Rh7 was the only other means to
+prevent the hostile rook cutting off the king by rook to g7, and then the game
+might have proceeded thus: 24...Rh7 25.Rg8+ Ke7 26.axb5 axb5 27.Ra7 Nc6 28.
+Rxb8, winning a piece.",True
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3 b5 10. Nd5 Nxd5 11. Bxd5 Bb7 12. b4 Bb6 13. a4 Rb8 14. c3 Nd8 15. Bb3 g6 16. g4 h5 17. Rf1 hxg4 18. hxg4 gxf5 19. gxf5 f6 20. Qe2 Qg7 21. Be3 Bxe3 22. Qxe3 Qh6 23. Qxh6 Rxh6 24. Rg1 d5 25. exd5 Ke7 26. Kf2,"Better now than checking with
+the rook, whereupon Black might have attacked the rook by 26...Kf8, and White
+could not then capture the c-pawn on account of the impending rook to h1,
+check.",True
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3 b5 10. Nd5 Nxd5 11. Bxd5 Bb7 12. b4 Bb6 13. a4 Rb8 14. c3 Nd8 15. Bb3 g6 16. g4 h5 17. Rf1 hxg4 18. hxg4 gxf5 19. gxf5 f6 20. Qe2 Qg7 21. Be3 Bxe3 22. Qxe3 Qh6 23. Qxh6 Rxh6 24. Rg1 d5 25. exd5 Ke7 26. Kf2 Nf7 27. Rg7 Rf8,"[?:??-2:00]; White threatened pawn to d6, check,
+winning a piece. Neither pawn takes pawn nor rook to h5 would have been a
+better resource, for in the former case White could have replied 28.Bc4
+without altering the position materially, and in the latter contingency he
+could move out of all danger by 28.Ke3, followed in answer to 28...Rxf5, by 29.
+Nh4, threatening check at g6, and winning at least the exchange.",True
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3 b5 10. Nd5 Nxd5 11. Bxd5 Bb7 12. b4 Bb6 13. a4 Rb8 14. c3 Nd8 15. Bb3 g6 16. g4 h5 17. Rf1 hxg4 18. hxg4 gxf5 19. gxf5 f6 20. Qe2 Qg7 21. Be3 Bxe3 22. Qxe3 Qh6 23. Qxh6 Rxh6 24. Rg1 d5 25. exd5 Ke7 26. Kf2 Nf7 27. Rg7 Rf8 28. axb5 Kd6,"The pawn could not be retaken, on account of 29.Ra7, winning easily.",False
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3 b5 10. Nd5 Nxd5 11. Bxd5 Bb7 12. b4 Bb6 13. a4 Rb8 14. c3 Nd8 15. Bb3 g6 16. g4 h5 17. Rf1 hxg4 18. hxg4 gxf5 19. gxf5 f6 20. Qe2 Qg7 21. Be3 Bxe3 22. Qxe3 Qh6 23. Qxh6 Rxh6 24. Rg1 d5 25. exd5 Ke7 26. Kf2 Nf7 27. Rg7 Rf8 28. axb5 Kd6 29. bxa6 Ba8 30. a7 Bb7 31. Rxf7 Rxf7 32. Ra6+ Kd7,"Had he played 32...Ke7, White would
+have pushed 33.d6+, followed by 34.Bxf7, etc.",True
+1. e4 e5 2. Nc3 Bc5 3. f4 d6 4. Nf3 Nf6 5. Bc4 Nc6 6. d3 a6 7. f5 h6 8. h3 Qe7 9. a3 b5 10. Nd5 Nxd5 11. Bxd5 Bb7 12. b4 Bb6 13. a4 Rb8 14. c3 Nd8 15. Bb3 g6 16. g4 h5 17. Rf1 hxg4 18. hxg4 gxf5 19. gxf5 f6 20. Qe2 Qg7 21. Be3 Bxe3 22. Qxe3 Qh6 23. Qxh6 Rxh6 24. Rg1 d5 25. exd5 Ke7 26. Kf2 Nf7 27. Rg7 Rf8 28. axb5 Kd6 29. bxa6 Ba8 30. a7 Bb7 31. Rxf7 Rxf7 32. Ra6+ Kd7 33. Ba4+ Ke7 34. Re6+ Kf8 35. Bc6 Ba8,"A last desperate attempt to prolong the game by 36...c6, in case
+White takes off the bishop at once; but White's reply leaves no escape.",True

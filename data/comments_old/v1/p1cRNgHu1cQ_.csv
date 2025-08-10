@@ -1,0 +1,22 @@
+moves,comment,good
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6,Be7! stops Ng5.,False
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5,winning a pawn by force.,True
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5,"Nf8 is best. White is just a pawn up. A possible plan
+would be to play Nf8, d3,0-0, Bg5 and Nd5 trading down into a winning endgame.",True
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4,"A one move threat, Be7 completing development is far superior.",True
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4 12. c3 Qa5 13. b4,Wins a piece by force!,False
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4 12. c3 Qa5 13. b4 Qc7 14. O-O,?? cd4 wins!! Black just gets a few scary checks.,False
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4 12. c3 Qa5 13. b4 Qc7 14. O-O Qxc3 15. Bd2,Rb1 is better. Bd2 loses another pawn.,True
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4 12. c3 Qa5 13. b4 Qc7 14. O-O Qxc3 15. Bd2 Qxd3 16. Re1,oops. Mabye 16. f3 holding on to the pawn is a better idea.,True
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4 12. c3 Qa5 13. b4 Qc7 14. O-O Qxc3 15. Bd2 Qxd3 16. Re1 Nc2 17. Rc1 Nxe1 18. Qa4+,Not a bad try.,False
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4 12. c3 Qa5 13. b4 Qc7 14. O-O Qxc3 15. Bd2 Qxd3 16. Re1 Nc2 17. Rc1 Nxe1 18. Qa4+ Kf7 19. Bxe1 Nxe4 20. Qd7+ Kf6,"20... Be7 lets black
+rook into the game and develops ALL of his pieces, black should win in due
+time.",True
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4 12. c3 Qa5 13. b4 Qc7 14. O-O Qxc3 15. Bd2 Qxd3 16. Re1 Nc2 17. Rc1 Nxe1 18. Qa4+ Kf7 19. Bxe1 Nxe4 20. Qd7+ Kf6 21. Qd8+ Be7 22. Qd7,"Qh8! gives black a winning position. Don't waste
+a check if you have no follow up.",True
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4 12. c3 Qa5 13. b4 Qc7 14. O-O Qxc3 15. Bd2 Qxd3 16. Re1 Nc2 17. Rc1 Nxe1 18. Qa4+ Kf7 19. Bxe1 Nxe4 20. Qd7+ Kf6 21. Qd8+ Be7 22. Qd7 Nd2 23. Bxd2 Qxd2 24. Rf1 Rf8,24...Qb4! covers b7 and wins easily.,False
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4 12. c3 Qa5 13. b4 Qc7 14. O-O Qxc3 15. Bd2 Qxd3 16. Re1 Nc2 17. Rc1 Nxe1 18. Qa4+ Kf7 19. Bxe1 Nxe4 20. Qd7+ Kf6 21. Qd8+ Be7 22. Qd7 Nd2 23. Bxd2 Qxd2 24. Rf1 Rf8 25. Qxb7 Rf7 26. Qxa7 d5 27. b5 e4 28. a4 Ke5 29. Qe3,Keeping queens on would make it harder for black to make progress.,True
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Nf6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qe7 8. Nb5 Rc8 9. Nbxc7+ Rxc7 10. Nxc7+ Qxc7 11. d3 Nd4 12. c3 Qa5 13. b4 Qc7 14. O-O Qxc3 15. Bd2 Qxd3 16. Re1 Nc2 17. Rc1 Nxe1 18. Qa4+ Kf7 19. Bxe1 Nxe4 20. Qd7+ Kf6 21. Qd8+ Be7 22. Qd7 Nd2 23. Bxd2 Qxd2 24. Rf1 Rf8 25. Qxb7 Rf7 26. Qxa7 d5 27. b5 e4 28. a4 Ke5 29. Qe3 Qxe3 30. fxe3 Rxf1+ 31. Kxf1 Bd8 32. g3 d4 33. exd4+ Kxd4 34. h4 Kd3 35. Ke1,"Both sides missed their chances in this mistake filled game. White one the
+opening battle but gave away a winning middle game. The early Nb5 was fancy
+but it gave black 2 minor pieces for a rook which in most cases favors the 2
+minors.",True

@@ -1,0 +1,48 @@
+moves,comment,good
+1. e4 e5 2. Nf3 d6,"This move is playable, but rather passive. Now your dark-squared bishop can't
+be deployed to an active post. I would recommend the more active ...Nc6.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6,"While getting space is a laudable goal, in the early phases
+of the game, you want to get your pieces mobilized. ...Nc6 would do that, plus
+help restrain the d4 advance that white would like to do.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6 5. Nc3 b5 6. Bd5 c6 7. Bxe6 fxe6 8. d4 exd4 9. Nxd4 e5 10. Qh5+ g6 11. Bg5 Nf6,"Actually, 11. ...
+gxh5 12. Bxd8 Kxd8 would have won a piece. Would've went a long way to help
+black win the game.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6 5. Nc3 b5 6. Bd5 c6 7. Bxe6 fxe6 8. d4 exd4 9. Nxd4 e5 10. Qh5+ g6 11. Bg5 Nf6 12. Qf3 Bg7,"This misses white's threat. White has 2
+pieces on the knight at f6 -- white will now a tactical idea called ""removing
+the defender"", which should have won the game for white. Black's only defense
+is ...Kf7. It wouldn't be too bad in this position, because if needed, black
+can always castle ""by hand"" by playing ...Be7, ...Rf8, ...Kg8.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6 5. Nc3 b5 6. Bd5 c6 7. Bxe6 fxe6 8. d4 exd4 9. Nxd4 e5 10. Qh5+ g6 11. Bg5 Nf6 12. Qf3 Bg7 13. Ne6 Qe7 14. Nxg7+ Kf7 15. Bh6 Rg8 16. g4 g5 17. Nh5,"This gives black a chance. If white
+would've taken the post near the center (Nf5), and followed up with h4, O-O-O,
+white would have soon won.",False
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6 5. Nc3 b5 6. Bd5 c6 7. Bxe6 fxe6 8. d4 exd4 9. Nxd4 e5 10. Qh5+ g6 11. Bg5 Nf6 12. Qf3 Bg7 13. Ne6 Qe7 14. Nxg7+ Kf7 15. Bh6 Rg8 16. g4 g5 17. Nh5 Rg6 18. Qf5,"This does nothing. 18. h4! would have
+soon won the game.. too many threats. For example, if 18. ... Rxh6 19. hxg5
+Rg6 20. Nxf6, and black could safely resign.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6 5. Nc3 b5 6. Bd5 c6 7. Bxe6 fxe6 8. d4 exd4 9. Nxd4 e5 10. Qh5+ g6 11. Bg5 Nf6 12. Qf3 Bg7 13. Ne6 Qe7 14. Nxg7+ Kf7 15. Bh6 Rg8 16. g4 g5 17. Nh5 Rg6 18. Qf5 Qd7 19. Bg7 Qxf5 20. exf5 Rxg7 21. O-O-O d5 22. f3 Nxh5 23. gxh5 g4,"This is wrong. Black's queen side isn't
+developed. Should be a top priority, because the more pieces you have involved
+in the battle, the more likely you will succeed in breaking through. Even ...
+Kf6 is a superior move. The king can be (and often is) a fighting piece in the
+endgame.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6 5. Nc3 b5 6. Bd5 c6 7. Bxe6 fxe6 8. d4 exd4 9. Nxd4 e5 10. Qh5+ g6 11. Bg5 Nf6 12. Qf3 Bg7 13. Ne6 Qe7 14. Nxg7+ Kf7 15. Bh6 Rg8 16. g4 g5 17. Nh5 Rg6 18. Qf5 Qd7 19. Bg7 Qxf5 20. exf5 Rxg7 21. O-O-O d5 22. f3 Nxh5 23. gxh5 g4 24. h6 Rg5 25. Rhg1 Rxf5 26. fxg4 Rf4 27. Rdf1 Rxf1+ 28. Rxf1+ Kg6 29. Rf5,"White threw away his advantage with this move. 29. Rf8 Kxh6 30. h4
+would have paralyzed black, and white would have all the time he needed to
+work on his own plans. After this, black gets developed and has the better
+game because of white's weak king-side pawns and black's formidable pawn mass
+in the center.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6 5. Nc3 b5 6. Bd5 c6 7. Bxe6 fxe6 8. d4 exd4 9. Nxd4 e5 10. Qh5+ g6 11. Bg5 Nf6 12. Qf3 Bg7 13. Ne6 Qe7 14. Nxg7+ Kf7 15. Bh6 Rg8 16. g4 g5 17. Nh5 Rg6 18. Qf5 Qd7 19. Bg7 Qxf5 20. exf5 Rxg7 21. O-O-O d5 22. f3 Nxh5 23. gxh5 g4 24. h6 Rg5 25. Rhg1 Rxf5 26. fxg4 Rf4 27. Rdf1 Rxf1+ 28. Rxf1+ Kg6 29. Rf5 Nd7 30. Rh5 Re8 31. Ne2 e4,"This is playable, but 31. ... Nf6
+(attacks the rook on h5 and pawn at g4) 32. Rh4 Kg5 would win 2 pawns and the
+game.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6 5. Nc3 b5 6. Bd5 c6 7. Bxe6 fxe6 8. d4 exd4 9. Nxd4 e5 10. Qh5+ g6 11. Bg5 Nf6 12. Qf3 Bg7 13. Ne6 Qe7 14. Nxg7+ Kf7 15. Bh6 Rg8 16. g4 g5 17. Nh5 Rg6 18. Qf5 Qd7 19. Bg7 Qxf5 20. exf5 Rxg7 21. O-O-O d5 22. f3 Nxh5 23. gxh5 g4 24. h6 Rg5 25. Rhg1 Rxf5 26. fxg4 Rf4 27. Rdf1 Rxf1+ 28. Rxf1+ Kg6 29. Rf5 Nd7 30. Rh5 Re8 31. Ne2 e4 32. Nf4+ Kf6 33. g5+,"This was a serious error by white. White's only
+plus is his king-side pawn majority, so he should've looked for a way to
+mobilize them. The way to do that was 33. Rf5+ Ke7 34. g5, which would make it
+a lot harder for black. Notice black couldn't even have tried 34. ... Rf8? in
+that variation, because white's pawns are too fast. e.g., 34. ... Rf8 35. g6!
+Rxf5 36. gxh7 Rf8 37. Ng6+ Kf7 38. Nxf8, and black can't stop white from
+playing h8Q. This illustrates the power of the advanced, passed pawns.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6 5. Nc3 b5 6. Bd5 c6 7. Bxe6 fxe6 8. d4 exd4 9. Nxd4 e5 10. Qh5+ g6 11. Bg5 Nf6 12. Qf3 Bg7 13. Ne6 Qe7 14. Nxg7+ Kf7 15. Bh6 Rg8 16. g4 g5 17. Nh5 Rg6 18. Qf5 Qd7 19. Bg7 Qxf5 20. exf5 Rxg7 21. O-O-O d5 22. f3 Nxh5 23. gxh5 g4 24. h6 Rg5 25. Rhg1 Rxf5 26. fxg4 Rf4 27. Rdf1 Rxf1+ 28. Rxf1+ Kg6 29. Rf5 Nd7 30. Rh5 Re8 31. Ne2 e4 32. Nf4+ Kf6 33. g5+ Kf5 34. Ne2 Kg6 35. Nf4+ Kf5 36. Nh3 e3,"Instead, 36. ... Kg4 would have forked the
+white's rook and knight, winning a piece.",True
+1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Qe2 a6 5. Nc3 b5 6. Bd5 c6 7. Bxe6 fxe6 8. d4 exd4 9. Nxd4 e5 10. Qh5+ g6 11. Bg5 Nf6 12. Qf3 Bg7 13. Ne6 Qe7 14. Nxg7+ Kf7 15. Bh6 Rg8 16. g4 g5 17. Nh5 Rg6 18. Qf5 Qd7 19. Bg7 Qxf5 20. exf5 Rxg7 21. O-O-O d5 22. f3 Nxh5 23. gxh5 g4 24. h6 Rg5 25. Rhg1 Rxf5 26. fxg4 Rf4 27. Rdf1 Rxf1+ 28. Rxf1+ Kg6 29. Rf5 Nd7 30. Rh5 Re8 31. Ne2 e4 32. Nf4+ Kf6 33. g5+ Kf5 34. Ne2 Kg6 35. Nf4+ Kf5 36. Nh3 e3 37. Kd1 Kg6 38. Nf4+ Kf5 39. Nh3 Kg4,"This is winning for black, but because of low time, both players agreed to a
+draw. So in conclusion, get your pieces developed in the early stages. Also,
+when calculating variations, see what you get vs. your opponents, to see if
+you could win material. Early in the game, black could have gotten Q & B,
+while white would get black's queen. Only by using all your forces will you
+have good chances of success.",False

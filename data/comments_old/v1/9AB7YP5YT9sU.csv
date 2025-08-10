@@ -1,0 +1,24 @@
+moves,comment,good
+1. d4 d5 2. c4 e6 3. Nc3 c6,Semi-slav defence.,False
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6,"Quietly, Black has transferred his cavalry to the kingside.",False
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7,Now White has the advantage of the Bishop pair.,False
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7 14. Ne5,"Steinitz, for now
+has nothing in view. He has placed his Knight in e5 ... just to bother his
+opponent which is now to act in a resctricted space.",True
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7 14. Ne5 Rd8 15. Qe2 b6 16. b4 Bb7 17. f4 Nf5 18. Qf2 c5,Black decides to sacrifice a pawn to enlarge his horizon.,True
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7 14. Ne5 Rd8 15. Qe2 b6 16. b4 Bb7 17. f4 Nf5 18. Qf2 c5 19. dxc5 bxc5 20. Qxc5 Qxc5+ 21. bxc5 Be4 22. Rfd1 Rdc8 23. c6 Bxd3 24. Rxd3 Ne4 25. Bb4 a5 26. Rad1,"Steinitz sacrifices a
+piece to get total control on the open ""d"" file and a possible pawn mass on
+the kingside.",True
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7 14. Ne5 Rd8 15. Qe2 b6 16. b4 Bb7 17. f4 Nf5 18. Qf2 c5 19. dxc5 bxc5 20. Qxc5 Qxc5+ 21. bxc5 Be4 22. Rfd1 Rdc8 23. c6 Bxd3 24. Rxd3 Ne4 25. Bb4 a5 26. Rad1 axb4 27. c7,"No doubts: it is an attack!{
+({On the other hand White should act firmly: 27. axb4 f6 {removing the Knight
+and freeing the f7 square for his King. 27...",True
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7 14. Ne5 Rd8 15. Qe2 b6 16. b4 Bb7 17. f4 Nf5 18. Qf2 c5 19. dxc5 bxc5 20. Qxc5 Qxc5+ 21. bxc5 Be4 22. Rfd1 Rdc8 23. c6 Bxd3 24. Rxd3 Ne4 25. Bb4 a5 26. Rad1 axb4 27. c7 g5,! - Air! Oxygen for his King. But why 27...g7-g5? Was not enough 27...g7-g6?,True
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7 14. Ne5 Rd8 15. Qe2 b6 16. b4 Bb7 17. f4 Nf5 18. Qf2 c5 19. dxc5 bxc5 20. Qxc5 Qxc5+ 21. bxc5 Be4 22. Rfd1 Rdc8 23. c6 Bxd3 24. Rxd3 Ne4 25. Bb4 a5 26. Rad1 axb4 27. c7 g5 28. Rd8+ Kg7 29. axb4,"It is true that Steinitz is a piece down but his
+aggressive position (the black Rooks, for now, look paralized) makes think
+that he has more than enough compensation. Is it true? 29...",True
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7 14. Ne5 Rd8 15. Qe2 b6 16. b4 Bb7 17. f4 Nf5 18. Qf2 c5 19. dxc5 bxc5 20. Qxc5 Qxc5+ 21. bxc5 Be4 22. Rfd1 Rdc8 23. c6 Bxd3 24. Rxd3 Ne4 25. Bb4 a5 26. Rad1 axb4 27. c7 g5 28. Rd8+ Kg7 29. axb4 Ne3,"! - At a better look the white Rooks too are now almost paralized. The Rook in
+d1 cannot go up (because of Ra8-a1+) and cannot move horizontally.",True
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7 14. Ne5 Rd8 15. Qe2 b6 16. b4 Bb7 17. f4 Nf5 18. Qf2 c5 19. dxc5 bxc5 20. Qxc5 Qxc5+ 21. bxc5 Be4 22. Rfd1 Rdc8 23. c6 Bxd3 24. Rxd3 Ne4 25. Bb4 a5 26. Rad1 axb4 27. c7 g5 28. Rd8+ Kg7 29. axb4 Ne3 30. Rxc8,Force.,False
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7 14. Ne5 Rd8 15. Qe2 b6 16. b4 Bb7 17. f4 Nf5 18. Qf2 c5 19. dxc5 bxc5 20. Qxc5 Qxc5+ 21. bxc5 Be4 22. Rfd1 Rdc8 23. c6 Bxd3 24. Rxd3 Ne4 25. Bb4 a5 26. Rad1 axb4 27. c7 g5 28. Rd8+ Kg7 29. axb4 Ne3 30. Rxc8 Rxc8 31. Rd4 f5 32. Rd7+ Kh6 33. fxg5+ Kxg5 34. h4+ Kf6 35. Nc6,"To close the path to the Black Rook, in case it will be
+placed on the ""a"" file, but forgetting another dangerous possibility. 35...",False
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nd7 5. Nf3 Bd6 6. e4 dxe4 7. Nxe4 Bb4+ 8. Nc3 Ndf6 9. Bd3 Qa5 10. Bd2 Ne7 11. O-O O-O 12. a3 Bxc3 13. Bxc3 Qc7 14. Ne5 Rd8 15. Qe2 b6 16. b4 Bb7 17. f4 Nf5 18. Qf2 c5 19. dxc5 bxc5 20. Qxc5 Qxc5+ 21. bxc5 Be4 22. Rfd1 Rdc8 23. c6 Bxd3 24. Rxd3 Ne4 25. Bb4 a5 26. Rad1 axb4 27. c7 g5 28. Rd8+ Kg7 29. axb4 Ne3 30. Rxc8 Rxc8 31. Rd4 f5 32. Rd7+ Kh6 33. fxg5+ Kxg5 34. h4+ Kf6 35. Nc6 Rg8,! After this move Steinitz felt it was wise to resign.,True

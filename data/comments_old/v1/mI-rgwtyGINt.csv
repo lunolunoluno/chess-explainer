@@ -1,0 +1,62 @@
+moves,comment,good
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3,"At that time 4.Qd3 was thought to be some sort of
+confutation for this kind of opening. Nowadays it is rarely played in
+tournament practice because the theory has shown that Black can come out with
+a good position with no difficulty.",False
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5,The best. The developement 5.Nf3 is less promising.,True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6,"Not to be prefer
+red is 5... Na6 6. a3 (6. Bg5 Qa5 7. Bxf6 gxf6 8. e3 Nxc5 9. Qc2 Bxc3+ 10.
+bxc3 b6) (6. g3 Qa5 7. Bd2 Nxc5 8. Qc2 Nce4) 6... Bxc5 (6... Bxc3+ 7. Qxc3
+Nxc5 8. f3 and White has advantage.) 7. Nf3 O-O 8. Bg5 Be7 9. e4 h6 10. Bh4 b6
+11. e5 Nh5 and Black's position is good in every variation.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3,"Less convi
+ncing are the alternatives 6. Bd2 6... Bxc5 7. e3 O-O 8. Nf3 d5 and 6.Bg5 Bxc5
+7. Nf3 Be7 8. e3 O-O 9. Rd1 Qa5 10. Be2 d5 and Black's play is acceptable.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2,"Very good. It was tried 7... Nxc5 8. Qc2 f5 9. a3 Bxc3
+10. Bxc3 O-O 11. b4 Ne4 12.Bb2 but such a variation hardly allows Black to
+keep equality.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5,"According to the modern theory 8...f5 is
+preferable. The move in the text is inaccurate.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3,"Mikenas: ""The
+Yugoslavian Grandmaster Trifunovic indicated the continuation 9.Nde4 Be7 10.
+0-0-0 as preferable, with initiative to White. For me it is just matter of
+taste"".",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5,All already seen in the practice.,True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5,"Such an opportunity can not be lost. It is necessary to remind that Black has
+the Bishop pair and any small hesitation can allow him to take initiative.
+With this move White wants to activate his play on the queenside.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4,"A blunder! More precisely: a serious inaccuracy. 18.Nxc5 Bxc5 19.b4
+had to be played, with clear advantage for White. Fortunately it is not an
+irreparaple mistake.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4,Here it is! Can you see the difference?,True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4 19. Qc3,"Now White must play ""very"" accurately to avoid further pain. 19. bxa5
+cxd3 20. Rxc7 dxe2 and Black's position is ok.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4 19. Qc3 Bc6 20. Nb2 Bxf3 21. gxf3,"Mikenas does not want to play passively and ... takes some risks. His
+opponent had 3 minutes left to the time control (at that time it was 32 moves
+in two hours) and our hero, with the move in the text, tried to profit from
+this fact. It is a dangerous tactics, but sometimes it pays. Mikenas says, to
+be more precise: ""Yes, but more often our attempts to be too smart, to confuse
+things, turn against ourselves"". Of course the right move (and the expected
+one) was 21.Bxf3.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4 19. Qc3 Bc6 20. Nb2 Bxf3 21. gxf3 Bf6 22. Qc2 Rb8 23. Nd3,"A bit of tactics to force
+Black to use his time and think of a new plan. It was right to play 23. Nxc4
+Rxb4 24. Nxa5 Qxa5 25. Rxd7 with possibilities for both players.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4 19. Qc3 Bc6 20. Nb2 Bxf3 21. gxf3 Bf6 22. Qc2 Rb8 23. Nd3 d5,"Mikenas: ""Black is pursuing his excellent play and is not caring about zeitnot.
+Indeed I overlooked this move. Now, in caso of 24.bxa5 Qxa5 the White Knight
+could not leave the square d3 because of 25.Rb2. I could not rely on a logical
+play: I had to find another trick and pray the ""God of the North"" for a happy
+ending.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4 19. Qc3 Bc6 20. Nb2 Bxf3 21. gxf3 Bf6 22. Qc2 Rb8 23. Nd3 d5 24. Nf4 Rfe8,"And Black falls into the trap! The right reply was 24...
+Qc6 and White would have had nearly nothing left.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4 19. Qc3 Bc6 20. Nb2 Bxf3 21. gxf3 Bf6 22. Qc2 Rb8 23. Nd3 d5 24. Nf4 Rfe8 25. bxa5 g5,"There are no
+other possibiliteis. In case of 25...Rb2 the reply would have been 26.Qa4!
+attacking the Rook in e8 (that is why it was necessary to play 24. ..Qc6
+instead of 24...Re8).",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4 19. Qc3 Bc6 20. Nb2 Bxf3 21. gxf3 Bf6 22. Qc2 Rb8 23. Nd3 d5 24. Nf4 Rfe8 25. bxa5 g5 26. Nh5 Be5 27. f4 gxf4 28. exf4 Bxf4 29. Nf6+,"It is true that White is a piece up but, please, look at the Pawn army which
+available for Black. White must be very careful, or the little black men will
+become very dangerous.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4 19. Qc3 Bc6 20. Nb2 Bxf3 21. gxf3 Bf6 22. Qc2 Rb8 23. Nd3 d5 24. Nf4 Rfe8 25. bxa5 g5 26. Nh5 Be5 27. f4 gxf4 28. exf4 Bxf4 29. Nf6+ Kh8 30. Nxe8 Rxe8 31. Qc3+ e5 32. Rb1 Qg7+ 33. Kf1,"The only one After 33. Kh1 Qh6 34. h3 d4 White would be forced to give
+back a Rook.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4 19. Qc3 Bc6 20. Nb2 Bxf3 21. gxf3 Bf6 22. Qc2 Rb8 23. Nd3 d5 24. Nf4 Rfe8 25. bxa5 g5 26. Nh5 Be5 27. f4 gxf4 28. exf4 Bxf4 29. Nf6+ Kh8 30. Nxe8 Rxe8 31. Qc3+ e5 32. Rb1 Qg7+ 33. Kf1 Bxh2 34. Ke1 d4 35. Qxc4,No hurry! White has just to keep calm.,False
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8. Nxd2 Bxc5 9. e3 O-O 10. Nf3 b6 11. Be2 Bb7 12. O-O f5 13. Na4 Be7 14. Rfd1 Qc7 15. Rac1 Na5 16. Qd3 Rad8 17. c5 bxc5 18. b4 c4 19. Qc3 Bc6 20. Nb2 Bxf3 21. gxf3 Bf6 22. Qc2 Rb8 23. Nd3 d5 24. Nf4 Rfe8 25. bxa5 g5 26. Nh5 Be5 27. f4 gxf4 28. exf4 Bxf4 29. Nf6+ Kh8 30. Nxe8 Rxe8 31. Qc3+ e5 32. Rb1 Qg7+ 33. Kf1 Bxh2 34. Ke1 d4 35. Qxc4 e4 36. Rxd4,"Taking the Queen
+would have been dangerous: 36.Qxd4 Be5! followed by 37...Bc3+ and 38... Rg8.",True

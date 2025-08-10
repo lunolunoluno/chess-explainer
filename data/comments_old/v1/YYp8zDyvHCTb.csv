@@ -1,0 +1,5 @@
+moves,comment,good
+1. Nf3,A30: Symmetrical English: Double Fianchetto and Hedgehog,True
+1. Nf3 Nf6 2. c4 b6 3. g3 Bb7 4. Bg2 e6 5. O-O Be7 6. Nc3 O-O 7. Re1 d5 8. cxd5 Nxd5 9. e4 Nxc3 10. bxc3 c5 11. d4 Nd7 12. Bf4 cxd4 13. cxd4 Nf6 14. Ne5 Bb4 15. Re3 Rc8 16. d5 exd5 17. exd5,The passed pawn on d5 will become decisive later,False
+1. Nf3 Nf6 2. c4 b6 3. g3 Bb7 4. Bg2 e6 5. O-O Be7 6. Nc3 O-O 7. Re1 d5 8. cxd5 Nxd5 9. e4 Nxc3 10. bxc3 c5 11. d4 Nd7 12. Bf4 cxd4 13. cxd4 Nf6 14. Ne5 Bb4 15. Re3 Rc8 16. d5 exd5 17. exd5 Bd6 18. Nc6 Bxc6 19. Bxd6 Ba4 20. Bxf8 Bxd1 21. Be7 Qc7,last book move,False
+1. Nf3 Nf6 2. c4 b6 3. g3 Bb7 4. Bg2 e6 5. O-O Be7 6. Nc3 O-O 7. Re1 d5 8. cxd5 Nxd5 9. e4 Nxc3 10. bxc3 c5 11. d4 Nd7 12. Bf4 cxd4 13. cxd4 Nf6 14. Ne5 Bb4 15. Re3 Rc8 16. d5 exd5 17. exd5 Bd6 18. Nc6 Bxc6 19. Bxd6 Ba4 20. Bxf8 Bxd1 21. Be7 Qc7 22. Rxd1 Nd7 23. Bh3 h6,Secures g5,False

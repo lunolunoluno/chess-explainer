@@ -1,0 +1,13 @@
+comment,good,reasoning,moves,context,reformulated
+D27: Queen's Gambit Accepted: Classical main line: 7 e4!? and 7 a4,True,"
+
+The comment correctly identifies the mistake as a deviation from the main lines of the Queen's Gambit Accepted opening, suggesting the player missed an important move (7 e4) and opted for an unconventional move (7 a4).",1. d4,"This is a game between Kramnik, V. (as White) and Huebner, R. (as Black). Last move played: White plays Pawn to d4"," ""White's move of Pawn to d4 is a misstep; they should opt for a more cautious approach, such as playing 7 e4 to solidify their position."""
+Do you see the mate threat?,False,"
+
+The comment does not explain the mistake made by the player since it does not provide any specific information about the move or why it was incorrect.",1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. Bb3 cxd4 8. exd4 Nc6 9. Nc3 Be7 10. Re1 O-O 11. h4 Na5 12. Bc2 b5 13. Qd3 Bb7 14. h5 Bxf3 15. Qxf3 Qxd4 16. Bf4 b4 17. Rad1 Qc4 18. Bd3 Qc6 19. Ne4 Nd5 20. Be5 f5 21. Qg3,"This is a game between Kramnik, V. (as White) and Huebner, R. (as Black). Last move played: White plays Queen to g3",-
+Discovered attack,True,"
+
+The term ""discovered attack"" implies that the player identified a potential threat after an opposing piece moved, which suggests the player failed to anticipate the opponent's move, making it a mistake.",1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. Bb3 cxd4 8. exd4 Nc6 9. Nc3 Be7 10. Re1 O-O 11. h4 Na5 12. Bc2 b5 13. Qd3 Bb7 14. h5 Bxf3 15. Qxf3 Qxd4 16. Bf4 b4 17. Rad1 Qc4 18. Bd3 Qc6 19. Ne4 Nd5 20. Be5 f5 21. Qg3 Rf7 22. Nd2 Nb7 23. Nf3 Nc5 24. Nd4 Qb6 25. Nxf5 exf5 26. Bc4,"This is a game between Kramnik, V. (as White) and Huebner, R. (as Black). Last move played: White plays Bishop to c4"," White's latest move to c4 fails to capitalize on any immediate tactical opportunities, potentially leaving their position less secure or less active than it could be."
+leading to a quick end,True,"
+
+The comment suggests that the mistake made by the player led to a significant disadvantage or loss, as indicated by the phrase ""leading to a quick end.""",1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. Bb3 cxd4 8. exd4 Nc6 9. Nc3 Be7 10. Re1 O-O 11. h4 Na5 12. Bc2 b5 13. Qd3 Bb7 14. h5 Bxf3 15. Qxf3 Qxd4 16. Bf4 b4 17. Rad1 Qc4 18. Bd3 Qc6 19. Ne4 Nd5 20. Be5 f5 21. Qg3 Rf7 22. Nd2 Nb7 23. Nf3 Nc5 24. Nd4 Qb6 25. Nxf5 exf5 26. Bc4 Nf6,"This is a game between Kramnik, V. (as White) and Huebner, R. (as Black). Last move played: Black plays Knight to f6", This move by Black resulted in a weakening of their position.

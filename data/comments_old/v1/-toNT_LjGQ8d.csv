@@ -1,0 +1,25 @@
+moves,comment,good
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4,"Logical play, for oly in the
+end-game can White turn his extra pawn on the King side to account.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4,"Accepting the challenge of ""having it out in the centre"".",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3,"Instead of this simple development, a more astute mobilisation result from 9.
+b3.  9...",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3 O-O-O,"After his rapid and straighforward development, Black
+has already overcome all the difficulties of the opening.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3 O-O-O 10. Bf4 Bc6 11. O-O Nf6 12. f3,"Thus White's majority in the centre is held for a long time to come.
+12...",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3 O-O-O 10. Bf4 Bc6 11. O-O Nf6 12. f3 Be7 13. Ng3 g6 14. Rfe1 Nd7 15. Nd1 Nb6 16. Nf1,"With the idea of
+controlling his ""d2"", but all yhis regrouping behind the front demonstrates
+that all is not well with White.  16...",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3 O-O-O 10. Bf4 Bc6 11. O-O Nf6 12. f3 Be7 13. Ng3 g6 14. Rfe1 Nd7 15. Nd1 Nb6 16. Nf1 Rd7 17. Be3 Rhd8,"Black has mass
+ed his troops on the critical sector and, in the sequel, will demonstrate that,
+in spite of the exchange of Queens, the end-game is not yet, and the play
+shows the sacrifices and other conceptions germane to the middle game.",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3 O-O-O 10. Bf4 Bc6 11. O-O Nf6 12. f3 Be7 13. Ng3 g6 14. Rfe1 Nd7 15. Nd1 Nb6 16. Nf1 Rd7 17. Be3 Rhd8 18. b3 c4,!,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3 O-O-O 10. Bf4 Bc6 11. O-O Nf6 12. f3 Be7 13. Ng3 g6 14. Rfe1 Nd7 15. Nd1 Nb6 16. Nf1 Rd7 17. Be3 Rhd8 18. b3 c4 19. Bxb6 cxb6 20. bxc4 Bb4 21. c3 Bc5+ 22. Kh1 Rd3 23. Rc1 a5 24. Nde3,"Making for ""d5"".",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3 O-O-O 10. Bf4 Bc6 11. O-O Nf6 12. f3 Be7 13. Ng3 g6 14. Rfe1 Nd7 15. Nd1 Nb6 16. Nf1 Rd7 17. Be3 Rhd8 18. b3 c4 19. Bxb6 cxb6 20. bxc4 Bb4 21. c3 Bc5+ 22. Kh1 Rd3 23. Rc1 a5 24. Nde3 f5,"! - A magnificent conception, breaking down the King's defences.",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3 O-O-O 10. Bf4 Bc6 11. O-O Nf6 12. f3 Be7 13. Ng3 g6 14. Rfe1 Nd7 15. Nd1 Nb6 16. Nf1 Rd7 17. Be3 Rhd8 18. b3 c4 19. Bxb6 cxb6 20. bxc4 Bb4 21. c3 Bc5+ 22. Kh1 Rd3 23. Rc1 a5 24. Nde3 f5 25. exf5 gxf5 26. h3 Rg8 27. Nd5 Bxd5 28. cxd5 Rxd5 29. Rcd1 Rxd1 30. Rxd1 f4,"! - This resplendent pawn blockades, on its own, not only the adverse Knight
+but the whole trio of white pawns on the King side.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3 O-O-O 10. Bf4 Bc6 11. O-O Nf6 12. f3 Be7 13. Ng3 g6 14. Rfe1 Nd7 15. Nd1 Nb6 16. Nf1 Rd7 17. Be3 Rhd8 18. b3 c4 19. Bxb6 cxb6 20. bxc4 Bb4 21. c3 Bc5+ 22. Kh1 Rd3 23. Rc1 a5 24. Nde3 f5 25. exf5 gxf5 26. h3 Rg8 27. Nd5 Bxd5 28. cxd5 Rxd5 29. Rcd1 Rxd1 30. Rxd1 f4 31. Kh2 Re8 32. a4 Kc7 33. h4 Kc6 34. c4 Bb4 35. Kh3 Re1,"Masterly liquidations. In the ensuing ending,
+Bishop against Knight, Black holds the trump cards.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 c5 8. Ne2 Bd7 9. Nbc3 O-O-O 10. Bf4 Bc6 11. O-O Nf6 12. f3 Be7 13. Ng3 g6 14. Rfe1 Nd7 15. Nd1 Nb6 16. Nf1 Rd7 17. Be3 Rhd8 18. b3 c4 19. Bxb6 cxb6 20. bxc4 Bb4 21. c3 Bc5+ 22. Kh1 Rd3 23. Rc1 a5 24. Nde3 f5 25. exf5 gxf5 26. h3 Rg8 27. Nd5 Bxd5 28. cxd5 Rxd5 29. Rcd1 Rxd1 30. Rxd1 f4 31. Kh2 Re8 32. a4 Kc7 33. h4 Kc6 34. c4 Bb4 35. Kh3 Re1 36. Rxe1 Bxe1 37. Kg4 Kc5 38. Kxf4 Kxc4 39. Ke4 Bxh4 40. g3 Bd8 41. Ne3+ Kb4 42. Kd3 Kxa4 43. Kc2 Kb4 44. f4 Kc5 45. f5 Kd6 46. g4 b5 47. Nd1 Ke5 48. Nc3 b4 49. Na4 Kd4 50. Nb2 b5 51. Kb3 Be7 52. g5 a4+ 53. Nxa4 bxa4+ 54. Kxa4 Ke5 55. Kb3 Kxf5,"Resigns. (Comentarios de Tartakower en ""Quinientas Partidas Magistrales"").",True

@@ -1,0 +1,15 @@
+moves,comment,good
+1. d4 e6 2. e4 d5 3. Be3,(0.29 â†’ -0.35) Inaccuracy. Nc3 was best. C00 French Defense: Alapin Gambit,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5,(-0.34 â†’ 0.96) Mistake. Be7 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6,(1.24 â†’ 1.85) Inaccuracy. e5 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O,(1.85 â†’ 1.00) Inaccuracy. Nc4 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O,(1.00 â†’ 2.34) Mistake. e5 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O 10. Qe1,(2.34 â†’ 1.56) Inaccuracy. Nc4 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O 10. Qe1 Re8,(1.56 â†’ 3.44) Mistake. Bb6 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O 10. Qe1 Re8 11. Qh4 h6,(2.77 â†’ 4.91) Mistake. Ne7 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O 10. Qe1 Re8 11. Qh4 h6 12. Bxh6 Nd5,(4.83 â†’ 7.29) Inaccuracy. gxh6 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O 10. Qe1 Re8 11. Qh4 h6 12. Bxh6 Nd5 13. Bg5 Nf6 14. Ne5 Nxe5 15. dxe5,(5.98 â†’ 3.95) Inaccuracy. Bxf6 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O 10. Qe1 Re8 11. Qh4 h6 12. Bxh6 Nd5 13. Bg5 Nf6 14. Ne5 Nxe5 15. dxe5 Qxd3 16. exf6,(3.47 â†’ 2.51) Inaccuracy. Bxf6 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O 10. Qe1 Re8 11. Qh4 h6 12. Bxh6 Nd5 13. Bg5 Nf6 14. Ne5 Nxe5 15. dxe5 Qxd3 16. exf6 Qg6,(2.51 â†’ 6.56) Blunder. Bb6+ was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O 10. Qe1 Re8 11. Qh4 h6 12. Bxh6 Nd5 13. Bg5 Nf6 14. Ne5 Nxe5 15. dxe5 Qxd3 16. exf6 Qg6 17. fxg7 Kxg7,(5.18 â†’ Mate in 7) Checkmate is now unavoidable. Qh7 was best.,True
+1. d4 e6 2. e4 d5 3. Be3 dxe4 4. f3 exf3 5. Nxf3 Bb4+ 6. c3 Ba5 7. Bd3 Nc6 8. Nbd2 Nf6 9. O-O O-O 10. Qe1 Re8 11. Qh4 h6 12. Bxh6 Nd5 13. Bg5 Nf6 14. Ne5 Nxe5 15. dxe5 Qxd3 16. exf6 Qg6 17. fxg7 Kxg7 18. Bf6+ Kg8 19. Qh8#,White wins by checkmate.,False

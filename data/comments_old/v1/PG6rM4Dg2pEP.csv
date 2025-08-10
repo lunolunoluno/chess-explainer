@@ -1,0 +1,36 @@
+moves,comment,good
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6,Nh4 (move 11) can be played anytime now.,True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4,"This move forces some sort of Knight for Bishop exchange,
+leaving me with doubled and/or isolated pawns. I try and pick the least
+unatractive option.",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4,"Rose tinted
+spectacle time. Nice would be Nxe4 dxe4 uniting my pawns. Even better d3 and
+Nxc3 wins a piece. But...",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5,"So much for strategy and tactics. I
+need some good ideas quickly now: the obvious g6 Qh6 leaves an Nxe4 mate
+threat. Why not get rid of the Knight?",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3,"The threat of
+Ne2+ forces White to capture the Knight. This option leaves a fight for the
+long diagonal. The alternative Bxc3 Bxc3 dxc3 destroys White's threat.",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6,"# Now the problem is to deal withcxb4 (move it?) or c4. Time to
+break all th rules of sensible places for a Queen (ie. get desperate).",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2,"White attempts to win a piece (as the game) by cxb3. But it is
+a position of who ""gets there firstest with the mostest"".",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3,"White declines the Bishop exchange, while setting up another mate threat.",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5,Time to give up the isolated pawn.,True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5 20. Rxc8 Nxc8 21. Bxd5 b6 22. Rc6 Qg7,Nd6 fails to Rc7.,True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5 20. Rxc8 Nxc8 21. Bxd5 b6 22. Rc6 Qg7 23. Qh4,"# I'm still wrigling like the proverbial worm,
+but what now? Not Rxd5 as Rxc8 while if Re8  then Qc4 looks nasty.",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5 20. Rxc8 Nxc8 21. Bxd5 b6 22. Rc6 Qg7 23. Qh4 Bf6 24. Bb2,"Rxf6 better for White, when if Rxd5, Rc6 wins for White, but g5
+might save Black. Now I can win a piece.",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5 20. Rxc8 Nxc8 21. Bxd5 b6 22. Rc6 Qg7 23. Qh4 Bf6 24. Bb2 Bxh4,Not Bxb2 when Qxd8.,True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5 20. Rxc8 Nxc8 21. Bxd5 b6 22. Rc6 Qg7 23. Qh4 Bf6 24. Bb2 Bxh4 25. Bxg7 Kxg7 26. Bc4,If gxh4 Ne7 forks Bishop and Rook.,True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5 20. Rxc8 Nxc8 21. Bxd5 b6 22. Rc6 Qg7 23. Qh4 Bf6 24. Bb2 Bxh4 25. Bxg7 Kxg7 26. Bc4 Bf6 27. Rc7,If Ba6 Ne7 Re7 Rd1+ leads to an exchange of pawns.,True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5 20. Rxc8 Nxc8 21. Bxd5 b6 22. Rc6 Qg7 23. Qh4 Bf6 24. Bb2 Bxh4 25. Bxg7 Kxg7 26. Bc4 Bf6 27. Rc7 Nd6 28. Bd5,"If Rxa7 Nxc4 bxc4 Rd1+ will regain the pawn. It is most enjoyable watching
+White wriggle for a change.",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5 20. Rxc8 Nxc8 21. Bxd5 b6 22. Rc6 Qg7 23. Qh4 Bf6 24. Bb2 Bxh4 25. Bxg7 Kxg7 26. Bc4 Bf6 27. Rc7 Nd6 28. Bd5 a5 29. Kg2 Bb2,"Aiming for Ba3 to free my
+Rook, and also block the a pawn. # White has no good moves left, eg if Rc6 Nc8
+Rc7 Rxd5. He tries to disrupt my kingside pawns.",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5 20. Rxc8 Nxc8 21. Bxd5 b6 22. Rc6 Qg7 23. Qh4 Bf6 24. Bb2 Bxh4 25. Bxg7 Kxg7 26. Bc4 Bf6 27. Rc7 Nd6 28. Bd5 a5 29. Kg2 Bb2 30. f3 Rc8 31. Rc6,"This allows me to exchange Rooks, while if White plays Rd7, Ba3 and Black's
+Rook is free.",True
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. cxd5 cxd5 7. Bb2 e6 8. Nc3 Bb4 9. O-O O-O 10. Rc1 Rc8 11. Nh4 Nb6 12. Nxf5 exf5 13. e3 Ne4 14. Qh5 Nxc3 15. dxc3 g6 16. Qh6 Qf6 17. Rc2 Bxc3 18. Ba3 Rfd8 19. Rfc1 Be5 20. Rxc8 Nxc8 21. Bxd5 b6 22. Rc6 Qg7 23. Qh4 Bf6 24. Bb2 Bxh4 25. Bxg7 Kxg7 26. Bc4 Bf6 27. Rc7 Nd6 28. Bd5 a5 29. Kg2 Bb2 30. f3 Rc8 31. Rc6 Rxc6 32. Bxc6 Ba3 33. Kf2 h5,And White has no viable options left.,True

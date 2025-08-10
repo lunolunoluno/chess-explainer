@@ -1,0 +1,8 @@
+moves,comment,good
+1. e4,B01: Scandinavian Defence,True
+1. e4 d5 2. exd5 Nf6 3. d4 Bg4,The main line of the Portuguese Variation of the Scandinavian or Center Counter Opening.,False
+1. e4 d5 2. exd5 Nf6 3. d4 Bg4 4. Nf3,Other alternatives are 4. Be2 and 4. f3. For example 4. f3 Bf5 5. Bb5+ Nbd7 6. c4 e6 7. dxe6 Bxe6 8. c5! c6 9. Bd3 b6 10. cxb6 Qxb6 11. Ne2 c5 12. O-O! and white stands slightly better.,True
+1. e4 d5 2. exd5 Nf6 3. d4 Bg4 4. Nf3 Qxd5 5. Be2 Nc6 6. c4 Qh5 7. d5,"Not a good move, because of dark squares and pressure of white's kingside, better would be something like 7. O-O O-O-O 8. Be3 and so on.",True
+1. e4 d5 2. exd5 Nf6 3. d4 Bg4 4. Nf3 Qxd5 5. Be2 Nc6 6. c4 Qh5 7. d5 Ne5 8. Nbd2 O-O-O 9. O-O e6 10. Qa4,"Too aggressive! White has no chance of attack, because his own King-side is weak. More reasonable would be 10. dxe6.",True
+1. e4 d5 2. exd5 Nf6 3. d4 Bg4 4. Nf3 Qxd5 5. Be2 Nc6 6. c4 Qh5 7. d5 Ne5 8. Nbd2 O-O-O 9. O-O e6 10. Qa4 Bd6 11. h3 Bxh3 12. gxh3 Qxh3 13. Qxa7,Too greedy. Rather 13. Nxe5 Bxe5 14. Nf3 Ng4!,True
+1. e4 d5 2. exd5 Nf6 3. d4 Bg4 4. Nf3 Qxd5 5. Be2 Nc6 6. c4 Qh5 7. d5 Ne5 8. Nbd2 O-O-O 9. O-O e6 10. Qa4 Bd6 11. h3 Bxh3 12. gxh3 Qxh3 13. Qxa7 Nxf3+ 14. Nxf3 Ne4 15. Be3 h5 16. Qa8+,Or 16. c5 Rh6 17. Qa8+ Kd7 18. Qxd8+ Kxd8 19. Bxh6 Bxc5 with the double threat of Nxf2! and gxh6. If 20. Be3 then 20... Ng3!,True

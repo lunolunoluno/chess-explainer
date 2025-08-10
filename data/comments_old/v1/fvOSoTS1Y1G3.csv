@@ -1,0 +1,20 @@
+moves,comment,good
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 c5 8. O-O Be7 9. c3 O-O 10. Qe2 b6 11. Ne5 Bb7 12. f4 cxd4 13. cxd4 Nb8,"With the idea of
+recycling the Knight with Nb8-c6 to attack the Pd4 or to force the exchange
+with the Knight in e5, believing that in such a way the position will improve.",False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 c5 8. O-O Be7 9. c3 O-O 10. Qe2 b6 11. Ne5 Bb7 12. f4 cxd4 13. cxd4 Nb8 14. Be3 g6,"? - Levenfish, in the Tournament book,
+wrote: ""Illogical move. It was necessary to continue with Nb8-c6 in agreement
+with the prepared plan. Probably White would have replied with Rad1 and only
+now g7-g6 would have been good, with the reply Bd3-b1. Probably, against some
+other Master, the same position could have been reached by move transposition,
+but against Panov, brilliant attacking player, the move in the text is a
+mistake. The early castle weakening gives White the idea for a combination.""",True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 c5 8. O-O Be7 9. c3 O-O 10. Qe2 b6 11. Ne5 Bb7 12. f4 cxd4 13. cxd4 Nb8 14. Be3 g6 15. f5,! - You don't know who I am! 15...,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 c5 8. O-O Be7 9. c3 O-O 10. Qe2 b6 11. Ne5 Bb7 12. f4 cxd4 13. cxd4 Nb8 14. Be3 g6 15. f5 exf5 16. Nxf5,!,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 c5 8. O-O Be7 9. c3 O-O 10. Qe2 b6 11. Ne5 Bb7 12. f4 cxd4 13. cxd4 Nb8 14. Be3 g6 15. f5 exf5 16. Nxf5 gxf5 17. Rxf5 Qd5,! - The best one.,False
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 c5 8. O-O Be7 9. c3 O-O 10. Qe2 b6 11. Ne5 Bb7 12. f4 cxd4 13. cxd4 Nb8 14. Be3 g6 15. f5 exf5 16. Nxf5 gxf5 17. Rxf5 Qd5 18. Raf1 Nc6 19. Rg5+ Kh8 20. Rxf6,!,True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 c5 8. O-O Be7 9. c3 O-O 10. Qe2 b6 11. Ne5 Bb7 12. f4 cxd4 13. cxd4 Nb8 14. Be3 g6 15. f5 exf5 16. Nxf5 gxf5 17. Rxf5 Qd5 18. Raf1 Nc6 19. Rg5+ Kh8 20. Rxf6 Nb4 21. Nxf7+,"? - Panov said: ""The hurry and
+nervousness of my opponent (!) who was in zeitnot did not allow me to think
+adequately on the position.",True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 c5 8. O-O Be7 9. c3 O-O 10. Qe2 b6 11. Ne5 Bb7 12. f4 cxd4 13. cxd4 Nb8 14. Be3 g6 15. f5 exf5 16. Nxf5 gxf5 17. Rxf5 Qd5 18. Raf1 Nc6 19. Rg5+ Kh8 20. Rxf6 Nb4 21. Nxf7+ Rxf7 22. Rxd5 Bxf6 23. Rd6 Be7 24. Re6 Rg8 25. Be4 Ba6 26. Qd1 Rgf8 27. Bf3 Bc4 28. d5 Bc5 29. Bd4+ Kg8 30. Re4 h5,"? - Classical ""zeitnot blunder"".",True
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 c5 8. O-O Be7 9. c3 O-O 10. Qe2 b6 11. Ne5 Bb7 12. f4 cxd4 13. cxd4 Nb8 14. Be3 g6 15. f5 exf5 16. Nxf5 gxf5 17. Rxf5 Qd5 18. Raf1 Nc6 19. Rg5+ Kh8 20. Rxf6 Nb4 21. Nxf7+ Rxf7 22. Rxd5 Bxf6 23. Rd6 Be7 24. Re6 Rg8 25. Be4 Ba6 26. Qd1 Rgf8 27. Bf3 Bc4 28. d5 Bc5 29. Bd4+ Kg8 30. Re4 h5 31. Bxc5,Black resigns.,True

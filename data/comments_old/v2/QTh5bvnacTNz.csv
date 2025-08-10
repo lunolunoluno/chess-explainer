@@ -1,0 +1,4 @@
+comment,good,reasoning,moves,context,reformulated
+"It was Pillsbury who first demonstrated the strength of the this move, which today is routine",False,"
+
+The comment mentions Pillsbury, a chess opening named after American chess champion Harry Nelson Pillsbury, but it doesn't provide any explanation about why the move was a mistake.",1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5,This is a game between Pillsbury (as White) and Tarasch (as Black). Last move played: White plays Bishop to g5,-

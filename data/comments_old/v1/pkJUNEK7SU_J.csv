@@ -1,0 +1,13 @@
+moves,comment,good
+1. e4 g6 2. d4 Bg7 3. Nc3 c6,Covers b5.,False
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6,Controls e5.,False
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3,Consolidates g4.,False
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3 Na6 6. a3,Covers b4.,True
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3 Na6 6. a3 Nc7 7. Be3 e6,Secures d5.,False
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3 Na6 6. a3 Nc7 7. Be3 e6 8. Qd2 d5 9. exd5 Nxd5 10. Nxd5 cxd5 11. Bd3 Qb6 12. c3 Bd7 13. Ne5 Bb5 14. Bxb5+ Qxb5 15. h4 Nf6 16. f3,Prevents intrusion on e4 & g4.,False
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3 Na6 6. a3 Nc7 7. Be3 e6 8. Qd2 d5 9. exd5 Nxd5 10. Nxd5 cxd5 11. Bd3 Qb6 12. c3 Bd7 13. Ne5 Bb5 14. Bxb5+ Qxb5 15. h4 Nf6 16. f3 h6,Controls g5.,False
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3 Na6 6. a3 Nc7 7. Be3 e6 8. Qd2 d5 9. exd5 Nxd5 10. Nxd5 cxd5 11. Bd3 Qb6 12. c3 Bd7 13. Ne5 Bb5 14. Bxb5+ Qxb5 15. h4 Nf6 16. f3 h6 17. Ng4 Nxg4 18. fxg4 Qc4 19. Rf1 Rd8 20. Qf2,The mate threat is Qxf7 and is easily defended.,True
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3 Na6 6. a3 Nc7 7. Be3 e6 8. Qd2 d5 9. exd5 Nxd5 10. Nxd5 cxd5 11. Bd3 Qb6 12. c3 Bd7 13. Ne5 Bb5 14. Bxb5+ Qxb5 15. h4 Nf6 16. f3 h6 17. Ng4 Nxg4 18. fxg4 Qc4 19. Rf1 Rd8 20. Qf2 O-O 21. O-O-O Rd6 22. Bf4 Rb6 23. Be5,"At this point White seems to have the advantage, however
+you have to press it home or it can soon slip away!!",True
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3 Na6 6. a3 Nc7 7. Be3 e6 8. Qd2 d5 9. exd5 Nxd5 10. Nxd5 cxd5 11. Bd3 Qb6 12. c3 Bd7 13. Ne5 Bb5 14. Bxb5+ Qxb5 15. h4 Nf6 16. f3 h6 17. Ng4 Nxg4 18. fxg4 Qc4 19. Rf1 Rd8 20. Qf2 O-O 21. O-O-O Rd6 22. Bf4 Rb6 23. Be5 f6 24. Bg3 e5 25. Qc2 exd4 26. Rf4 f5 27. cxd4 Qa2,The decision. White has to choose his next move with care.,True
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3 Na6 6. a3 Nc7 7. Be3 e6 8. Qd2 d5 9. exd5 Nxd5 10. Nxd5 cxd5 11. Bd3 Qb6 12. c3 Bd7 13. Ne5 Bb5 14. Bxb5+ Qxb5 15. h4 Nf6 16. f3 h6 17. Ng4 Nxg4 18. fxg4 Qc4 19. Rf1 Rd8 20. Qf2 O-O 21. O-O-O Rd6 22. Bf4 Rb6 23. Be5 f6 24. Bg3 e5 25. Qc2 exd4 26. Rf4 f5 27. cxd4 Qa2 28. Rd3,but even a better move would not have saved the game.,True

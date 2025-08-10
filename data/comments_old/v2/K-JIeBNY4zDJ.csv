@@ -1,0 +1,10 @@
+comment,good,reasoning,moves,context,reformulated
+"This position stems from Eliskases-Najdorf, Buenos Aires 1947.",False,"
+
+The comment merely references a historical game and does not explain the specific mistake made in the current move.",1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 d5 8. cxd5 exd5 9. Ne5 Qc8 10. Bg5 Qe6,"This is a game between Spassky, Boris (as White) and Korchnoi, Viktor (as Black). Last move played: Black plays Queen to e6",-
+Korchnoi collapses completely.,True,"
+
+The comment accurately suggests that Korchnoi made a significant error in the game, as indicated by the term ""collapses,"" which implies a severe mistake leading to a poor position or potential loss.",1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 d5 8. cxd5 exd5 9. Ne5 Qc8 10. Bg5 Qe6 11. Rc1 c5 12. Nd3 cxd4 13. Bxf6,"This is a game between Spassky, Boris (as White) and Korchnoi, Viktor (as Black). Last move played: White plays Bishop takes on f6"," Black makes a move that severely weakens their position, leaving them vulnerable to White's attacks."
+Spassky has qualified for the interzonal tournament.,False,"
+
+The comment does not explain the mistake made by the player, as it is unrelated to the specific move in question.",1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 d5 8. cxd5 exd5 9. Ne5 Qc8 10. Bg5 Qe6 11. Rc1 c5 12. Nd3 cxd4 13. Bxf6 Bxf6 14. Nxd5 Bxd5 15. Nf4 Qd6 16. Nxd5 Bg5 17. f4 Bd8 18. Nc3 Na6 19. Bxa8 Qb8 20. Nd5 Qxa8 21. Qxd4 Nc5 22. b4 Ne6 23. Qd3 Re8 24. e4,"This is a game between Spassky, Boris (as White) and Korchnoi, Viktor (as Black). Last move played: White plays Pawn to e4",-

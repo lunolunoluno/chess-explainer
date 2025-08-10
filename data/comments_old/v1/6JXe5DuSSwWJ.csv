@@ -1,0 +1,37 @@
+moves,comment,good
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 O-O 6. O-O d6 7. d3 h6 8. Na4 Bb6 9. b3 Re8,"This position has been reached often in games at different
+levels and it is not easy for white to find a good plan. After studying a few
+examples I decided to stick to the following plan: 1. Secure the king side
+against atack. This is achieved by not allowing the exchange of the white
+squared bishop (pawn at h3 and King at h2). 2. Fiancheto the black squared
+bishop, push the a-pawn once so it is protected and the queens rook is free to
+move (the a-line will sooner or later be opened after the exchange of the
+b6-bishop). 3. Start active manoevers in the center (by preparing one of the
+pawn pushes - d2-d4 or f2-f4). Open at least one line in the center, try to
+take control over it and then prepare atack on either queens or kings side -
+acording to the circumstances. It is difficult to say in how far this plan
+would have been successful against a stronger oponent. In this game black
+played without a clear plan and soon got in trouble.",False
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 O-O 6. O-O d6 7. d3 h6 8. Na4 Bb6 9. b3 Re8 10. Bb2 Bd7 11. e3 Bg4,"? This only allows white to move the h-pawn with tempo. The purpose of the
+move is rather unclear.",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 O-O 6. O-O d6 7. d3 h6 8. Na4 Bb6 9. b3 Re8 10. Bb2 Bd7 11. e3 Bg4 12. h3 Bd7 13. a3 Ne7 14. Nxb6 axb6 15. Kh2 Ra7,"? This rook remains at a7 - just watching - till the end of the game. I can
+only imagine black wanted to double his rooks at the a-line but this is a
+rather time consuming and - even if successfully finished - a rather dubious
+idea. There are no good prospects for a play on the a-line for black.",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 O-O 6. O-O d6 7. d3 h6 8. Na4 Bb6 9. b3 Re8 10. Bb2 Bd7 11. e3 Bg4 12. h3 Bd7 13. a3 Ne7 14. Nxb6 axb6 15. Kh2 Ra7 16. b4,"a waiting move which can be useful in certain circumstances (if one pair of
+knights are being exchanged and it becomes difficult for him to put a knight
+at c5 it might be good to push b5 in order to control the white squares at the
+queen side)",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 O-O 6. O-O d6 7. d3 h6 8. Na4 Bb6 9. b3 Re8 10. Bb2 Bd7 11. e3 Bg4 12. h3 Bd7 13. a3 Ne7 14. Nxb6 axb6 15. Kh2 Ra7 16. b4 Nf5 17. d4 exd4,"? Of all answe
+rs possible this one seems to me to be the worst. Black should have avoided
+the opening of the center with all forces. Instead, he jumps into an open game
+where the white pair of bishops soon brings him into serious trouble.",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 O-O 6. O-O d6 7. d3 h6 8. Na4 Bb6 9. b3 Re8 10. Bb2 Bd7 11. e3 Bg4 12. h3 Bd7 13. a3 Ne7 14. Nxb6 axb6 15. Kh2 Ra7 16. b4 Nf5 17. d4 exd4 18. Nxd4 Qe7,?,True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 O-O 6. O-O d6 7. d3 h6 8. Na4 Bb6 9. b3 Re8 10. Bb2 Bd7 11. e3 Bg4 12. h3 Bd7 13. a3 Ne7 14. Nxb6 axb6 15. Kh2 Ra7 16. b4 Nf5 17. d4 exd4 18. Nxd4 Qe7 19. Re1 Ne4 20. Nxf5 Bxf5 21. f3 Ng5,"? Another serious mistake which brings the end nearer. White can
+now move his central pawns with tempos and soon get a complete control over
+the center. Obligatory was 21. ... Nf6, e. g.:",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 O-O 6. O-O d6 7. d3 h6 8. Na4 Bb6 9. b3 Re8 10. Bb2 Bd7 11. e3 Bg4 12. h3 Bd7 13. a3 Ne7 14. Nxb6 axb6 15. Kh2 Ra7 16. b4 Nf5 17. d4 exd4 18. Nxd4 Qe7 19. Re1 Ne4 20. Nxf5 Bxf5 21. f3 Ng5 22. e4 Bd7 23. f4 Nh7 24. e5 dxe5 25. Rxe5 Qd8 26. Qd4,"! This far
+from obvious move is much stronger than the ""natural"" 26.Rd5, as is to be seen
+from the following possible continuations:",True
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 O-O 6. O-O d6 7. d3 h6 8. Na4 Bb6 9. b3 Re8 10. Bb2 Bd7 11. e3 Bg4 12. h3 Bd7 13. a3 Ne7 14. Nxb6 axb6 15. Kh2 Ra7 16. b4 Nf5 17. d4 exd4 18. Nxd4 Qe7 19. Re1 Ne4 20. Nxf5 Bxf5 21. f3 Ng5 22. e4 Bd7 23. f4 Nh7 24. e5 dxe5 25. Rxe5 Qd8 26. Qd4 Rxe5,"? this lose s per force but there are already no good continuations for black,
+e. g.:",True

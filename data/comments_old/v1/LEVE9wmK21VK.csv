@@ -1,0 +1,89 @@
+moves,comment,good
+1. e4 Nf6 2. Nc3,"Indirection already. Nimzowitsch avoid the natural and good e7-e5. (K)
+2...",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2,"L'ala del Re del Nero sembra essere immobilizzata, ma in compenso il suo
+centro e piu mobile. (Nimzowitsch)  7...",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4,"Il Nero vuole dimostrare l'erroneita dell'ultima mossa del Bianco,dato che il
+Cavallo non puo piu raggiungere la casa e4. Questo, pero, e un'errore di
+valutazione. (N)  <<A complicated move, quite in Alekhine's style. He plan to
+menace the e3 square with a knigt.",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6,"Questa mossa, per ben due
+volte omessa dal Nero, ora porta a risultati meno soddisfacenti a causa della
+debolezza della casa e4. (N)",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6,"<<An  unexpecte
+d reply, typical of Alekhine! The logical reply would have been 12...Bxf6 and
+although Black would have been saddled with a backward king pawn, he would
+have had a tenable position. Bit the great Alekhine was never content with
+positions in which he had to be on the difensive; he always tried to steer
+into situations which created complications which might offer him winning
+chances, even though great risks were involved. The text move exposed Black's
+King to White's forces, but offered Black counter-maneuvers in the center>>.
+(Reshevsky)",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5,"Il Nero cerca di difendere
+l'ala minacciata dal centro, ma cio non dovrebbe essere sufficiente. (N)",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4,"<<Threatening a complete blockade of the Black position with
+16.Bxd5 and 17.Nf5>>. (K)  15...",False
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2,"Ancora una volta sarebbe stata preferibile 17.Nh5. (N)
+17...",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3,"Con questa ingegnosa diversione il dr.Alekhine riesce ad
+imbrigliare per un certo tempo l'attacco avversario. (N)  <<Bringing the White
+attack to a standstill at the very temporary cost of a pawn>>. (K)",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3,"<<Of course White cannot tolerate the continued presence of the hostile knight
+in his camp>>. (K)  19...",False
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3,"<<The pawn is immune on account
+of Bd6-c5. It is clear that White will eventually surrond the advanced Black
+KP and swallow it, but even then Black will obtain tremendous compensation in
+the shape of bishop diagonals towards White's king.  Incidentally, it is
+better to preserve the KBP with the text move than to cover c4 with Qe2,
+allowing Bxf4>>. (K)  20...",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4,"La posizione si e chiarita: il Nero
+ha un pedone passato, anche se in pessime condizioni di salute, ma altamente
+assicurato in caso di morte. Vogliamo dire che le diagonali c6-h1 (dopo Bc6) e
+c5-g1 offrirebbero compenso in caso di caduta del pedone passato. (N)",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5,Senza dubbio era migliore 24...Bd7.,True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1,"<<In the interests of containing
+Black's passed pawn White is obliged to indulge in some unpleasant contortions.
+Black could have tried e3-e2!? on the previous move >>. (K)  27...",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7,"<<Heading for a post on the c6-h1 diagonal, along
+wich White is notably exposed, with no pawn cover and a variety of poorly
+preyected pieces which can be pinned to his King. Alekhine now proceeds to
+gather momentum for the final combinative assault against White's weakened
+position and I strongly suspect that almost any other master but Nimzowitsch
+would have succumbed to the onslaught which Alekhine unleashes>>. (K)",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3,"<<Material consolation, at least, but this also opens the b6-g1 diagonal for
+Black's pieces>>. (K)  30...",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5,"<<With the benefit of
+hindsight we can say that Ra8-d8 would have been better, but with the text
+Alekhine is preparing what must have seemed to him at the time a devastating
+combinational blow>>. (K)",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5 32. Rd3,"<<Black now had to play a consolidating
+move, such as Rg8 abandoning thoughts of immediate victory. What he plays in
+the game looks like the kiss of death for White, but Nimzowitsch's play over
+the last few moves has been expressly designed to parry this most attractive
+of courses chosen by his opponent>>. (K)  32...",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5 32. Rd3 Nxc3,"Bella ma non
+sufficiente. (N)  <<Is this the end?  No. White has a truly startling
+counter-combination at his disposal>>. (K)",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5 32. Rd3 Nxc3 33. Ng6+,"<< Black falls victim
+to a grand ambush. It looks almost as if this combination had no right to be
+in the position at all, expecially considering White's next amazing move >>.
+(K)",False
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5 32. Rd3 Nxc3 33. Ng6+ hxg6 34. Qg4,"La punta! (N)  << A piece to the bad, and with
+a large section of his army tied up by an enbarrassing pin, White can still
+afford to play a quiet move and win>>. (K)  <<With this magnificent move (one
+of the finest waiting moves known in chess literature) White decides the day
+>>. (T)",False
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5 32. Rd3 Nxc3 33. Ng6+ hxg6 34. Qg4 Rf7,"<< White thre
+atens mate with Rh3+ and Alekhine fails to adjust to the altered situation>>.
+(K)",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5 32. Rd3 Nxc3 33. Ng6+ hxg6 34. Qg4 Rf7 35. Rh3+ Kg7 36. Bc4,"<<Another quiet move, this time to break the pin.
+36...",False
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5 32. Rd3 Nxc3 33. Ng6+ hxg6 34. Qg4 Rf7 35. Rh3+ Kg7 36. Bc4 Bd5 37. fxg6 Nxe4 38. gxf7+ Kf8 39. Rxe4 Bxe4+ 40. Qxe4,"<<Ironical
+ly White has reconquered the very central light square along which he seemed
+so thretened just a few moves back. Black loses now because his own king can
+find no shelter against white's light-square attack!>> (K)  40...",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5 32. Rd3 Nxc3 33. Ng6+ hxg6 34. Qg4 Rf7 35. Rh3+ Kg7 36. Bc4 Bd5 37. fxg6 Nxe4 38. gxf7+ Kf8 39. Rxe4 Bxe4+ 40. Qxe4 Ke7 41. f8=Q+,"La brama d'espansione del pedone passato! (N)  <<A Queen
+sacrifice?>> (K)  41...",True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5 32. Rd3 Nxc3 33. Ng6+ hxg6 34. Qg4 Rf7 35. Rh3+ Kg7 36. Bc4 Bd5 37. fxg6 Nxe4 38. gxf7+ Kf8 39. Rxe4 Bxe4+ 40. Qxe4 Ke7 41. f8=Q+ Rxf8 42. Qd5 Qd6,<<Losing a piece.,True
+1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. f4 e6 5. Nf3 c5 6. g3 Nc6 7. Bg2 Be7 8. O-O O-O 9. d3 Nb6 10. Ne2 d4 11. g4 f6 12. exf6 gxf6 13. Ng3 Nd5 14. Qe2 Bd6 15. Nh4 Nce7 16. Bd2 Qc7 17. Qf2 c4 18. dxc4 Ne3 19. Bxe3 dxe3 20. Qf3 Qxc4 21. Ne4 Bc7 22. b3 Qd4 23. c3 Qb6 24. Kh1 Nd5 25. f5 Nf4 26. Rfd1 Kh8 27. Bf1 exf5 28. gxf5 Be5 29. Re1 Bd7 30. Rxe3 Bc6 31. Rae1 Nd5 32. Rd3 Nxc3 33. Ng6+ hxg6 34. Qg4 Rf7 35. Rh3+ Kg7 36. Bc4 Bd5 37. fxg6 Nxe4 38. gxf7+ Kf8 39. Rxe4 Bxe4+ 40. Qxe4 Ke7 41. f8=Q+ Rxf8 42. Qd5 Qd6 43. Qxb7+ Kd8 44. Rd3 Bd4 45. Qe4 Re8 46. Rxd4,"<<Rarely can the mature Alekhine have
+suffered such a crushing defeat!>> (K)  <<An eventful and exciting game>>. (T)",True

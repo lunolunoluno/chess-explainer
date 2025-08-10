@@ -1,0 +1,9 @@
+moves,comment,good
+1. e4,B09: Pirc Defence: Austrian Attack,True
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Be3 b6 7. Qd2 c5 8. O-O-O cxd4 9. Bxd4 Nc6 10. Bxf6 Bxf6 11. h4 Bg4 12. h5 Bxh5 13. Rxh5 gxh5 14. Qd5 Rc8 15. Qxh5 Bg7 16. e5,This push gains space,False
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Be3 b6 7. Qd2 c5 8. O-O-O cxd4 9. Bxd4 Nc6 10. Bxf6 Bxf6 11. h4 Bg4 12. h5 Bxh5 13. Rxh5 gxh5 14. Qd5 Rc8 15. Qxh5 Bg7 16. e5 Qe8 17. Qh3,Threatening mate... how?,True
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Be3 b6 7. Qd2 c5 8. O-O-O cxd4 9. Bxd4 Nc6 10. Bxf6 Bxf6 11. h4 Bg4 12. h5 Bxh5 13. Rxh5 gxh5 14. Qd5 Rc8 15. Qxh5 Bg7 16. e5 Qe8 17. Qh3 h6,Secures g5,False
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Be3 b6 7. Qd2 c5 8. O-O-O cxd4 9. Bxd4 Nc6 10. Bxf6 Bxf6 11. h4 Bg4 12. h5 Bxh5 13. Rxh5 gxh5 14. Qd5 Rc8 15. Qxh5 Bg7 16. e5 Qe8 17. Qh3 h6 18. Bd3 Nb4 19. Be4,Threatening mate: Qf5,True
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Be3 b6 7. Qd2 c5 8. O-O-O cxd4 9. Bxd4 Nc6 10. Bxf6 Bxf6 11. h4 Bg4 12. h5 Bxh5 13. Rxh5 gxh5 14. Qd5 Rc8 15. Qxh5 Bg7 16. e5 Qe8 17. Qh3 h6 18. Bd3 Nb4 19. Be4 e6,Consolidates d5,True
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Be3 b6 7. Qd2 c5 8. O-O-O cxd4 9. Bxd4 Nc6 10. Bxf6 Bxf6 11. h4 Bg4 12. h5 Bxh5 13. Rxh5 gxh5 14. Qd5 Rc8 15. Qxh5 Bg7 16. e5 Qe8 17. Qh3 h6 18. Bd3 Nb4 19. Be4 e6 20. f5 Rxc3 21. f6,The mate threat is Qg3,False
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Be3 b6 7. Qd2 c5 8. O-O-O cxd4 9. Bxd4 Nc6 10. Bxf6 Bxf6 11. h4 Bg4 12. h5 Bxh5 13. Rxh5 gxh5 14. Qd5 Rc8 15. Qxh5 Bg7 16. e5 Qe8 17. Qh3 h6 18. Bd3 Nb4 19. Be4 e6 20. f5 Rxc3 21. f6 Qb5,cause more grief,True

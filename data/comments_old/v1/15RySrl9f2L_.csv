@@ -1,0 +1,16 @@
+moves,comment,good
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6 5. Nd5 Nxe4,"(The only analysis of this line was
+by I Glaskov in the 1970s in the Soviet weekly ""64"". his analysis showed that
+the alternative) 
+(The text move, however gets black into terrible trouble.)",True
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6 5. Nd5 Nxe4 6. Qe2 Bxf2+,(The alternatives at move 6 are no better.),False
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6 5. Nd5 Nxe4 6. Qe2 Bxf2+ 7. Kd1 f5 8. d3 Nd4 9. Nxd4 Bxd4 10. dxe4 f4,"#(This blocks off the diagonal for the
+Black squared Bishop. White's pieces have more space, however.)",False
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6 5. Nd5 Nxe4 6. Qe2 Bxf2+ 7. Kd1 f5 8. d3 Nd4 9. Nxd4 Bxd4 10. dxe4 f4 11. c3 c6 12. cxd4 cxd5 13. Qh5+,(Black's King is very exposed.),False
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6 5. Nd5 Nxe4 6. Qe2 Bxf2+ 7. Kd1 f5 8. d3 Nd4 9. Nxd4 Bxd4 10. dxe4 f4 11. c3 c6 12. cxd4 cxd5 13. Qh5+ g6 14. Qxe5+ Qe7 15. Qxh8+ Qf8 16. Qxf8+,(To simplify things.),False
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6 5. Nd5 Nxe4 6. Qe2 Bxf2+ 7. Kd1 f5 8. d3 Nd4 9. Nxd4 Bxd4 10. dxe4 f4 11. c3 c6 12. cxd4 cxd5 13. Qh5+ g6 14. Qxe5+ Qe7 15. Qxh8+ Qf8 16. Qxf8+ Kxf8 17. Bxd5 g5 18. Bd2 d6 19. Bb4 Bg4+,(A delaying tactic.),False
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6 5. Nd5 Nxe4 6. Qe2 Bxf2+ 7. Kd1 f5 8. d3 Nd4 9. Nxd4 Bxd4 10. dxe4 f4 11. c3 c6 12. cxd4 cxd5 13. Qh5+ g6 14. Qxe5+ Qe7 15. Qxh8+ Qf8 16. Qxf8+ Kxf8 17. Bxd5 g5 18. Bd2 d6 19. Bb4 Bg4+ 20. Kd2 Rd8 21. Rac1,"(White is a Rook
+and Knight ahead, and is threatening to get his Rooks into play, with
+devastating effect.  I had played Leonardo bogers in a tournament some 3 years
+ago, at the time of my marriage, and as a wedding present, he sent me a
+beautiful clan crest and motto in wood!)",True

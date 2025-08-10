@@ -1,0 +1,17 @@
+moves,comment,good
+1. e4 g6 2. d4 Bg7 3. Nf3 d6,"(Page 54 Winning with the Modern, Norwood. So
+now its time to learn about the Pirc/Modern.)",True
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6,(Standard.),False
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2,(Be3 is a good alternative.),False
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O c6,(Interesting isnt it?),False
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O c6 7. Re1,"(I didn't really know how to deal with this at first so I did what
+I thought was in keeping with hypermodern chess and played.)",True
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O c6 7. Re1 d5,"(David Norwood's book TEACHES!! White can either IGNORE/CAPTURE or ADVANCE,
+calculate each before moving.) I hoped he would advance. I had ideas on the
+f-file.)",True
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O c6 7. Re1 d5 8. e5,(He advanced.),False
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O c6 7. Re1 d5 8. e5 Nfd7 9. Be3 f6,(Here we go again.),True
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O c6 7. Re1 d5 8. e5 Nfd7 9. Be3 f6 10. exf6 Nxf6 11. Qd2 Bf5 12. Bh6 Bxh6 13. Qxh6 Re8 14. Nh4,#(Tough stuff.),False
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O c6 7. Re1 d5 8. e5 Nfd7 9. Be3 f6 10. exf6 Nxf6 11. Qd2 Bf5 12. Bh6 Bxh6 13. Qxh6 Re8 14. Nh4 Bxc2 15. Rac1 Be4 16. g4 e5 17. dxe5 Rxe5 18. f3 Qb6+ 19. Kf1 Nxg4 20. fxg4 Nd7 21. Bf3 Rf8,(At last.),False
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O c6 7. Re1 d5 8. e5 Nfd7 9. Be3 f6 10. exf6 Nxf6 11. Qd2 Bf5 12. Bh6 Bxh6 13. Qxh6 Re8 14. Nh4 Bxc2 15. Rac1 Be4 16. g4 e5 17. dxe5 Rxe5 18. f3 Qb6+ 19. Kf1 Nxg4 20. fxg4 Nd7 21. Bf3 Rf8 22. Nxe4 dxe4 23. Rcd1 exf3 24. Qd2 Qb5+,(The net soon tightens.),True
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O c6 7. Re1 d5 8. e5 Nfd7 9. Be3 f6 10. exf6 Nxf6 11. Qd2 Bf5 12. Bh6 Bxh6 13. Qxh6 Re8 14. Nh4 Bxc2 15. Rac1 Be4 16. g4 e5 17. dxe5 Rxe5 18. f3 Qb6+ 19. Kf1 Nxg4 20. fxg4 Nd7 21. Bf3 Rf8 22. Nxe4 dxe4 23. Rcd1 exf3 24. Qd2 Qb5+ 25. Kf2 Re2+ 26. Rxe2 fxe2+,(Discovered check. That f-file did it again.),True

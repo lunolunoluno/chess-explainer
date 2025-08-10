@@ -1,0 +1,31 @@
+moves,comment,good
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3,"This move co
+ntraddicts the strategical principles indicated by the theory. Since Turn knew
+that Mikenas had a deep theoretical preparation, he decided this line of play
+in order to surprise the opponent.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3 Nc6 6. Bd3,"A bit inaccurate. The
+following continuation would have lead to interesting complications: 6. Bd2
+Bb7 7. Qg3 O-O 8. d5",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3 Nc6 6. Bd3 Bb7 7. Qg3 Bd6,"White hoped in the reply 7. .. 0-0
+8.Ne2 with initiative on the kingside after 9.e4.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3 Nc6 6. Bd3 Bb7 7. Qg3 Bd6 8. f4,"In fact, the capture
+8. Qxg7 after 8... Rg8 9. Qh6 Rxg2 would have given a very promising position
+to Black.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3 Nc6 6. Bd3 Bb7 7. Qg3 Bd6 8. f4 g5,"An energetic reply, revealing Mikenas character in that
+period: enthusiasm, courage and imagination. Which is the general strategy of
+the young people: attack, and don't care about possible losses.",False
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3 Nc6 6. Bd3 Bb7 7. Qg3 Bd6 8. f4 g5 9. Nf3 gxf4 10. exf4 Rg8 11. Qf2 Nxd4,"The right continuation even if comes from intuition
+rather than calculation. The consequences of 11... Rxg2 12. Qxg2 Nxd4 13. Qg7
+Nxf3+ 14. Kf2 were unclear. Not even convincing 11... Nh5 12. Bxh7",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3 Nc6 6. Bd3 Bb7 7. Qg3 Bd6 8. f4 g5 9. Nf3 gxf4 10. exf4 Rg8 11. Qf2 Nxd4 12. Nxd4,"When problems are complex the right reply is not always found. Perhaps better
+was 12. Qxd4 although even in this case Black can keep some more possibilites
+in view of the endgame. For example: 12... Bc5 13. Qe5 Rxg2 14. Ne4 Bxe4 15.
+Bxe4 Ng4 16. Qh8+ Ke7 17. Qxd8+ Rxd8 18. Ne5 Bb4+ 19. Kf1 Rf2+ 20. Kg1 Re2 and
+the position and the pawns are an adequate compensation for the sacrificed
+material.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3 Nc6 6. Bd3 Bb7 7. Qg3 Bd6 8. f4 g5 9. Nf3 gxf4 10. exf4 Rg8 11. Qf2 Nxd4 12. Nxd4 Rxg2 13. Qf1 Bc5,"A serious mistake would have been 13... Ng4
+for 14. Be4 Qh4+ 15.Kd1 Nf2+ 16. Kc2 and the attack vanishes.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3 Nc6 6. Bd3 Bb7 7. Qg3 Bd6 8. f4 g5 9. Nf3 gxf4 10. exf4 Rg8 11. Qf2 Nxd4 12. Nxd4 Rxg2 13. Qf1 Bc5 14. Nf3,"Again an inaccurate move which will cost material. 14. Nce2 was relatively
+better but after 14... Ng4 Black's attack would be irresistible.",True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3 Nc6 6. Bd3 Bb7 7. Qg3 Bd6 8. f4 g5 9. Nf3 gxf4 10. exf4 Rg8 11. Qf2 Nxd4 12. Nxd4 Rxg2 13. Qf1 Bc5 14. Nf3 Rf2 15. Qxf2 Bxf2+ 16. Kxf2 Ng4+ 17. Kg3 Bxf3 18. Kxf3 Qh4 19. Be4,There was nothing better.,True
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Qf3 Nc6 6. Bd3 Bb7 7. Qg3 Bd6 8. f4 g5 9. Nf3 gxf4 10. exf4 Rg8 11. Qf2 Nxd4 12. Nxd4 Rxg2 13. Qf1 Bc5 14. Nf3 Rf2 15. Qxf2 Bxf2+ 16. Kxf2 Ng4+ 17. Kg3 Bxf3 18. Kxf3 Qh4 19. Be4 f5 20. Ke2 Qf2+ 21. Kd3 fxe4+ 22. Nxe4 Qf3+,White resigns.,True

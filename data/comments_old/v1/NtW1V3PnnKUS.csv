@@ -1,0 +1,10 @@
+moves,comment,good
+1. d4 d5 2. c4 dxc4 3. e3 e5 4. Bxc4 exd4 5. exd4,"White has an isolated queen pawn but
+dynamic attacking possibilities as compensation. The
+position is equal.",False
+1. d4 d5 2. c4 dxc4 3. e3 e5 4. Bxc4 exd4 5. exd4 Nf6 6. Nc3 Be7 7. Nf3 O-O,Both sides have been developing.,False
+1. d4 d5 2. c4 dxc4 3. e3 e5 4. Bxc4 exd4 5. exd4 Nf6 6. Nc3 Be7 7. Nf3 O-O 8. Be3 c6,"Taking possession of the central square
+d5 and planning to plant a knight there.",True
+1. d4 d5 2. c4 dxc4 3. e3 e5 4. Bxc4 exd4 5. exd4 Nf6 6. Nc3 Be7 7. Nf3 O-O 8. Be3 c6 9. h3,"To prevent black from playing Bg4 which would
+be an annoying pin and put indirect pressure on
+White's isolated Queen pawn.",True

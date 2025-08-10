@@ -1,0 +1,45 @@
+moves,comment,good
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4,"This game illustrates one very important principle: Do NOT move
+pieces (Knights, Bishops, Rooks, Queen) more than once in the beginning stages
+of the game! Remember, you have an army -- get all your soldiers in battle,
+don't just send one guy by himself!",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2,"? Not good...Queens should not be
+moved early. This move blocks white's bishop from getting out. Instead, 4 Bd3
+is a much better move. Remember to develop with attack if possible.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5,"? Again, do NOT move pieces more than once early. Black only has one good
+piece. White should develop a piece and try to get rid of black's good knight.
+5 Nbd2 would be a good way to do this.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6,"This does not get any pieces out,
+plus ignores white's threat. ...Qf6 is mandatory to meet White's threat.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+,"This is one of the few time yous should move a piece more than once
+early -- to procure LARGE amounts of material.",False
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2,"White misses his
+chance. The black h-pawn was pinned -- so white could've played 7. Nxg6!, and
+if 7. ... hxg6 then 8. Qxh8, and white is ahead a Rook and Pawn vs. knight.
+Black's best defense is 7. ... Nf6 8. Qh3 Rg8.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4,"? Bishops and
+knights are roughly equal. It was MANDATORY to continue getting pieces out.
+Nc3, Nd2, or g3 followed by Bg2 are all preferable to 8. Nc4.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4,"Of course, this is a major mistake. White's throwing away his knight at a5
+for no reason.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4 Qxa5+,Developing pieces is still necessary. White should respond by 11. Bd2,True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4 Qxa5+ 11. c3 h5 12. Rh3,? White MUST get rid of black's good knight at e4. 12. Nd2 is called for.,True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4 Qxa5+ 11. c3 h5 12. Rh3 b4 13. cxb4 Qxb4+ 14. Nd2 Bf6,"Dubious. Black's queen side needs developing. ...
+a5 or c5 would allow black's knight and bishop to get developed.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4 Qxa5+ 11. c3 h5 12. Rh3 b4 13. cxb4 Qxb4+ 14. Nd2 Bf6 15. g4,? Loses 2 pawns for no reason. Why not get rid of black's best piece by f3?,True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4 Qxa5+ 11. c3 h5 12. Rh3 b4 13. cxb4 Qxb4+ 14. Nd2 Bf6 15. g4 fxg4,"The general rule of thumb is: when choosing which pawn to capture,
+capture toward the Center. ..hxg4 would not only keep the f5 pawn defending
+black's knight, it would another pawn after ...Rxh4.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4 Qxa5+ 11. c3 h5 12. Rh3 b4 13. cxb4 Qxb4+ 14. Nd2 Bf6 15. g4 fxg4 16. Rh1 d5 17. Bg2 Nd6,"When ahead in material (especially a full knight or more) TRADE! 17. ... Nxd2
+would makes black's advantage even greater.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4 Qxa5+ 11. c3 h5 12. Rh3 b4 13. cxb4 Qxb4+ 14. Nd2 Bf6 15. g4 fxg4 16. Rh1 d5 17. Bg2 Nd6 18. a3 Qa4 19. Rb1 a5 20. b3 Qb5 21. Qd1 Ba6 22. Bf1 Qb7 23. Bxa6 Rxa6 24. a4 Qb4,"This still wins, but black
+is playing without his knight at b8 and the rook on h8. Either ...Nd7 or
+castling kingside is preferable.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4 Qxa5+ 11. c3 h5 12. Rh3 b4 13. cxb4 Qxb4+ 14. Nd2 Bf6 15. g4 fxg4 16. Rh1 d5 17. Bg2 Nd6 18. a3 Qa4 19. Rb1 a5 20. b3 Qb5 21. Qd1 Ba6 22. Bf1 Qb7 23. Bxa6 Rxa6 24. a4 Qb4 25. Ra1 Ne4 26. Ba3 Qc3 27. Rc1 Qd3 28. Nxe4 Qxe4 29. Rf1 Bxh4 30. Rc2 g3 31. f3 Qxe3+ 32. Re2 Qc3+,"Black has a much
+stronger move, 32. ... g2+ is mate in 1 move! White has to play Rff2, and ...
+Bxf2 is checkmate because the rook on e2 is not allowed to recapture (that
+would expose white's king to the black queen on e3).",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4 Qxa5+ 11. c3 h5 12. Rh3 b4 13. cxb4 Qxb4+ 14. Nd2 Bf6 15. g4 fxg4 16. Rh1 d5 17. Bg2 Nd6 18. a3 Qa4 19. Rb1 a5 20. b3 Qb5 21. Qd1 Ba6 22. Bf1 Qb7 23. Bxa6 Rxa6 24. a4 Qb4 25. Ra1 Ne4 26. Ba3 Qc3 27. Rc1 Qd3 28. Nxe4 Qxe4 29. Rf1 Bxh4 30. Rc2 g3 31. f3 Qxe3+ 32. Re2 Qc3+ 33. Rd2 g2+ 34. Ke2 Rf8,"Objectively, not best as white can crush the rook with Bxf8! Best was gxf1/Q+,
+35. Kxf1 Rb6.",True
+1. e3 Nf6 2. d4 e6 3. Nf3 Ne4 4. Qe2 f5 5. Ne5 a6 6. Qh5+ g6 7. Qe2 Bg7 8. Nc4 b5 9. Na5 c6 10. h4 Qxa5+ 11. c3 h5 12. Rh3 b4 13. cxb4 Qxb4+ 14. Nd2 Bf6 15. g4 fxg4 16. Rh1 d5 17. Bg2 Nd6 18. a3 Qa4 19. Rb1 a5 20. b3 Qb5 21. Qd1 Ba6 22. Bf1 Qb7 23. Bxa6 Rxa6 24. a4 Qb4 25. Ra1 Ne4 26. Ba3 Qc3 27. Rc1 Qd3 28. Nxe4 Qxe4 29. Rf1 Bxh4 30. Rc2 g3 31. f3 Qxe3+ 32. Re2 Qc3+ 33. Rd2 g2+ 34. Ke2 Rf8 35. Rg1 Qxf3#,"So in conclusion, get ALL your pieces out early,
+castle, and you will do much better in your games.",False

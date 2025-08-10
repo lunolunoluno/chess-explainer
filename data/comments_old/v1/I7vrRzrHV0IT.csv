@@ -1,0 +1,51 @@
+moves,comment,good
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2,"Now White places his Bishop on the milky way.
+12...",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5,"!? Interesting.
+Black threatens to win the exchange forcing the Knights to be removed and
+putting the Queen in e2 and the Rook in f1 with the Bishop in b5: 13...c5 14.
+Nf3 b4 Nd1 15.Bb5",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6,And now it is the Black Bishop who seizes his own milky way.,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5,"Concerning the milky way, to keep it clear, maybe for White it was more
+convenient to change his pawns.  17...",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4,"Very good placement of the Knight: threatens 21.Nb6.
+20...",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5,"Who is better? White has a passed and protected pawn. Black
+has more space available. White's milky is blocked and the Bishop in b2 is
+completely blind, while his antagonist sees his milky way clear and shining.
+If Black succeedes in bringing his Knight to d5 and then, at the right moment
+to e3, the space available for White will be even more reduced and it will be
+necessary an oxygen bottle to let hime breathe. That is the reason of the move
+in the text: to force to White Bishop to go to d5 ... so that damned Knight,
+which is now in e8, cannot go there.  22...",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8,"! - Why? Why this King move to the h8 square? He was not in danger.
+Then the purpose was to clear the g8 square. Why? I tis clear! Black is going
+to prepare a kingside attack!",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7,!,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5,"! - ""The beginning of an attack, against which I felt almost defenceless.""
+(Tarrasch) ""Right thought - Le Lionnais replies - Indeed I would remove the
+word ""almost"", to better describe the situation.""",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3,"""Something must be done! With this move Tarrasch starts a hopelesscounterattack
+against the pawn f5."" (Le Lionnais)  28...",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3 Rag7 29. g3 gxf4,"? - Walbrod
+t had not done a single mistake up to now. Right at the decisive moment, he
+makes a mistake which gives hope to White.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3 Rag7 29. g3 gxf4 30. Rxf4 Rg5 31. Ref2 Ng7,"We know already that Tarrasch won this game, but we
+could not imagine that the piece that allowed him to win was that Bishop in b2,
+blind and lame, with all sort of obstacles on his milky way. Unbelievable!
+That is crazy! Let's go and see what happened.",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3 Rag7 29. g3 gxf4 30. Rxf4 Rg5 31. Ref2 Ng7 32. Nd6,"!! - Tarrasch, before
+making this move, thought for 30 minutes. A move that Le Lionnais defines as
+""mysterious"" since it attacks again the pawn f5 but leaves the pawn e5
+defenceless. What did he see? Fireworks? The Blue Fairy?  32...",True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3 Rag7 29. g3 gxf4 30. Rxf4 Rg5 31. Ref2 Ng7 32. Nd6 Qxe5,?,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3 Rag7 29. g3 gxf4 30. Rxf4 Rg5 31. Ref2 Ng7 32. Nd6 Qxe5 33. Nxf5 Nh5,?! - unclear. Please notice how the milky way is slowly getting cleared.,False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3 Rag7 29. g3 gxf4 30. Rxf4 Rg5 31. Ref2 Ng7 32. Nd6 Qxe5 33. Nxf5 Nh5 34. Rxd4,"!! - A nuclear
+missile to crush the extremely hard rock that was blocking the milky way!  34..
+.",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3 Rag7 29. g3 gxf4 30. Rxf4 Rg5 31. Ref2 Ng7 32. Nd6 Qxe5 33. Nxf5 Nh5 34. Rxd4 Nxg3,In his repressed anger Walbrodt looks for a counterattack.,False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3 Rag7 29. g3 gxf4 30. Rxf4 Rg5 31. Ref2 Ng7 32. Nd6 Qxe5 33. Nxf5 Nh5 34. Rxd4 Nxg3 35. Nxg3,"Who is afraid of the wolf?
+35...",False
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3 Rag7 29. g3 gxf4 30. Rxf4 Rg5 31. Ref2 Ng7 32. Nd6 Qxe5 33. Nxf5 Nh5 34. Rxd4 Nxg3 35. Nxg3 Rxg3+ 36. hxg3 Rxg3+ 37. Kf1,!,True
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 d6 6. d4 Bd7 7. Bxc6 Bxc6 8. Qe2 exd4 9. Nxd4 Bd7 10. O-O Be7 11. b3 O-O 12. Bb2 b5 13. a4 b4 14. Nd1 c5 15. Nf3 Bc6 16. Nd2 d5 17. e5 Ne8 18. Ne3 Qd7 19. Rad1 d4 20. Nec4 Qe6 21. f4 f5 22. Na5 Bd5 23. Qd3 Kh8 24. Qg3 Ra7 25. Nac4 Rg8 26. Rde1 g5 27. Re2 Bd8 28. Qd3 Rag7 29. g3 gxf4 30. Rxf4 Rg5 31. Ref2 Ng7 32. Nd6 Qxe5 33. Nxf5 Nh5 34. Rxd4 Nxg3 35. Nxg3 Rxg3+ 36. hxg3 Rxg3+ 37. Kf1 Rxd3 38. Rg4,"!! - And now? Poor Walbrodt. An applause for him too.
+Beauty prize for Tarrasch.",True

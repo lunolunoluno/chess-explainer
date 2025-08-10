@@ -1,0 +1,31 @@
+comment,good,reasoning,moves,context,reformulated
+E26: Nimzo-Indian: Saemisch: 5...c5 6 e3,True,"
+
+The comment correctly explains the mistake made by the player, as the Nimzo-Indian Defense has arisen, and the move 5...c5 is a typical and strong response, while 6 e3 does not continue the main line of the Nimzo-Indian Defense and is considered a mistake in this position.",1. c4,"This is a game between Kasparov, Gary (as White) and Polgar, Judit (as Black). Last move played: White plays Pawn to c4"," ""E26: Nimzo-Indian Defense, Saemisch Variation: Black's move 5...c5 is not recommended as it weakens their pawn structure and allows White to develop a strong knight to e4."""
+The knight intends Nb8-c6-a5-b3,False,"
+
+The comment does not accurately explain the mistake made by the player, as it does not clarify what the mistake was or why the move was considered a mistake.",1. c4 e6 2. Nc3 d5 3. d4 Bb4 4. e3 c5 5. a3 Bxc3+ 6. bxc3 Nf6 7. cxd5 exd5 8. f3 c4 9. Ne2 Nc6,"This is a game between Kasparov, Gary (as White) and Polgar, Judit (as Black). Last move played: Black plays Knight to c6",-
+The black knight is well posted.,False,"
+
+The comment does not explain the mistake made by the player as it praises the positioning of the black knight without addressing the specific error in the move.",1. c4 e6 2. Nc3 d5 3. d4 Bb4 4. e3 c5 5. a3 Bxc3+ 6. bxc3 Nf6 7. cxd5 exd5 8. f3 c4 9. Ne2 Nc6 10. g4 h6 11. Bg2 Na5 12. O-O Nb3,"This is a game between Kasparov, Gary (as White) and Polgar, Judit (as Black). Last move played: Black plays Knight to b3",-
+Threatening mate: Qxh2,True,"
+
+The comment accurately points out the mistake made by the player, as moving the queen to h2 directly threatens checkmate, which is a blunder in a properly played chess game.",1. c4 e6 2. Nc3 d5 3. d4 Bb4 4. e3 c5 5. a3 Bxc3+ 6. bxc3 Nf6 7. cxd5 exd5 8. f3 c4 9. Ne2 Nc6 10. g4 h6 11. Bg2 Na5 12. O-O Nb3 13. Ra2 O-O 14. Ng3 Bd7 15. Qe1 Re8 16. e4 dxe4 17. fxe4 Nxg4 18. Bf4 Qh4,"This is a game between Kasparov, Gary (as White) and Polgar, Judit (as Black). Last move played: Black plays Queen to h4"," Black played Qxh2, which is a poor move. It overlooks the defensive position of the h4 pawn, allowing White to potentially secure an advantageous position or even a victory with the right maneuvers."
+This push gains space,False,"
+
+The comment does not explain the mistake because gaining space does not justify a poor strategic choice.",1. c4 e6 2. Nc3 d5 3. d4 Bb4 4. e3 c5 5. a3 Bxc3+ 6. bxc3 Nf6 7. cxd5 exd5 8. f3 c4 9. Ne2 Nc6 10. g4 h6 11. Bg2 Na5 12. O-O Nb3 13. Ra2 O-O 14. Ng3 Bd7 15. Qe1 Re8 16. e4 dxe4 17. fxe4 Nxg4 18. Bf4 Qh4 19. h3 Nf6 20. e5,"This is a game between Kasparov, Gary (as White) and Polgar, Judit (as Black). Last move played: White plays Pawn to e5",-
+Plans exf6,False,"
+
+The comment does not directly explain the mistake made by the player, as it only mentions the move ""exf6"" without providing any specific reason or context for why it might be considered a mistake.",1. c4 e6 2. Nc3 d5 3. d4 Bb4 4. e3 c5 5. a3 Bxc3+ 6. bxc3 Nf6 7. cxd5 exd5 8. f3 c4 9. Ne2 Nc6 10. g4 h6 11. Bg2 Na5 12. O-O Nb3 13. Ra2 O-O 14. Ng3 Bd7 15. Qe1 Re8 16. e4 dxe4 17. fxe4 Nxg4 18. Bf4 Qh4 19. h3 Nf6 20. e5 Rad8 21. Qf2,"This is a game between Kasparov, Gary (as White) and Polgar, Judit (as Black). Last move played: White plays Queen to f2",-
+Demolishes the pawn shield. The mate threat is Qxf7,True,"
+
+The comment correctly points out that the move compromises the pawn structure and exposes a checkmate threat by the queen.",1. c4 e6 2. Nc3 d5 3. d4 Bb4 4. e3 c5 5. a3 Bxc3+ 6. bxc3 Nf6 7. cxd5 exd5 8. f3 c4 9. Ne2 Nc6 10. g4 h6 11. Bg2 Na5 12. O-O Nb3 13. Ra2 O-O 14. Ng3 Bd7 15. Qe1 Re8 16. e4 dxe4 17. fxe4 Nxg4 18. Bf4 Qh4 19. h3 Nf6 20. e5 Rad8 21. Qf2 Nh5 22. Bxh6,"This is a game between Kasparov, Gary (as White) and Polgar, Judit (as Black). Last move played: White plays Bishop takes on h6", Judit (Black) overlooks the critical defense. The move could lead to a checkmate on f7.
+White now must not overlook the idea gxh6,False,"
+
+The comment does not explain the mistake made by the player, as it references an unrelated move (gxh6) which does not assess the current mistake.",1. c4 e6 2. Nc3 d5 3. d4 Bb4 4. e3 c5 5. a3 Bxc3+ 6. bxc3 Nf6 7. cxd5 exd5 8. f3 c4 9. Ne2 Nc6 10. g4 h6 11. Bg2 Na5 12. O-O Nb3 13. Ra2 O-O 14. Ng3 Bd7 15. Qe1 Re8 16. e4 dxe4 17. fxe4 Nxg4 18. Bf4 Qh4 19. h3 Nf6 20. e5 Rad8 21. Qf2 Nh5 22. Bxh6 Re7,"This is a game between Kasparov, Gary (as White) and Polgar, Judit (as Black). Last move played: Black plays Rook to e7",-
+With the decisive threat Nxe7,False,"
+
+The comment doesn't explain the mistake made by the player.",1. c4 e6 2. Nc3 d5 3. d4 Bb4 4. e3 c5 5. a3 Bxc3+ 6. bxc3 Nf6 7. cxd5 exd5 8. f3 c4 9. Ne2 Nc6 10. g4 h6 11. Bg2 Na5 12. O-O Nb3 13. Ra2 O-O 14. Ng3 Bd7 15. Qe1 Re8 16. e4 dxe4 17. fxe4 Nxg4 18. Bf4 Qh4 19. h3 Nf6 20. e5 Rad8 21. Qf2 Nh5 22. Bxh6 Re7 23. Nf5 Qxf2+ 24. Rfxf2,"This is a game between Kasparov, Gary (as White) and Polgar, Judit (as Black). Last move played: White plays Rook takes on f2",-
+Threatening Ne7,False,"
+
+The comment ""Threatening Ne7"" does not directly address the mistake made by the player as it does not provide specific information about the move's consequences or the error in it.",1. c4 e6 2. Nc3 d5 3. d4 Bb4 4. e3 c5 5. a3 Bxc3+ 6. bxc3 Nf6 7. cxd5 exd5 8. f3 c4 9. Ne2 Nc6 10. g4 h6 11. Bg2 Na5 12. O-O Nb3 13. Ra2 O-O 14. Ng3 Bd7 15. Qe1 Re8 16. e4 dxe4 17. fxe4 Nxg4 18. Bf4 Qh4 19. h3 Nf6 20. e5 Rad8 21. Qf2 Nh5 22. Bxh6 Re7 23. Nf5 Qxf2+ 24. Rfxf2 Re6 25. Be3 Bc6 26. Bf1 f6 27. Bxc4 Bd5 28. Be2 fxe5 29. Bxh5 exd4 30. Bg5 Rd7 31. Rae2,"This is a game between Kasparov, Gary (as White) and Polgar, Judit (as Black). Last move played: White plays Rook to e2",-

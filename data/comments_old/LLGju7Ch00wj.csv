@@ -1,8 +1,0 @@
-moves,comment,good
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Bd3 b6,An inaccuracy.,True
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Bd3 b6 8. cxd5 exd5 9. O-O c5 10. Ne5 Nxe5,After this move White has advantage.,True
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Bd3 b6 8. cxd5 exd5 9. O-O c5 10. Ne5 Nxe5 11. dxe5 Nd7 12. Bf4 Bb7 13. Qf3 Re8 14. Qh3 Nf8 15. Rad1 Ng6 16. Bg3,(!) The beginning of a strategical plan which foresees a powerful attack.,False
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Bd3 b6 8. cxd5 exd5 9. O-O c5 10. Ne5 Nxe5 11. dxe5 Nd7 12. Bf4 Bb7 13. Qf3 Re8 14. Qh3 Nf8 15. Rad1 Ng6 16. Bg3 a6 17. f4 Bf8 18. Bc2 b5 19. e6,"(!!) While attacking head lowered like
-a little ram, the pawn gets sacrificed to open the diagonals for the Bishops
-and ""f"" file for the major pieces.",True
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Be7 6. Nf3 O-O 7. Bd3 b6 8. cxd5 exd5 9. O-O c5 10. Ne5 Nxe5 11. dxe5 Nd7 12. Bf4 Bb7 13. Qf3 Re8 14. Qh3 Nf8 15. Rad1 Ng6 16. Bg3 a6 17. f4 Bf8 18. Bc2 b5 19. e6 fxe6 20. f5 exf5 21. Qxf5 Qe7 22. Nxd5 Bxd5 23. Qxd5+ Qe6 24. Be4,(!) An elegant move which forces the win of material.,False

@@ -1,0 +1,40 @@
+comment,good,reasoning,moves,context,reformulated
+"The move order favoured by Kosten in his ""The Dynamic English""",False,"
+
+The comment does not explain the mistake made by the player as it only mentions a book reference, not the specific move or its consequences.",1. c4 e5 2. g3,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: White plays Pawn to g3",-
+Now we have a reversed Sicilian 2.c3 where White has the extra move 2.g3 I've long held the view that 2...Nf6 is Black's best against 2.c3 so maybe I should have played 3.Nf3here,True,"
+
+The comment does explain the mistake made by the player as it suggests that the move 2...Nf6 would have been more favorable over the move 3.Nf3, indicating a reassessment of the situation and a better understanding of the game's dynamics.",1. c4 e5 2. g3 c6 3. d4,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: White plays Pawn to d4"," In response to the current board, White has played 2.g3, a variation of the Sicilian Defense aiming for a reversed setup. While this move can be played, it's typically not Black's best response against a typical 2.c3, which aims for a Maroczy Bind structure. A more solid choice for Black at this juncture might have been 2...Nf6, solidifying control over the central squares and preparing for a robust b5 advance to break the center and challenge White's setup."
+Kosten gives only 6.... Nf6,False,"
+
+The comment doesn't directly explain the mistake made by the player, as it only states the move ""6.... Nf6"" without providing context or reasoning behind the move.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: Black plays Bishop to e6",-
+Now we have a position similar to that in Tarrasch Defence where Black's easy development and active pieces compensate for the supposedly weakpawnatd5,True,"
+
+The comment accurately explains the mistake made by the player by highlighting the trade-off between having a weak pawn at d5 and the advantage of better development and active pieces, which is characteristic of the Tarrasch Defence.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6 7. Nf3 Nc6 8. Qa4 Bc5 9. O-O,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: White plays kingside castle"," 'Now, they have a position that resembles the Tarrasch Defense. Their development is active, which compensates for the potentially weak pawn at d5, making Black's last move questionable.'"
+Another surprise.,False,"
+
+The comment ""Another surprise"" does not directly explain the mistake made by the player.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6 7. Nf3 Nc6 8. Qa4 Bc5 9. O-O h6,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: Black plays Pawn to h6",-
+Again unexpected! After his previous I thought he was playing,True,"
+
+The comment indicates the player's surprise and disappointment with the move, suggesting that it was a mistake they did not anticipate.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6 7. Nf3 Nc6 8. Qa4 Bc5 9. O-O h6 10. Nc3 Ne7,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: Black plays Knight to e7"," ""Again, an unexpected move by Black. After this, they might reconsider their strategy."""
+I was reluctant to play this but the alternatives didn't look too good,True,"
+
+The comment suggests that the player felt they had to make a less than ideal move, indicating a lack of better options available.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6 7. Nf3 Nc6 8. Qa4 Bc5 9. O-O h6 10. Nc3 Ne7 11. Bf4 a6 12. Rad1 O-O 13. a3 Rc8 14. Ne5,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: White plays Knight to e5"," ""They found the move not ideal due to subpar alternatives."""
+probably best as,False,"
+
+The comment ""probably best as"" does not explain the mistake made by the player, as it lacks specific details or context about the move.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6 7. Nf3 Nc6 8. Qa4 Bc5 9. O-O h6 10. Nc3 Ne7 11. Bf4 a6 12. Rad1 O-O 13. a3 Rc8 14. Ne5 d4 15. Nd3 Ba7 16. Ne4 Nd5 17. Rc1,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: White plays Rook to c1",-
+protecting c5 Instead,True,"
+
+This comment explains the mistake made by the player, as it criticizes their decision to ""protect c5"" instead of prioritizing other moves that could have been more advantageous.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6 7. Nf3 Nc6 8. Qa4 Bc5 9. O-O h6 10. Nc3 Ne7 11. Bf4 a6 12. Rad1 O-O 13. a3 Rc8 14. Ne5 d4 15. Nd3 Ba7 16. Ne4 Nd5 17. Rc1 Bg4 18. Rfe1 Nxf4 19. Nxf4 Qe7,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: Black plays Queen to e7", Black's attempt to protect c5 was ineffective.
+seems best as,True,"
+
+The comment ""seems best as"" indicates an alternative move to the one played, suggesting that the move was likely a mistake.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6 7. Nf3 Nc6 8. Qa4 Bc5 9. O-O h6 10. Nc3 Ne7 11. Bf4 a6 12. Rad1 O-O 13. a3 Rc8 14. Ne5 d4 15. Nd3 Ba7 16. Ne4 Nd5 17. Rc1 Bg4 18. Rfe1 Nxf4 19. Nxf4 Qe7 20. b4 Rfd8 21. Nd3,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: White plays Knight to d3", White's Knight to d3 seems misjudged. The move doesn't centralize the piece effectively or contribute to control of key squares.
+Better than,False,"
+
+The comment ""Better than"" is not clear or specific enough to accurately describe the mistake made by the player in the chess move.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6 7. Nf3 Nc6 8. Qa4 Bc5 9. O-O h6 10. Nc3 Ne7 11. Bf4 a6 12. Rad1 O-O 13. a3 Rc8 14. Ne5 d4 15. Nd3 Ba7 16. Ne4 Nd5 17. Rc1 Bg4 18. Rfe1 Nxf4 19. Nxf4 Qe7 20. b4 Rfd8 21. Nd3 Ne5 22. Nec5,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: White plays Knight to c5",-
+Now things just fizzle out,True,"
+
+The comment ""Now things just fizzle out"" suggests that the mistake made by the player led to a loss of momentum or strategic advantage, indicating that the move was detrimental to the player's position or game plan.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6 7. Nf3 Nc6 8. Qa4 Bc5 9. O-O h6 10. Nc3 Ne7 11. Bf4 a6 12. Rad1 O-O 13. a3 Rc8 14. Ne5 d4 15. Nd3 Ba7 16. Ne4 Nd5 17. Rc1 Bg4 18. Rfe1 Nxf4 19. Nxf4 Qe7 20. b4 Rfd8 21. Nd3 Ne5 22. Nec5 Bxc5 23. bxc5 Nxd3,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: Black plays Knight takes on d3"," ""The move by Black, Darrell, was a poor choice, leading to a stalemate."""
+With a draw offer which was accepted,False,"
+
+The comment does not explain the mistake made by the player; it only states the result of the game after the mistake was made.",1. c4 e5 2. g3 c6 3. d4 exd4 4. Qxd4 d5 5. cxd5 cxd5 6. Bg2 Be6 7. Nf3 Nc6 8. Qa4 Bc5 9. O-O h6 10. Nc3 Ne7 11. Bf4 a6 12. Rad1 O-O 13. a3 Rc8 14. Ne5 d4 15. Nd3 Ba7 16. Ne4 Nd5 17. Rc1 Bg4 18. Rfe1 Nxf4 19. Nxf4 Qe7 20. b4 Rfd8 21. Nd3 Ne5 22. Nec5 Bxc5 23. bxc5 Nxd3 24. exd3 Rxc5 25. Qb4 Re8 26. Bxb7 Rxc1 27. Rxc1 Qf6 28. Re1,"This is a game between Pyrich, George (as White) and Nightingale, Darrell (as Black). Last move played: White plays Rook to e1",-
