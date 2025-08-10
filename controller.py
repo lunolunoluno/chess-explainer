@@ -13,7 +13,7 @@ import pandas as pd
 from sympy.printing.pytorch import torch
 from tqdm import tqdm
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, \
-    DataCollatorForLanguageModeling, AutoModelForSeq2SeqLM
+    DataCollatorForLanguageModeling, AutoModelForSeq2SeqLM, PreTrainedTokenizerFast
 from datasets import Dataset
 from peft import get_peft_model, LoraConfig, TaskType, PeftModel, PeftConfig
 
@@ -184,110 +184,108 @@ class Controller:
             comments.to_csv(games[game_index], index=False)
 
 
-def train_model(self, dataset_path: str, inputs_columns: List[str], label_column: str) -> str:
-    assert os.path.exists(dataset_path), f"{dataset_path} does not exists !"
-    df_dataset = pd.read_csv(dataset_path)
-    assert set(inputs_columns).issubset(df_dataset.columns), f"One of the inputs ({inputs_columns}) is not found in the dataset ({df_dataset.columns})"
-    assert label_column in df_dataset.columns, f"{label_column} is not found in the dataset !"
+    def train_model(self, dataset_path: str, inputs_columns: List[str], label_column: str) -> str:
+        assert os.path.exists(dataset_path), f"{dataset_path} does not exists !"
+        df_dataset = pd.read_csv(dataset_path)
+        assert set(inputs_columns).issubset(df_dataset.columns), f"One of the inputs ({inputs_columns}) is not found in the dataset ({df_dataset.columns})"
+        assert label_column in df_dataset.columns, f"{label_column} is not found in the dataset !"
 
-    llm = LLM()
-    model_id = llm.model_id
+        llm = LLM()
+        model_id = llm.model_id
 
-    tokenizer = AutoTokenizer.from_pretrained(model_id)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
+        tokenizer = AutoTokenizer.from_pretrained(model_id)
+        if tokenizer.pad_token is None:
+            tokenizer.pad_token = tokenizer.eos_token
 
-    model = AutoModelForCausalLM.from_pretrained(
-        model_id,
-        torch_dtype=torch.float16,
-        device_map="auto"
-    )
-
-    dataset = create_dataset(dataset_path, inputs_columns, label_column)
-
-    def tokenize_function(examples):
-        return tokenizer(
-            examples["full_text"],
-            truncation=True,
-            padding=False, # Automatically handled by the DataCollator
-            max_length=512,
-            return_tensors="pt"
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            torch_dtype=torch.float16,
+            device_map="auto"
         )
 
-    self.dbg.print("Tokenizing dataset...")
-    tokenized_dataset = dataset.map(tokenize_function, batched=True)
+        dataset = create_dataset(dataset_path, inputs_columns, label_column)
 
-    # LoRA configuration
-    lora_config = LoraConfig(
-        r=8,
-        lora_alpha=16,
-        target_modules="all-linear",
-        lora_dropout=0.05,
-        bias="none",
-        task_type="CAUSAL_LM"
-    )
+        def tokenize_function(examples):
+            return tokenizer(
+                examples["full_text"],
+                truncation=True,
+                padding=True,
+                max_length=512,
+                return_tensors="pt"
+            )
 
-    # Apply LoRA
-    model = get_peft_model(model, lora_config)
-    model.print_trainable_parameters()
+        self.dbg.print("Tokenizing dataset...")
+        tokenized_dataset = dataset.map(tokenize_function, batched=True)
 
-    # Training arguments
-    training_args = TrainingArguments(
-        output_dir="./lora-multiinput-output",
-        overwrite_output_dir=True,
-        num_train_epochs=3,
-        per_device_train_batch_size=1,  # Small batch size for memory efficiency
-        gradient_accumulation_steps=4,
-        warmup_steps=100,
-        logging_steps=10,
-        save_steps=500,
-        learning_rate=5e-4,
-        fp16=True,  # Use mixed precision training
-        push_to_hub=False,
-        report_to=None,  # Disable wandb/tensorboard logging
-    )
+        # LoRA configuration
+        lora_config = LoraConfig(
+            r=8,
+            lora_alpha=16,
+            target_modules="all-linear",
+            lora_dropout=0.05,
+            bias="none",
+            task_type="CAUSAL_LM"
+        )
 
-    # Data collator for language modeling
-    data_collator = DataCollatorForLanguageModeling(
-        tokenizer=tokenizer,
-        mlm=False
-    )
+        # Apply LoRA
+        model = get_peft_model(model, lora_config)
+        model.print_trainable_parameters()
 
-    # Trainer
-    trainer = Trainer(
-        model=model,
-        args=training_args,
-        train_dataset=tokenized_dataset,
-        processing_class=tokenizer,
-        data_collator=data_collator
-    )
+        # Training arguments
+        training_args = TrainingArguments(
+            output_dir="./lora-multiinput-output",
+            overwrite_output_dir=True,
+            num_train_epochs=3,
+            per_device_train_batch_size=1,  # Small batch size for memory efficiency
+            gradient_accumulation_steps=4,
+            warmup_steps=100,
+            logging_steps=10,
+            save_steps=500,
+            learning_rate=5e-4,
+            fp16=True,  # Use mixed precision training
+            push_to_hub=False,
+            report_to=None,  # Disable wandb/tensorboard logging
+        )
 
-    self.dbg.print("Starting training...")
-    trainer.train()
+        # Data collator for language modeling
+        data_collator = DataCollatorForLanguageModeling(
+            tokenizer=tokenizer,
+            mlm=False
+        )
 
-    checkpoint_name = f"trained-{model_id}-{datetime.today().strftime('%Y%m%d%H%M%S')}"
-    model.save_pretrained(checkpoint_name)
-    tokenizer.save_pretrained(checkpoint_name)
+        # Trainer
+        trainer = Trainer(
+            model=model,
+            args=training_args,
+            train_dataset=tokenized_dataset,
+            processing_class=tokenizer,
+            data_collator=data_collator
+        )
 
-    self.dbg.print(f"Training done and saved as {checkpoint_name}!")
-    return checkpoint_name
+        self.dbg.print("Starting training...")
+        trainer.train()
 
-    # tokenizer = AutoTokenizer.from_pretrained(checkpoint_name)
-    # peft_config = PeftConfig.from_pretrained(checkpoint_name)
-    # base_model = AutoModelForCausalLM.from_pretrained(peft_config.base_model_name_or_path)
-    # model = PeftModel.from_pretrained(base_model, checkpoint_name)
-    #
-    # model.eval()
-    #
-    # prompt = re.sub(r'\t| {2,}', '', f"""
-    #             Based on the following information:
-    #             context: This is a game between Scicluna, Tristan Jes (as White) and Noel, Lucien (as Black). Last move played: White plays pawn to d3
-    #             moves: 1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. Nc3 Bc5 6. d3
-    #             Generate a comment explaining the error that the player just made
-    #             Comment: \n""".strip())
-    # inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
-    #
-    # with torch.no_grad():
-    #     outputs = model.generate(**inputs, max_new_tokens=50)
-    #
-    # print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+        checkpoint_name = f"trained-{model_id.split('/')[-1:]}-{datetime.today().strftime('%Y%m%d%H%M%S')}"
+        model.save_pretrained(checkpoint_name)
+        tokenizer.save_pretrained(checkpoint_name)
+
+        self.dbg.print(f"Training done and saved as {checkpoint_name}!")
+        return checkpoint_name
+
+    def load_model_and_tokenizer_from_checkpoint(self, checkpoint_name: str) -> (PeftModel, PreTrainedTokenizerFast):
+        tokenizer = AutoTokenizer.from_pretrained(checkpoint_name)
+        peft_config = PeftConfig.from_pretrained(checkpoint_name)
+        base_model = AutoModelForCausalLM.from_pretrained(peft_config.base_model_name_or_path)
+        model = PeftModel.from_pretrained(base_model, checkpoint_name)
+
+        return model, tokenizer
+
+    def prompt_model(self, model, tokenizer, prompt)->str:
+        model.eval()
+
+        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+
+        with torch.no_grad():
+            outputs = model.generate(**inputs, max_new_tokens=50)
+
+        return tokenizer.decode(outputs[0], skip_special_tokens=True)
