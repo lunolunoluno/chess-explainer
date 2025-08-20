@@ -6,7 +6,6 @@ import hashlib
 from typing import List
 
 import chess.pgn
-import torch
 import pandas as pd
 from transformers import Pipeline
 from datasets import Dataset
@@ -43,36 +42,39 @@ def get_all_comments_and_lines_in_game(game: chess.pgn.Game, initial_context: st
     board = chess.Board()
     partial_game = []
     res = []
-    while node.variations:
-        next_node = node.variations[0]
-        move = next_node.move
-        fen_before = board.fen()
-        san = board.san(move)
-        board.push(move)
-        fen_after = board.fen()
-        if board.turn == chess.BLACK:
-            partial_game.append(f"{board.fullmove_number}.")
-        partial_game.append(san)
+    # Games with custom fen start are not supported yet
+    if 'FEN' not in game.headers:
+        while node.variations:
+            next_node = node.variations[0]
+            move = next_node.move
+            fen_before = board.fen()
+            san = board.san(move)
+            board.push(move)
+            fen_after = board.fen()
+            if board.turn == chess.BLACK:
+                partial_game.append(f"{board.fullmove_number}.")
+            partial_game.append(san)
 
-        comment = next_node.comment.strip()
+            comment = next_node.comment.strip()
 
-        # Remove pure eval-only comments
-        cleaned_comment = re.sub(r'\s*\[%eval [^]]+\]\s*', '', comment).strip()
-        # Remove newline, tab, carriage return
-        cleaned_comment = re.sub(r'[\n\t\r]+', ' ', cleaned_comment)
-        # Remove double spaces
-        cleaned_comment = re.sub(r" +", " ", cleaned_comment)
+            # Remove pure eval-only comments
+            cleaned_comment = re.sub(r'\s*\[%eval [^]]+\]\s*', '', comment).strip()
+            # Remove newline, tab, carriage return
+            cleaned_comment = re.sub(r'[\n\t\r]+', ' ', cleaned_comment)
+            # Remove double spaces
+            cleaned_comment = re.sub(r" +", " ", cleaned_comment)
 
-        if cleaned_comment != '':
-            moves = ' '.join(partial_game)
-            res.append({
-                "comment": cleaned_comment,
-                "moves": moves,
-                "context": initial_context + ". Last move played: " + get_last_move_from_line_as_string(moves),
-                "engine_eval": ga.get_engine_eval_comment(fen_after),
-                "engine_best_line": ga.get_engine_best_line(fen_before)
-            })
-        node = next_node
+            if cleaned_comment != '':
+                moves = ' '.join(partial_game)
+                res.append({
+                    "comment": cleaned_comment,
+                    "moves": moves,
+                    "context": initial_context + ". Last move played: " + get_last_move_from_line_as_string(moves, game.headers),
+                    "engine_eval": ga.get_engine_eval_comment(fen_after),
+                    "engine_best_line": ga.get_engine_best_line(fen_after),
+                    "engine_best_alternative": ga.get_engine_best_line(fen_before)
+                })
+            node = next_node
     return res
 
 
@@ -104,6 +106,7 @@ def filter_good_comments(pipe: Pipeline, comments: List[dict]) -> List[dict]:
                                     Don't write anything else after."""},
     ]
     prompts = [prompt_model(comment['comment']) for comment in comments]
+
     def __filter_good_comments__(p: Pipeline, pr: list, depth: int) -> List[dict]:
         # TODO: Make batch_size a parameter that can be changed depending on the machine on which the code is run
         outputs = p(pr, batch_size=4)
@@ -121,7 +124,10 @@ def filter_good_comments(pipe: Pipeline, comments: List[dict]) -> List[dict]:
                         "good": res == "1",
                         "reasoning": after_res[1:],
                         "moves": comment['moves'],
-                        "context": comment['context']
+                        "context": comment['context'],
+                        "engine_eval": comment['engine_eval'],
+                        "engine_best_line": comment['engine_best_line'],
+                        "engine_best_alternative": comment['engine_best_alternative']
                     })
                 else:
                     bad_outputs.append(o[0]['generated_text'][:-1])
@@ -172,7 +178,7 @@ def is_comment_explaining_mistake(pipe: Pipeline, comment: str) -> bool:
     return True if res == "1" else False
 
 
-def get_last_move_from_line_as_string(pgn_line: str) -> str:
+def get_last_move_from_line_as_string(pgn_line: str, header: chess.pgn.Headers) -> str:
     pgn = io.StringIO(pgn_line)
     game = chess.pgn.read_game(pgn)
     if len(game.errors) == 0:
@@ -202,7 +208,8 @@ def get_last_move_from_line_as_string(pgn_line: str) -> str:
         return f"{color} plays {move_str}{' with check' if board.gives_check(move) else ''}"
     else:
         errors = '\n\n'.join(str(e) for e in game.errors)
-        raise Exception(f"The following error(s) were encountered during the parsing of the pgn line :\n{errors}")
+        raise Exception(f"The following error(s) were encountered during the parsing of the pgn {header} :\n{errors}")
+
 
 def create_dataset(dataset_path: str, inputs_columns: List[str], label_column: str) -> Dataset:
     df_dataset = pd.read_csv(dataset_path)

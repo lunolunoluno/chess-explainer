@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+White will beleaguer the isolated pawn with little success.,True," The comment suggests a potential weakness in the pawn structure, implying a strategic error.",1. c4 Nf6 2. Nc3 c5 3. Nf3 e6 4. e3 Nc6 5. d4 d5 6. cxd5 exd5 7. Be2 cxd4 8. Nxd4,"This is a game between Kholmov, Ratmir (as White) and Bronstein, David (as Black). Last move played: White plays Knight takes on d4",The position is equal,8... Bb4 ,8. Nxd4 

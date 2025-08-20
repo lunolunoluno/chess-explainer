@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+*,True," The asterisk indicates a significant error, suggesting a flawed calculation or positional weakness.",1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. c3 Nc6 5. Nd2,"This is a game between Kovacevic, Vlat (as White) and Beliavsky, A. (as Black). Last move played: White plays Knight to d2",The position is equal,5... Bf5 6. Ngf3 Qb6 7. dxc5 Qxb2 8. Nd4 e5 9. Bxe5 Bg4 10. Rb1 Qa3 11. f3 Nxe5 12. fxg4 Bxc5 13. Nb5 Qxa2 14. Ra1 Qb2 15. Rb1 ,5. Nf3 Nh5 

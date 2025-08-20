@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+*,True," The asterisk indicates a significant error, suggesting a flawed calculation or strategic decision.",1. d4 Nf6 2. Nf3 g6 3. Nc3 d5 4. Bf4 Bg7,"This is a game between Dolmatov, S. (as White) and Gavrikov, Vi (as Black). Last move played: Black plays Bishop to g7",The position is equal,5. e3 O-O ,4... Bg7 5. e3 

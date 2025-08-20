@@ -1,8 +1,5 @@
-import re
 import os.path
 import sys
-import gc
-import torch
 from typing import List
 from datetime import datetime
 
@@ -98,33 +95,33 @@ class Controller:
             self.dbg.print(f"Analyzing {pgnfile}...")
 
             # Read game in pgn file
-            pgn_game = open(pgnfile)
-            game = chess.pgn.read_game(pgn_game)
-            while game is not None:
-                header = game.headers
-                if 'White' in header and header['White'].strip() != '':
-                    context = f"This is a game between {header['White']} (as White)"
-                else:
-                    context = "This is a game between an unknown player (as White)"
-                if 'Black' in header and header['Black'].strip() != '':
-                    context += f" and {header['Black']} (as Black)"
-                else:
-                    context += " and an unknown player (as Black)"
-                str_exporter = chess.pgn.StringExporter(headers=False, variations=False, comments=True)
-                pgn_str = game.accept(str_exporter)
-                cvs_path = os.path.join(self.data_commented_path, f"{pgn_to_id(pgn_str)}.csv")
-                if not os.path.exists(cvs_path):
-                    comments = get_all_comments_and_lines_in_game(game, context)
-                    if len(comments) > 0:
-                        if torch.cuda.is_available():
-                            torch.cuda.empty_cache()
-                            torch.cuda.reset_peak_memory_stats()
-                        self.dbg.print(f"Analyzing {len(comments)} from {header}...")
-                        good_comments = filter_good_comments(pipe, comments)
-                        df = pd.DataFrame(good_comments)
-                        df.to_csv(cvs_path, index=False)
-
+            with open(pgnfile, encoding="utf-8", errors="replace") as pgn_game:
                 game = chess.pgn.read_game(pgn_game)
+                while game is not None:
+                    header = game.headers
+                    if 'White' in header and header['White'].strip() != '':
+                        context = f"This is a game between {header['White']} (as White)"
+                    else:
+                        context = "This is a game between an unknown player (as White)"
+                    if 'Black' in header and header['Black'].strip() != '':
+                        context += f" and {header['Black']} (as Black)"
+                    else:
+                        context += " and an unknown player (as Black)"
+                    str_exporter = chess.pgn.StringExporter(headers=False, variations=False, comments=True)
+                    pgn_str = game.accept(str_exporter)
+                    cvs_path = os.path.join(self.data_commented_path, f"{pgn_to_id(pgn_str)}.csv")
+                    if not os.path.exists(cvs_path):
+                        comments = get_all_comments_and_lines_in_game(game, context)
+                        if len(comments) > 0:
+                            if torch.cuda.is_available():
+                                torch.cuda.empty_cache()
+                                torch.cuda.reset_peak_memory_stats()
+                            self.dbg.print(f"Analyzing {len(comments)} from {header}...")
+                            good_comments = filter_good_comments(pipe, comments)
+                            df = pd.DataFrame(good_comments)
+                            df.to_csv(cvs_path, index=False)
+
+                    game = chess.pgn.read_game(pgn_game)
 
     def reformulate_good_comments(self) -> None:
         llm = LLM()
@@ -137,8 +134,17 @@ class Controller:
         ]
 
         for game_index, game_comments in enumerate(games):
-            comments = pd.read_csv(game_comments)
             self.dbg.print(f"Reformulating comments in {game_comments}...")
+            try:
+                comments = pd.read_csv(game_comments)
+            except pd.errors.EmptyDataError:
+                self.dbg.print("Empty file !")
+                continue
+            except Exception as e:
+                raise e
+
+            print(comments.columns)
+
             if 'reformulated' in comments:
                 # This means that this file has already been reformulated
                 self.dbg.print("Already reformulated !")
@@ -181,11 +187,26 @@ class Controller:
                 out_reformulated = [o[0]['generated_text'][-1]['content'] for o in outputs]
                 good_comments.loc[:, "reformulated"] = out_reformulated
                 comments.update(good_comments)
-
+            print(comments.columns)
             comments.to_csv(games[game_index], index=False)
 
 
     def save_comments_as_csv(self) -> str:
+        comments_files = [
+            os.path.join(self.data_commented_path, file)
+            for file in os.listdir(self.data_commented_path)
+            if os.path.isfile(os.path.join(self.data_commented_path, file)) and file.lower().endswith(".csv")
+        ]
+
+        # Remove empty files
+        for file_path in comments_files:
+            try:
+                pd.read_csv(file_path)
+            except pd.errors.EmptyDataError:
+                os.remove(file_path)
+                self.dbg.print(f"Deleted empty CSV: {file_path}")
+
+        # Get all the files without the deleted ones
         comments_files = [
             os.path.join(self.data_commented_path, file)
             for file in os.listdir(self.data_commented_path)
@@ -307,6 +328,6 @@ class Controller:
         inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
         with torch.no_grad():
-            outputs = model.generate(**inputs, max_new_tokens=50)
+            outputs = model.generate(**inputs)
 
         return tokenizer.decode(outputs[0], skip_special_tokens=True)

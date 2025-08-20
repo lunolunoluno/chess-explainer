@@ -1,0 +1,4 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+A draw is useful for both players.,False,"
+
+The comment doesn't explain *why* the move was a mistake; it simply states a potential outcome.",1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8. Ne2 Nc6 9. O-O b6 10. Be3 Na5 11. Bd3 c5 12. Rc1 Nc6 13. Bb5 Bb7 14. Bxc6 Bxc6 15. d5 Bb7 16. c4 e6 17. Re1 Re8 18. Qd2 exd5 19. exd5 Qd7 20. Nc3 Re7 21. Bg5 Rxe1+ 22. Rxe1 Re8 23. Ne4 Ba6 24. Nf6+ Bxf6 25. Bxf6 Rxe1+ 26. Qxe1 Bxc4 27. Qe5 Bb5 28. Qb8+ Qe8 29. Be5 Qxb8 30. Bxb8 Bc4,"This is a game between Spassky, Boris (as White) and Stein, Leonid (as Black). Last move played: Black plays Bishop to c4",The position is equal,31. d6 Bb5 ,30... Kf8 31. Bxa7 Ke7 32. Bxb6 Kd6 33. f3 Kxd5 34. Kf2 c4 35. Ke3 c3 36. Bd4 Kc4 37. g4 Ba4 38. Be5 Bc2 39. Bf6 Ba4 40. h4 Bc2 41. Bd8 Bb1 42. a4 Kb3 43. a5 c2 

@@ -33,16 +33,30 @@ class GameAnalyzer:
             board = chess.Board(fen)
             info = engine.analyse(board, chess.engine.Limit(depth=30, time=2))
             score = info['score'].white()
+            res = ""
             if isinstance(score, Cp):
-                score = score.cp/100.0
-        return f"[%eval {score}]"
+                cp = score.cp
+                color = "White" if cp > 0 else "Black"
+                if abs(cp) < 20:
+                    res = "The position is equal"
+                elif abs(cp) < 50:
+                    res = f"Slight advantage for {color} (eval: {cp} centipawns)"
+                elif abs(cp) < 100:
+                    res = f"Advantage for {color} (eval: {cp} centipawns)"
+                else:
+                    res = f"Large advantage for {color} (eval: {cp} centipawns)"
+            if score.is_mate():
+                moves = abs(score.mate())
+                color = "White" if score.mate() > 0 else "Black"
+                res = f"Mate in {moves} for {color}"
+        return res
 
     def get_engine_best_line(self, fen: str) -> str:
         line = ""
         with chess.engine.SimpleEngine.popen_uci(self.engine_path) as engine:
             board = chess.Board(fen)
             info = engine.analyse(board, chess.engine.Limit(depth=30, time=2))
-            if len(info['pv']) > 0:
+            if "pv" in info and len(info['pv']) > 0:
                 if board.turn == chess.BLACK:
                     line += f"{board.fullmove_number}... "
                 for move in info['pv']:

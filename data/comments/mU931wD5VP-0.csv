@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+*,True," The asterisk indicates a significant error, suggesting a flawed tactical or strategic assessment.",1. d4 Nf6 2. Bg5 d5,"This is a game between Dizdar, G. (as White) and Lehmann, H. (as Black). Last move played: Black plays Pawn to d5",The position is equal,3. e3 c5 ,2... d5 3. e3 h6 4. Bxf6 exf6 5. c4 dxc4 6. Bxc4 Bd6 7. Qc2 O-O 8. Nf3 Nd7 9. O-O c6 10. Nc3 Nb6 11. Bb3 f5 12. Rfe1 Re8 13. h3 

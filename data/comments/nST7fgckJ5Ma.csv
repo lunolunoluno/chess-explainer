@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+Stein needs a draw.,True," The comment indicates a potential lack of strategic depth, suggesting a desire for a drawn game.",1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Nd4 5. Nxd4 exd4 6. e5 dxc3 7. exf6 Qxf6 8. dxc3 Qe5+ 9. Qe2,"This is a game between Stein, Leonid (as White) and Geller, Efim (as Black). Last move played: White plays Queen to e2",The position is equal,9... Qxe2+ 10. Bxe2 ,9. Be2 Bc5 

@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+N,True," The comment indicates a pawn move, which is a common mistake in chess.",1. d4 d5 2. Bf4 e6 3. e3 c5 4. c3 Nc6 5. Nd2 Nf6 6. Bd3 Bd6 7. Bxd6 Qxd6 8. f4 Bd7,"This is a game between Kovacevic, Vlat (as White) and Rajkovic, Du (as Black). Last move played: Black plays Bishop to d7",The position is equal,9. Nh3 Ne7 ,8... cxd4 9. cxd4 Bd7 10. a3 Ne7 11. Ngf3 O-O 12. Ne5 a6 13. a4 Rac8 14. g4 Bc6 15. O-O Ne4 16. Re1 h6 17. g5 hxg5 18. fxg5 f6 19. Nxc6 Qxc6 20. Bxe4 dxe4 

@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+The Dutch defense is becoming less and less used in masterplay due to evolving opening theory and refuting ideas. Much stronger is the classic King's Indian with 1...Nf6 or Queen's Pawn game with 1...d5.,True, The comment suggests a potential alternative opening choice and a shift in popular play.,1. d4 f5,This is a game between W40 (as White) and B40 (as Black). Last move played: Black plays Pawn to f5,Advantage for White (eval: 63 centipawns),2. Bg5 g6 ,1... d5 

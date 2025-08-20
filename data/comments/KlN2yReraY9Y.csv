@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+N,True,". The comment ""N"" indicates a tactical error, suggesting the move was incorrect.",1. d4 Nf6 2. Bg5 d5 3. Bxf6 exf6 4. e3 Bd6 5. Bd3 O-O 6. Qf3 c6 7. Nd2 Na6,"This is a game between Hodgson, Ju (as White) and Taimanov, M. (as Black). Last move played: Black plays Knight to a6",Slight advantage for White (eval: 30 centipawns),8. c3 Nc7 9. Ne2 Qd7 10. a4 Re8 11. a5 Qg4 12. Kd1 g6 13. Qxg4 Bxg4 ,7... Be6 

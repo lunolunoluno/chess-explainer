@@ -1,0 +1,4 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+The confrontation has started at last.,False,"
+
+This comment doesn't offer any insight into why the move was considered a mistake, simply stating a subjective observation.",1. d4 Nf6 2. Nf3 g6 3. c3 b6 4. Bg5 Bg7 5. Nbd2 Bb7 6. Bxf6 Bxf6 7. e3 c5 8. Bd3 Bg7 9. O-O O-O 10. b4 cxd4 11. cxd4 Nc6 12. a3 f5 13. Qb3+ e6 14. Rac1 Kh8 15. Nc4 d6 16. b5 Ne7 17. Ng5 Bd5 18. f4 Qd7 19. Qb4 Rad8 20. Be2 Bf6 21. Nf3 h6 22. a4 g5 23. Qd2 Rg8 24. Nb2 Rg6 25. Nd3 Rdg8 26. Nfe1 Be4 27. Nf2 Ba8 28. Nfd3 Nd5 29. Bh5,"This is a game between Bronstein, David (as White) and Suetin, Alexei (as Black). Last move played: White plays Bishop to h5",Advantage for Black (eval: -76 centipawns),29... R6g7 30. Bf3 ,29. Bh5 R6g7 30. Bf3 a5 31. bxa6 Qxa4 32. Bxd5 Bxd5 33. fxg5 Bxg5 34. Nf3 Qa5 35. Kf2 Qxa6 36. Nb4 Qb5 37. Nxd5 Qxd5 38. g3 Ra8 39. Ra1 Rga7 40. Rxa7 Rxa7 41. Rb1 b5 42. Rb2 

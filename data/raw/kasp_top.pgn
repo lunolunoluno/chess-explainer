@@ -4358,42 +4358,6 @@ Ke3 44. Qb6+ 44... Ke2 $18) 40... c3 41. Qa4+ Ke1 42. f4 f5 (42... Rd2 {
 a fruitless try to alter the course of the game} 43. Qa5 Rxh2 44. Qxc3+ Kf2 45.
 g4 $18) 43. Kc1 Rd2 44. Qa7 (44. Qa7 h5 45. Qb6 $18) 1-0
 
-[Event "?"]
-[Site "Wijk aan Zee"]
-[Date "1999.01.20"]
-[Round "?"]
-[White "Kasparov, Garry"]
-[Black "Topalov, Veselin"]
-[Result "*"]
-[Annotator "Fritz 6 (Ply depth 15)"]
-[SetUp "1"]
-[FEN "b2r3r/k4p1p/p2q1np1/NppP4/3p1Q2/P4PPB/1PP4P/1K1RR3 w - - 0 24"]
-[PlyCount "10"]
-[EventDate "1999.01.20"]
-[Source "TaL's Chess"]
-[SourceDate "1999.01.20"]
-
-{CHESS KIT http://www.chesskit.com/training/td_id%3d2/trydeep.htm TRY
-DEEP It is amazing to see that Fritz finds the move [24.Rxd4] in 46 secs. 
- --- Once you are familiar with the analysis try to see how the chess
-engine improves the depth of analysis by actually visualizing the position. 
- Stop at the branching points, for example 26....Rxd6 and analyse how white's
-27th move changes from depth 12 to 13. Similar attempt from depth 13 to 14
-needs to be done. You will be quite relieved to see that there is no change in
-analysis from depth 14 to 15. Analysis by Fritz 6 (ply depth 15): } 24.
-Rxd4 $1 {
- (-0.62) 12/33 00:46 19973kN
-} 24... Kb6 25. Nb3 25... Bxd5 26.
-Rxd5 (26. Qxd6+ 26... Rxd6 27. Rd2 {
-} (27. Rdd1 Rhd8 28. Re7 28... h6 {
- (-0.53) 12/38 01:16 32867kN}) {
-} 27... Rhd8 28. Red1 {[RR '=' Kasparov]}
-28... Ne8 {
- (-0.53) 13/37 02:14 57661kN}) 26... Nxd5 27. Qxf7 Rhf8 28. Qxh7
-28... Rh8 {
- (-0.44) 14/38 07:48 201721kN
- (-0.41) 15/41 20:10 518273kN} *
-
 [Event "Hoogevens"]
 [Site "?"]
 [Date "1999.01.20"]

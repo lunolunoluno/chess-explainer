@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+N,True," The comment directly indicates a move that is invalid, signaling a mistake.",1. d4 Nf6 2. Bg5 d5 3. Bxf6 exf6 4. e3 Be6 5. g3,"This is a game between Adams, Mi (as White) and Tiviakov, S. (as Black). Last move played: White plays Pawn to g3",The position is equal,5... Bd6 6. Ne2 ,5. Nd2 Nd7 

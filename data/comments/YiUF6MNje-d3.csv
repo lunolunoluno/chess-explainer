@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+*,True," The asterisk indicates a significant error, suggesting a flawed plan or tactical miscalculation.",1. d4 d5 2. Bg5 c6 3. e3 Qb6 4. Qc1,"This is a game between Adams, Mi (as White) and Short, N. (as Black). Last move played: White plays Queen to c1",Slight advantage for White (eval: 20 centipawns),4... Bf5 5. c4 ,4. Nf3 Bf5 

@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+*,True,", The asterisk indicates a significant tactical blunder, suggesting a misunderstanding of the position.",1. d4,"This is a game between Piket, Je (as White) and Leko, P. (as Black). Last move played: White plays Pawn to d4",Slight advantage for White (eval: 32 centipawns),1... d5 ,1. e4 e5 

@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+*,True," The asterisk indicates a significant tactical error, suggesting a flawed assessment of the board position.",1. d4 d5 2. Bg5,"This is a game between Torre, E. (as White) and Giorgadze, G. (as Black). Last move played: White plays Bishop to g5",The position is equal,2... c5 ,2. c4 e6 

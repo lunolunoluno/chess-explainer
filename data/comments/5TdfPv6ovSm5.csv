@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+*,True," The asterisk indicates a significant flaw in the move, suggesting a misjudgment.",1. d4 d5 2. Bg5,"This is a game between Drazic, S. (as White) and Skembris, S. (as Black). Last move played: White plays Bishop to g5",Slight advantage for Black (eval: -20 centipawns),2... c5 ,2. c4 e6 

@@ -1,0 +1,3 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+*,True," The asterisk indicates a significant error, suggesting a flawed strategic or tactical decision.",1. d4 Nf6,"This is a game between Rogers, I. (as White) and Polgar, Zs (as Black). Last move played: Black plays Knight to f6",Slight advantage for White (eval: 20 centipawns),2. c4 e6 ,1... d5 
+*,True,". The comment ""N"" indicates a move that was incorrectly identified as a pawn, suggesting a flaw in the evaluation.",1. d4 Nf6,"This is a game between Rogers, I. (as White) and Polgar, Zs (as Black). Last move played: Black plays Knight to f6",Slight advantage for White (eval: 20 centipawns),2. c4 e6 ,1... d5 

@@ -1,0 +1,2 @@
+comment,good,reasoning,moves,context,engine_eval,engine_best_line,engine_best_alternative
+[#C5 c4],True, The comment indicates a potential tactical blunder due to the pawn structure.,1. d4 Nf6 2. Bg5 d5 3. Nd2 c5 4. dxc5 Qa5 5. Bxf6 gxf6 6. g3 e6 7. c3 Qxc5 8. Bg2 Nc6 9. Nh3 Bd7 10. O-O f5 11. Nf4 h5 12. Rc1,"This is a game between Ermenkov, E. (as White) and Schmidt, Wl (as Black). Last move played: White plays Rook to c1",The position is equal,12... h4 ,12. h4 
