@@ -1,21 +1,28 @@
+import logging
 import os.path
+import re
 import sys
-from typing import List
+from calendar import prmonth
 from datetime import datetime
+from typing import List, Any
 
 import chess.pgn
-import logging
+import matplotlib
+
+matplotlib.use('Qt5Agg')
+import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 
 from sympy.printing.pytorch import torch
 from tqdm import tqdm
-from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, \
+from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, \
     DataCollatorForLanguageModeling, PreTrainedTokenizerFast
-from datasets import Dataset
-from peft import get_peft_model, LoraConfig, TaskType, PeftModel, PeftConfig
+from peft import get_peft_model, LoraConfig, PeftModel, PeftConfig
 
 from modules.datautils import has_game_comments, pgn_to_id, get_all_pgn_files, get_all_comments_and_lines_in_game, \
-    filter_good_comments, create_dataset
+    filter_good_comments, create_dataset, safe_folder_name, remove_return_char
+from modules.evaluator import Evaluator
 from modules.utils import Debug, LLM
 from modules.gameanalyzer import GameAnalyzer
 
@@ -33,6 +40,8 @@ class Controller:
         assert os.path.exists(self.data_analyzed_path), f"{self.data_analyzed_path} doesn't exists !"
         self.data_commented_path = os.getenv("DATA_COMMENTS_PATH")
         assert os.path.exists(self.data_commented_path), f"{self.data_commented_path} doesn't exists !"
+        self.data_evaluations_path = os.getenv("DATA_EVALUATIONS_PATH")
+        assert os.path.exists(self.data_evaluations_path), f"{self.data_evaluations_path} doesn't exists !"
 
         # remove the non-critical logs in the terminal
         logging.getLogger("chess.pgn").setLevel(logging.CRITICAL)
@@ -190,7 +199,6 @@ class Controller:
             print(comments.columns)
             comments.to_csv(games[game_index], index=False)
 
-
     def save_comments_as_csv(self) -> str:
         comments_files = [
             os.path.join(self.data_commented_path, file)
@@ -307,7 +315,7 @@ class Controller:
         self.dbg.print("Starting training...")
         trainer.train()
 
-        checkpoint_name = f"trained-{model_id.split('/')[-1:]}-{datetime.today().strftime('%Y%m%d%H%M%S')}"
+        checkpoint_name = f"trained-{safe_folder_name(model_id)}-{datetime.today().strftime('%Y%m%d%H%M%S')}"
         model.save_pretrained(checkpoint_name)
         tokenizer.save_pretrained(checkpoint_name)
 
@@ -322,12 +330,130 @@ class Controller:
 
         return model, tokenizer
 
-    def prompt_model(self, model, tokenizer, prompt) -> str:
+    def prompt_model(self, model: Any, tokenizer: Any, prompt: str) -> str:
         model.eval()
 
         inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
         with torch.no_grad():
-            outputs = model.generate(**inputs)
+            outputs = model.generate(
+                    **inputs,
+                    max_new_tokens=64,
+                    min_new_tokens=20,
+                    do_sample=True,
+                    temperature=0.7,
+                    top_p=0.9,
+                    eos_token_id=tokenizer.eos_token_id,
+                    pad_token_id=tokenizer.eos_token_id
+                )
 
         return tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+    def evaluate_model(self, model: Any, tokenizer: Any, test_dataset: pd.DataFrame, input_columns: list[str], input_target: str, batch_size: int = 1, save_eval: bool = False, show_graphs: bool = False) -> list:
+        model.eval()
+        prompts = []
+        for _, row in test_dataset.iterrows():
+            info = "\n".join([f"{col}: {row[col]}" for col in input_columns])
+
+            p = f"""
+                Based on the following information:
+                {info}
+                Here is an explanation on why the last move played was a mistake:
+            """.strip()
+            p = re.sub(r'\t| {2,}', '', p)
+            prompts.append({
+                "prompt": p,
+                "target": row[input_target]
+            })
+
+        results = []
+        self.dbg.print("MODEL ANSWERING PROMPTS")
+        for i in tqdm(range(0, len(prompts), batch_size)):
+            end_range = i + batch_size if i + batch_size < len(prompts) else len(prompts)
+            batch = [prompts[i]["prompt"] for i in range(i, end_range)]
+            batch_targets = [prompts[i]["target"] for i in range(i, end_range)]
+
+            token_lengths = [len(tokenizer.encode(b)) for b in batch]
+            max_token = max(token_lengths)
+            inputs = tokenizer(
+                batch,
+                return_tensors="pt",
+                padding=True,
+                truncation=True,
+                max_length=max_token
+            ).to(model.device)
+            with torch.no_grad():
+                outputs = model.generate(
+                    **inputs,
+                    max_new_tokens=64,
+                    min_new_tokens=20,
+                    do_sample=True,
+                    temperature=0.7,
+                    top_p=0.9,
+                    eos_token_id=tokenizer.eos_token_id,
+                    pad_token_id=tokenizer.eos_token_id
+                )
+
+            decoded_outputs = [tokenizer.decode(o, skip_special_tokens=True) for o in outputs]
+            res = [{
+                "prompt": p,
+                "output": remove_return_char(o.removeprefix(p).strip()),
+                "target": remove_return_char(t)
+            }
+            for p, t, o in zip(batch, batch_targets, decoded_outputs)
+            ]
+            results.extend(res)
+
+        ev = Evaluator()
+
+        self.dbg.print("EVALUATING MODEL ANSWERS")
+        for res in tqdm(results):
+            bleu = ev.bleu_evaluation(res["target"], res["output"])
+            rouge1, rouge2, rougeL = ev.rouge_evaluation(res["target"], res["output"])
+            meteor = ev.meteor_evaluation(res["target"], res["output"])
+            bertscore = ev.bertscore_evaluation(res["target"], res["output"])
+            res["BLEU score"] = bleu
+            res["ROUGE-1 score"] = rouge1
+            res["ROUGE-2 score"] = rouge2
+            res["ROUGE-L score"] = rougeL
+            res["METEOR score"] = meteor
+            res["BERTScore"] = bertscore
+
+        if save_eval or show_graphs:
+            df_results = pd.DataFrame(results)
+
+            def __create_hist_plot(column_name:str, min_val: float, max_val: float):
+                fig, ax = plt.subplots()
+                x = df_results[column_name].tolist()
+                ax.hist(x)
+                ax.set_xlim(min_val, max_val)
+                ax.set_title(f"{column_name} distribution, avergage value: {np.average(x)}")
+                return fig
+
+            fig_bleu = __create_hist_plot("BLEU score", 0.0, 100.0)
+            fig_rouge1 = __create_hist_plot("ROUGE-1 score", 0.0, 1.0)
+            fig_rouge2 = __create_hist_plot("ROUGE-2 score", 0.0, 1.0)
+            fig_rougeL = __create_hist_plot("ROUGE-L score", 0.0, 1.0)
+            fig_meteor = __create_hist_plot("METEOR score", 0.0, 1.0)
+            fig_bertscore = __create_hist_plot("BERTScore", 0.0, 1.0)
+
+            if save_eval:
+                folder_name = os.path.join(self.data_evaluations_path,f"{safe_folder_name(model.name_or_path)}_{datetime.today().strftime('%Y%m%d%H%M%S')}")
+                os.mkdir(folder_name)
+                df_results.to_csv(os.path.join(folder_name, "result.csv"), index=False)
+
+                fig_bleu.savefig(os.path.join(folder_name, "bleu_score.png"))
+                fig_rouge1.savefig(os.path.join(folder_name, "rouge1_score.png"))
+                fig_rouge2.savefig(os.path.join(folder_name, "rouge2_score.png"))
+                fig_rougeL.savefig(os.path.join(folder_name, "rougel_score.png"))
+                fig_meteor.savefig(os.path.join(folder_name, "meteor_score.png"))
+                fig_bertscore.savefig(os.path.join(folder_name, "bertscore.png"))
+
+            if show_graphs:
+                plt.show()
+
+        return results
+
+
+
+
