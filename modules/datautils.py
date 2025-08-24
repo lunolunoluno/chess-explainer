@@ -231,3 +231,8 @@ def create_dataset(dataset_path: str, inputs_columns: List[str], label_column: s
     # Create dataset with only necessary columns
     dataset = Dataset.from_pandas(df_dataset[["prompt", label_column, "full_text"]])
     return dataset
+
+def safe_folder_name(name: str, replace_with: str = "_") -> str:
+    safe_name = re.sub(r'[<>:"/\\|?*\']', replace_with, name)
+    safe_name = safe_name.strip(" .")
+    return safe_name

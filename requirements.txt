@@ -68,6 +68,8 @@ requests==2.32.3
 rouge-score==0.1.2
 sacrebleu==2.5.1
 safetensors==0.5.3
+scikit-learn==1.7.1
+scipy==1.15.3
 sentencepiece==0.2.0
 six==1.17.0
 sympy==1.14.0
