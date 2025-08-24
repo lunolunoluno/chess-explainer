@@ -10,7 +10,7 @@ import pandas as pd
 from sympy.printing.pytorch import torch
 from tqdm import tqdm
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, \
-    DataCollatorForLanguageModeling, PreTrainedTokenizerFast
+    DataCollatorForLanguageModeling, PreTrainedTokenizerFast, BitsAndBytesConfig
 from datasets import Dataset
 from peft import get_peft_model, LoraConfig, TaskType, PeftModel, PeftConfig
 
@@ -239,9 +239,17 @@ class Controller:
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
 
+        # Quantization setup for QLoRA
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_compute_dtype=torch.bfloat16  #
+        )
+
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
-            torch_dtype=torch.float16,
+            quantization_config=bnb_config, # apply the quantization
             device_map="auto"
         )
 
@@ -261,7 +269,7 @@ class Controller:
 
         # LoRA configuration
         lora_config = LoraConfig(
-            r=8,
+            r=64, # QLoRA papers often use higher rank (32–64) compare to the classic LoRA rank 8
             lora_alpha=16,
             target_modules="all-linear",
             lora_dropout=0.05,
@@ -283,8 +291,9 @@ class Controller:
             warmup_steps=100,
             logging_steps=10,
             save_steps=500,
-            learning_rate=5e-4,
-            fp16=True,  # Use mixed precision training
+            learning_rate=2e-4,  # lr for QLoRA -> 2e-4, LoRA -> 5e-4
+            bf16= torch.cuda.is_bf16_supported(),  # use bf16 if supported, else fp16
+            fp16=not torch.cuda.is_bf16_supported(),
             push_to_hub=False,
             report_to=None,  # Disable wandb/tensorboard logging
         )
