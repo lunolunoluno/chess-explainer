@@ -1,0 +1,205 @@
+prompt,output,target,BLEU score,ROUGE-1 score,ROUGE-2 score,ROUGE-L score,METEOR score,BERTScore
+"Based on the following information:
+moves: 1. b4 e5 2. Nc3 Bxb4 3. Bb2 Nf6 4. e4 Nc6 5. Nf3 O-O 6. g3 Nd4 7. Bg2 d6 8. O-O Bg4 9. h3 Nxf3+ 10. Bxf3 Bxf3 11. Qxf3 b5 12. Nxb5 Bxd2 13. Rad1 Rb8 14. Rxd2 Rxb5 15. Ba3 Ra5 16. Rd3 Qb8 17. Rb3 Qc8 18. Qc3 Ra6 19. Qc4 Nd7 20. Rfb1 Rb6 21. f4 Rxb3 22. axb3 Nb6 23. Qf1 exf4 24. Qxf4
+engine_eval: Large advantage for Black (eval: -278 centipawns)
+engine_best_line: 24... Qxh3 25. Bb2 h6 26. Ra1 Nc8 27. Ra5 f6 28. Bc3 Rf7 29. Qf3 c5 30. Rb5 Nb6 31. Ra5 Qe6 32. Qf5 Re7 33. Qxe6+ Rxe6 34. Rxa7 Rxe4 
+engine_best_alternative: 24. gxf4 Qe6 25. Re1 Re8 26. Bb2 Nd7 27. Bc3 f6 28. b4 Nb6 29. Qd3 a6 30. Kg2 Qc4 31. Qxc4+ Nxc4 32. Kf3 Kf7 33. h4 f5 34. e5 g6 35. Ra1 dxe5 36. Rxa6 e4+ 37. Ke2 Nb6 38. Bd4 
+Here is an explanation on why the last move played was a mistake:","""Black should have played 24. ... Qf3 25. Qf2 Qc4 26. Qb3 c5 27. Qc2 e5 28. Rad1 Qd4 29. Qf3 f6 30.","This is obviously an oversight by white. White had to play gxf4, and if black tries to open things up with ..f5, then e5 gives White a fighting chance.",2.658351530921872,0.13636363636363635,0.0,0.09090909090909091,0.052816901408450696,0.1080753281712532
+"Based on the following information:
+moves: 1. b4 e5 2. Nc3 Bxb4 3. Bb2 Nf6 4. e4 Nc6 5. Nf3 O-O 6. g3 Nd4 7. Bg2 d6 8. O-O Bg4 9. h3 Nxf3+ 10. Bxf3 Bxf3 11. Qxf3 b5
+engine_eval: Large advantage for Black (eval: -152 centipawns)
+engine_best_line: 12. a4 
+engine_best_alternative: 11... Qd7 12. Kg2 Bxc3 13. Bxc3 Qa4 14. Rfe1 Qxc2 15. a4 b6 16. Ra3 Rae8 17. a5 Nd7 18. axb6 axb6 19. Ra7 Rc8 20. d4 exd4 21. Bxd4 Qc6 22. Bxg7 Kxg7 23. Qd3 
+Here is an explanation on why the last move played was a mistake:",. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,"?! Definitely dubious. This makes black's pawn structure slightly weaker. Why not solidfy central control with ...c6, Re8, with a ...d5 expansion? Remember, when ahead in material, trade pieces, not pawns.",3.9198108726273357,0.0,0.0,0.0,0.0,-0.8668632507324219
+"Based on the following information:
+moves: 1. e4 e6 2. d4 Nf6 3. Nd2 Nc6 4. Nb3 Nxe4 5. Bd3 d5 6. Nf3 Bd7 7. O-O Bb4 8. Be3 O-O 9. Ne5 Nxe5 10. dxe5 c6 11. a3 Be7 12. Na5 Nxf2 13. Bxf2 Qxa5 14. Qe2 Bc5 15. Qh5 Bxf2+ 16. Rxf2 g6 17. Qh4 Qc7 18. Re1 a6 19. b4 b5 20. Bxg6 Rfb8 21. Bxh7+ Kf8 22. Qh6+
+engine_eval: Large advantage for White (eval: 776 centipawns)
+engine_best_line: 22... Ke8 23. Qg5 Qb6 24. Re3 Qxe3 25. Qxe3 f5 26. exf6 Kd8 27. f7 Kc7 28. Qe5+ Kb6 29. Qd6 Rd8 30. h3 e5 31. Qxe5 a5 32. bxa5+ Kxa5 33. Bd3 Kb6 34. c3 
+engine_best_alternative: 22. Rxf7+ Kxf7 23. Qf6+ Ke8 24. Bg6# 
+Here is an explanation on why the last move played was a mistake:","White's piece was a bishop. White had a pawn on c6. White could have played ...c5, ...b5, ...b4, or ...a4. Black's bishop was at e3. Black could play ...d5, ...e5, or ...c5. Black's bishop","Why bother with this, when 22. Rxf7+ wins immediately. 22. ... Kxf7 23. Rf1+ (...Ke8 24. Bg6#) Kg7 24. Qf6+! Kxh7 25. Rf3, and black is helpless against the threat of Rh3+ and Rh8 mate. Watch for this motif, this happens a lot in chess games.",4.962021049667293,0.05405405405405406,0.0,0.02702702702702703,0.022321428571428572,0.04761718213558197
+"Based on the following information:
+moves: 1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3
+engine_eval: Advantage for White (eval: 61 centipawns)
+engine_best_line: 5... Be7 
+engine_best_alternative: 5. d4 
+Here is an explanation on why the last move played was a mistake:",explanation: This is a very important position for Black. Black cannot be in any position except for white's king and bishop. Black should not lose the bishop. 5. d4! is a good move because it gives black a bishop to play with. 5. d4! White's king is in check,"Because of black's particularly passive play, there's no reason white should not do 5. f4! right away to gain more SPACE and central control (e5 square). Notice white plays f4 later anyways, albeit after a lot of maneuvering.",2.279658441354004,0.2549019607843137,0.02,0.13725490196078433,0.16253196930946287,0.18794608116149902
+"Based on the following information:
+moves: 1. d4 d5 2. c4 Nf6 3. Nc3 e6 4. cxd5 exd5 5. g3
+engine_eval: Slight advantage for Black (eval: -26 centipawns)
+engine_best_line: 5... Be7 6. Nf3 O-O 7. Bf4 Re8 8. a3 Bf5 9. e3 c6 10. Bd3 Bxd3 11. Qxd3 Bf8 12. h4 Nbd7 13. Kf1 Qc8 14. h5 h6 15. Kg2 Nb6 16. b3 Ne4 
+engine_best_alternative: 5. Bg5 
+Here is an explanation on why the last move played was a mistake:",. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,"Unfortunately, this is one of those positions where the fianchetto of the bishop isn't very effective. White's bishop is blocked by the black d-pawn, and there is no way to dislodge it except by an eventual e4. But if white does that, then white will be obliged to recapture with a piece, and this leaves white's d-pawn isolated. See all the strategical concepts I was talking about? In this position, much more promising is quick development with 5. Bg5, then a later e3, Bd3, Nf3, etc. The text should give black a nice game.",0.4315520144927271,0.0,0.0,0.0,0.0,-0.928070068359375
+"Based on the following information:
+moves: 1. c4 e5 2. Nc3 d6 3. g3 f5 4. Bg2 Nf6 5. e3 g6 6. Nge2 Bg7 7. O-O O-O 8. d3 c6 9. b4 Be6 10. b5 d5 11. bxc6 bxc6 12. Qa4 g5 13. Ba3 Rf7 14. Rac1 Rd7 15. Bb4 a5 16. Ba3 Bf7 17. cxd5 cxd5 18. Nb5 Na6 19. Rc6 Nb4 20. Bxb4 axb4 21. Qxb4 Rxa2 22. Nec3 Ra8 23. Nd6 Bf8 24. Nxf7 Rxf7 25. Qb3 Ra3 26. Qc2 e4 27. dxe4 dxe4 28. Rd1 Qe8 29. Nb5 Ra2 30. Qc4 Ra4 31. Qc2 Ra2 32. Qxa2 Qxc6 33. Nd4 Qd5 34. Qc2 Ng4
+engine_eval: Large advantage for White (eval: 336 centipawns)
+engine_best_line: 35. h3 Nxf2 36. Qxf2 Bc5 37. Qc2 h5 38. g4 fxg4 39. hxg4 hxg4 40. Bxe4 Qe5 41. Kg2 Bxd4 42. Rxd4 Qf6 43. Qe2 Kg7 44. Rd5 Kh6 45. Rb5 Kg7 46. Rf5 Qxf5 47. Bxf5 Rxf5 48. Qxg4 
+engine_best_alternative: 34... Qc5 35. Qb3 Qd5 36. Qxd5 Nxd5 37. Bf1 Nc3 38. Rc1 Rc7 39. Ra1 Kf7 40. Nxf5 h5 41. Ra6 Rc5 42. Nd4 Be7 43. Ra7 Kf6 44. Kg2 Bd6 45. Ra6 Ke7 46. Nb3 Rc8 47. Ra5 Kf6 48. Nd4 Rc5 49. Ra7 Be5 50. Ra6+ Kf7 
+Here is an explanation on why the last move played was a mistake:",Explanation: ...Kf6 was better. White's last move was 34. Qb3 Qd5 35. Qxd5 Nxd5 36. Bf1 Nc3 37. Rc1 Rc7 38. Ra1 Kf7 3,"This is incorrect. Qe5 is far superior. This gets black of the the a2-g8 diagonal and protects the f pawn, this gives black a chance to hold the game.",1.3910278360331696,0.0,0.0,0.0,0.0,0.15204964578151703
+"Based on the following information:
+moves: 1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. d4 d6 5. Nc3 Nf6 6. O-O O-O 7. h3 a6 8. a4 h6 9. a5 Re8 10. d5 Nb8 11. Ne1 Nh7
+engine_eval: Advantage for White (eval: 84 centipawns)
+engine_best_line: 12. Nf3 Ng5 13. Nh2 Nh7 14. Ne2 Bg5 15. Ng3 Nd7 16. Re1 Bxc1 17. Qxc1 Ndf6 18. Qd2 c6 19. dxc6 bxc6 20. Rad1 Be6 21. Bxe6 Rxe6 22. c4 Qc7 23. b4 
+engine_best_alternative: 11... Nbd7 12. Be3 b5 13. axb6 Nxb6 14. Bd3 c6 15. dxc6 Qc7 16. Qe2 Qxc6 17. Nf3 Rb8 18. Bxa6 Bxa6 19. Qxa6 Rec8 20. Rfb1 Bd8 21. Bxb6 Bxb6 22. Qd3 Qb7 23. Ra6 
+Here is an explanation on why the last move played was a mistake:",. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,"? Definitely a mistake. Black should of course continue development with ...Nbd7 instead, with the idea of ...Nf8, Ng6, Bd7, c6 with a playable game. The text leaves the center for no good reason.",3.9198108726273357,0.0,0.0,0.0,0.0,-0.7911385893821716
+"Based on the following information:
+moves: 1. Nf3 Nf6 2. Nc3 Nc6 3. d4 d5 4. e4 dxe4 5. d5 exf3 6. dxc6 fxg2 7. Bxg2 Qxd1+ 8. Kxd1 Bf5 9. cxb7 Rd8+ 10. Bd2 e5 11. Re1 Bd6 12. Bc6+ Bd7 13. Bf3 O-O 14. Ne4 Bg4 15. Nxf6+ gxf6 16. Bxg4 Bb4 17. Re2 Bxd2 18. Rxd2 Rxd2+ 19. Kxd2 Rd8+ 20. Ke1
+engine_eval: Large advantage for White (eval: 714 centipawns)
+engine_best_line: 20... Rb8 21. Bc8 f5 22. Rd1 e4 23. c4 Kg7 24. Rd7 c6 25. b4 f4 26. c5 a6 27. a4 h5 28. a5 h4 29. b5 e3 30. bxc6 h3 31. c7 exf2+ 32. Kxf2 
+engine_best_alternative: 20. Kc3 Rb8 21. Bc8 f5 22. Rd1 Kg7 23. a4 e4 24. Rd4 Kf6 25. Kc4 c6 26. b4 Ke5 27. Rd7 Kf6 28. Rd1 f4 29. Kc5 e3 30. fxe3 f3 31. Kxc6 f2 32. a5 
+Here is an explanation on why the last move played was a mistake:","Comment: The error was to play 20. Kc3. White cannot play the same as a pawn. White's bishop and rook would have been at the center, and the black king would be protected. White's rook is already in a position to get a pawn. Since the black king","No. Now that most pieces are exchanged, the king is a fighting piece -- the threat of mate is non-existent. White should try to support his passed b-pawn with 20. Kc3.",6.081988435538783,0.2,0.02040816326530612,0.12,0.17857817042322652,0.25736501812934875
+"Based on the following information:
+moves: 1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5
+engine_eval: The position is equal
+engine_best_line: 5. O-O 
+engine_best_alternative: 4... Qc7 5. O-O 
+Here is an explanation on why the last move played was a mistake:",_best_alternative: 4... Qc7 5. O-O 6. Qb3 Qc8 7. Qc3 Qc5 8. Qb3 Qb5 9. Re1 Qe7 10. Qc3 Qb6 11.,"This does put a foothold in the center, but this allows white to weaken your pawn structure if he wishes with Bxc6+. In this case, you don't have to allow the weakening. 4. ... Nge7 develops a piece while at the same time maintains your pawns' integrity. Notice if white plays complacently with 5. O-O a6 6. Ba4? b5 7. Bb3 c4 wins a piece. Notice white couldn't take advantage of the pin that you walked into after playing ...d5.",2.0799114758115564,0.2608695652173913,0.09090909090909091,0.2608695652173913,0.0425944669365722,0.10854468494653702
+"Based on the following information:
+moves: 1. e4 Nc6 2. Bc4 Nf6 3. d4 e5 4. d5 Bc5 5. dxc6 bxc6 6. Bg5 O-O
+engine_eval: Large advantage for White (eval: 348 centipawns)
+engine_best_line: 7. Nc3 d5 8. exd5 e4 9. dxc6 Qe7 10. Nd5 Qe5 11. Bxf6 gxf6 12. Ne2 Rd8 13. O-O Be6 14. Nef4 Rxd5 15. Bxd5 Qxf4 16. g3 Qg5 17. Bxe6 e3 18. Bb3 exf2+ 19. Kh1 
+engine_best_alternative: 6... Bxf2+ 
+Here is an explanation on why the last move played was a mistake:","black's bishop should have been placed on d5 and f5 and black's queen should have been placed on e4 or f4. The mistake is that the black bishop was not moved. Also, the black queen was not moved. The black bishop was placed on d5 and the black queen on e4",6. ... Bxf2+ 7. Kxf2 Nxe4+ wins two pawns (the bishop on g5 falls). This tactical motif is very common...watch for it.,1.0751538164669086,0.07547169811320754,0.0,0.05660377358490566,0.06024096385542168,0.09873490035533905
+"Based on the following information:
+moves: 1. e4 e5 2. d3 Bc5 3. Be3 Qg5 4. Bxg5 h6 5. Be3 Bb4+ 6. Bd2 Bc5 7. Be3 Bxe3 8. fxe3 Nf6 9. Nf3 Nc6 10. Nc3 d6 11. Nb5 Kd8 12. Qd2 Be6 13. c4 a6 14. Na3 g5 15. d4 g4 16. d5 gxf3 17. dxe6 Nxe4 18. Qc2 f2+ 19. Ke2 f5 20. b3 Ke7 21. g3 Kxe6 22. Bh3 Rac8 23. Kf3 Ng5+ 24. Kxf2 Nxh3+ 25. Kg2 Ng5 26. Rhf1 Rce8 27. Rxf5 Nb4 28. Qb1 Reg8 29. Nc2 Kxf5 30. Nd4+ Kf6 31. Qf5+ Ke7 32. Qe6+ Kf8
+engine_eval: Mate in 3 for White
+engine_best_line: 33. Rf1+ Kg7 34. Nf5+ Kf8 35. Qe7# 
+engine_best_alternative: 32... Nxe6 33. Nf5+ Kd7 34. a3 Nc2 35. Rc1 Rf8 36. Rxc2 Rxf5 37. b4 e4 38. c5 Rhf8 39. cxd6 Kxd6 40. h4 Rf3 41. Rd2+ Ke7 42. Rd5 Rxe3 43. Re5 Re2+ 44. Kh3 
+Here is an explanation on why the last move played was a mistake:",black's first line of defense is to attack the black queen's bishop with the black pawn on f3. black's bishop is on h5. white's bishop on h6. black's knight on g4. black's queen on e5. black's pawn on f3. white's pawn on f,? A poor move by black. Simply 32. ... Nxe6 would force white to resign.,1.252143927031557,0.058823529411764705,0.0,0.0392156862745098,0.02808988764044944,-0.03112381137907505
+"Based on the following information:
+moves: 1. e4 Nf6 2. d3 d6 3. Nc3 Nfd7 4. Be3 e6 5. Nf3 Be7 6. Qe2 b6 7. O-O-O Bb7 8. Kb1 a6 9. d4 O-O 10. e5 d5 11. h4 Nc6
+engine_eval: Large advantage for White (eval: 267 centipawns)
+engine_best_line: 12. Ng5 h6 13. Bc1 Nb4 14. a3 a5 15. Qg4 c5 16. Nf3 Kh7 17. Rh3 f5 18. Qf4 c4 19. g4 Kg8 20. gxf5 Rxf5 21. Qh2 Nf8 22. h5 
+engine_best_alternative: 11... c5 12. Ng5 Nc6 13. f4 cxd4 14. Qd3 g6 15. Bxd4 Nxd4 16. Qxd4 Rc8 17. Ne2 Qc7 18. Qd2 Nc5 19. Nd4 Ne4 20. Qe3 Bc5 21. c3 h6 22. Nxe4 dxe4 23. h5 g5 24. fxg5 Qxe5 
+Here is an explanation on why the last move played was a mistake:",... h6 12. Qxf4 Qc4 13. Qf3 Qc2 14. Nxd5 Nxd5 15. Nxe4 Qe4 16. a3 Qc3 17. Nc4 Kh7 18,"VERY bad. Black needs open lines for his pieces, including . ...c5! is the natural way to do that, followed by ..Nc6, ...Rc8, and mabe ...cxd4. This would also weaken white's protection of his e5 pawn once the d4 pawn falls. The general principle is: Attack the base of pawn chains. For white, this is e6, and for black it is d4. Note that eventually, White indeed does attack the base of black's pawn chain, which was black's fatal error.",0.4280405785755602,0.0,0.0,0.0,0.0,0.06939632445573807
+"Based on the following information:
+moves: 1. e4 c5 2. Nf3 Nc6 3. Bc4 d6 4. O-O Be6 5. d3 Bxc4 6. dxc4 Nf6 7. Re1 g6 8. Bf4 Bg7 9. Nc3 O-O 10. Rb1 Ng4 11. Nd5 Qa5 12. h3 Nf6 13. e5 Nh5 14. Bg5 Qxa2
+engine_eval: Large advantage for White (eval: 313 centipawns)
+engine_best_line: 15. Nxe7+ Nxe7 16. Bxe7 dxe5 17. Bxf8 Rxf8 18. Nxe5 Bxe5 19. Rxe5 Qxc4 20. b3 Qc3 21. Re3 Qf6 22. Qd7 b6 23. Qxa7 Qf5 24. Rbe1 Qxc2 25. Qxb6 Nf4 26. Qd6 Ne6 27. Qe5 Qd2 28. h4 h5 29. Qa1 Nd4 30. Re8 Rxe8 31. Rxe8+ Kg7 
+engine_best_alternative: 14... dxe5 15. Bxe7 Rfe8 16. Bh4 Nf4 17. c3 Qxa2 18. Nc7 Red8 19. Nd2 Bh6 20. Bxd8 Rxd8 21. Qb3 Qxb3 22. Nxb3 Nd3 23. Red1 e4 24. Nd5 Kg7 25. f3 f5 26. fxe4 fxe4 27. Nd2 e3 28. Nf3 Nf2 29. Re1 Nd3 30. Re2 Nf4 31. Nxf4 Bxf4 32. Ree1 Re8 33. Kf1 Bg3 34. Re2 Kf6 35. b4 cxb4 36. cxb4 
+Here is an explanation on why the last move played was a mistake:","""White's best move is 15... dxe5 16. Bxe7 Rfe8 17. Bh4 Nf4 18. c3 Qxa2 19. Nc7 Red8 20. Nd2 Qd2 21.","Ouch. Black begs White to finish the game in a clean stroke. There is an ""urban legend"" that tells of a rich guy that left his son a vast fortune on the condition that he would never play Qxa2 even if it were the correct move. 14/\dxe4 or 14/\f6 was necessary to hold the balance.",0.6534467201949027,0.17391304347826086,0.0,0.13043478260869565,0.019342359767891684,0.07112011313438416
+"Based on the following information:
+moves: 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5 Be6 9. c3 Bc5 10. Nbd2 O-O 11. Bc2 Nxf2 12. Rxf2 f6 13. exf6 Bxf2+ 14. Kxf2 Qxf6 15. Nf1 Ne5 16. Be3 Rae8 17. Bd4 Qh4+ 18. Kg1 Nxf3+ 19. gxf3 c6 20. Ng3 Qh3 21. Bd3 Kh8 22. Be2 a5 23. Be5 Bc8 24. f4 Qe6 25. Bh5 Re7 26. Qd4 Kg8 27. Rf1 Bb7 28. Qc5
+engine_eval: Large advantage for White (eval: 350 centipawns)
+engine_best_line: 28... Rd7 29. Bd4 g6 30. f5 Qe8 31. Be2 Rdf7 32. Bd3 Bc8 33. Qd6 b4 34. h4 bxc3 35. bxc3 Bd7 36. Rf2 Qe7 37. Qxe7 Rxe7 38. fxg6 hxg6 39. Rxf8+ Kxf8 40. Bxg6 Re1+ 41. Kg2 Rd1 
+engine_best_alternative: 28. Qc5 Rd7 29. Bd4 g6 30. f5 Qe8 31. Be2 Qd8 32. Bd3 Rc7 33. a3 Bc8 34. Kh1 Qe8 35. Qd6 Rcf7 36. h4 Bxf5 37. Nxf5 Rxf5 38. Bxf5 Rxf5 
+Here is an explanation on why the last move played was a mistake:",37. Qd6 Rcf7 38. h4 Bxf5 39. Nxf5 Rxf5 40. Bxf5 Rxf5 41. Bxf5 Kg8 42. Qxd4 Rxf3 43. h4 Q,"The Queen is just fine on d4, it keeps the black bishop nice and hemmed in.",1.3353534059549443,0.0,0.0,0.0,0.0,-0.29270312190055847
+"Based on the following information:
+moves: 1. e4 Nc6 2. Bc4 Nf6 3. d4 e5 4. d5 Bc5 5. dxc6 bxc6 6. Bg5 O-O 7. b3 d6 8. Nc3 Bg4
+engine_eval: Large advantage for White (eval: 319 centipawns)
+engine_best_line: 9. Nge2 d5 10. exd5 cxd5 11. Nxd5 Bxf2+ 12. Kxf2 Ne4+ 13. Kg1 Qxg5 14. h4 Qh6 15. Qd3 Nd6 16. Qe3 Qe6 17. Nxc7 Nxc4 18. bxc4 Qxc4 19. Nxa8 Bxe2 20. Nc7 Bg4 21. Qxe5 Bd7 22. Re1 h6 23. c3 Rc8 24. Nd5 Rc5 25. Ne7+ Kf8 26. Qg3 
+engine_best_alternative: 8... Bd4 9. Qd2 d5 10. exd5 cxd5 11. Bxf6 gxf6 12. Be2 c6 13. Rd1 Bb6 14. Na4 Bc7 15. Nf3 Kh8 16. O-O Rg8 17. Qc3 d4 18. Qc4 f5 19. g3 f4 20. Nc5 
+Here is an explanation on why the last move played was a mistake:",Bf6 is a good move for white. Why was it a mistake? a) The position is not in the middle of the board. b) The position is too close to the center. c) Bf6 is not the best move for white. d) Bf6 is too,Not good. White can win a piece with 9. Bxf6. Perhaps ...h6 was in order.,1.132835149919304,0.13333333333333333,0.0,0.08888888888888889,0.11111111111111113,0.16515971720218658
+"Based on the following information:
+moves: 1. e4 e5 2. d3 Bc5 3. Be3 Qg5 4. Bxg5 h6 5. Be3 Bb4+ 6. Bd2 Bc5 7. Be3 Bxe3 8. fxe3 Nf6 9. Nf3 Nc6 10. Nc3 d6 11. Nb5 Kd8 12. Qd2 Be6 13. c4 a6 14. Na3 g5 15. d4 g4 16. d5 gxf3 17. dxe6 Nxe4 18. Qc2 f2+ 19. Ke2 f5 20. b3 Ke7 21. g3 Kxe6 22. Bh3 Rac8 23. Kf3 Ng5+ 24. Kxf2
+engine_eval: Large advantage for White (eval: 439 centipawns)
+engine_best_line: 24... Nxh3+ 25. Kg2 Ng5 26. Raf1 e4 27. h4 Nf3 28. Rxf3 exf3+ 29. Kxf3 Rcg8 30. Rf1 Rg4 31. Ke2 Rf8 32. Rg1 Ne5 33. Qd1 b6 34. Qd5+ Kd7 35. Qg2 c6 36. Kd2 b5 37. cxb5 axb5 
+engine_best_alternative: 24. Kg2 Rcf8 25. Qxf2 Ne7 26. Raf1 Kd7 27. e4 Nxh3 28. Kxh3 f4 29. gxf4 Ng6 30. f5 Nf4+ 31. Qxf4 exf4 32. Rhg1 Re8 33. Rg7+ Kd8 34. Rxf4 Re5 35. Rg3 Rc5 36. Nc2 
+Here is an explanation on why the last move played was a mistake:",Why was it a mistake? Because of the position on the a-file. Black should have played 24. Kg2 engine_best_alternative: 24. Kg2 Rcf8 25. Qxf2 Ne7 26. Raf1 Kd7 27.,"This hangs a piece. Kg2 was safe and strong... black's f-pawn wasn't going anywhere. Besides, if white had to, he can sac (sacrifice) his rook for pawn and knight, which is still better than losing the bishop for the pawn.",2.1489542921466245,0.1875,0.0,0.09375,0.06426735218508998,-0.03563651442527771
+"Based on the following information:
+moves: 1. Nf3 Nf6 2. Nc3 Nc6 3. d4 d5 4. e4 dxe4 5. d5 exf3 6. dxc6 fxg2 7. Bxg2 Qxd1+ 8. Kxd1 Bf5 9. cxb7 Rd8+ 10. Bd2 e5 11. Re1 Bd6 12. Bc6+ Bd7 13. Bf3 O-O 14. Ne4 Bg4 15. Nxf6+ gxf6 16. Bxg4 Bb4 17. Re2 Bxd2 18. Rxd2 Rxd2+ 19. Kxd2 Rd8+ 20. Ke1 Rb8 21. Bf3 f5 22. Rd1 e4 23. Bg2 Rxb7 24. f3 exf3 25. Bxf3 Rxb2 26. Rd8+ Kg7 27. Kd1 Rxa2 28. Bd5 Ra3 29. Rd7 c5 30. Rxf7+ Kg6 31. Rc7 Ra5 32. Bg8 h6 33. Bh7+ Kg5 34. Rf7 f4 35. Ke1 c4 36. Kf2 a6 37. Kg2 Kh4 38. Rxf4+ Kg5 39. Kg3 Ra2 40. Rg4+ Kf6 41. Rxc4 Ra3+ 42. Bd3 h5 43. Kh4 Ra1 44. Rc6+ Ke5 45. Rxa6 Rh1 46. Kh3 Kf4 47. Rf6+ Kg5 48. Be4 Re1 49. Re6 Re2 50. Re5+ Kf4 51. Rxh5 Rxe4 52. Rh4+ Ke5 53. c3 Rxh4+ 54. Kxh4 Kd5 55. Kg3
+engine_eval: Mate in 21 for White
+engine_best_line: 55... Ke4 56. h4 Kf5 57. Kf3 Kg6 58. Kg4 Kf6 59. h5 Ke5 60. Kg5 Ke4 61. h6 Kf3 62. Kf5 Ke3 63. c4 Kd3 64. h7 Kd4 65. Kf4 Kc5 66. h8=Q Kc6 67. Ke4 Kd7 68. Kd5 Ke7 69. c5 Kf7 70. c6 Kg6 71. c7 Kg5 72. c8=Q Kf4 73. Qe5+ Kf3 74. Qcf5+ Kg2 75. Qg4+ Kh1 76. Qh8# 
+engine_best_alternative: 55. Kg4 Kc4 56. h4 Kxc3 57. Kf5 Kb2 58. h5 Kc2 59. Kf6 Kb1 60. Ke5 Kc2 61. Kf5 Kc1 62. h6 Kb1 63. Kg4 Kc2 64. Kg5 Kd1 65. Kf5 Kc1 66. Ke6 Kd1 67. Kf7 Kd2 68. h7 Kd1 69. Kf6 Ke2 70. Kg7 
+Here is an explanation on why the last move played was a mistake:",Explanation: 55. ... Kf4 56. Kg4 Kc4 57. h4 Kc3 58. Kg5 Kb2 59. h5 Kc2 60. h6 Kb1 61. Kg4 Kc2,"This works, but generally this is the wrong move. In king and pawn endgames, the rule of thumb is: Advance the king as much as is possible to support a pawn advance, without jeopardizing the pawn's safety. Therefore, 55. Kg5 was the correct move. If white's c-pawn were gone, black could draw by running his king to h8, and white would unable to make progress. With Kg5, however, white can get to g7 first, blocking black's king, and forcing white's h-pawn to queen.",0.47991256895038253,0.09523809523809523,0.0,0.09523809523809523,0.013003901170351106,-0.10670965164899826
+"Based on the following information:
+moves: 1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Qxd4 e6 6. Bf4 Nc6 7. Qd2 h6 8. Bb5 Be7 9. Bxc6 dxc6 10. c4 Nxf4 11. Qxf4 Bg5 12. Qf3 Qa5+ 13. Nc3 Qxe5+ 14. Nge2 O-O 15. Ne4 Qxb2 16. O-O Be7 17. g4 f5 18. gxf5 exf5 19. Rab1 Qe5 20. N4g3 g6 21. Qd3 Rd8 22. f4
+engine_eval: Large advantage for Black (eval: -712 centipawns)
+engine_best_line: 22... Qc5+ 23. Nd4 Rxd4 24. Qe3 Rxf4 25. Qxc5 Bxc5+ 26. Kg2 Rxf1 27. Nxf1 b6 28. Nd2 Be6 29. Nb3 Bf8 30. c5 Bd5+ 31. Kf1 Be7 32. Re1 Bh4 33. Rc1 Re8 34. cxb6 axb6 35. Nd4 
+engine_best_alternative: 22. Qf3 Bg5 23. h4 Bxh4 24. Nf4 Qe8 25. a4 Qf7 26. a5 a6 27. Rfe1 Kh7 28. Qb3 Bg5 29. Nd3 Bf6 30. Ne5 Qg7 31. Nf3 h5 32. Rbd1 h4 33. Rxd8 Bxd8 34. Ne2 
+Here is an explanation on why the last move played was a mistake:","... Bg5 23. a4 Generate a comment explaining the mistake that the player just madeComment: This is the correct play. Black should not have moved. The knight on d4 is a knight on a pawn, and the bishop on g5 can't block the knight's line of attack",?? Misses black's in-between move. Black should win easily now.,2.694351240818421,0.08333333333333333,0.02127659574468085,0.041666666666666664,0.13686131386861317,0.11722681671380997
+"Based on the following information:
+moves: 1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 e6 5. g4 Bg6 6. Nge2 c5 7. h4 h5 8. Nf4 Bh7 9. Nxh5 cxd4 10. Nb5 Qa5+ 11. Qd2 Bb4 12. Nxg7+ Kf8 13. c3 dxc3 14. bxc3 Bc5 15. Nh5 Be4 16. Rh3 Nc6 17. Qg5 Bg6 18. Rf3 Bxh5
+engine_eval: Large advantage for White (eval: 246 centipawns)
+engine_best_line: 19. gxh5 Qd8 20. Qf4 Qe7 21. Qg3 a6 22. Nd6 Rh7 23. Bf4 Qd7 24. h6 Bxd6 25. exd6 e5 26. Bc1 Qxd6 27. Rb1 b5 28. Bd3 Rxh6 29. Bxh6+ Qxh6 30. Bg6 Ra7 31. h5 Nd8 32. Kf1 Re7 33. Re1 e4 34. Rf5 
+engine_best_alternative: 18... Ke8 
+Here is an explanation on why the last move played was a mistake:",...Ke8 19. Qf4 Qe7 20. Nd6 Ra7 21. Bf4 Qd7 22. h6 Bxd6 23. exd6 e5 24. Bc1 Qxd6 25. B,This walks to White's hands. ...Ke8 would offer stiffer resistance. For example 19. Nf4?? Be7 would win white's queen (or a piece).,9.264124456209373,0.09523809523809523,0.0,0.09523809523809523,0.045662100456621,0.12493457645177841
+"Based on the following information:
+moves: 1. e4 e5 2. d3 Bc5 3. Be3 Qg5 4. Bxg5 h6 5. Be3 Bb4+ 6. Bd2 Bc5 7. Be3 Bxe3 8. fxe3 Nf6 9. Nf3 Nc6 10. Nc3 d6 11. Nb5 Kd8 12. Qd2 Be6 13. c4 a6 14. Na3 g5 15. d4 g4 16. d5 gxf3 17. dxe6 Nxe4 18. Qc2 f2+ 19. Ke2 f5 20. b3 Ke7 21. g3 Kxe6 22. Bh3 Rac8 23. Kf3 Ng5+ 24. Kxf2 Nxh3+ 25. Kg2 Ng5 26. Rhf1 Rce8 27. Rxf5 Nb4 28. Qb1 Reg8 29. Nc2 Kxf5 30. Nd4+ Kf6 31. Qf5+ Ke7 32. Qe6+ Kf8 33. Qc8+ Kg7 34. Qxc7+ Nf7 35. Ne6+
+engine_eval: Large advantage for White (eval: 906 centipawns)
+engine_best_line: 35... Kg6 36. Rf1 Rh7 37. Qe7 Rhg7 38. Nxg7 Rxg7 39. Rf6+ Kh7 40. Rxf7 Rxf7 41. Qxf7+ Kh8 42. Qe8+ Kg7 43. Qd7+ Kf6 44. Qxd6+ Kf5 45. Qxb4 Ke4 46. Kf2 b5 
+engine_best_alternative: 35. Rf1 Rf8 36. Ne6+ Kg6 37. Qe7 Nd5 38. cxd5 Ng5 39. Nxf8+ Rxf8 40. Qxf8 Nf3 41. Rxf3 e4 42. Qf7+ Kg5 43. Qf5# 
+Here is an explanation on why the last move played was a mistake:","""White's 35. Qe8+ is the best. White's 35. Qe8+ is the best because it takes advantage of Black's queen's weakness. This is a very common opening strategy. Black's bishop can be played by placing a pawn on the bishop's square and","Instead, 25. Rf1! wins outright! That move would threaten Qxf7#, so therefore black would have to play ...Rf8, but THEN 36. Ne6+ Kg6 37. Qe7 is lights out for black. There is this phrase among tournament chess players, ""Monkey see check, monkey do check"". Don't be a monkey! Only check if there's a concrete reason to do so.",0.7512465412261363,0.2127659574468085,0.0,0.1276595744680851,0.07104795737122557,0.07045051455497742
+"Based on the following information:
+moves: 1. e4 e5 2. Qh5 Nc6 3. Bb5 Nf6 4. Qf3 Nd4 5. Qd3 a6 6. Ba4 Bc5 7. c3 Nc6 8. Bb3 O-O 9. Nf3 h6 10. O-O b5 11. a4 Bb7 12. axb5 axb5 13. Rxa8 Bxa8 14. Qxb5 d6 15. Qe2 Na5 16. Bc2 c6 17. b4 Ba7 18. bxa5 Qxa5 19. Na3 Re8 20. Nc4 Qd8 21. Ba3 d5 22. Ncxe5 dxe4 23. Bxe4 Qa5 24. Bd6 Re6 25. Qd3 Nxe4 26. Bb4 Qd5 27. Qa6 Rxe5 28. Qxa7 Re8 29. Re1 c5 30. Bxc5 Bc6 31. h3 Nxd2 32. Rxe8+ Bxe8 33. Nxd2 Qxd2 34. Qb8 Qe1+ 35. Kh2 Kh7 36. c4
+engine_eval: The position is equal
+engine_best_line: 36... Qe2 
+engine_best_alternative: 36. Be3 Bc6 
+Here is an explanation on why the last move played was a mistake:","Black should have played 36... Qe2, 37. Qh4+ Qf5 38. Bb3 Bc6 39. Qf3 Re8 40. c4 Qe2 41. b4 Bc6 42",Dubious. White should improve his pieces first. Be3 & Qe5 would give white real chances to win.,1.6404472625060698,0.045454545454545456,0.0,0.045454545454545456,0.05714285714285714,0.0834956094622612
+"Based on the following information:
+moves: 1. c4 e5 2. Nc3 d6 3. g3 f5 4. Bg2 Nf6 5. e3 g6 6. Nge2 Bg7 7. O-O O-O 8. d3 c6 9. b4 Be6 10. b5 d5 11. bxc6 bxc6 12. Qa4 g5
+engine_eval: Large advantage for White (eval: 112 centipawns)
+engine_best_line: 13. Ba3 
+engine_best_alternative: 12... dxc4 
+Here is an explanation on why the last move played was a mistake:","ategy. The best move is 13. Ba3, because it develops a piece. White is trying to get the bishop into position. 13. Ba3 is a good idea, since it creates a pawn for the bishop and also develops the bishop. White needs to get the bishop to a good position","g5 is a mistake, but with the center still fluid a wing demonstration can be dangerous.12...g5 also gives white time to develop an initiative. 12...e4 is tempting but that allows white to put uncomfortable pressure on the ""d"" line. 12...dc! followed by Qd3 gives black equality",1.8339665925709023,0.24,0.02040816326530612,0.18,0.1400862068965517,0.08807153254747391
+"Based on the following information:
+moves: 1. e4 d5 2. exd5 Qxd5 3. d4 Nc6 4. Nf3 Nf6 5. c4 Qa5+
+engine_eval: Large advantage for White (eval: 120 centipawns)
+engine_best_line: 6. Bd2 Qf5 7. Nc3 e5 8. Nb5 Bd6 9. d5 Nd4 10. Nbxd4 exd4 11. Qe2+ Kd8 12. Nxd4 Qg6 13. O-O-O Re8 14. Be3 Ng4 15. Qd2 Nxe3 16. fxe3 Ke7 17. Re1 
+engine_best_alternative: 5... Qh5 6. d5 
+Here is an explanation on why the last move played was a mistake:",: Black's bishop is under attack by the white bishop on e4. Black's bishop on e4 is attacked by black's bishop on d3. Black's bishop on d3 is under attack by white's bishop on c4. Black's bishop on d3 is also under attack by white's bishop on,? This only forces white to develop his bishop with a gain of time. Black has to accept the fact his only reasonable posts for her is d6 or d8.,1.141212511111281,0.09433962264150944,0.0,0.07547169811320754,0.06309148264984227,0.07135991007089615
+"Based on the following information:
+moves: 1. e4 e6 2. d4 Nf6 3. Nd2 Nc6 4. Nb3 Nxe4 5. Bd3 d5 6. Nf3 Bd7 7. O-O Bb4 8. Be3 O-O 9. Ne5 Nxe5 10. dxe5 c6 11. a3 Be7 12. Na5 Nxf2 13. Bxf2 Qxa5 14. Qe2 Bc5 15. Qh5 Bxf2+ 16. Rxf2 g6 17. Qh4 Qc7 18. Re1 a6 19. b4
+engine_eval: Slight advantage for Black (eval: -27 centipawns)
+engine_best_line: 19... c5 20. Re3 Bb5 21. Rh3 f5 22. exf6 Bxd3 23. Rxd3 Rf7 24. bxc5 Qe5 25. Rff3 Qb2 26. Rde3 e5 27. Qb4 Qxb4 28. axb4 Re8 29. g4 e4 30. Rf4 Re5 31. h4 h6 32. c4 g5 33. Rf5 Rxf5 34. gxf5 dxc4 35. Rxe4 Rc7 36. hxg5 
+engine_best_alternative: 19. Re3 Be8 20. Qh6 d4 21. Bxg6 f6 22. Bxh7+ Qxh7 23. Rg3+ Bg6 24. Rxg6+ Kh8 25. exf6 Qxh6 26. Rxh6+ Kg8 27. Rg6+ Kh7 28. Rg4 Rg8 29. Rh4+ Kg6 30. Rxd4 Rgd8 31. Rg4+ Kh5 32. Rg7 Rd1+ 33. Rf1 Rad8 34. f7 Rxf1+ 35. Kxf1 Kh6 36. Rg3 
+Here is an explanation on why the last move played was a mistake:",Explanation: 19. Re3 Be8 20. Qh6 d4 21. Bxg6 f6 22. Bxh7+ Qxh7 23. Rg3+ Bg6 24. Rxg6+ Kh8,"? White's heavy concentration of pieces indicates that the king-side is where white should be active. For sure, Re3 would be the way to go. Rh3 would be winning (if ...Qd8 to try to trade queens, white can play Rf6!). There is nothing black can do to prevent a sacrificial breaktrhough.",0.6480125103384814,0.05263157894736842,0.0,0.05263157894736842,0.010460251046025104,-0.01539538986980915
+"Based on the following information:
+moves: 1. Nf3 Nf6 2. Nc3 Nc6 3. d4 d5 4. e4 dxe4 5. d5 exf3 6. dxc6 fxg2 7. Bxg2 Qxd1+ 8. Kxd1 Bf5 9. cxb7 Rd8+ 10. Bd2 e5 11. Re1 Bd6 12. Bc6+ Bd7 13. Bf3 O-O 14. Ne4 Bg4 15. Nxf6+ gxf6 16. Bxg4 Bb4 17. Re2 Bxd2 18. Rxd2 Rxd2+ 19. Kxd2 Rd8+ 20. Ke1 Rb8 21. Bf3 f5 22. Rd1 e4 23. Bg2 Rxb7 24. f3 exf3 25. Bxf3 Rxb2 26. Rd8+ Kg7 27. Kd1
+engine_eval: Large advantage for White (eval: 331 centipawns)
+engine_best_line: 27... Rxa2 28. Rd7 
+engine_best_alternative: 27. Kd2 Rxa2 28. Rd5 Kf6 29. Be2 Ra4 30. Bd3 Rf4 31. Rc5 Rf2+ 32. Ke3 Rxh2 33. Rxc7 Rh3+ 34. Kf2 h5 35. Rxa7 Ke5 36. Rxf7 Kd4 37. Bxf5 Rh2+ 38. Kf3 Kc3 39. Bd3 h4 40. Rc7+ Kb2 41. Kg4 
+Here is an explanation on why the last move played was a mistake:",. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,"Again, now that mate threats are minimal, aggressive use of the king is called for. White should advance toward the center with Kd2.",0.6728248038139729,0.0,0.0,0.0,0.0,-0.8606705665588379
+"Based on the following information:
+moves: 1. e4 e6 2. d4 Nf6 3. Nd2 Nc6 4. Nb3 Nxe4 5. Bd3 d5 6. Nf3 Bd7 7. O-O Bb4 8. Be3 O-O 9. Ne5 Nxe5 10. dxe5 c6 11. a3 Be7 12. Na5 Nxf2 13. Bxf2 Qxa5 14. Qe2 Bc5 15. Qh5 Bxf2+ 16. Rxf2 g6 17. Qh4 Qc7 18. Re1 a6 19. b4 b5 20. Bxg6 Rfb8 21. Bxh7+ Kf8 22. Qh6+ Ke8 23. Qg7 Kd8 24. Rxf7 Qa7+ 25. Kf1 Qb7 26. Qf6+ Kc8 27. Qe7 Qc7 28. Rf8+
+engine_eval: Large advantage for White (eval: 400 centipawns)
+engine_best_line: 28... Kb7 29. Rf7 a5 30. Qxd7 Qxd7 31. Rxd7+ Kb6 32. Rf7 axb4 33. axb4 c5 34. bxc5+ Kxc5 35. g4 Ra4 36. h3 b4 37. g5 b3 38. cxb3 Rxb3 
+engine_best_alternative: 28. g4 c5 29. g5 cxb4 30. axb4 Ra7 31. Kg2 Qc6 32. Qd6 Rc7 33. Bd3 Kb7 34. Qxc6+ Bxc6 35. Rxc7+ Kxc7 36. g6 Rh8 37. Kg3 a5 38. bxa5 b4 39. a6 Be8 40. h4 
+Here is an explanation on why the last move played was a mistake:",Explanation: This is a very bad move. White's knight is already in the center. White's knight is not on the board. White's knight is not on the board. Black's knight is on the board. Black's knight is on the board. Black's knight is on the board. Black's knight,"Not good. This lets black get out of the bind. Black's king can't move because he was tied down to defense of his bishop. Both Bd3, with the idea of pushing the h-pawn to h8, or Bf5!, both win quickly.",1.9405391848516151,0.16363636363636364,0.018518518518518517,0.12727272727272726,0.07352941176470588,0.03957003355026245
+"Based on the following information:
+moves: 1. e4 Nc6 2. Bc4 Nf6 3. d4 e5
+engine_eval: Slight advantage for White (eval: 42 centipawns)
+engine_best_line: 4. d5 Nb8 5. Nf3 Bc5 6. Nxe5 Qe7 7. Nd3 Qxe4+ 8. Qe2 Qxe2+ 9. Kxe2 Be7 10. Re1 d6 11. Kf1 Kd8 12. a4 a5 13. Nc3 Bf5 14. f3 Na6 15. Nb5 Nb4 16. Nxb4 axb4 17. Bd2 Bxc2 18. Bxb4 
+engine_best_alternative: 3... Nxe4 4. Bxf7+ 
+Here is an explanation on why the last move played was a mistake:",". Explanation: White cannot win. White cannot win. White cannot win. Explanation: Why is the best line a mistake? Because of the pawn attack on the black bishop's side. Since the black bishop is protected, white can't make any threats. White needs to get the bishop on the board. Black's","There was no reason take the free, central pawn at e4. If white tries to threaten checkmate and black's knight with Qf3, then d5! stops the mate threat and protects black's knight. Black would have the advantage.",1.0749257799288672,0.25,0.0196078431372549,0.15384615384615385,0.13054830287206265,0.14354832470417023
+"Based on the following information:
+moves: 1. e4 e6 2. d4 Nf6 3. Nd2 Nc6 4. Nb3 Nxe4 5. Bd3 d5 6. Nf3 Bd7 7. O-O Bb4 8. Be3 O-O 9. Ne5 Nxe5 10. dxe5 c6 11. a3 Be7 12. Na5 Nxf2 13. Bxf2 Qxa5 14. Qe2 Bc5 15. Qh5 Bxf2+ 16. Rxf2 g6 17. Qh4 Qc7 18. Re1 a6 19. b4 b5 20. Bxg6 Rfb8 21. Bxh7+ Kf8 22. Qh6+ Ke8 23. Qg7 Kd8 24. Rxf7 Qa7+ 25. Kf1 Qb7 26. Qf6+ Kc8 27. Qe7 Qc7 28. Rf8+ Kb7 29. Rxb8+ Rxb8 30. a4 Re8 31. Qf7 bxa4 32. Ra1 Rd8 33. g4 Qxe5 34. Rxa4 Qxh2 35. Qh5 Rf8+ 36. Ke1 Qf2+ 37. Kd1 Qf1+ 38. Kd2 Rf2+ 39. Kc3 Qc4+ 40. Kb2 c5 41. Qf7
+engine_eval: Mate in 13 for Black
+engine_best_line: 41... Qd4+ 42. Kb3 Rxf7 43. b5 Qd1 44. Bd3 Bxb5 45. Bf5 Bxa4+ 46. Kxa4 Qa1+ 47. Kb3 c4+ 48. Kb4 Qb2+ 49. Ka4 exf5 50. gxf5 Rc7 51. f6 Qxc2+ 52. Kb4 Qb3+ 53. Ka5 Qa3# 
+engine_best_alternative: 41. Ra3 Qd4+ 42. Rc3 cxb4 43. Qh3 Rf4 44. g5 bxc3+ 45. Qxc3 Qb6+ 46. Qb3 Rb4 47. Qxb4 Qxb4+ 48. Kc1 Qf4+ 49. Kb2 Qe5+ 50. Ka2 Qxg5 51. c4 Qd2+ 52. Kb1 Qb4+ 53. Kc1 Qxc4+ 54. Kb1 Qf1+ 55. Ka2 Kb6 56. Bg6 Qf2+ 57. Kb3 
+Here is an explanation on why the last move played was a mistake:","The position was a perfect game for Black, and should not have been played. The black king is too far from the center of the board, and the white pieces are too strong. Black should have played 41... Qd4+ 42. Rc3 cxb4 43. Q","?? Doesn't black's reply of ...Rxf7 pretty much end the game? Whenever you want to move your queen behind enemy lines, make sure enemy pieces can't get at her!",3.204141665897676,0.11363636363636363,0.0,0.09090909090909091,0.09836065573770492,0.13056538999080658
+"Based on the following information:
+moves: 1. b4 e5 2. Nc3 Bxb4 3. Bb2 Nf6 4. e4 Nc6 5. Nf3 O-O 6. g3 Nd4 7. Bg2 d6 8. O-O Bg4 9. h3 Nxf3+ 10. Bxf3 Bxf3 11. Qxf3 b5 12. Nxb5 Bxd2 13. Rad1 Rb8 14. Rxd2 Rxb5 15. Ba3 Ra5 16. Rd3 Qb8 17. Rb3 Qc8 18. Qc3 Ra6 19. Qc4 Nd7 20. Rfb1 Rb6 21. f4 Rxb3 22. axb3 Nb6 23. Qf1 exf4 24. Qxf4 Qxh3 25. Rd1 Nc8 26. e5 Rd8 27. exd6 cxd6 28. Bxd6 Nxd6 29. c4 Nb7 30. Rxd8+ Nxd8 31. Qb8 Qd7 32. b4 Kf8 33. c5 Ke8 34. b5 a5 35. b6 Qb7 36. Qe5+
+engine_eval: Large advantage for Black (eval: -394 centipawns)
+engine_best_line: 36... Ne6 37. Qb2 Nxc5 38. Qe5+ Ne6 39. Qxa5 Kf8 40. g4 Kg8 41. Kf2 g5 42. Ke2 h6 43. Ke3 Qc6 44. Qb4 Nc5 45. Kd4 Nb7 46. Ke3 Qe6+ 47. Kd2 h5 48. gxh5 Kh7 49. Qd4 g4 50. h6 f6 51. Qd3+ f5 52. Qd4 Qd6 
+engine_best_alternative: 36. Qa7 Qc6 37. Qxa5 Ne6 38. Qa7 Nxc5 39. Qb8+ Kd7 40. Qf4 f6 41. Qf5+ Ke7 42. Qxh7 Qxb6 43. Qxg7+ Ke6 44. Qg4+ Kf7 45. Qh5+ Kg7 46. Qg4+ Kf8 47. Qc8+ Ke7 48. Kf2 Nd3+ 49. Kg2 Ne5 50. g4 Qc6+ 51. Qxc6 Nxc6 52. Kg3 Ne5 53. Kf4 
+Here is an explanation on why the last move played was a mistake:","""Black's 36. Qa7 Qc6 was a mistake because ... Qa7 was more effective, and ... Qc6 is also more effective. Black's 36. ... Qc6 was a mistake because Black cannot get a good pawn for his bishop. Black's 3","? White could have had a beautiful win with 36. Qxb7 Nxb7 37. c6 Nc5 38. b7 Na6 39. c7!!, and black can't stop white from queening. Chessplayers have this expression: ""Two passed pawns on the 6th rank (row) are worth a rook"".",2.3642449538101364,0.15384615384615385,0.0,0.10256410256410256,0.08215962441314553,0.12011532485485077
+"Based on the following information:
+moves: 1. e3 c5 2. Bc4 e6 3. Nf3 Nc6 4. Bb5 d5
+engine_eval: The position is equal
+engine_best_line: 5. O-O 
+engine_best_alternative: 4... Qc7 5. O-O 
+Here is an explanation on why the last move played was a mistake:","_best_alternative: 4... Qc7 5. O-O Explanation: The position is equal. Why not take up the white bishop with 4... Qc7? Black's bishop is on c7, and black can play 5... c6, then white can't play 6...","This does put a foothold in the center, but this allows white to weaken your pawn structure if he wishes with Bxc6+. In this case, you don't have to allow the weakening. 4. ... Nge7 develops a piece while at the same time maintains your pawns' integrity. Notice if white plays complacently with 5. O-O a6 6. Ba4? b5 7. Bb3 c4 wins a piece. Notice white couldn't take advantage of the pin that you walked into after playing ...d5.",5.194809645096988,0.35,0.05128205128205128,0.225,0.08406084656084654,0.1299092173576355
+"Based on the following information:
+moves: 1. e4 e5 2. d3 Bc5 3. Be3 Qg5 4. Bxg5 h6 5. Be3 Bb4+ 6. Bd2 Bc5 7. Be3 Bxe3 8. fxe3 Nf6 9. Nf3 Nc6 10. Nc3 d6 11. Nb5 Kd8 12. Qd2 Be6 13. c4 a6 14. Na3 g5 15. d4
+engine_eval: Large advantage for White (eval: 658 centipawns)
+engine_best_line: 15... Nxe4 16. Qd1 Bg4 17. dxe5 f5 18. exf6 Rf8 19. Bd3 Nxf6 20. Be2 Ne4 21. O-O Bh5 22. Qe1 Rf6 23. Bd3 
+engine_best_alternative: 15. Nb1 b5 16. Nc3 g4 17. Nh4 bxc4 18. d4 exd4 19. exd4 d5 20. e5 Nd7 21. Be2 Rb8 22. O-O Rg8 23. a3 Rb3 
+Here is an explanation on why the last move played was a mistake:",... Nxe4 16. Qd1 Bg4 17. Nxc4+ Nxc4 18. Nxc4 Ne4 19. Nh3 Bf5 20. h4 Bg4 21. hxg4 Bxf2 2,"This isn't right. Just get developed with Be2. Don't worry about 15. ... g4, because Nh4, O-O and Nf5 is strong (notice how if you got developed, your rook would partcipate).",3.828656951517284,0.0,0.0,0.0,0.016666666666666663,0.09752285480499268
+"Based on the following information:
+moves: 1. c4 e5 2. Nc3 d6 3. g3 f5 4. Bg2 Nf6 5. e3 g6 6. Nge2 Bg7 7. O-O O-O 8. d3 c6 9. b4 Be6 10. b5 d5 11. bxc6 bxc6 12. Qa4 g5 13. Ba3 Rf7 14. Rac1 Rd7 15. Bb4 a5 16. Ba3 Bf7 17. cxd5 cxd5 18. Nb5 Na6 19. Rc6 Nb4 20. Bxb4 axb4 21. Qxb4 Rxa2 22. Nec3 Ra8 23. Nd6 Bf8 24. Nxf7 Rxf7 25. Qb3 Ra3 26. Qc2 e4 27. dxe4 dxe4 28. Rd1 Qe8 29. Nb5 Ra2 30. Qc4 Ra4 31. Qc2 Ra2 32. Qxa2 Qxc6 33. Nd4 Qd5 34. Qc2 Ng4 35. h3 Ne5
+engine_eval: Large advantage for White (eval: 409 centipawns)
+engine_best_line: 36. Nxf5 Nd3 37. g4 h5 38. Qa4 Qe5 39. Qxe4 hxg4 40. hxg4 Qxe4 41. Bxe4 Nb4 42. Rd8 Ra7 43. Nd4 Kf7 44. Rb8 Bc5 45. Nf3 Kf6 46. Rb5 Rc7 47. Kg2 
+engine_best_alternative: 35... Nxf2 36. Qxf2 Rf6 37. Qc2 Qe5 38. Ne2 Kh8 39. Qb3 Rd6 40. Rd4 Rxd4 41. exd4 Qf6 42. Qe3 h5 43. g4 hxg4 44. hxg4 Bd6 45. Qh3+ Kg7 46. gxf5 
+Here is an explanation on why the last move played was a mistake:",Why is this mistake a mistake? Because white has no choice but to play 35. ... Nxf2 Because white can't choose between his pieces. Because white can't play 36. Qxf2 because the black queen is still alive. Because white has no piece left to,"this loses at once, better was to admit the mistake and play the knight back to f6.",1.162077632547417,0.13333333333333333,0.0,0.1111111111111111,0.15228426395939085,0.05389251559972763
+"Based on the following information:
+moves: 1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 e6 5. g4 Bg6 6. Nge2 c5 7. h4 h5 8. Nf4 Bh7 9. Nxh5 cxd4 10. Nb5 Qa5+ 11. Qd2 Bb4 12. Nxg7+ Kf8 13. c3 dxc3 14. bxc3 Bc5 15. Nh5 Be4 16. Rh3 Nc6 17. Qg5 Bg6 18. Rf3 Bxh5 19. gxh5 Rd8 20. Rg3 Qb6 21. Rg2
+engine_eval: Large advantage for White (eval: 351 centipawns)
+engine_best_line: 21... Ke8 22. Qg7 Nge7 23. Qxh8+ Kd7 24. Qh7 Qa5 25. Be2 a6 26. Kf1 axb5 27. Qd3 Kc8 28. Rb1 Nf5 29. Qxb5 Qa7 30. Bf4 d4 31. Qd3 dxc3 32. Qxc3 Rd4 33. Rg8+ Kc7 
+engine_best_alternative: 21. Qg7+ Ke7 22. Rf3 Kd7 23. Qxh8 Nge7 24. Qf6 a6 25. Be2 axb5 26. Kf1 b4 27. Rb1 Qa5 28. h6 Qxa2 29. Bd3 bxc3 30. Rxb7+ Kc8 31. Rb5 Ba3 32. Bg5 
+Here is an explanation on why the last move played was a mistake:","Explanation: White should play 21. Qf3+ instead of 21. Qg7+? Why? a. The black queen is not in a position to attack white's king at this time. Because of the black king's position on d4 and c5, it is not",One of the few missteps by white. 21 Qg7+ Ke8 22 Rf3 would checkmate or win massive amount of material.,2.4526253005220444,0.14285714285714285,0.04878048780487805,0.09523809523809523,0.06818181818181818,0.1651579588651657
+"Based on the following information:
+moves: 1. e4 e5 2. d3
+engine_eval: Slight advantage for Black (eval: -20 centipawns)
+engine_best_line: 2... Nf6 3. Nf3 Nc6 4. Be2 d5 5. exd5 Nxd5 6. O-O Bd6 7. Nc3 Nxc3 8. bxc3 O-O 9. Rb1 Rb8 10. d4 Qf6 11. Re1 Bf5 12. Bb5 exd4 13. cxd4 Nb4 14. Rb2 a6 15. Bf1 b5 16. c3 Nc6 17. h3 
+engine_best_alternative: 2. Nf3 
+Here is an explanation on why the last move played was a mistake:","- White's bishop is placed on e7. 3. Nc3 is not a good idea. Black's bishop is on c7 and is on the edge of the board. White's bishop is on d4 and is on the edge of the board. White's bishop is now on d4, and","This isn't losing, but much more aggressive is 2. Bc4 or 2. Nf3. As it is, your light-squared bishop is now hemmed in. Notice the bishop had 5 legal moves prior to moving your pawn to d3; now it has only one.",3.687915737861764,0.14,0.04081632653061224,0.14,0.07058823529411765,0.18243075907230377

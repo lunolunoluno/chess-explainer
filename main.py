@@ -14,8 +14,10 @@ if __name__ == "__main__":
     dbg = Debug(debug=True)
     dbg.print("Debug: On")
 
+    llm = LLM("Qwen/Qwen3-0.6B")
+
     ctrl = Controller()
-    dataset_path = os.path.join(".", "data", "filtered_merged_20250708_134716.csv")
+    dataset_path = os.path.join(".", "data", "filtered_merged_20250824_102305.csv")
     dataset = pd.read_csv(dataset_path)
     dataset_train, dataset_eval = train_test_split(dataset, test_size=0.2, shuffle=True)
 
@@ -23,7 +25,7 @@ if __name__ == "__main__":
     input_target = "comment"  # TODO: later replace that with reformulated
 
     checkpoint_name = ctrl.train_model(
-        dataset_path,
+        dataset_train,
         input_columns,
         input_target
     )

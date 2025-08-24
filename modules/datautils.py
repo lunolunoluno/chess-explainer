@@ -211,8 +211,7 @@ def get_last_move_from_line_as_string(pgn_line: str, header: chess.pgn.Headers) 
         raise Exception(f"The following error(s) were encountered during the parsing of the pgn {header} :\n{errors}")
 
 
-def create_dataset(dataset_path: str, inputs_columns: List[str], label_column: str) -> Dataset:
-    df_dataset = pd.read_csv(dataset_path)
+def create_dataset(df_dataset: pd.DataFrame, inputs_columns: List[str], label_column: str) -> Dataset:
     dbg = Debug()
 
     # Create hugging face dataset

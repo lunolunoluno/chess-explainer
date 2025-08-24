@@ -1,3 +1,4 @@
+import json
 import logging
 import os.path
 import re
@@ -42,6 +43,8 @@ class Controller:
         assert os.path.exists(self.data_commented_path), f"{self.data_commented_path} doesn't exists !"
         self.data_evaluations_path = os.getenv("DATA_EVALUATIONS_PATH")
         assert os.path.exists(self.data_evaluations_path), f"{self.data_evaluations_path} doesn't exists !"
+        self.model_path = os.getenv("MODEL_PATH")
+        assert os.path.exists(self.model_path), f"{self.model_path} doesn't exists !"
 
         # remove the non-critical logs in the terminal
         logging.getLogger("chess.pgn").setLevel(logging.CRITICAL)
@@ -234,11 +237,9 @@ class Controller:
 
         return filtered_merged_path
 
-    def train_model(self, dataset_path: str, inputs_columns: List[str], label_column: str) -> str:
-        assert os.path.exists(dataset_path), f"{dataset_path} does not exists !"
-        df_dataset = pd.read_csv(dataset_path)
-        assert set(inputs_columns).issubset(df_dataset.columns), f"One of the inputs ({inputs_columns}) is not found in the dataset ({df_dataset.columns})"
-        assert label_column in df_dataset.columns, f"{label_column} is not found in the dataset !"
+    def train_model(self, train_dataset: pd.DataFrame, inputs_columns: List[str], label_column: str) -> str:
+        assert set(inputs_columns).issubset(train_dataset.columns), f"One of the inputs ({inputs_columns}) is not found in the dataset ({train_dataset.columns})"
+        assert label_column in train_dataset.columns, f"{label_column} is not found in the dataset !"
 
         llm = LLM()
         model_id = llm.model_id
@@ -257,11 +258,11 @@ class Controller:
 
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
-            quantization_config=bnb_config, # apply the quantization
+            quantization_config=bnb_config,  # apply the quantization
             device_map="auto"
         )
 
-        dataset = create_dataset(dataset_path, inputs_columns, label_column)
+        dataset = create_dataset(train_dataset, inputs_columns, label_column)
 
         def tokenize_function(examples):
             return tokenizer(
@@ -277,7 +278,7 @@ class Controller:
 
         # LoRA configuration
         lora_config = LoraConfig(
-            r=64, # QLoRA papers often use higher rank (32–64) compare to the classic LoRA rank 8
+            r=64,  # QLoRA papers often use higher rank (32–64) compare to the classic LoRA rank 8
             lora_alpha=16,
             target_modules="all-linear",
             lora_dropout=0.05,
@@ -291,7 +292,7 @@ class Controller:
 
         # Training arguments
         training_args = TrainingArguments(
-            output_dir="./lora-multiinput-output",
+            output_dir=os.path.join(self.model_path, "lora-multiinput-output"),
             overwrite_output_dir=True,
             num_train_epochs=3,
             per_device_train_batch_size=1,  # Small batch size for memory efficiency
@@ -300,7 +301,7 @@ class Controller:
             logging_steps=10,
             save_steps=500,
             learning_rate=2e-4,  # lr for QLoRA -> 2e-4, LoRA -> 5e-4
-            bf16= torch.cuda.is_bf16_supported(),  # use bf16 if supported, else fp16
+            bf16=torch.cuda.is_bf16_supported(),  # use bf16 if supported, else fp16
             fp16=not torch.cuda.is_bf16_supported(),
             push_to_hub=False,
             report_to=None,  # Disable wandb/tensorboard logging
@@ -324,7 +325,7 @@ class Controller:
         self.dbg.print("Starting training...")
         trainer.train()
 
-        checkpoint_name = f"trained-{safe_folder_name(model_id)}-{datetime.today().strftime('%Y%m%d%H%M%S')}"
+        checkpoint_name = os.path.join(self.model_path, f"trained-{safe_folder_name(model_id)}-{datetime.today().strftime('%Y%m%d%H%M%S')}")
         model.save_pretrained(checkpoint_name)
         tokenizer.save_pretrained(checkpoint_name)
 
@@ -346,15 +347,15 @@ class Controller:
 
         with torch.no_grad():
             outputs = model.generate(
-                    **inputs,
-                    max_new_tokens=64,
-                    min_new_tokens=20,
-                    do_sample=True,
-                    temperature=0.7,
-                    top_p=0.9,
-                    eos_token_id=tokenizer.eos_token_id,
-                    pad_token_id=tokenizer.eos_token_id
-                )
+                **inputs,
+                max_new_tokens=64,
+                min_new_tokens=20,
+                do_sample=True,
+                temperature=0.7,
+                top_p=0.9,
+                eos_token_id=tokenizer.eos_token_id,
+                pad_token_id=tokenizer.eos_token_id
+            )
 
         return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
@@ -409,7 +410,7 @@ class Controller:
                 "output": remove_return_char(o.removeprefix(p).strip()),
                 "target": remove_return_char(t)
             }
-            for p, t, o in zip(batch, batch_targets, decoded_outputs)
+                for p, t, o in zip(batch, batch_targets, decoded_outputs)
             ]
             results.extend(res)
 
@@ -428,10 +429,9 @@ class Controller:
             res["METEOR score"] = meteor
             res["BERTScore"] = bertscore
 
+        df_results = pd.DataFrame(results)
         if save_eval or show_graphs:
-            df_results = pd.DataFrame(results)
-
-            def __create_hist_plot(column_name:str, min_val: float, max_val: float):
+            def __create_hist_plot(column_name: str, min_val: float | None, max_val: float | None):
                 fig, ax = plt.subplots()
                 x = df_results[column_name].tolist()
                 ax.hist(x)
@@ -444,7 +444,7 @@ class Controller:
             fig_rouge2 = __create_hist_plot("ROUGE-2 score", 0.0, 1.0)
             fig_rougeL = __create_hist_plot("ROUGE-L score", 0.0, 1.0)
             fig_meteor = __create_hist_plot("METEOR score", 0.0, 1.0)
-            fig_bertscore = __create_hist_plot("BERTScore", 0.0, 1.0)
+            fig_bertscore = __create_hist_plot("BERTScore", None, None)
 
             if save_eval:
                 folder_name = os.path.join(self.data_evaluations_path,f"{safe_folder_name(model.name_or_path)}_{datetime.today().strftime('%Y%m%d%H%M%S')}")
@@ -461,8 +461,13 @@ class Controller:
             if show_graphs:
                 plt.show()
 
+        with open(os.path.join(self.data_evaluations_path, 'scores.json', 'w+')) as outfile:
+            json.dump({
+                "avg BLEU score": np.average(df_results["BLEU score"].tolist()),
+                "avg ROUGE-1 score": np.average(df_results["ROUGE-1 score"].tolist()),
+                "avg ROUGE-2 score": np.average(df_results["ROUGE-2 score"].tolist()),
+                "avg ROUGE-L score": np.average(df_results["ROUGE-L score"].tolist()),
+                "avg METEOR score": np.average(df_results["METEOR score"].tolist()),
+                "avg BERTScore": np.average(df_results["BERTScore"].tolist())
+            }, outfile)
         return results
-
-
-
-
