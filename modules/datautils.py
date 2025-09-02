@@ -44,6 +44,7 @@ def get_all_comments_and_lines_in_game(game: chess.pgn.Game, initial_context: st
     res = []
     # Games with custom fen start are not supported yet
     if 'FEN' not in game.headers:
+        print("Analyzing", game.headers)
         while node.variations:
             next_node = node.variations[0]
             move = next_node.move

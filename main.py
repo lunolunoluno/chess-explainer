@@ -11,18 +11,19 @@ from modules.utils import Debug, LLM
 from sklearn.model_selection import train_test_split
 
 if __name__ == "__main__":
+
     dbg = Debug(debug=True)
     dbg.print("Debug: On")
 
     llm = LLM("Qwen/Qwen3-0.6B")
 
     ctrl = Controller()
-    dataset_path = os.path.join(".", "data", "filtered_merged_20250824_102305.csv")
+    dataset_path = os.path.join(".", "Notebooks", "reformulated_data_20250902_163137.csv")
     dataset = pd.read_csv(dataset_path)
     dataset_train, dataset_eval = train_test_split(dataset, test_size=0.2, shuffle=True)
 
     input_columns = ["moves", "engine_eval", "engine_best_line", "engine_best_alternative"]
-    input_target = "comment"  # TODO: later replace that with reformulated
+    input_target = "reformulated"
 
     checkpoint_name = ctrl.train_model(
         dataset_train,
