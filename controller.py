@@ -57,7 +57,7 @@ class Controller:
         ga = GameAnalyzer()
 
         pgn_files = get_all_pgn_files()
-        print(f"Number of .pgn files to analyze in {self.data_raw_path}: {len(pgn_files)}")
+        self.dbg.print(f"Number of .pgn files to analyze in {self.data_raw_path}: {len(pgn_files)}")
 
         for pgnfile in tqdm(pgn_files):
             with open(pgnfile, "r", encoding="utf-8", errors="replace") as pgn_file:
@@ -71,7 +71,7 @@ class Controller:
                         if len(game.errors) > 0:
                             raise Exception(f"error in {game.headers}\n" + "\n".join([str(e) for e in game.errors]))
                     except Exception as e:
-                        print(f"\nError parsing a game in {pgnfile}: {e}", file=sys.stderr)
+                        self.dbg.print(f"\nError parsing a game in {pgnfile}: {e}", file=sys.stderr)
                         continue  # skip to the next game in pgnfile
 
                     str_exporter = chess.pgn.StringExporter(headers=False, variations=False, comments=True)
@@ -121,8 +121,8 @@ class Controller:
                         context += " and an unknown player (as Black)"
                     str_exporter = chess.pgn.StringExporter(headers=False, variations=False, comments=True)
                     pgn_str = game.accept(str_exporter)
-                    cvs_path = os.path.join(self.data_commented_path, f"{pgn_to_id(pgn_str)}.csv")
-                    if not os.path.exists(cvs_path):
+                    csv_path = os.path.join(self.data_commented_path, f"{pgn_to_id(pgn_str)}.csv")
+                    if not os.path.exists(csv_path):
                         comments = get_all_comments_and_lines_in_game(game, context)
                         if len(comments) > 0:
                             if torch.cuda.is_available():
@@ -131,7 +131,7 @@ class Controller:
                             self.dbg.print(f"Analyzing {len(comments)} from {header}...")
                             good_comments = filter_good_comments(pipe, comments)
                             df = pd.DataFrame(good_comments)
-                            df.to_csv(cvs_path, index=False)
+                            df.to_csv(csv_path, index=False)
 
                     game = chess.pgn.read_game(pgn_game)
 
@@ -154,8 +154,6 @@ class Controller:
                 continue
             except Exception as e:
                 raise e
-
-            print(comments.columns)
 
             if 'reformulated' in comments:
                 # This means that this file has already been reformulated
@@ -199,7 +197,7 @@ class Controller:
                 out_reformulated = [o[0]['generated_text'][-1]['content'] for o in outputs]
                 good_comments.loc[:, "reformulated"] = out_reformulated
                 comments.update(good_comments)
-            print(comments.columns)
+            self.dbg.print(comments.columns)
             comments.to_csv(games[game_index], index=False)
 
     def save_comments_as_csv(self) -> str:
