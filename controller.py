@@ -165,29 +165,46 @@ class Controller:
             self.dbg.print(f"Reformulating {good_comments.shape[0]} comments...")
 
             if not good_comments.empty:
-                prompt_model = lambda context, comment: [
+                prompt_model = lambda row: [
                     {"role": "system",
-                     "content": """You're job is to reformulate chess comments to make them cleaner. 
-                    It is VERY IMPORTANT that when reformulating you do the following:
-                    -   The reformulated comment should only contain an explanation of why the move was bad and NOTHING ELSE.  
-                    -   When using a pronoun to refer to a player, only use they/them/their.
-                    -   NEVER mention a player's name. Use either 'black' or 'white' according to the player's color.
-                    -   If the original comment is talking about something or someone unrelated to the game, do not mention it."""},
+                    "content":     """
+                    Your job is to reformulate a comment made about a chess move.
+                    The comment should be explaining why the move made is a mistake.
+                    
+                    Reformulate that comment to only keep the part that explains the mistake.
+                    You may use some of the engine's information when reformulating but try to keep it as close to the original comment as possible.
+                    While reformulating do the following too:
+                    - The reformulated comment should only contain an explanation of the mistake.
+                    - If the comment doens't suggest alternative lines, use the one provided by the engine.
+                    - When using a pronoun to refer to a player, only use they/them/their.
+                    - NEVER mention a player's name. Use either 'black' or 'white' according to the player's color.
+                    - If the original comment is talking about something or someone unrelated to the game, do not mention it.
+                    - If the comment isn't in english, translate the reformulation to english.
+                    """},
                     {"role": "user",
-                     "content": f"""Here is a small context regarding the game:
-                     '{context}'
-                     You don't have to mention anything about the context in the reformulated comment unless deemed necessary.
-                     Here is the comment that you have to reformulate:
-                     '{comment}'
-                     Remember that your job is to simplify the comment to strictly only keep the explaination as to why the move played was bad.
-                     Additionnaly, remember that  it is VERY IMPORTANT that when reformulating you do the following: 
-                     -   The reformulated comment should only contain an explanation of why the move was bad and NOTHING ELSE.  
-                     -   When using a pronoun to refer to a player, only use they/them/their.
-                     -   NEVER mention a player's name. Use either 'black' or 'white' according to the player's color.
-                     -   If the original comment is talking about something or someone unrelated to the game, do not mention it."""}
+                    "content": f"""
+                    Context: {row['context']}
+                    Engine evaluation: {row['engine_eval']}
+                    Engine best line: {row['engine_best_line']}
+                    Engine best alternative line: {row['engine_best_alternative']}
+                    Here's the reason why this comment was picked: {row['reasoning']}
+                    
+                    Here's the comment to reformulate:
+                    {row['comment']}
+                    
+                    Keep in mind while reformulating that:
+                    - The reformulated comment should only contain an explanation of the mistake.
+                    - If the comment doens't suggest alternative lines, use the one provided by the engine.
+                    - When using a pronoun to refer to a player, only use they/them/their.
+                    - NEVER mention a player's name. Use either 'black' or 'white' according to the player's color.
+                    - If the original comment is talking about something or someone unrelated to the game, do not mention it.
+                    - If the comment isn't in english, translate the reformulation to english.
+                    
+                    Only answer with the reformulated comment and nothing else.
+                    """}
                 ]
 
-                prompts = [prompt_model(comment['context'], comment['comment']) for _, comment in
+                prompts = [prompt_model(comment) for _, comment in
                            good_comments.iterrows()]
                 if torch.cuda.is_available():
                     torch.cuda.empty_cache()
@@ -197,7 +214,7 @@ class Controller:
                 out_reformulated = [o[0]['generated_text'][-1]['content'] for o in outputs]
                 good_comments.loc[:, "reformulated"] = out_reformulated
                 comments.update(good_comments)
-            self.dbg.print(comments.columns)
+
             comments.to_csv(games[game_index], index=False)
 
     def save_comments_as_csv(self) -> str:

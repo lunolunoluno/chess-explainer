@@ -93,7 +93,7 @@ def get_all_pgn_files() -> List[str]:
 
 
 def filter_good_comments(pipe: Pipeline, comments: List[dict]) -> List[dict]:
-    prompt_model = lambda c: [
+    prompt_model = lambda row: [
         {"role": "system",
          "content": """
                     Your job is to evaluate if a comment made about a chess moves indicate that the move is a mistake AND explains why it's a mistake.
@@ -117,7 +117,7 @@ def filter_good_comments(pipe: Pipeline, comments: List[dict]) -> List[dict]:
                     Don't write anything else after.
                     """},
     ]
-    prompts = [prompt_model(comment['comment']) for comment in comments]
+    prompts = [prompt_model(comment) for comment in comments]
 
     def __filter_good_comments__(p: Pipeline, pr: list, depth: int) -> List[dict]:
         # TODO: Make batch_size a parameter that can be changed depending on the machine on which the code is run
@@ -160,42 +160,16 @@ def is_comment_explaining_mistake(pipe: Pipeline, comment: str) -> bool:
     err = True
     while err:
         messages = [
-            {"role": "system",
-             "content": """
-                        Your job is to reformulate a comment made about a chess move.
-                        The comment should be explaining why the move made is a mistake.
-                    
-                        Reformulate that comment to only keep the part that explains the mistake.
-                        You may use some of the engine's information when reformulating but try to keep it as close to the original comment as possible.
-                        While reformulating do the following too:
-                        - The reformulated comment should only contain an explanation of the mistake.
-                        - If the comment doens't suggest alternative lines, use the one provided by the engine.
-                        - When using a pronoun to refer to a player, only use they/them/their.
-                        - NEVER mention a player's name. Use either 'black' or 'white' according to the player's color.
-                        - If the original comment is talking about something or someone unrelated to the game, do not mention it.
-                        - If the comment isn't in english, translate the reformulation to english.
-                        """},
-            {"role": "user",
-             "content": f"""
-                        Context: {row['context']}
-                        Engine evaluation: {row['engine_eval']}
-                        Engine best line: {row['engine_best_line']}
-                        Engine best alternative line: {row['engine_best_alternative']}
-                        Here's the reason why this comment was picked: {row['reasoning']}
-                        
-                        Here's the comment to reformulate:
-                        {row['comment']}
-                        
-                        Keep in mind while reformulating that:
-                        - The reformulated comment should only contain an explanation of the mistake.
-                        - If the comment doens't suggest alternative lines, use the one provided by the engine.
-                        - When using a pronoun to refer to a player, only use they/them/their.
-                        - NEVER mention a player's name. Use either 'black' or 'white' according to the player's color.
-                        - If the original comment is talking about something or someone unrelated to the game, do not mention it.
-                        - If the comment isn't in english, translate the reformulation to english.
-                        
-                        Only answer with the reformulated comment and nothing else.
-                        """},
+            {"role": "system", "content": """You're job is to evaluate whether a chess annotation comment on the quality of the previously played move.
+                                            When Writing your answer, it is VERY IMPORTANT that you write RES followed by 1 if you think this chess annotation comment on the quality of the previously played move or a 0 if you think it doesn't.
+                                            After that, write a single sentence explaining your reasoning.
+                                            Don't write anything else after."""},
+            {"role": "user", "content": f"""Here is a comment made after a chess move evaluated as a mistake:
+                                            "{comment}"
+                                            Do you think that this comment explains the mistake made by the player ?
+                                            Write RES: 1 if yes and write RES: 0 if no.
+                                            After that, write a single sentence explaining your reasoning.
+                                            Don't write anything else after."""},
         ]
         while True:
             output = pipe(messages)
