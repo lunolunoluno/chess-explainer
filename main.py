@@ -25,6 +25,8 @@ if __name__ == "__main__":
     input_columns = ["moves", "engine_eval", "engine_best_line", "engine_best_alternative"]
     input_target = "reformulated"
 
+    res = ctrl.evaluate_model(llm.model, llm.tokenizer, dataset_eval, input_columns, input_target, 2, True, False)
+
     checkpoint_name = ctrl.train_model(
         dataset_train,
         input_columns,

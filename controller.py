@@ -383,7 +383,7 @@ class Controller:
             p = f"""
                 Based on the following information:
                 {info}
-                Here is an explanation on why the last move played was a mistake:
+                Here is a concise explanation on why the last move played was a mistake:
             """.strip()
             p = re.sub(r'\t| {2,}', '', p)
             prompts.append({
@@ -473,16 +473,17 @@ class Controller:
                 fig_meteor.savefig(os.path.join(folder_name, "meteor_score.png"))
                 fig_bertscore.savefig(os.path.join(folder_name, "bertscore.png"))
 
+                with open(os.path.join(folder_name, 'scores.json'), 'w+') as outfile:
+                    json.dump({
+                        "avg BLEU score": np.average(df_results["BLEU score"].tolist()),
+                        "avg ROUGE-1 score": np.average(df_results["ROUGE-1 score"].tolist()),
+                        "avg ROUGE-2 score": np.average(df_results["ROUGE-2 score"].tolist()),
+                        "avg ROUGE-L score": np.average(df_results["ROUGE-L score"].tolist()),
+                        "avg METEOR score": np.average(df_results["METEOR score"].tolist()),
+                        "avg BERTScore": np.average(df_results["BERTScore"].tolist())
+                    }, outfile)
+
             if show_graphs:
                 plt.show()
 
-        with open(os.path.join(self.data_evaluations_path, 'scores.json', 'w+')) as outfile:
-            json.dump({
-                "avg BLEU score": np.average(df_results["BLEU score"].tolist()),
-                "avg ROUGE-1 score": np.average(df_results["ROUGE-1 score"].tolist()),
-                "avg ROUGE-2 score": np.average(df_results["ROUGE-2 score"].tolist()),
-                "avg ROUGE-L score": np.average(df_results["ROUGE-L score"].tolist()),
-                "avg METEOR score": np.average(df_results["METEOR score"].tolist()),
-                "avg BERTScore": np.average(df_results["BERTScore"].tolist())
-            }, outfile)
         return results
