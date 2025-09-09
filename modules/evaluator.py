@@ -34,5 +34,5 @@ class Evaluator:
     # BERTSCORE: EVALUATING TEXT GENERATION WITH BERT
     def bertscore_evaluation(self, reference: str, hypothesis: str) -> float:
         # Inputs must be lists of strings
-        P, R, F1 = bert_score([hypothesis], [reference], lang="en", rescale_with_baseline=True)
+        P, R, F1 = bert_score([hypothesis], [reference], lang="en", rescale_with_baseline=False)
         return F1.item()  # Return the scalar F1 score

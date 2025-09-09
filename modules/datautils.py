@@ -232,8 +232,8 @@ def create_dataset(df_dataset: pd.DataFrame, inputs_columns: List[str], label_co
         return re.sub(r'\t| {2,}', '', f"""
                         Based on the following information: 
                         {info}
-                        Generate a comment explaining the error that the player just made
-                        Comment: \n""".strip())
+                        Here is a concise explanation on why the last move played was a mistake: 
+                        \n""".strip())
 
     dbg.print("Creating dataset...")
     df_dataset["prompt"] = df_dataset.apply(prompt_model, axis=1)

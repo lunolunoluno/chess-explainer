@@ -25,13 +25,17 @@ if __name__ == "__main__":
     input_columns = ["moves", "engine_eval", "engine_best_line", "engine_best_alternative"]
     input_target = "reformulated"
 
-    res = ctrl.evaluate_model(llm.model, llm.tokenizer, dataset_eval, input_columns, input_target, 2, True, False)
-
     checkpoint_name = ctrl.train_model(
         dataset_train,
         input_columns,
         input_target
     )
+    # checkpoint_name = os.path.join(".", "models", "trained-google_gemma-3-1b-it-20250907213056")
     model, tokenizer = ctrl.load_model_and_tokenizer_from_checkpoint(checkpoint_name)
 
-    res = ctrl.evaluate_model(model, tokenizer, dataset_eval, input_columns, input_target, 2, True, True)
+    # evaluate the model after training
+    ctrl.evaluate_model(model, tokenizer, dataset_eval, input_columns, input_target, 2, True, False)
+
+    # evaluate the base model with no training
+    ctrl.evaluate_model(llm.model, llm.tokenizer, dataset_eval, input_columns, input_target, 2, True, False)
+

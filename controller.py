@@ -167,7 +167,7 @@ class Controller:
             if not good_comments.empty:
                 prompt_model = lambda row: [
                     {"role": "system",
-                    "content":     """
+                     "content": """
                     Your job is to reformulate a comment made about a chess move.
                     The comment should be explaining why the move made is a mistake.
                     
@@ -182,7 +182,7 @@ class Controller:
                     - If the comment isn't in english, translate the reformulation to english.
                     """},
                     {"role": "user",
-                    "content": f"""
+                     "content": f"""
                     Context: {row['context']}
                     Engine evaluation: {row['engine_eval']}
                     Engine best line: {row['engine_best_line']}
@@ -268,7 +268,7 @@ class Controller:
             load_in_4bit=True,
             bnb_4bit_quant_type="nf4",
             bnb_4bit_use_double_quant=True,
-            bnb_4bit_compute_dtype=torch.bfloat16  #
+            bnb_4bit_compute_dtype=torch.bfloat16
         )
 
         model = AutoModelForCausalLM.from_pretrained(
@@ -280,13 +280,19 @@ class Controller:
         dataset = create_dataset(train_dataset, inputs_columns, label_column)
 
         def tokenize_function(examples):
-            return tokenizer(
-                examples["full_text"],
-                truncation=True,
-                padding=True,
-                max_length=512,
-                return_tensors="pt"
-            )
+            # Tokenize separately
+            prompt_tokens = tokenizer(examples["prompt"], truncation=True, max_length=512)
+            full_tokens = tokenizer(examples["full_text"], truncation=True, padding="max_length", max_length=512)
+
+            # Copy labels
+            labels = full_tokens["input_ids"].copy()
+
+            # Mask out prompt tokens
+            prompt_len = len(prompt_tokens["input_ids"])
+            labels[:prompt_len] = [-100] * prompt_len
+
+            full_tokens["labels"] = labels
+            return full_tokens
 
         self.dbg.print("Tokenizing dataset...")
         tokenized_dataset = dataset.map(tokenize_function, batched=True)
