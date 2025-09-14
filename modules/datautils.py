@@ -15,7 +15,7 @@ from modules.utils import Debug
 
 
 def remove_return_char(pgn_str: str) -> str:
-    return re.sub(r'[\r\n]+', '', pgn_str)  # remove all return characters
+    return re.sub(r'[\r\n]+', '', str(pgn_str))  # remove all return characters
 
 
 def has_game_comments(pgn_str: str) -> bool:

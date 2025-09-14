@@ -382,6 +382,9 @@ class Controller:
 
     def evaluate_model(self, model: Any, tokenizer: Any, test_dataset: pd.DataFrame, input_columns: list[str], input_target: str, batch_size: int = 1, save_eval: bool = False, show_graphs: bool = False) -> list:
         model.eval()
+
+        if tokenizer.pad_token is None:
+            tokenizer.pad_token = tokenizer.eos_token
         prompts = []
         for _, row in test_dataset.iterrows():
             info = "\n".join([f"{col}: {row[col]}" for col in input_columns])
