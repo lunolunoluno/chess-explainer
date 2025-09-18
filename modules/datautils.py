@@ -69,7 +69,8 @@ def get_all_comments_and_lines_in_game(game: chess.pgn.Game, initial_context: st
                 res.append({
                     "comment": cleaned_comment,
                     "moves": moves,
-                    "context": initial_context + ". Last move played: " + get_last_move_from_line_as_string(moves, game.headers),
+                    "context": initial_context + ". Last move played: " + get_last_move_from_line_as_string(moves,
+                                                                                                            game.headers),
                     "engine_eval": ga.get_engine_eval_comment(fen_after),
                     "engine_best_line": ga.get_engine_best_line(fen_after),
                     "engine_best_alternative": ga.get_engine_best_line(fen_before)
@@ -226,22 +227,23 @@ def get_last_move_from_line_as_string(pgn_line: str, header: chess.pgn.Headers) 
 def create_dataset(df_dataset: pd.DataFrame, inputs_columns: List[str], label_column: str) -> Dataset:
     dbg = Debug()
 
-    # Create hugging face dataset
-    def prompt_model(row) -> str:
-        info = "\n".join([f"{col}: {row[col]}" for col in inputs_columns])
-        return re.sub(r'\t| {2,}', '', f"""
-                        Based on the following information: 
-                        {info}
-                        Here is a concise explanation on why the last move played was a mistake: 
-                        \n""".strip())
-
     dbg.print("Creating dataset...")
-    df_dataset["prompt"] = df_dataset.apply(prompt_model, axis=1)
+    df_dataset["prompt"] = df_dataset.apply(create_generation_prompt, axis=1, args=(inputs_columns,))
     df_dataset["full_text"] = df_dataset["prompt"] + " " + df_dataset[label_column].astype(str)
 
     # Create dataset with only necessary columns
     dataset = Dataset.from_pandas(df_dataset[["prompt", label_column, "full_text"]])
     return dataset
+
+
+def create_generation_prompt(row, input_columns) -> str:
+    info = "\n".join([f"{col}: {row[col]}" for col in input_columns])
+    return re.sub(r'\t| {2,}', '', f"""
+                            Based on the following information: 
+                            {info}
+                            Here is a concise explanation on why the last move played was a mistake: 
+                            \n""".strip())
+
 
 def safe_folder_name(name: str, replace_with: str = "_") -> str:
     safe_name = re.sub(r'[<>:"/\\|?*\']', replace_with, name)

@@ -22,7 +22,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingA
 from peft import get_peft_model, LoraConfig, PeftModel, PeftConfig
 
 from modules.datautils import has_game_comments, pgn_to_id, get_all_pgn_files, get_all_comments_and_lines_in_game, \
-    filter_good_comments, create_dataset, safe_folder_name, remove_return_char
+    filter_good_comments, create_dataset, safe_folder_name, remove_return_char, create_generation_prompt
 from modules.evaluator import Evaluator
 from modules.utils import Debug, LLM
 from modules.gameanalyzer import GameAnalyzer
@@ -387,14 +387,15 @@ class Controller:
             tokenizer.pad_token = tokenizer.eos_token
         prompts = []
         for _, row in test_dataset.iterrows():
-            info = "\n".join([f"{col}: {row[col]}" for col in input_columns])
-
-            p = f"""
-                Based on the following information:
-                {info}
-                Here is a concise explanation on why the last move played was a mistake:
-            """.strip()
-            p = re.sub(r'\t| {2,}', '', p)
+            # info = "\n".join([f"{col}: {row[col]}" for col in input_columns])
+            #
+            # p = f"""
+            #     Based on the following information:
+            #     {info}
+            #     Here is a concise explanation on why the last move played was a mistake:
+            # """.strip()
+            # p = re.sub(r'\t| {2,}', '', p)
+            p = create_generation_prompt(row, input_columns)
             prompts.append({
                 "prompt": p,
                 "target": row[input_target]
