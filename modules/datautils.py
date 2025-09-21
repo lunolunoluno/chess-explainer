@@ -249,3 +249,14 @@ def safe_folder_name(name: str, replace_with: str = "_") -> str:
     safe_name = re.sub(r'[<>:"/\\|?*\']', replace_with, name)
     safe_name = safe_name.strip(" .")
     return safe_name
+
+
+def remove_san_from_text(text: str) -> str:
+    san_pattern = r'\b(?:O-O(?:-O)?|[KQRBN]?[a-h]?[1-8]?x?[a-h][1-8](?:=[QRBN])?[+#]?)\b'
+    move_number_pattern = r'\b\d+\.(?:\.\.)?\s*'
+
+    text_no_numbers = re.sub(move_number_pattern, '', text)
+    text_no_moves = re.sub(san_pattern, '', text_no_numbers)
+    cleaned_text = re.sub(r'\s+', ' ', text_no_moves).strip()
+
+    return cleaned_text

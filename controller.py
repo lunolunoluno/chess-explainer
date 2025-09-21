@@ -442,58 +442,7 @@ class Controller:
         ev = Evaluator()
 
         self.dbg.print("EVALUATING MODEL ANSWERS")
-        for res in tqdm(results):
-            bleu = ev.bleu_evaluation(res["target"], res["output"])
-            rouge1, rouge2, rougeL = ev.rouge_evaluation(res["target"], res["output"])
-            meteor = ev.meteor_evaluation(res["target"], res["output"])
-            bertscore = ev.bertscore_evaluation(res["target"], res["output"])
-            res["BLEU score"] = bleu
-            res["ROUGE-1 score"] = rouge1
-            res["ROUGE-2 score"] = rouge2
-            res["ROUGE-L score"] = rougeL
-            res["METEOR score"] = meteor
-            res["BERTScore"] = bertscore
-
         df_results = pd.DataFrame(results)
-        if save_eval or show_graphs:
-            def __create_hist_plot(column_name: str, min_val: float | None, max_val: float | None):
-                fig, ax = plt.subplots()
-                x = df_results[column_name].tolist()
-                ax.hist(x)
-                ax.set_xlim(min_val, max_val)
-                ax.set_title(f"{column_name} distribution, avergage value: {np.average(x)}")
-                return fig
+        folder_name = os.path.join(self.data_evaluations_path, f"{safe_folder_name(model.name_or_path)}_{datetime.today().strftime('%Y%m%d%H%M%S')}")
+        return ev.create_model_graphs(df_results, save_eval, show_graphs, folder_name)
 
-            fig_bleu = __create_hist_plot("BLEU score", 0.0, 100.0)
-            fig_rouge1 = __create_hist_plot("ROUGE-1 score", 0.0, 1.0)
-            fig_rouge2 = __create_hist_plot("ROUGE-2 score", 0.0, 1.0)
-            fig_rougeL = __create_hist_plot("ROUGE-L score", 0.0, 1.0)
-            fig_meteor = __create_hist_plot("METEOR score", 0.0, 1.0)
-            fig_bertscore = __create_hist_plot("BERTScore", None, None)
-
-            if save_eval:
-                folder_name = os.path.join(self.data_evaluations_path,f"{safe_folder_name(model.name_or_path)}_{datetime.today().strftime('%Y%m%d%H%M%S')}")
-                os.mkdir(folder_name)
-                df_results.to_csv(os.path.join(folder_name, "result.csv"), index=False)
-
-                fig_bleu.savefig(os.path.join(folder_name, "bleu_score.png"))
-                fig_rouge1.savefig(os.path.join(folder_name, "rouge1_score.png"))
-                fig_rouge2.savefig(os.path.join(folder_name, "rouge2_score.png"))
-                fig_rougeL.savefig(os.path.join(folder_name, "rougel_score.png"))
-                fig_meteor.savefig(os.path.join(folder_name, "meteor_score.png"))
-                fig_bertscore.savefig(os.path.join(folder_name, "bertscore.png"))
-
-                with open(os.path.join(folder_name, 'scores.json'), 'w+') as outfile:
-                    json.dump({
-                        "avg BLEU score": np.average(df_results["BLEU score"].tolist()),
-                        "avg ROUGE-1 score": np.average(df_results["ROUGE-1 score"].tolist()),
-                        "avg ROUGE-2 score": np.average(df_results["ROUGE-2 score"].tolist()),
-                        "avg ROUGE-L score": np.average(df_results["ROUGE-L score"].tolist()),
-                        "avg METEOR score": np.average(df_results["METEOR score"].tolist()),
-                        "avg BERTScore": np.average(df_results["BERTScore"].tolist())
-                    }, outfile)
-
-            if show_graphs:
-                plt.show()
-
-        return results
